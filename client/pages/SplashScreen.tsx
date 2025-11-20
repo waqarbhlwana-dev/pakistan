@@ -38,7 +38,7 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse" />
 
       {/* Content Container */}
-      <div className="relative z-10 flex flex-col items-center justify-center gap-8 px-4">
+      <div className="relative z-10 flex flex-col items-center justify-center gap-8 px-4 pt-20">
         {/* CEO Image with Animation */}
         <div className="animate-fade-in-scale">
           <div className="relative">
