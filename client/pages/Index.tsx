@@ -30,7 +30,8 @@ export default function Index() {
       id: "charts",
       icon: <BarChart3 className="h-6 w-6" />,
       title: "Live Price Charts",
-      description: "Real-time charts and market data for Pakistan's top companies. Track market trends instantly with advanced analytics.",
+      description:
+        "Real-time charts and market data for Pakistan's top companies. Track market trends instantly with advanced analytics.",
       link: "/",
       label: "Explore Charts",
     },
@@ -38,7 +39,8 @@ export default function Index() {
       id: "portfolio",
       icon: <Briefcase className="h-6 w-6" />,
       title: "Portfolio Management",
-      description: "Manage your investments efficiently with advanced portfolio tracking tools and comprehensive analytics.",
+      description:
+        "Manage your investments efficiently with advanced portfolio tracking tools and comprehensive analytics.",
       link: "/portfolio-managment",
       label: "Manage Portfolio",
     },
@@ -46,7 +48,8 @@ export default function Index() {
       id: "reports",
       icon: <TrendingUp className="h-6 w-6" />,
       title: "Company Reports",
-      description: "Detailed company reports, financials, and analyst summaries to help evaluate investments strategically.",
+      description:
+        "Detailed company reports, financials, and analyst summaries to help evaluate investments strategically.",
       link: "/reports",
       label: "View Reports",
     },
@@ -54,7 +57,8 @@ export default function Index() {
       id: "courses",
       icon: <BookOpen className="h-6 w-6" />,
       title: "Free Courses",
-      description: "Access comprehensive learning materials and courses to build your investing skills from beginner to expert.",
+      description:
+        "Access comprehensive learning materials and courses to build your investing skills from beginner to expert.",
       link: "/courses",
       label: "Explore Courses",
     },
@@ -62,7 +66,8 @@ export default function Index() {
       id: "videos",
       icon: <Award className="h-6 w-6" />,
       title: "Video Content",
-      description: "Watch expert analysis and tutorials on our YouTube channel covering market insights and investment strategies.",
+      description:
+        "Watch expert analysis and tutorials on our YouTube channel covering market insights and investment strategies.",
       link: "/",
       label: "Watch Videos",
     },
@@ -70,7 +75,8 @@ export default function Index() {
       id: "survey",
       icon: <Users className="h-6 w-6" />,
       title: "Company Survey",
-      description: "Participate in detailed research about 15+ leading companies and share your valuable market insights.",
+      description:
+        "Participate in detailed research about 15+ leading companies and share your valuable market insights.",
       link: "/survey",
       label: "Take Survey",
     },
@@ -85,7 +91,7 @@ export default function Index() {
         {/* Animated gradient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 opacity-50" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
-        
+
         {/* Floating elements for visual interest */}
         <div className="absolute top-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl opacity-40 animate-pulse" />
         <div className="absolute bottom-0 left-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl opacity-30 animate-pulse" />
@@ -98,20 +104,22 @@ export default function Index() {
                 Master Pakistan's Stock Market
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-                Learn, analyze, and invest with confidence. Access real-time market data, expert courses, and comprehensive company reports all in one platform.
+                Learn, analyze, and invest with confidence. Access real-time
+                market data, expert courses, and comprehensive company reports
+                all in one platform.
               </p>
             </div>
 
             {/* YouTube Video Section - Prominent Placement */}
             <div className="mb-16">
-              <div 
+              <div
                 className="relative group mx-auto max-w-4xl"
                 onMouseEnter={() => setIsVideoHovered(true)}
                 onMouseLeave={() => setIsVideoHovered(false)}
               >
                 {/* Video Container with Enhanced Styling */}
                 <div className="absolute inset-0 bg-gradient-to-r from-primary via-accent to-primary rounded-2xl blur-2xl opacity-0 group-hover:opacity-30 transition-opacity duration-500" />
-                
+
                 <div className="relative rounded-2xl overflow-hidden border border-primary/30 bg-card shadow-2xl group-hover:shadow-primary/20 transition-all duration-500">
                   {/* Video Aspect Ratio Container */}
                   <div className="relative w-full aspect-video bg-slate-950 overflow-hidden">
@@ -123,9 +131,9 @@ export default function Index() {
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                       className="w-full h-full"
-                      style={{ border: 'none' }}
+                      style={{ border: "none" }}
                     />
-                    
+
                     {/* Play indicator overlay */}
                     {!isVideoHovered && (
                       <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -138,8 +146,13 @@ export default function Index() {
 
                   {/* Video Info */}
                   <div className="p-4 bg-card/50 backdrop-blur-sm border-t border-border/50">
-                    <h3 className="font-semibold text-lg mb-1">PSX Capital - Learning Platform</h3>
-                    <p className="text-sm text-muted-foreground">Master stock market trading with expert insights and real-time analysis</p>
+                    <h3 className="font-semibold text-lg mb-1">
+                      PSX Capital - Learning Platform
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      Master stock market trading with expert insights and
+                      real-time analysis
+                    </p>
                   </div>
                 </div>
               </div>
@@ -148,8 +161,18 @@ export default function Index() {
             {/* Scrolling indicator */}
             <div className="flex justify-center">
               <div className="animate-bounce text-primary/60">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                  />
                 </svg>
               </div>
             </div>
@@ -162,9 +185,12 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Powerful Tools & Resources</h2>
+            <h2 className="text-4xl font-bold mb-4">
+              Powerful Tools & Resources
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Everything you need to succeed in the stock market, all integrated in one platform
+              Everything you need to succeed in the stock market, all integrated
+              in one platform
             </p>
           </div>
 
@@ -224,7 +250,8 @@ export default function Index() {
               Ready to Start Your Investment Journey?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join thousands of investors who are already using PSX Capital to make informed decisions and grow their portfolios.
+              Join thousands of investors who are already using PSX Capital to
+              make informed decisions and grow their portfolios.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

@@ -43,7 +43,10 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
         <div className="animate-fade-in-scale">
           <div className="relative">
             {/* Outer glow ring */}
-            <div className="absolute -inset-4 bg-gradient-to-r from-primary via-accent to-primary rounded-full blur-xl opacity-40 animate-spin" style={{ animationDuration: "8s" }} />
+            <div
+              className="absolute -inset-4 bg-gradient-to-r from-primary via-accent to-primary rounded-full blur-xl opacity-40 animate-spin"
+              style={{ animationDuration: "8s" }}
+            />
 
             {/* Image container */}
             <div className="relative w-64 h-80 rounded-2xl overflow-hidden border-2 border-primary/50 shadow-2xl">
@@ -60,7 +63,10 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
         </div>
 
         {/* Heading */}
-        <div className="text-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
+        <div
+          className="text-center animate-fade-in"
+          style={{ animationDelay: "0.3s" }}
+        >
           <h1 className="text-5xl sm:text-6xl font-bold mb-4">
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-pulse">
               CEO
@@ -72,11 +78,23 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
         </div>
 
         {/* Loading indicator */}
-        <div className="animate-fade-in mt-8" style={{ animationDelay: "0.6s" }}>
+        <div
+          className="animate-fade-in mt-8"
+          style={{ animationDelay: "0.6s" }}
+        >
           <div className="flex gap-2 items-center justify-center">
-            <div className="w-2 h-2 bg-primary rounded-full animate-bounce" style={{ animationDelay: "0s" }} />
-            <div className="w-2 h-2 bg-accent rounded-full animate-bounce" style={{ animationDelay: "0.1s" }} />
-            <div className="w-2 h-2 bg-primary rounded-full animate-bounce" style={{ animationDelay: "0.2s" }} />
+            <div
+              className="w-2 h-2 bg-primary rounded-full animate-bounce"
+              style={{ animationDelay: "0s" }}
+            />
+            <div
+              className="w-2 h-2 bg-accent rounded-full animate-bounce"
+              style={{ animationDelay: "0.1s" }}
+            />
+            <div
+              className="w-2 h-2 bg-primary rounded-full animate-bounce"
+              style={{ animationDelay: "0.2s" }}
+            />
           </div>
           <p className="text-center text-muted-foreground text-sm mt-4">
             Redirecting to home page...
