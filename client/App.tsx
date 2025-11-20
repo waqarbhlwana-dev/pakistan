@@ -45,19 +45,13 @@ const App = () => {
     }
   }, []);
 
-  useEffect(() => {
-    if (showSplash) {
-      const timer = setTimeout(() => {
-        sessionStorage.setItem("splashShown", "true");
-        setShowSplash(false);
-      }, 20000); // 20 seconds
-
-      return () => clearTimeout(timer);
-    }
-  }, [showSplash]);
+  const handleSplashComplete = () => {
+    sessionStorage.setItem("splashShown", "true");
+    setShowSplash(false);
+  };
 
   if (showSplash) {
-    return <SplashScreen />;
+    return <SplashScreen onComplete={handleSplashComplete} />;
   }
 
   return (
