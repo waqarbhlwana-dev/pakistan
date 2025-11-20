@@ -1,16 +1,35 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
-export default function SplashScreen() {
-  const navigate = useNavigate();
+interface SplashScreenProps {
+  onComplete?: () => void;
+}
+
+export default function SplashScreen({ onComplete }: SplashScreenProps) {
+  const [timeLeft, setTimeLeft] = useState(20);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      navigate("/");
+      if (onComplete) {
+        onComplete();
+      }
     }, 20000); // 20 seconds
 
     return () => clearTimeout(timer);
-  }, [navigate]);
+  }, [onComplete]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 1) {
+          clearInterval(interval);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex flex-col items-center justify-center overflow-hidden relative">
@@ -66,33 +85,11 @@ export default function SplashScreen() {
 
         {/* Timer display */}
         <div className="mt-12 text-center">
-          <TimerDisplay />
+          <div className="text-2xl font-bold text-primary animate-pulse">
+            {timeLeft}s
+          </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-function TimerDisplay() {
-  const [timeLeft, setTimeLeft] = require("react").useState(20);
-
-  require("react").useEffect(() => {
-    const interval = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          clearInterval(interval);
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-    <div className="text-2xl font-bold text-primary animate-pulse">
-      {timeLeft}s
     </div>
   );
 }
