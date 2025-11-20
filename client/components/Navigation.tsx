@@ -847,16 +847,16 @@ export default function Navigation() {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            className="flex items-center gap-3"
           >
-            <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
+            <div className="logo-container h-10 w-10 bg-primary rounded-lg flex items-center justify-center cursor-pointer">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc0c96233b0fd4d3f8a042ddef2a72cd5%2F2aa968830ebb45beb2e708fd74f12b8a?format=webp&width=800"
                 alt="PSX Capitals logo"
                 className="h-full w-full object-contain rounded-lg"
               />
             </div>
-            <span className="font-bold text-lg text-white">PSX CAPITALS</span>
+            <span className="logo-text font-bold text-lg">PSX CAPITALS</span>
           </Link>
 
           {/* Desktop Menu */}
