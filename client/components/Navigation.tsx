@@ -849,7 +849,7 @@ export default function Navigation() {
             to="/"
             className="flex items-center gap-3"
           >
-            <div className="logo-container h-10 w-10 flex items-center justify-center cursor-pointer">
+            <div className="logo-container h-10 w-10 rounded-full flex items-center justify-center cursor-pointer">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fc0c96233b0fd4d3f8a042ddef2a72cd5%2F2aa968830ebb45beb2e708fd74f12b8a?format=webp&width=800"
                 alt="PSX Capitals logo"
