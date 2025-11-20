@@ -9,15 +9,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="logo-container h-10 w-10 rounded-full flex items-center justify-center cursor-pointer">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F0c52bb94a8fc4cc08912fe4d89fdbf38%2F33cc917dc3c84c538d4c1a508e4f96b3?format=webp&width=800"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fc0c96233b0fd4d3f8a042ddef2a72cd5%2F2aa968830ebb45beb2e708fd74f12b8a?format=webp&width=800"
                   alt="PSX Capitals logo"
-                  className="h-full w-full object-contain rounded-lg"
+                  className="h-full w-full object-contain rounded-full"
                 />
               </div>
-              <span className="font-bold text-lg">PSX CAPITALS</span>
+              <span className="logo-text font-bold text-lg">PSX CAPITALS</span>
             </div>
             <p className="text-sm text-muted-foreground mb-4">
               site build by psx capitals & fixorium (fixercoin) crypto network

@@ -1,5 +1,5 @@
 import "./global.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { Toaster } from "@/components/ui/toaster";
 import { createRoot } from "react-dom/client";
@@ -25,10 +25,17 @@ import AssetPage from "./pages/Asset";
 import AccountManagement from "./pages/AccountManagement";
 import PortfolioManagment from "./pages/PortfolioManagment";
 import StockMarketBook from "./pages/StockMarketBook";
+import SplashScreen from "./pages/SplashScreen";
 
 const queryClient = new QueryClient();
 
 const App = () => {
+  const [showSplash, setShowSplash] = useState(() => {
+    // Check if splash screen was already shown in this session
+    const hasShownSplash = sessionStorage.getItem("splashShown");
+    return !hasShownSplash;
+  });
+
   useEffect(() => {
     try {
       document.documentElement.classList.add("dark");
@@ -37,6 +44,15 @@ const App = () => {
       // ignore server-side
     }
   }, []);
+
+  const handleSplashComplete = () => {
+    sessionStorage.setItem("splashShown", "true");
+    setShowSplash(false);
+  };
+
+  if (showSplash) {
+    return <SplashScreen onComplete={handleSplashComplete} />;
+  }
 
   return (
     <QueryClientProvider client={queryClient}>
