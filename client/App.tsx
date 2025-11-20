@@ -30,6 +30,12 @@ import SplashScreen from "./pages/SplashScreen";
 const queryClient = new QueryClient();
 
 const App = () => {
+  const [showSplash, setShowSplash] = useState(() => {
+    // Check if splash screen was already shown in this session
+    const hasShownSplash = sessionStorage.getItem("splashShown");
+    return !hasShownSplash;
+  });
+
   useEffect(() => {
     try {
       document.documentElement.classList.add("dark");
@@ -38,6 +44,21 @@ const App = () => {
       // ignore server-side
     }
   }, []);
+
+  useEffect(() => {
+    if (showSplash) {
+      const timer = setTimeout(() => {
+        sessionStorage.setItem("splashShown", "true");
+        setShowSplash(false);
+      }, 20000); // 20 seconds
+
+      return () => clearTimeout(timer);
+    }
+  }, [showSplash]);
+
+  if (showSplash) {
+    return <SplashScreen />;
+  }
 
   return (
     <QueryClientProvider client={queryClient}>
