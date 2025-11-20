@@ -169,4 +169,55 @@
     pointer-events: none;
     background: rgb(17 24 39); /* same as bg-card/dark */
   }
+
+  /* Modern Logo Animations */
+  @keyframes glow-pulse {
+    0%, 100% {
+      box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 165, 0, 0.8), 0 0 30px rgba(255, 165, 0, 0.5);
+    }
+  }
+
+  @keyframes logo-float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-2px);
+    }
+  }
+
+  @keyframes logo-shine {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+
+  .logo-container {
+    animation: glow-pulse 2s ease-in-out infinite, logo-float 3s ease-in-out infinite;
+    transition: all 0.3s ease;
+  }
+
+  .logo-container:hover {
+    animation: glow-pulse 1.2s ease-in-out infinite, logo-float 2s ease-in-out infinite;
+    transform: scale(1.05);
+  }
+
+  .logo-text {
+    background: linear-gradient(90deg, #ff9900, #ff6b00, #ff9900);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: logo-shine 3s linear infinite;
+  }
+
+  .logo-text:hover {
+    animation: logo-shine 1.5s linear infinite;
+  }
 }
