@@ -1,9 +1,9 @@
 
-  "company_name": "[COMPANY NAME]",
-  "company_logo": "[Insert Company Logo Here]",
+  "company_name": "[ABL]",
+  "company_logo": [ABL]",
 
   "company_overview": {
-    "business_description": "[Brief description of what the company does, its main products/services, and key business segments]",
+    "business_descripBrief description of what the company does, its main products/services, and key business segments]",
     "number_of_business_segments": "[Number of segments / divisions the company operates in]",
     "market_position_highlights": "[Short description about market position, competitive advantage, and recent developments]"
   },
