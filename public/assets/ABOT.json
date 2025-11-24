@@ -1,22 +1,70 @@
 {
-  "symbol": "ABOT",
-  "company_name":Abot "",
-  "sector": "", hshejeejejrjrjrhrh
-  "subsector": "",heehrhtb5hrhh
-  "founded_year": "",enejejehrj
-  "headquarters": "",
-  "website": "",ejrhrhtjtj5jj
-  "business_overview": "",beenrjrjrjrj
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "",hhhhhhh
+  "company_logo": "",jjjjjj
+  
+  "company_overview": {jjjjjj
+    "business_description": "",hjjjjj
+    "number_of_business_segments": "",bjbnbb
+    "market_position_highlights": ""bbjjjjj
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {bbjjjj
+    "market_capitalization": "",bbjjjj
+    "share_price": "",bbhhnjj
+    "eps": "",
+    "pe_ratio": "",bhjj
+    "equity": "",
+    "roa": "",
+    "dividend": "",
+    "current_ratio": "",
+    "quick_ratio": "",
+    "52_week_high": "",
+    "52_week_low": "",
+    "total_assets": "",
+    "total_liabilities": "",
+    "fcff": "",
+    "fcfe": ""
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "",
+    "institutional_investors": "",
+    "retail_investors": "",
+    "others": ""
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "",
+      "products_services": "",
+      "revenue_contribution": ""
+    },
+    {
+      "segment": "",
+      "products_services": "",
+      "revenue_contribution": ""
+    },
+    {
+      "segment": "",
+      "products_services": "",
+      "revenue_contribution": ""
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "",
+    "rationale": ""
+  },
+
+  "technical_analysis": {
+    "chart": "",
+    "support_levels": "",
+    "resistance_levels": "",
+    "trend_analysis": ""
+  },
+
+  "summary_key_notes": [
+    "",
+    ""
+  ]
 }
