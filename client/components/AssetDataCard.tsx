@@ -9,9 +9,67 @@ import {
 import { AlertCircle, RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+interface CompanyOverview {
+  business_description?: string;
+  number_of_business_segments?: string;
+  market_position_highlights?: string;
+}
+
+interface KeyFinancialMetrics {
+  market_capitalization?: string;
+  share_price?: string;
+  eps?: string;
+  pe_ratio?: string;
+  equity?: string;
+  roa?: string;
+  dividend?: string;
+  current_ratio?: string;
+  quick_ratio?: string;
+  "52_week_high"?: string;
+  "52_week_low"?: string;
+  total_assets?: string;
+  total_liabilities?: string;
+  fcff?: string;
+  fcfe?: string;
+}
+
+interface ShareholdingStructure {
+  promoters_major_holders?: string;
+  institutional_investors?: string;
+  retail_investors?: string;
+  others?: string;
+}
+
+interface BusinessSegment {
+  segment?: string;
+  products_services?: string;
+  revenue_contribution?: string;
+}
+
+interface AnalystRecommendation {
+  recommendation?: string;
+  rationale?: string;
+}
+
+interface TechnicalAnalysis {
+  chart?: string;
+  support_levels?: string;
+  resistance_levels?: string;
+  trend_analysis?: string;
+}
+
 interface AssetData {
-  symbol: string;
+  symbol?: string;
   company_name?: string;
+  company_logo?: string;
+  company_overview?: CompanyOverview;
+  key_financial_metrics?: KeyFinancialMetrics;
+  shareholding_structure?: ShareholdingStructure;
+  business_segments_products?: BusinessSegment[];
+  analyst_recommendation?: AnalystRecommendation;
+  technical_analysis?: TechnicalAnalysis;
+  summary_key_notes?: string[];
+  // Legacy fields for backward compatibility
   sector?: string;
   subsector?: string;
   founded_year?: string;
@@ -56,9 +114,26 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
           const data: AssetData = await response.json();
           setAssetData(data);
 
-          // Check if data is essentially empty (all empty strings/arrays)
-          const hasContent =
+          const hasNewContent =
             data.company_name ||
+            (data.company_overview &&
+              (data.company_overview.business_description ||
+                data.company_overview.number_of_business_segments ||
+                data.company_overview.market_position_highlights)) ||
+            (data.key_financial_metrics &&
+              Object.values(data.key_financial_metrics).some((v) => v)) ||
+            (data.shareholding_structure &&
+              Object.values(data.shareholding_structure).some((v) => v)) ||
+            (data.business_segments_products &&
+              data.business_segments_products.length > 0) ||
+            (data.analyst_recommendation &&
+              (data.analyst_recommendation.recommendation ||
+                data.analyst_recommendation.rationale)) ||
+            (data.technical_analysis &&
+              Object.values(data.technical_analysis).some((v) => v)) ||
+            (data.summary_key_notes && data.summary_key_notes.length > 0);
+
+          const hasLegacyContent =
             data.sector ||
             data.business_overview ||
             (data.product_lines && data.product_lines.length > 0) ||
@@ -66,7 +141,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
             (data.recent_developments && data.recent_developments.length > 0) ||
             data.notes;
 
-          setIsEmpty(!hasContent);
+          setIsEmpty(!hasNewContent && !hasLegacyContent);
         } else {
           setError("Asset data file not found");
         }
@@ -93,8 +168,26 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
           setAssetData(data);
           setError(null);
 
-          const hasContent =
+          const hasNewContent =
             data.company_name ||
+            (data.company_overview &&
+              (data.company_overview.business_description ||
+                data.company_overview.number_of_business_segments ||
+                data.company_overview.market_position_highlights)) ||
+            (data.key_financial_metrics &&
+              Object.values(data.key_financial_metrics).some((v) => v)) ||
+            (data.shareholding_structure &&
+              Object.values(data.shareholding_structure).some((v) => v)) ||
+            (data.business_segments_products &&
+              data.business_segments_products.length > 0) ||
+            (data.analyst_recommendation &&
+              (data.analyst_recommendation.recommendation ||
+                data.analyst_recommendation.rationale)) ||
+            (data.technical_analysis &&
+              Object.values(data.technical_analysis).some((v) => v)) ||
+            (data.summary_key_notes && data.summary_key_notes.length > 0);
+
+          const hasLegacyContent =
             data.sector ||
             data.business_overview ||
             (data.product_lines && data.product_lines.length > 0) ||
@@ -102,7 +195,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
             (data.recent_developments && data.recent_developments.length > 0) ||
             data.notes;
 
-          setIsEmpty(!hasContent);
+          setIsEmpty(!hasNewContent && !hasLegacyContent);
         } else {
           setError("Asset data file not found");
         }
@@ -196,77 +289,480 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
         </div>
       </CardHeader>
       <CardContent className="space-y-6">
+        {assetData?.company_logo && (
+          <div>
+            <img
+              src={assetData.company_logo}
+              alt={assetData.company_name || "Company Logo"}
+              className="h-16 object-contain"
+            />
+          </div>
+        )}
+
         {assetData?.company_name && (
           <div>
             <h4 className="text-sm font-semibold text-muted-foreground mb-2">
               Company Name
             </h4>
-            <p className="text-foreground font-semibold">
+            <p className="text-foreground font-semibold text-lg">
               {assetData.company_name}
             </p>
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {assetData?.sector && (
-            <div>
-              <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
-                Sector
-              </h4>
-              <p className="text-foreground">{assetData.sector}</p>
+        {assetData?.company_overview && (
+          <div className="border-t pt-6">
+            <h3 className="text-lg font-bold mb-4">Company Overview</h3>
+            <div className="space-y-4">
+              {assetData.company_overview.business_description && (
+                <div>
+                  <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                    Business Description
+                  </h4>
+                  <p className="text-foreground whitespace-pre-wrap">
+                    {assetData.company_overview.business_description}
+                  </p>
+                </div>
+              )}
+              {assetData.company_overview.number_of_business_segments && (
+                <div>
+                  <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                    Number of Business Segments
+                  </h4>
+                  <p className="text-foreground">
+                    {assetData.company_overview.number_of_business_segments}
+                  </p>
+                </div>
+              )}
+              {assetData.company_overview.market_position_highlights && (
+                <div>
+                  <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                    Market Position Highlights
+                  </h4>
+                  <p className="text-foreground whitespace-pre-wrap">
+                    {assetData.company_overview.market_position_highlights}
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {assetData?.key_financial_metrics &&
+          Object.values(assetData.key_financial_metrics).some((v) => v) && (
+            <div className="border-t pt-6">
+              <h3 className="text-lg font-bold mb-4">Key Financial Metrics</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {assetData.key_financial_metrics.market_capitalization && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Market Capitalization
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.market_capitalization}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.share_price && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Share Price
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.share_price}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.eps && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      EPS
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.eps}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.pe_ratio && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      P/E Ratio
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.pe_ratio}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.equity && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Equity
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.equity}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.roa && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      ROA
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.roa}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.dividend && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Dividend
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.dividend}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.current_ratio && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Current Ratio
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.current_ratio}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.quick_ratio && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Quick Ratio
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.quick_ratio}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics["52_week_high"] && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      52 Week High
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics["52_week_high"]}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics["52_week_low"] && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      52 Week Low
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics["52_week_low"]}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.total_assets && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Total Assets
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.total_assets}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.total_liabilities && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Total Liabilities
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.total_liabilities}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.fcff && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      FCFF
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.fcff}
+                    </div>
+                  </div>
+                )}
+                {assetData.key_financial_metrics.fcfe && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      FCFE
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.key_financial_metrics.fcfe}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           )}
-          {assetData?.subsector && (
-            <div>
-              <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
-                Subsector
-              </h4>
-              <p className="text-foreground">{assetData.subsector}</p>
+
+        {assetData?.shareholding_structure &&
+          Object.values(assetData.shareholding_structure).some((v) => v) && (
+            <div className="border-t pt-6">
+              <h3 className="text-lg font-bold mb-4">Shareholding Structure</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {assetData.shareholding_structure.promoters_major_holders && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Promoters & Major Holders
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.shareholding_structure.promoters_major_holders}
+                    </div>
+                  </div>
+                )}
+                {assetData.shareholding_structure.institutional_investors && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Institutional Investors
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.shareholding_structure.institutional_investors}
+                    </div>
+                  </div>
+                )}
+                {assetData.shareholding_structure.retail_investors && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Retail Investors
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.shareholding_structure.retail_investors}
+                    </div>
+                  </div>
+                )}
+                {assetData.shareholding_structure.others && (
+                  <div className="bg-muted/50 rounded-lg p-3">
+                    <div className="text-xs text-muted-foreground mb-1">
+                      Others
+                    </div>
+                    <div className="text-sm font-semibold">
+                      {assetData.shareholding_structure.others}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           )}
-          {assetData?.founded_year && (
-            <div>
-              <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
-                Founded Year
-              </h4>
-              <p className="text-foreground">{assetData.founded_year}</p>
+
+        {assetData?.business_segments_products &&
+          assetData.business_segments_products.length > 0 && (
+            <div className="border-t pt-6">
+              <h3 className="text-lg font-bold mb-4">Business Segments & Products</h3>
+              <div className="space-y-4">
+                {assetData.business_segments_products.map((segment, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-muted/50 rounded-lg p-4 border border-border"
+                  >
+                    {segment.segment && (
+                      <div className="mb-3">
+                        <h5 className="font-semibold text-foreground">
+                          {segment.segment}
+                        </h5>
+                      </div>
+                    )}
+                    {segment.products_services && (
+                      <div className="mb-2">
+                        <h6 className="text-xs font-semibold text-muted-foreground mb-1">
+                          Products/Services
+                        </h6>
+                        <p className="text-sm text-foreground">
+                          {segment.products_services}
+                        </p>
+                      </div>
+                    )}
+                    {segment.revenue_contribution && (
+                      <div>
+                        <h6 className="text-xs font-semibold text-muted-foreground mb-1">
+                          Revenue Contribution
+                        </h6>
+                        <p className="text-sm text-foreground">
+                          {segment.revenue_contribution}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           )}
-          {assetData?.headquarters && (
-            <div>
-              <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
-                Headquarters
-              </h4>
-              <p className="text-foreground">{assetData.headquarters}</p>
+
+        {assetData?.analyst_recommendation &&
+          (assetData.analyst_recommendation.recommendation ||
+            assetData.analyst_recommendation.rationale) && (
+            <div className="border-t pt-6">
+              <h3 className="text-lg font-bold mb-4">Analyst Recommendation</h3>
+              <div className="space-y-4">
+                {assetData.analyst_recommendation.recommendation && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                      Recommendation
+                    </h4>
+                    <p className="text-foreground font-semibold text-lg">
+                      {assetData.analyst_recommendation.recommendation}
+                    </p>
+                  </div>
+                )}
+                {assetData.analyst_recommendation.rationale && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                      Rationale
+                    </h4>
+                    <p className="text-foreground whitespace-pre-wrap">
+                      {assetData.analyst_recommendation.rationale}
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
           )}
-          {assetData?.market_share && (
-            <div>
-              <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
-                Market Share
-              </h4>
-              <p className="text-foreground">{assetData.market_share}</p>
+
+        {assetData?.technical_analysis &&
+          Object.values(assetData.technical_analysis).some((v) => v) && (
+            <div className="border-t pt-6">
+              <h3 className="text-lg font-bold mb-4">Technical Analysis</h3>
+              <div className="space-y-4">
+                {assetData.technical_analysis.chart && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                      Chart
+                    </h4>
+                    <p className="text-foreground whitespace-pre-wrap">
+                      {assetData.technical_analysis.chart}
+                    </p>
+                  </div>
+                )}
+                {assetData.technical_analysis.support_levels && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                      Support Levels
+                    </h4>
+                    <p className="text-foreground whitespace-pre-wrap">
+                      {assetData.technical_analysis.support_levels}
+                    </p>
+                  </div>
+                )}
+                {assetData.technical_analysis.resistance_levels && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                      Resistance Levels
+                    </h4>
+                    <p className="text-foreground whitespace-pre-wrap">
+                      {assetData.technical_analysis.resistance_levels}
+                    </p>
+                  </div>
+                )}
+                {assetData.technical_analysis.trend_analysis && (
+                  <div>
+                    <h4 className="text-sm font-semibold text-muted-foreground mb-2">
+                      Trend Analysis
+                    </h4>
+                    <p className="text-foreground whitespace-pre-wrap">
+                      {assetData.technical_analysis.trend_analysis}
+                    </p>
+                  </div>
+                )}
+              </div>
             </div>
           )}
-          {assetData?.website && (
-            <div>
-              <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
-                Website
-              </h4>
-              <a
-                href={assetData.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                {assetData.website}
-              </a>
+
+        {assetData?.summary_key_notes &&
+          assetData.summary_key_notes.length > 0 && (
+            <div className="border-t pt-6">
+              <h3 className="text-lg font-bold mb-4">Summary Key Notes</h3>
+              <ul className="space-y-2">
+                {assetData.summary_key_notes.map((note, idx) => (
+                  <li
+                    key={idx}
+                    className="flex items-start gap-2 text-foreground bg-muted/50 rounded-lg p-3"
+                  >
+                    <span className="text-primary font-semibold mt-0.5">
+                      {idx + 1}.
+                    </span>
+                    <span>{note}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           )}
-        </div>
+
+        {assetData?.sector && (
+          <div className="border-t pt-6">
+            <h3 className="text-lg font-bold mb-4">Legacy Information</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {assetData.sector && (
+                <div>
+                  <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
+                    Sector
+                  </h4>
+                  <p className="text-foreground">{assetData.sector}</p>
+                </div>
+              )}
+              {assetData.subsector && (
+                <div>
+                  <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
+                    Subsector
+                  </h4>
+                  <p className="text-foreground">{assetData.subsector}</p>
+                </div>
+              )}
+              {assetData.founded_year && (
+                <div>
+                  <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
+                    Founded Year
+                  </h4>
+                  <p className="text-foreground">{assetData.founded_year}</p>
+                </div>
+              )}
+              {assetData.headquarters && (
+                <div>
+                  <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
+                    Headquarters
+                  </h4>
+                  <p className="text-foreground">{assetData.headquarters}</p>
+                </div>
+              )}
+              {assetData.market_share && (
+                <div>
+                  <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
+                    Market Share
+                  </h4>
+                  <p className="text-foreground">{assetData.market_share}</p>
+                </div>
+              )}
+              {assetData.website && (
+                <div>
+                  <h4 className="text-xs font-semibold text-muted-foreground mb-1 uppercase">
+                    Website
+                  </h4>
+                  <a
+                    href={assetData.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    {assetData.website}
+                  </a>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
 
         {assetData?.business_overview && (
-          <div>
+          <div className="border-t pt-6">
             <h4 className="text-sm font-semibold text-muted-foreground mb-2">
               Business Overview
             </h4>
@@ -277,7 +773,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
         )}
 
         {assetData?.product_lines && assetData.product_lines.length > 0 && (
-          <div>
+          <div className="border-t pt-6">
             <h4 className="text-sm font-semibold text-muted-foreground mb-3">
               Product Lines
             </h4>
@@ -296,7 +792,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
         )}
 
         {assetData?.key_strengths && assetData.key_strengths.length > 0 && (
-          <div>
+          <div className="border-t pt-6">
             <h4 className="text-sm font-semibold text-muted-foreground mb-3">
               Key Strengths
             </h4>
@@ -315,7 +811,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
         )}
 
         {assetData?.challenges && assetData.challenges.length > 0 && (
-          <div>
+          <div className="border-t pt-6">
             <h4 className="text-sm font-semibold text-muted-foreground mb-3">
               Challenges
             </h4>
@@ -335,7 +831,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
 
         {assetData?.recent_developments &&
           assetData.recent_developments.length > 0 && (
-            <div>
+            <div className="border-t pt-6">
               <h4 className="text-sm font-semibold text-muted-foreground mb-3">
                 Recent Developments
               </h4>
@@ -357,7 +853,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
           (assetData.financial_highlights.revenue ||
             assetData.financial_highlights.profit ||
             assetData.financial_highlights.growth_rate) && (
-            <div>
+            <div className="border-t pt-6">
               <h4 className="text-sm font-semibold text-muted-foreground mb-3">
                 Financial Highlights
               </h4>
@@ -397,7 +893,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
           )}
 
         {assetData?.management_team && assetData.management_team.length > 0 && (
-          <div>
+          <div className="border-t pt-6">
             <h4 className="text-sm font-semibold text-muted-foreground mb-3">
               Management Team
             </h4>
@@ -426,7 +922,7 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
         )}
 
         {assetData?.notes && (
-          <div>
+          <div className="border-t pt-6">
             <h4 className="text-sm font-semibold text-muted-foreground mb-2">
               Notes
             </h4>
