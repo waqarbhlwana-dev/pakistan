@@ -1,22 +1,53 @@
+
 {
-  "symbol": "MARI",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "pakistan international bulk terminal LTD",
+  "company_logo": "pibtl",
+  "company_overview": {
+    "business_description": "+",
+    "number_of_business_segments": "",
+    "market_position_highlights": ""
   },
-  "management_team": [],
-  "notes": ""
+  "key_financial_metrics": {
+    "market_capitalization": "27.10B",
+    "share_price": "15.20",
+    "eps": "0.35 Q12026",
+    "pe_ratio": "10.84 Q12026",
+    " debt to equity": "",
+    "roa": "-0.9%",
+    "dividend": "0%",
+    "current_ratio": "0.87",
+    "quick_ratio": "0.79",
+    "52_week_high": "16.99",
+    "52_week_low": "6.89",
+    "total_assets": "",
+    "total_liabilities": "",
+    "fcff": "",
+    "fcfe": ""
+  },
+  "shareholding_structure": {
+    "promoters_major_holders": "6666",
+    "institutional_investors": "555",
+    "retail_investors": "666",
+    "others": "888"
+  },
+  "business_segments_products": [
+    {
+      "segment": "",
+      "products_services": "777",
+      "revenue_contribution": "7777"
+    }
+  ],
+  "analyst_recommendation": {
+    "recommendation": "777",
+    "rationale": "777"
+  },
+  "technical_analysis": {
+    "chart": "666",
+    "support_levels": "666",
+    "resistance_levels": "66",
+    "trend_analysis": "666"
+  },
+  "summary_key_notes": [
+    ""
+  ]
 }
