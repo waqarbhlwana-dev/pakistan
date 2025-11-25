@@ -66,5 +66,30 @@
   "summary_key_notes": [
     "[Brief summary of the company's financial health, market position, and potential risks]",
     "[Notes for investors regarding market trends, upcoming events, or dividend expectations]"
-  ]
+  ],
+
+  "asset_information": {
+    "company_name": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+    "sector": "333333333333333333333333333333333333333333",
+    "subsector": "9999999999999999999999999999999999999999999999999999999",
+    "founded_year": "00000000000000000000000000000000000000",
+    "market_share": "ttttttttttttttttttttttttttttttt",
+    "website": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+    "business_overview": "44444444444444444444444444444",
+    "product_lines": [
+      "4444444444444444444444444444444444444444444444444444444"
+    ],
+    "key_strengths": [
+      "666666666666666666666666666666666666"
+    ],
+    "recent_developments": [
+      "888888888888888888888888888888"
+    ],
+    "financial_highlights": {
+      "revenue": "3",
+      "profit": "3",
+      "growth_rate": "3"
+    },
+    "notes": "gjdsdfgffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+  }
 }
