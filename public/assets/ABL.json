@@ -1,95 +1,50 @@
 {
-  "company_name": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
-  "company_logo": "[gfhjkjhjhknjbjhjompany Logo Here]",
+  "businessDescription": "44444444444444444444444444444",  // business overview
+  "businessSegments": "[Number of segments / divisions the company operates in]",
+  "marketPosition": "ttttttttttttttttttttttttttttttt",  // market share
+  "marketCap": "6666",  // marketcap from previous data
+  "sharePrice": "[Share Price]",
+  "eps": "66",  // eps from previous data
+  "peRatio": "66666666666666666",  // PeRatio from previous data
+  "roa": "[ROA]",
+  "dividend": "666666666666666666",  // Dividend from previous data
+  "currentRatio": "6666666666666666666",  // Current Ratio from previous data
+  "quickRatio": "6666666666666666666666666",  // Quick Ratio from previous data
+  "weekHigh": "[52-Week High]",
+  "weekLow": "[52-Week Low]",
+  "totalAssets": "666666666666666666666666666666666666",  // Total Assets from previous data
+  "totalLiabilities": "66666666666666666666666666666666666666666",  // Total Liabilities from previous data
+  "fcff": "666",  // FCF from previous data
+  "fcfe": "666666666666666666666666",  // FCFE from previous data
+  "shareholderPromoters": "[X%]",
+  "shareholderInstitutional": "[X%]",
+  "shareholderRetail": "[X%]",
+  "shareholderOthers": "[X%]",
 
-  "company_overview": {
-    "business_description": "44444444444444444444444444444",  // business overview from previous data
-    "number_of_business_segments": "[Number of segments / divisions the company operates in]",
-    "market_position_highlights": "ttttttttttttttttttttttttttttttt"  // market share from previous data
-  },
-
-  "key_financial_metrics": {
-    "market_capitalization": "6666",  // marketcap from previous data
-    "share_price": "[Share Price]",
-    "eps": "66",  // Eps from previous data
-    "pe_ratio": "66666666666666666",  // PeRatio from previous data
-    "e": "[E]",
-    "roa": "[ROA]",
-    "dividend": "666666666666666666",  // Divident from previous data
-    "current_ratio": "6666666666666666666",  // Current Ratio from previous data
-    "quick_ratio": "6666666666666666666666666",  // Quick Ratio from previous data
-    "52_week_high": "[52-Week High]",
-    "52_week_low": "[52-Week Low]",
-    "total_assets": "666666666666666666666666666666666666",  // Total Assets from previous data
-    "total_liabilities": "66666666666666666666666666666666666666666",  // Total Laybility from previous data
-    "fcff": "666",  // FCF from previous data
-    "fcfe": "666666666666666666666666"  // FCFE from previous data
-  },
-
-  "shareholding_structure": {
-    "promoters_or_major_holders": "[X%]",
-    "institutional_investors": "[X%]",
-    "retail_investors": "[X%]",
-    "others": "[X%]"
-  },
-
-  "business_segments_products": [
+  "segments": [
     {
-      "segment": "[Segment 1]",
-      "products_services": "[Products / Services]",
-      "revenue_contribution": "[X%]"
+      "name": "[Segment 1]",
+      "products": "[Products / Services]",
+      "revenue": "[X%]"
     },
     {
-      "segment": "[Segment 2]",
-      "products_services": "[Products / Services]",
-      "revenue_contribution": "[X%]"
+      "name": "[Segment 2]",
+      "products": "[Products / Services]",
+      "revenue": "[X%]"
     },
     {
-      "segment": "[Segment 3]",
-      "products_services": "[Products / Services]",
-      "revenue_contribution": "[X%]"
+      "name": "[Segment 3]",
+      "products": "[Products / Services]",
+      "revenue": "[X%]"
     }
   ],
 
-  "analyst_recommendation": {
-    "recommendation": "[Buy / Hold / Sell]",
-    "rationale": "[Reasons why this recommendation is made, including financial and market considerations]"
-  },
-
-  "technical_analysis": {
-    "chart": "[Insert Technical Chart Here]",
-    "support_levels": "[Values]",
-    "resistance_levels": "[Values]",
-    "trend_analysis": "[Uptrend / Downtrend / Sideways]"
-  },
-
-  "summary_key_notes": [
-    "[Brief summary of the company's financial health, market position, and potential risks]",
-    "[Notes for investors regarding market trends, upcoming events, or dividend expectations]"
-  ],
-
-  "asset_information": {
-    "company_name": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
-    "sector": "333333333333333333333333333333333333333333",
-    "subsector": "9999999999999999999999999999999999999999999999999999999",
-    "founded_year": "00000000000000000000000000000000000000",
-    "market_share": "ttttttttttttttttttttttttttttttt",
-    "website": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
-    "business_overview": "44444444444444444444444444444",
-    "product_lines": [
-      "4444444444444444444444444444444444444444444444444444444"
-    ],
-    "key_strengths": [
-      "666666666666666666666666666666666666"
-    ],
-    "recent_developments": [
-      "888888888888888888888888888888"
-    ],
-    "financial_highlights": {
-      "revenue": "3",
-      "profit": "3",
-      "growth_rate": "3"
-    },
-    "notes": "gjdsdfgffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-  }
+  "recommendation": "[Buy / Hold / Sell]",
+  "recommendationRationale": "[Reasons why this recommendation is made, including financial and market considerations]",
+  "technicalChart": "[Insert Technical Chart Here]",
+  "supportLevels": "[Values]",
+  "resistanceLevels": "[Values]",
+  "trendAnalysis": "[Uptrend / Downtrend / Sideways]",
+  "summary": "[Brief summary of the company's financial health, market position, and potential risks]",
+  "keyNotes": "[Notes for investors regarding market trends, upcoming events, or dividend expectations]"
 }
