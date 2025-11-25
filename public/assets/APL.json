@@ -7,30 +7,34 @@
   "headquarters": "",
   "website": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
   "business_overview": "44444444444444444444444444444",
-  "product_lines": [4444444444444444444444444444444444444444444444444444444],
-  "key_strengths": [666666666666666666666666666666666666],
- 
+  "product_lines": [
+    "4444444444444444444444444444444444444444444444444444444"
+  ],
+  "key_strengths": [
+    "666666666666666666666666666666666666"
+  ],
   "market_share": "ttttttttttttttttttttttttttttttt",
-  "recent_developments": [888888888888888888888888888888],
+  "recent_developments": [
+    "888888888888888888888888888888"
+  ],
   "financial_highlights": {
     "revenue": "3",
     "profit": "3",
     "growth_rate": "3"
   },
-  {
   "management_team": [],
-  "notes": "gjdsdfgffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
-  "marketcap":"6666",
-  "Eps":"66",
-  "PeRatio":"66666666666666666",
-  "Divident":"666666666666666666",
-  "Current Ratio":"6666666666666666666",
-  "Quick Ratio":"6666666666666666666666666",
-  "Totall Asser":"666666666666666666666666666666666666",
-  "Total Laybility":"66666666666666666666666666666666666666666",
-  "FCF":"666",
-  "FCFE":"666666666666666666666666",
-  "Share Holder":"66666666666666666666",
-  "BUY Area":"666666666666666666666",
-  "SELL Area":"666666666666666666666666666666",
+  "notes": "gjdsdfgffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+  "marketcap": "6666",
+  "Eps": "66",
+  "PeRatio": "66666666666666666",
+  "Divident": "666666666666666666",
+  "Current Ratio": "6666666666666666666",
+  "Quick Ratio": "6666666666666666666666666",
+  "Total Assets": "666666666666666666666666666666666666",
+  "Total Liability": "66666666666666666666666666666666666666666",
+  "FCF": "666",
+  "FCFE": "666666666666666666666666",
+  "Share Holder": "66666666666666666666",
+  "BUY Area": "666666666666666666666",
+  "SELL Area": "666666666666666666666666666666"
 }
