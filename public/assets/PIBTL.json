@@ -1,1 +1,53 @@
 
+{
+  "company_name": "allied bank limited",
+  "company_logo": "eeeeeeeee",
+  "company_overview": {
+    "business_description": "+",
+    "number_of_business_segments": "eeeeeeeeeeeeeee",
+    "market_position_highlights": "eeeeeeeeeeeeeee"
+  },
+  "key_financial_metrics": {
+    "market_capitalization": "eeeeeeeeeeeee",
+    "share_price": "eeeeeeeeeeeee",
+    "eps": "eeeeeeeeeeeeeeee",
+    "pe_ratio": "eeeeeeeeeeeeee",
+    "equity": "eeeeeeeeeeeeee",
+    "roa": "eeeeeeeeeeeeeee",
+    "dividend": "eeeeeeeeeeeeee",
+    "current_ratio": "eeeeeeeeeeeeee",
+    "quick_ratio": "eeeeeeeeeeeeeeeee",
+    "52_week_high": "eeeeeeeeeeeeeeeeeeeeeeee",
+    "52_week_low": "eeeeeeeeeeeeeeeee",
+    "total_assets": "eeeeeeeeeeeeeeeee",
+    "total_liabilities": "eeeeeeeeeeeeeee",
+    "fcff": "eeeeeeeeeeeeeeeeeeeeee",
+    "fcfe": "eeeeeeeeeeeeeeeeeeeeeee"
+  },
+  "shareholding_structure": {
+    "promoters_major_holders": "eeeeeeeeeeeeeeeeee",
+    "institutional_investors": "eeeeeeeeeeeeeeeeeeee",
+    "retail_investors": "eeeeeeeeeeeeeeeee",
+    "others": "eeeeeeeeeeeeeeeeeeeeeee"
+  },
+  "business_segments_products": [
+    {
+      "segment": "eeeeeeeeeeeeeeeeeeeeeeee",
+      "products_services": "",
+      "revenue_contribution": "eeeeeeeeeeeeeeeeeeeeeee"
+    }
+  ],
+  "analyst_recommendation": {
+    "recommendation": "eeeeeeeeeeeeeeeeeeee",
+    "rationale": "eeeeeeeeeeeeeeeeeeeeeeeee"
+  },
+  "technical_analysis": {
+    "chart": "eeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "support_levels": "eeeeeeeeeeeeeeeeeeeeeeeee",
+    "resistance_levels": "eeeeeeeeeeeeeeeeeeeeeeee",
+    "trend_analysis": "eeeeeeeeeeeeeeeeeeeeeeeeee"
+  },
+  "summary_key_notes": [
+    "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+  ]
+}
