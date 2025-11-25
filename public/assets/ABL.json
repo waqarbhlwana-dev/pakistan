@@ -1,32 +1,29 @@
-
 {
-  "company_name": "[ABL]",
-  "company_logo": "[gfhjkjhjhknjbjhjompany Logo Here]"
-}
-
+  "company_name": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+  "company_logo": "[gfhjkjhjhknjbjhjompany Logo Here]",
 
   "company_overview": {
-    "business_descripBrief description of what the company does, its main products/services, and key business segments]",
+    "business_description": "44444444444444444444444444444",  // business overview from previous data
     "number_of_business_segments": "[Number of segments / divisions the company operates in]",
-    "market_position_highlights": "[Short description about market position, competitive advantage, and recent developments]"
+    "market_position_highlights": "ttttttttttttttttttttttttttttttt"  // market share from previous data
   },
 
   "key_financial_metrics": {
-    "market_capitalization": "[Market Capitalization]",
+    "market_capitalization": "6666",  // marketcap from previous data
     "share_price": "[Share Price]",
-    "eps": "[EPS]",
-    "pe_ratio": "[P/E Ratio]",
+    "eps": "66",  // Eps from previous data
+    "pe_ratio": "66666666666666666",  // PeRatio from previous data
     "e": "[E]",
     "roa": "[ROA]",
-    "dividend": "[Dividend]",
-    "current_ratio": "[Current Ratio]",
-    "quick_ratio": "[Quick Ratio]",
+    "dividend": "666666666666666666",  // Divident from previous data
+    "current_ratio": "6666666666666666666",  // Current Ratio from previous data
+    "quick_ratio": "6666666666666666666666666",  // Quick Ratio from previous data
     "52_week_high": "[52-Week High]",
     "52_week_low": "[52-Week Low]",
-    "total_assets": "[Total Assets]",
-    "total_liabilities": "[Total Liabilities]",
-    "fcff": "[Free Cash Flow to Firm (FCFF)]",
-    "fcfe": "[Free Cash Flow to Equity (FCFE)]"
+    "total_assets": "666666666666666666666666666666666666",  // Total Assets from previous data
+    "total_liabilities": "66666666666666666666666666666666666666666",  // Total Laybility from previous data
+    "fcff": "666",  // FCF from previous data
+    "fcfe": "666666666666666666666666"  // FCFE from previous data
   },
 
   "shareholding_structure": {
