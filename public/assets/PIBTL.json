@@ -4,8 +4,8 @@
   "company_logo": "pibtl",
   "company_overview": {
     "business_description": "+",
-    "number_of_business_segments": "eeeeeeeeeeeeeee",
-    "market_position_highlights": "eeeeeeeeeeeeeee"
+    "number_of_business_segments": "",
+    "market_position_highlights": ""
   },
   "key_financial_metrics": {
     "market_capitalization": "27.10B",
@@ -19,35 +19,35 @@
     "quick_ratio": "0.79",
     "52_week_high": "16.99",
     "52_week_low": "6.89",
-    "total_assets": "eeeeeeeeeeeeeeeee",
-    "total_liabilities": "eeeeeeeeeeeeeee",
-    "fcff": "eeeeeeeeeeeeeeeeeeeeee",
-    "fcfe": "eeeeeeeeeeeeeeeeeeeeeee"
+    "total_assets": "",
+    "total_liabilities": "",
+    "fcff": "",
+    "fcfe": ""
   },
   "shareholding_structure": {
-    "promoters_major_holders": "eeeeeeeeeeeeeeeeee",
-    "institutional_investors": "eeeeeeeeeeeeeeeeeeee",
-    "retail_investors": "eeeeeeeeeeeeeeeee",
-    "others": "eeeeeeeeeeeeeeeeeeeeeee"
+    "promoters_major_holders": "",
+    "institutional_investors": "",
+    "retail_investors": "",
+    "others": ""
   },
   "business_segments_products": [
     {
-      "segment": "eeeeeeeeeeeeeeeeeeeeeeee",
+      "segment": "",
       "products_services": "",
-      "revenue_contribution": "eeeeeeeeeeeeeeeeeeeeeee"
+      "revenue_contribution": ""
     }
   ],
   "analyst_recommendation": {
-    "recommendation": "eeeeeeeeeeeeeeeeeeee",
-    "rationale": "eeeeeeeeeeeeeeeeeeeeeeeee"
+    "recommendation": "",
+    "rationale": ""
   },
   "technical_analysis": {
-    "chart": "eeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-    "support_levels": "eeeeeeeeeeeeeeeeeeeeeeeee",
-    "resistance_levels": "eeeeeeeeeeeeeeeeeeeeeeee",
-    "trend_analysis": "eeeeeeeeeeeeeeeeeeeeeeeeee"
+    "chart": "",
+    "support_levels": "",
+    "resistance_levels": "",
+    "trend_analysis": ""
   },
   "summary_key_notes": [
-    "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    ""
   ]
 }
