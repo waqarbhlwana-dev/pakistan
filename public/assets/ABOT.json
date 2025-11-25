@@ -10,20 +10,20 @@
 
   "key_financial_metrics": {
     "market_capitalization": "gffffffff",
-    "share_price": "",
-    "eps": "",
-    "pe_ratio": "",
-    "equity": "",
-    "roa": "",
-    "dividend": "",
-    "current_ratio": "",
-    "quick_ratio": "",
-    "52_week_high": "",
-    "52_week_low": "",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "share_price": "5555",
+    "eps": "33",
+    "pe_ratio": "77",
+    "equity": "777",
+    "roa": "555",
+    "dividend": "666",
+    "current_ratio": "555",
+    "quick_ratio": "55555555",
+    "52_week_high": "5555",
+    "52_week_low": "7777",
+    "total_assets": "6666",
+    "total_liabilities": "6666",
+    "fcff": "666",
+    "fcfe": "666"
   },
 
   "shareholding_structure": {
