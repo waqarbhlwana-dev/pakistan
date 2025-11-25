@@ -25,27 +25,27 @@
     "fcfe": ""
   },
   "shareholding_structure": {
-    "promoters_major_holders": "",
-    "institutional_investors": "",
-    "retail_investors": "",
-    "others": ""
+    "promoters_major_holders": "6666",
+    "institutional_investors": "555",
+    "retail_investors": "666",
+    "others": "888"
   },
   "business_segments_products": [
     {
       "segment": "",
-      "products_services": "",
-      "revenue_contribution": ""
+      "products_services": "777",
+      "revenue_contribution": "7777"
     }
   ],
   "analyst_recommendation": {
-    "recommendation": "",
-    "rationale": ""
+    "recommendation": "777",
+    "rationale": "777"
   },
   "technical_analysis": {
-    "chart": "",
-    "support_levels": "",
-    "resistance_levels": "",
-    "trend_analysis": ""
+    "chart": "666",
+    "support_levels": "666",
+    "resistance_levels": "66",
+    "trend_analysis": "666"
   },
   "summary_key_notes": [
     ""
