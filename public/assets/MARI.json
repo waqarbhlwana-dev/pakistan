@@ -1,53 +1,82 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "Mari Petroleum Company Limited (MARI)",
+  "company_logo": "https://example.com/mari-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "Mari Petroleum Company Limited پاکستان کی ایک ممتاز ایکسپلوریشن اینڈ پروڈکشن کمپنی ہے جو تیل اور گیس کی دریافت، پیداوار اور فروخت میں مصروف ہے۔ یہ ملک کی سب سے زیادہ منافع بخش آئل اینڈ گیس کمپنیوں میں سے ایک ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "انتہائی منافع بخش آئل اینڈ گیس کمپنی، اعلیٰ کارکردگی، مضبوط فنانشل ہیلتھ"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 828.96 billion",
+    "share_price": "Rs 690.00",
+    "eps": "Rs 13.03 (Q1 2026)",
+    "pe_ratio": "13.25",
+    "equity": "Rs 217.52 billion",
+    "roa": "15.40%",
+    "dividend": "Rs 21.70 (2025 میں)",
+    "current_ratio": "2.87",
+    "quick_ratio": "2.81",
+    "52_week_high": "Rs 900.00",
+    "52_week_low": "Rs 442.00",
+    "total_assets": "Rs 450.8 billion",
+    "total_liabilities": "Rs 233.28 billion",
+    "fcff": "Rs 38.5 billion",
+    "fcfe": "Rs 32.7 billion",
+    "book_value": "217.52"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "60%",
+    "institutional_investors": "30%",
+    "retail_investors": "8%",
+    "others": "2%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Exploration & Production",
+      "products_services": "تیل اور گیس کی دریافت اور پیداوار",
+      "revenue_contribution": "95%"
+    },
+    {
+      "segment": "Gas Marketing", 
+      "products_services": "گیس کی مارکیٹنگ اور فروخت",
+      "revenue_contribution": "5%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "کمپنی بہت زیادہ اوور ویلیو ہے۔ ڈیویڈنڈ اور کمائی اچھی ہے لیکن موجودہ قیمت پر تقریباً تین گنا زیادہ پیسے دے رہے ہیں۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/mari-chart.jpg",
+    "support_levels": "Rs 550-540 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 700.00, Rs 750.00",
+    "trend_analysis": "موجودہ قیمت Rs 690.00 ہے جو بہت زیادہ اوور ویلیو ہے۔ بہترین خریداری کا زون Rs 550 سے Rs 540 کے قریب ہے۔ موجودہ قیمت پر انویسٹمنٹ صحیح نہیں لگتی۔"
   },
+
   "summary_key_notes": [
-    ""
+    "موجودہ مارکیٹ قیمت: Rs 690.00",
+    "کمپنی بہت زیادہ اوور ویلیو ہے",
+    "ڈیویڈنڈ اور کمائی اچھی ہے لیکن قیمت بہت زیادہ ہے",
+    "تقریباً تین گنا زیادہ پیسے دے رہے ہیں",
+    "Q1 2026 EPS: Rs 13.03",
+    "PE ریٹیو: 13.25 (زیادہ - اوور ویلیو)",
+    "ROA: 15.40% (بہترین)",
+    "ڈویڈنڈ: Rs 21.70 (2025 میں - بہترین)",
+    "بک ویلیو: Rs 217.52",
+    "مارکیٹ کیپ: Rs 828.96 ارب",
+    "52 ہفتوں کا ہائی: Rs 900.00, لو: Rs 442.00",
+    "کرنٹ ریشو: 2.87 (بہترین)",
+    "کوئیک ریشو: 2.81 (بہترین)",
+    "بہترین خریداری زون: Rs 550 سے Rs 540 کے قریب",
+    "موجودہ قیمت پر انویسٹمنٹ صحیح نہیں لگتی",
+    "اگر لانگ ٹرم انویسٹمنٹ کرنی ہے تو ویٹ کریں",
+    "ویٹ کرنے سے اچھا پرافٹ آئے گا",
+    "انتہائی منافع بخش کمپنی لیکن اوور ویلیو"
   ]
 }
