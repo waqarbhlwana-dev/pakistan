@@ -1,22 +1,91 @@
 {
-  "symbol": "AKBL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Askari Bank Limited (AKBL)",
+  "company_logo": "https://example.com/akbl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Askari Bank Limited پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ فوجی فنڈز سے وابستہ بینک ہے۔",
+    "number_of_business_segments": "4",
+    "market_position_highlights": "فوجی فنڈز سے وابستہ بینک، ملک بھر میں برانچز کا نیٹ ورک، مستحکم کارکردگی"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 135.99 billion",
+    "share_price": "Rs 93.00",
+    "eps": "Rs 5.30 (Q3 2025)",
+    "pe_ratio": "5.64",
+    "equity": "Rs 97.56 billion",
+    "roa": "0.05%",
+    "dividend": "Rs 1.25 (Q3 2025)",
+    "current_ratio": "0.14",
+    "quick_ratio": "0.16",
+    "52_week_high": "Rs 108.51",
+    "52_week_low": "Rs 32.60",
+    "total_assets": "Rs 1,250.8 billion",
+    "total_liabilities": "Rs 1,153.24 billion",
+    "fcff": "Rs 18.5 billion",
+    "fcfe": "Rs 12.8 billion",
+    "book_value": "97.56"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "60%",
+    "institutional_investors": "30%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Retail Banking",
+      "products_services": "صارفین کے لیے بینکاری خدمات",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Corporate Banking", 
+      "products_services": "کارپوریٹ بینکاری اور قرضے",
+      "revenue_contribution": "40%"
+    },
+    {
+      "segment": "Consumer Banking",
+      "products_services": "صارفین کی بینکاری اور قرضے",
+      "revenue_contribution": "15%"
+    },
+    {
+      "segment": "Treasury Operations",
+      "products_services": "ٹریژری آپریشنز",
+      "revenue_contribution": "10%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "فنڈامنٹلی کافی سٹرانگ ہے لیکن لیکویڈیٹی ریٹیوز بہت کم ہیں۔ ٹیکنیکلی ہیڈ اینڈ شولڈر پیٹرن بن رہا ہے جو سیلنگ کا اشارہ دیتا ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/akbl-chart.jpg",
+    "support_levels": "Rs 70-80 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 95.00, Rs 100.00",
+    "trend_analysis": "موجودہ قیمت Rs 93.00 ہے۔ ٹیکنیکلی ہیڈ اینڈ شولڈر پیٹرن بن رہا ہے جو سیلنگ کا اشارہ دیتا ہے۔ بہترین خریداری کا زون Rs 70 سے Rs 80 کے درمیان ہے۔ اس زون میں خریداری بہترین ہوگی۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 93.00",
+    "فنڈامنٹلی کافی سٹرانگ ہے",
+    "Q3 2025 EPS: Rs 5.30",
+    "PE ریٹیو: 5.64 (بہت کم - انڈر ویلیوڈ)",
+    "ROA: 0.05% (بہت کم)",
+    "ڈویڈنڈ: Rs 1.25 (Q3 2025)",
+    "بک ویلیو: Rs 97.56",
+    "مارکیٹ کیپ: Rs 135.99 ارب",
+    "52 ہفتوں کا ہائی: Rs 108.51, لو: Rs 32.60",
+    "کرنٹ ریشو: 0.14 (بہت کم)",
+    "کوئیک ریشو: 0.16 (بہت کم)",
+    "لیکویڈیٹی ریٹیوز بہت کم ہیں",
+    "ٹیکنیکلی ہیڈ اینڈ شولڈر پیٹرن بن رہا ہے",
+    "ہیڈ اینڈ شولڈر پیٹرن سیلنگ کا اشارہ دیتا ہے",
+    "بہترین خریداری زون: Rs 70 سے Rs 80 کے درمیان",
+    "Rs 70-80 کا لیول بہترین بیسٹ بائنگ ہے",
+    "فوجی فنڈز سے وابستہ بینک",
+    "مستحکم بینکاری کمپنی لیکن لیکویڈیٹی کم ہے"
+  ]
