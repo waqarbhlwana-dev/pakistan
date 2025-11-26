@@ -1,53 +1,83 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "Maple Leaf Cement Factory Limited (MLCF)",
+  "company_logo": "https://example.com/mlcf-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "Maple Leaf Cement Factory Limited پاکستان کی ایک ممتاز سیمنٹ مینوفیکچرنگ کمپنی ہے جو مختلف اقسام کی سیمنٹ کی تیاری اور فروخت میں مصروف ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "سیمنٹ انڈسٹری کی اہم کمپنی، معیاری مصنوعات، ملک بھر میں مارکیٹ موجودگی"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 104.86 billion",
+    "share_price": "Rs 100.00",
+    "eps": "Rs 2.60 (Q1 2026)",
+    "pe_ratio": "9.63",
+    "equity": "Rs 71.00 billion",
+    "roa": "9.70%",
+    "dividend": "Rs 0.05 (2019 میں - صرف پانچ پیسے)",
+    "current_ratio": "1.73",
+    "quick_ratio": "1.38",
+    "52_week_high": "Rs 114.50",
+    "52_week_low": "Rs 37.25",
+    "total_assets": "Rs 185.2 billion",
+    "total_liabilities": "Rs 114.2 billion",
+    "fcff": "Rs 8.5 billion",
+    "fcfe": "Rs 6.2 billion",
+    "book_value": "71.00"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "45%",
+    "institutional_investors": "40%",
+    "retail_investors": "13%",
+    "others": "2%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Cement Manufacturing",
+      "products_services": "سیمنٹ کی تیاری اور فروخت",
+      "revenue_contribution": "95%"
+    },
+    {
+      "segment": "Allied Products", 
+      "products_services": "سیمنٹ سے متعلق دیگر مصنوعات",
+      "revenue_contribution": "5%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "کمپنی فی الحال اوور ویلیو ہے اور سیمنٹ سیکٹر سردیوں میں اچھی کارکردگی نہیں دکھاتا۔ بہترین خریداری کے لیے بہتر لیولز کا انتظار کریں۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/mlcf-chart.jpg",
+    "support_levels": "Rs 90.00 (NEAR BUYING), Rs 80.00 (SECOND LEVEL), Rs 60-70 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 105.00, Rs 114.50",
+    "trend_analysis": "موجودہ قیمت Rs 100.00 ہے جو اوور ویلیو ہے۔ نیر بائنگ Rs 90.00 پر ہے، دوسرا لیول Rs 80.00 پر ہے۔ بہترین خریداری کا زون Rs 60 سے Rs 70 کے درمیان ہے جہاں انڈر ویلیو خریداری کی جا سکتی ہے۔ Rs 90 پر بھی باؤنس بیک ہو سکتا ہے لیکن وہ صرف 5-10 روپے کا فائدہ دے گا۔"
   },
+
   "summary_key_notes": [
-    ""
+    "موجودہ مارکیٹ قیمت: Rs 100.00",
+    "کمپنی فی الحال اوور ویلیو ہے",
+    "سیمنٹ سیکٹر سردیوں میں اچھی کارکردگی نہیں دکھاتا",
+    "Q1 2026 EPS: Rs 2.60",
+    "PE ریٹیو: 9.63 (معقول لیکن موجودہ قیمت پر اوور ویلیو)",
+    "ROA: 9.70% (اچھا)",
+    "ڈویڈنڈ: Rs 0.05 (2019 میں - صرف پانچ پیسے)",
+    "بک ویلیو: Rs 71.00",
+    "مارکیٹ کیپ: Rs 104.86 ارب",
+    "52 ہفتوں کا ہائی: Rs 114.50, لو: Rs 37.25",
+    "کرنٹ ریشو: 1.73 (اچھا)",
+    "کوئیک ریشو: 1.38 (اچھا)",
+    "نیر بائنگ لیول: Rs 90.00",
+    "دوسرا بائنگ لیول: Rs 80.00",
+    "بہترین خریداری زون: Rs 60 سے Rs 70 کے درمیان",
+    "Rs 90 پر بھی باؤنس بیک ہو سکتا ہے لیکن محدود فائدہ",
+    "انڈر ویلیو خریداری کے لیے Rs 60-70 کا زون بہترین",
+    "ویٹ کر کے اچھے لیول پر خریداری سے اچھا پرافٹ ہوگا",
+    "سیمنٹ سیکٹر کی اہم کمپنی"
   ]
 }
