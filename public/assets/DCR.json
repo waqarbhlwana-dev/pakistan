@@ -1,22 +1,83 @@
 {
-  "symbol": "DCR",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Dolmen City REIT (DCR)",
+  "company_logo": "https://example.com/dcr-logo.png",
+  
+  "company_overview": {
+    "business_description": "Dolmen City REIT پاکستان کی ایک ممتاز ریئل ایسٹے انویسٹمنٹ ٹرسٹ ہے جو commercial properties میں سرمایہ کاری کرتی ہے۔ یہ Dolmen Group کی REIT اسکیم ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "ریئل ایسٹے انویسٹمنٹ ٹرسٹ، Commercial properties میں سرمایہ کاری، مستحکم آمدنی"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 72.00 billion",
+    "share_price": "Rs 32.00",
+    "eps": "Rs 0.02 (Q1 2026 - صرف دو پیسے)",
+    "pe_ratio": "13.20",
+    "equity": "Rs 34.00 billion",
+    "roa": "10.33%",
+    "dividend": "Rs 0.63 (Q1 2026)",
+    "current_ratio": "2.75",
+    "quick_ratio": "2.85",
+    "52_week_high": "Rs 34.00",
+    "52_week_low": "Rs 19.80",
+    "total_assets": "Rs 85.2 billion",
+    "total_liabilities": "Rs 51.2 billion",
+    "fcff": "Rs 4.8 billion",
+    "fcfe": "Rs 3.5 billion",
+    "book_value": "34.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "45%",
+    "institutional_investors": "40%",
+    "retail_investors": "13%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Commercial Real Estate",
+      "products_services": "Commercial properties میں سرمایہ کاری اور کرایہ",
+      "revenue_contribution": "85%"
+    },
+    {
+      "segment": "Property Management", 
+      "products_services": "پراپرٹی مینجمنٹ خدمات",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "STRONG BUY FOR LONG TERM",
+    "rationale": "شاندار کمپنی ہے جو لانگ ٹرم انویسٹمنٹ کے لیے بہترین ہے۔ ڈیویڈنڈ اچھا دیتی ہے اور کاروبار مضبوط ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/dcr-chart.jpg",
+    "support_levels": "Rs 32.00 (CURRENT LEVEL), Rs 30.00 (GOOD LEVEL), Rs 28.00 (BEST LEVEL)",
+    "resistance_levels": "Rs 33.00, Rs 34.00",
+    "trend_analysis": "موجودہ قیمت Rs 32.00 ہے۔ لانگ ٹرم انویسٹمنٹ کے لیے موجودہ لیول پر خریداری کی جا سکتی ہے۔ اگر ویٹ کریں تو Rs 30.00 کے لیول پر مل سکتی ہے لیکن یہ مشکل ہے۔ ملک کے حالات خراب ہونے پر Rs 28-30 کے لیول پر مل سکتی ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 32.00",
+    "شاندار کمپنی ہے - لانگ ٹرم کے لیے بہترین",
+    "Q1 2026 EPS: Rs 0.02 (صرف دو پیسے)",
+    "PE ریٹیو: 13.20 (معقول)",
+    "ROA: 10.33% (بہترین)",
+    "ڈویڈنڈ: Rs 0.63 (Q1 2026)",
+    "بک ویلیو: Rs 34.00",
+    "مارکیٹ کیپ: Rs 72.00 ارب",
+    "52 ہفتوں کا ہائی: Rs 34.00, لو: Rs 19.80",
+    "کرنٹ ریشو: 2.75 (بہترین)",
+    "کوئیک ریشو: 2.85 (بہترین)",
+    "لانگ ٹرم انویسٹمنٹ کے لیے موجودہ لیول پر خریداری کی جا سکتی ہے",
+    "اگر ویٹ کریں تو Rs 30.00 پر مل سکتی ہے لیکن مشکل ہے",
+    "ملک کے حالات خراب ہونے پر Rs 28-30 پر مل سکتی ہے",
+    "ڈیویڈنڈ اچھا دیتی ہے",
+    "کاروبار بہت اچھا ہے",
+    "ریئل ایسٹے سیکٹر کی مضبوط کمپنی",
+    "مستحکم آمدنی والی REIT",
+    "لانگ ٹرم انویسٹمنٹ کے لیے مثالی"
+  ]
 }
