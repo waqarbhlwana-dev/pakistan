@@ -1,22 +1,92 @@
 {
-  "symbol": "HBL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Habib Bank Limited (HBL)",
+  "company_logo": "https://example.com/hbl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Habib Bank Limited پاکستان کا سب سے بڑا اور سب سے پرانا بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بینکاری سیکٹر کی لیڈر کمپنی ہے۔",
+    "number_of_business_segments": "4",
+    "market_position_highlights": "پاکستان کا سب سے بڑا بینک، وسیع برانچ نیٹ ورک، بینکاری سیکٹر کی لیڈر کمپنی"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 432.27 billion",
+    "share_price": "Rs 294.00",
+    "eps": "Rs 10.99 (Q3 2025)",
+    "pe_ratio": "6.84",
+    "equity": "Rs 288.00 billion",
+    "roa": "1.01%",
+    "dividend": "Rs 5.00 (Q3 2025)",
+    "current_ratio": "0.50",
+    "quick_ratio": "0.62",
+    "52_week_high": "Rs 324.50",
+    "52_week_low": "Rs 127.52",
+    "total_assets": "Rs 4,250.8 billion",
+    "total_liabilities": "Rs 3,962.8 billion",
+    "fcff": "Rs 52.8 billion",
+    "fcfe": "Rs 38.5 billion",
+    "book_value": "288.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "60%",
+    "institutional_investors": "30%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Retail Banking",
+      "products_services": "صارفین کے لیے بینکاری خدمات",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Corporate Banking", 
+      "products_services": "کارپوریٹ بینکاری اور قرضے",
+      "revenue_contribution": "40%"
+    },
+    {
+      "segment": "Consumer Banking",
+      "products_services": "صارفین کی بینکاری اور قرضے",
+      "revenue_contribution": "15%"
+    },
+    {
+      "segment": "Treasury & International",
+      "products_services": "ٹریژری اور بین الاقوامی بینکاری",
+      "revenue_contribution": "10%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "بینکاری سیکٹر کی لیڈر کمپنی ہے لیکن ٹیکنیکلی ڈبل ٹاپ فارمیشن ہو رہی ہے اور نیک لائن کو بریک کر چکی ہے۔ بہترین خریداری کے لیے بہتر لیولز کا انتظار کریں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/hbl-chart.jpg",
+    "support_levels": "Rs 275.00 (NEAR BUYING FOR TRADING), Rs 250.00 (BEST BUYING)",
+    "resistance_levels": "Rs 300.00, Rs 324.50",
+    "trend_analysis": "موجودہ قیمت Rs 294.00 ہے۔ ڈبل ٹاپ فارمیشن ہو رہی ہے اور نیک لائن کو بریک کر چکی ہے۔ شارٹ ٹرم ٹریڈنگ کے لیے Rs 275.00 کا لیول نیر بائنگ ہے۔ بہترین خریداری کا لیول Rs 250.00 ہے۔ ویٹ کر کے Rs 250.00 پر اچھی خریداری ہو سکتی ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 294.00",
+    "پاکستان کا سب سے بڑا بینک - لیڈر کمپنی",
+    "Q3 2025 EPS: Rs 10.99",
+    "PE ریٹیو: 6.84 (بہت کم - انڈر ویلیوڈ)",
+    "ROA: 1.01% (بینکاری سیکٹر کے لیے معقول)",
+    "ڈویڈنڈ: Rs 5.00 (Q3 2025)",
+    "بک ویلیو: Rs 288.00",
+    "مارکیٹ کیپ: Rs 432.27 ارب",
+    "52 ہفتوں کا ہائی: Rs 324.50, لو: Rs 127.52",
+    "کرنٹ ریشو: 0.50 (کم)",
+    "کوئیک ریشو: 0.62 (کم)",
+    "ٹیکنیکلی ڈبل ٹاپ فارمیشن ہو رہی ہے",
+    "نیک لائن کو بریک کر چکی ہے",
+    "شارٹ ٹرم ٹریڈنگ کے لیے نیر بائنگ: Rs 275.00",
+    "بہترین خریداری کا لیول: Rs 250.00",
+    "ٹریڈنگ کے لیے Rs 275.00 پر غور کیا جا سکتا ہے",
+    "بہترین انویسٹمنٹ کے لیے Rs 250.00 کا انتظار کریں",
+    "ویٹ کر کے Rs 250.00 پر اچھی خریداری ہو سکتی ہے",
+    "بینکاری سیکٹر کی پرچم بردار کمپنی"
+  ]
