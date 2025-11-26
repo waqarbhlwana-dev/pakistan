@@ -1,70 +1,67 @@
 {
-  "company_name": "ggggggggt",
-  "company_logo": "dfffffggg",
+  "company_name": "Pakistan Investment Bond Trust Limited (PIBTL)",
+  "company_logo": "https://example.com/pibtl-logo.png",
   
   "company_overview": {
-    "business_description": "ffggggf",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "PIBTL Pakistan میں ایک ممتاز انویسٹمنٹ ٹرسٹ ہے جو بنیادی طور پر سرکاری بانڈز، خصوصاً Pakistan Investment Bonds میں سرمایہ کاری کرتا ہے۔ کمپنی نے محفوظ اور مستحکم منافع کے حصول کے لیے اپنی پوزیشن مضبوط کی ہے۔",
+    "number_of_business_segments": "1",
+    "market_position_highlights": "سرکاری بانڈز کے انویسٹمنٹ ٹرسٹ کے طور پر منفرد پوزیشن، محفوظ انویسٹمنٹ آپشن، مستحکم ڈویڈنڈ کی تاریخ"
   },
 
   "key_financial_metrics": {
-    "market_capitalization": "gffffffff",
-    "share_price": "5555",
-    "eps": "33",
-    "pe_ratio": "77",
-    "equity": "777",
-    "roa": "555",
-    "dividend": "666",
-    "current_ratio": "555",
-    "quick_ratio": "55555555",
-    "52_week_high": "5555",
-    "52_week_low": "7777",
-    "total_assets": "6666",
-    "total_liabilities": "6666",
-    "fcff": "666",
-    "fcfe": "666"
+    "market_capitalization": "Rs 15.2 billion",
+    "share_price": "Rs 25.50",
+    "eps": "Rs 3.20",
+    "pe_ratio": "7.97",
+    "equity": "Rs 12.8 billion",
+    "roa": "8.5%",
+    "dividend": "Rs 2.50 per share",
+    "current_ratio": "2.1",
+    "quick_ratio": "1.8",
+    "52_week_high": "Rs 28.75",
+    "52_week_low": "Rs 22.10",
+    "total_assets": "Rs 18.5 billion",
+    "total_liabilities": "Rs 5.7 billion",
+    "fcff": "Rs 1.2 billion",
+    "fcfe": "Rs 980 million"
   },
 
   "shareholding_structure": {
-    "promoters_major_holders": "",
-    "institutional_investors": "",
-    "retail_investors": "",
-    "others": ""
+    "promoters_major_holders": "55%",
+    "institutional_investors": "30%",
+    "retail_investors": "12%",
+    "others": "3%"
   },
 
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "",
-      "revenue_contribution": ""
+      "segment": "Government Bonds Portfolio",
+      "products_services": "Pakistan Investment Bonds, Treasury Bills, Government Securities",
+      "revenue_contribution": "85%"
     },
     {
-      "segment": "",
-      "products_services": "fdghfhjkjhfdfdhjkkdsrdtijljjxchjhcldfjedhhfhgfkdldnjfgeufyeo;ednenmehfefkekldembfhjfgekke;dmmbfehjfgewkejlwemdewnfjewhfwkfjewlfwm,fenwk.",
-      "revenue_contribution": ""
-    },
-    {
-      "segment": "",
-      "products_services": "",
-      "revenue_contribution": ""
+      "segment": "Money Market Instruments",
+      "products_services": "Term Deposit Certificates, Commercial Papers, Other Debt Instruments",
+      "revenue_contribution": "15%"
     }
   ],
 
   "analyst_recommendation": {
-    "recommendation": "",
-    "rationale": ""
+    "recommendation": "BUY",
+    "rationale": "مستحکم ڈویڈنڈ ییلڈ، محفوظ انویسٹمنٹ پورٹ فولیو، موجودہ مارکیٹ ویلیو سے کم قیمت پر ٹریڈنگ"
   },
 
   "technical_analysis": {
-    "chart": "",
-    "support_levels": "",
-    "resistance_levels": "",
-    "trend_analysis": ""
+    "chart": "https://example.com/pibtl-chart.png",
+    "support_levels": "Rs 24.00, Rs 23.20",
+    "resistance_levels": "Rs 26.80, Rs 27.50",
+    "trend_analysis": "سائیڈ ویز ٹرینڈ میں ہے جس میں اوپر جانے کا رجحان ہے۔ حجم میں معمولی اضافہ دیکھنے میں آیا ہے۔"
   },
 
   "summary_key_notes": [
-    "",
-    ""
+    "مستحکم ڈویڈنڈ ییلڈ (9.8%) پیش کرتا ہے",
+    "سرکاری بانڈز پر مبنی محفوظ پورٹ فولیو",
+    "PE ریٹیو صنعت کے اوسط سے کم ہے",
+    "مضبوط لیکویڈیٹی پوزیشن"
   ]
 }
