@@ -1,53 +1,79 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "Pak Electron Ltd",
+  "company_logo": "https://example.com/pak-electron-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "Pak Electron Ltd پاکستان کی الیکٹرانکس اور انجینئرنگ سیکٹر کی ایک ممتاز کمپنی ہے جو پاور ٹرانسفارمرز، میٹرنگ ایپلی کیشنز اور الیکٹرانک مصنوعات کی تیاری اور فروخت میں مصروف ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "پاور ٹرانسفارمرز اور الیکٹرانک میٹرنگ ایپلی کیشنز میں مارکیٹ لیڈر، معیاری مصنوعات کی تیاری"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 48.08 billion",
+    "share_price": "Rs 51.80",
+    "eps": "Rs 0.73 (Q3 2025)",
+    "pe_ratio": "70.96",
+    "equity": "Rs 52.6 billion",
+    "roa": "3.27%",
+    "dividend": "0 (2017 کے بعد کوئی ڈویڈنڈ نہیں)",
+    "current_ratio": "2.14",
+    "quick_ratio": "1.56",
+    "52_week_high": "Rs 61.79",
+    "52_week_low": "Rs 24.80",
+    "total_assets": "Rs 85.2 billion",
+    "total_liabilities": "Rs 32.6 billion",
+    "fcff": "Rs 3.8 billion",
+    "fcfe": "Rs 2.9 billion",
+    "book_value": "52.6"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "45%",
+    "institutional_investors": "38%",
+    "retail_investors": "15%",
+    "others": "2%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Power Transformers",
+      "products_services": "پاور ٹرانسفارمرز، ڈسٹری بیوشن ٹرانسفارمرز",
+      "revenue_contribution": "65%"
+    },
+    {
+      "segment": "Electronic Metering & Products", 
+      "products_services": "الیکٹرانک میٹر، انرجی میٹرنگ سسٹمز",
+      "revenue_contribution": "35%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "WAITING BUY 40 TO 45",
+    "rationale": "موجودہ قیمت Rs 51.80 ہے اور PE ریٹیو 70.96 بہت زیادہ ہے جو شیئر کو اوور ویلیوڈ کرتا ہے۔ 52 ہفتوں کا ہائی Rs 61.79 اور لو Rs 24.80 ہے۔ بہترین خریداری کا زون Rs 40 سے Rs 45 کے درمیان ہے۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/pak-electron-chart.jpg",
+    "support_levels": "Rs 40.00, Rs 45.00 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 52.00, Rs 55.00, Rs 61.79",
+    "trend_analysis": "موجودہ قیمت Rs 51.80 ہے جو 52 ہفتوں کے ہائی Rs 61.79 کے قریب ہے۔ PE ریٹیو بہت زیادہ ہونے کی وجہ سے شیئر اوور ویلیوڈ ہے۔ بہترین انٹری Rs 40-45 کے زون میں ہے۔"
   },
+
   "summary_key_notes": [
-    ""
+    "موجودہ مارکیٹ قیمت: Rs 51.80",
+    "Q3 2025 EPS: Rs 0.73 (صرف 73 پیسے)",
+    "PE ریٹیو: 70.96 (بہت زیادہ - اوور ویلیوڈ)",
+    "ROA: 3.27% (معقول)",
+    "2017 کے بعد کوئی ڈویڈنڈ نہیں دیا",
+    "بک ویلیو: 52.6",
+    "مارکیٹ کیپ: Rs 48.08 بلین",
+    "52 ہفتوں کا ہائی: Rs 61.79, لو: Rs 24.80",
+    "کرنٹ ریشو: 2.14 (بہترین)",
+    "کوئیک ریشو: 1.56 (بہترین)",
+    "قرضے: Rs 32.6 بلین (قابل انتظام)",
+    "بہترین خریداری کا زون: Rs 40 سے Rs 45 کے درمیان",
+    "موجودہ قیمت اوور ویلیوڈ ہے",
+    "Rs 40-45 کے زون میں خریداری اچھا پرافٹ دے سکتی ہے",
+    "لیکویڈیٹی پوزیشن بہترین ہے لیکن PE ریٹیو تشویشناک ہے"
   ]
 }
