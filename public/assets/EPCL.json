@@ -1,22 +1,82 @@
 {
-  "symbol": "EPCL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Engro Polymer & Chemicals Limited (EPCL)",
+  "company_logo": "https://example.com/epcl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Engro Polymer & Chemicals Limited پاکستان کی ایک کیمیائی مینوفیکچرنگ کمپنی ہے جو PVC (Polyvinyl Chloride) اور دیگر کیمیائی مصنوعات کی تیاری اور فروخت میں مصروف ہے۔ یہ Engro Corporation کی subsidiary ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "کیمیائی سیکٹر کی کمپنی، PVC مصنوعات کی تیاری، Engro گروپ کی subsidiary"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 26.33 billion",
+    "share_price": "Rs 29.00",
+    "eps": "Rs -0.01 (Q3 2025 - مائنس ایک پیسہ)",
+    "pe_ratio": "-6.96 (منفی)",
+    "equity": "Rs 28.13 billion",
+    "roa": "0.63%",
+    "dividend": "0 (کوئی ڈویڈنڈ نہیں)",
+    "current_ratio": "0.88",
+    "quick_ratio": "0.70",
+    "52_week_high": "Rs 41.70",
+    "52_week_low": "Rs 25.50",
+    "total_assets": "Rs 45.2 billion",
+    "total_liabilities": "Rs 17.07 billion",
+    "fcff": "Rs -1.2 billion",
+    "fcfe": "Rs -0.8 billion",
+    "book_value": "28.13"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "65%",
+    "institutional_investors": "25%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "PVC Manufacturing",
+      "products_services": "PVC اور پولیمر مصنوعات کی تیاری",
+      "revenue_contribution": "80%"
+    },
+    {
+      "segment": "Chemical Products", 
+      "products_services": "دیگر کیمیائی مصنوعات",
+      "revenue_contribution": "20%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "HIGH RISK - AVOID",
+    "rationale": "کمپنی کے برے حالات چل رہے ہیں، ارننگ نہ ہونے کے برابر ہے۔ کمپنی مشکلات کا شکار ہے اور پرافٹنگ نہیں کر رہی۔ ایسی کمپنی میں انویسٹمنٹ خطرناک ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/epcl-chart.jpg",
+    "support_levels": "Rs 27.00 (SHORT TERM), Rs 25.00 (BEST LEVEL)",
+    "resistance_levels": "Rs 32.00, Rs 35.00",
+    "trend_analysis": "موجودہ قیمت Rs 29.00 ہے۔ شارٹ ٹرم کے لیے Rs 27.00 کا لیول ہے۔ اگر ویٹ کریں تو Rs 25.00 کا لیول بہترین ہے۔ لیکن کمپنی کی ارننگ نہ ہونے کے برابر ہے جس کی وجہ سے انویسٹمنٹ خطرناک ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 29.00",
+    "کمپنی کے برے حالات چل رہے ہیں",
+    "ارننگ نہ ہونے کے برابر ہے - مائنس ایک پیسہ",
+    "Q3 2025 EPS: Rs -0.01 (نقصان)",
+    "PE ریٹیو: -6.96 (منفی)",
+    "ROA: 0.63% (بہت کم)",
+    "ڈویڈنڈ: 0 (کوئی ڈویڈنڈ نہیں)",
+    "بک ویلیو: Rs 28.13",
+    "مارکیٹ کیپ: Rs 26.33 ارب",
+    "52 ہفتوں کا ہائی: Rs 41.70, لو: Rs 25.50",
+    "کرنٹ ریشو: 0.88 (کم)",
+    "کوئیک ریشو: 0.70 (کم)",
+    "شارٹ ٹرم کے لیے: Rs 27.00 کا لیول",
+    "بہترین لیول: Rs 25.00",
+    "کمپنی کی ارننگ بڑھنی چاہیے ورنہ انویسٹمنٹ خطرناک",
+    "کمپنی پرافٹنگ نہیں کر رہی - ایسی کمپنی سے دور رہنا چاہیے",
+    "اگر انویسٹ کرنا ہے تو صرف Rs 25.00 پر غور کریں",
+    "ہائی رسک انویسٹمنٹ - احتیاط ضروری",
+    "کمپنی نے ابھی تک کچھ ایسا نہیں کیا جس وجہ سے انویسٹ کیا جا سکے"
+  ]
