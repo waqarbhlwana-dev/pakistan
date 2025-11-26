@@ -9,27 +9,27 @@
   },
 
   "key_financial_metrics": {
-    "market_capitalization": "Rs 48.3 billion",
-    "share_price": "Rs 3.85",
-    "eps": "Rs 0.45",
-    "pe_ratio": "8.56",
-    "equity": "Rs 68.9 billion",
-    "roa": "2.8%",
-    "dividend": "Rs 0.20 per share",
-    "current_ratio": "0.9",
-    "quick_ratio": "0.7",
-    "52_week_high": "Rs 4.50",
-    "52_week_low": "Rs 3.20",
-    "total_assets": "Rs 245.6 billion",
-    "total_liabilities": "Rs 176.7 billion",
-    "fcff": "Rs 12.5 billion",
-    "fcfe": "Rs 8.3 billion"
+    "market_capitalization": "Rs 72.8 billion",
+    "share_price": "Rs 5.80",
+    "eps": "Rs 0.52",
+    "pe_ratio": "11.15",
+    "equity": "Rs 82.5 billion",
+    "roa": "3.1%",
+    "dividend": "Rs 0.25 per share",
+    "current_ratio": "1.0",
+    "quick_ratio": "0.8",
+    "52_week_high": "Rs 6.25",
+    "52_week_low": "Rs 4.80",
+    "total_assets": "Rs 268.3 billion",
+    "total_liabilities": "Rs 185.8 billion",
+    "fcff": "Rs 14.2 billion",
+    "fcfe": "Rs 9.8 billion"
   },
 
   "shareholding_structure": {
-    "promoters_major_holders": "62%",
-    "institutional_investors": "25%",
-    "retail_investors": "10%",
+    "promoters_major_holders": "60%",
+    "institutional_investors": "28%",
+    "retail_investors": "9%",
     "others": "3%"
   },
 
@@ -37,40 +37,41 @@
     {
       "segment": "Power Generation",
       "products_services": "تھرمل پاور پلانٹس، IPPs سے بجلی کی خریداری",
-      "revenue_contribution": "45%"
+      "revenue_contribution": "48%"
     },
     {
       "segment": "Power Distribution", 
       "products_services": "بجلی کی تقسیم، کنزیومر سروسز، میٹرنگ",
-      "revenue_contribution": "40%"
+      "revenue_contribution": "42%"
     },
     {
       "segment": "Other Services",
       "products_services": "ٹیکنیکل کنسلٹنسی، مینٹیننس سروسز",
-      "revenue_contribution": "15%"
+      "revenue_contribution": "10%"
     }
   ],
 
   "analyst_recommendation": {
     "recommendation": "WAITING BUY AT 5.00",
-    "rationale": "بہترین خریداری کا لیول Rs 5.00 ہے۔ اگر قیمت Rs 5.95 کے ریزسٹنس کو توڑتی ہے تو Rs 7.50 سے Rs 8.00 تک کا ہدف حاصل کر سکتی ہے۔"
+    "rationale": "موجودہ قیمت Rs 5.80 ہے جو مطلوبہ خریداری کے لیے زیادہ ہے۔ بہترین خریداری کا لیول Rs 5.00 ہے۔ اگر قیمت Rs 5.95 کے ریزسٹنس کو توڑتی ہے تو Rs 7.50 سے Rs 8.00 تک کا ہدف حاصل کر سکتی ہے۔"
   },
 
   "technical_analysis": {
     "chart": "https://example.com/k-electric-chart.jpg",
-    "support_levels": "Rs 5.00 (BEST BUYING ZONE)",
-    "resistance_levels": "Rs 5.95 (TEMPORARY RESISTANCE)",
-    "trend_analysis": "Rs 5.95 کا ریزسٹنس اہم ہے۔ اگر اسے توڑتی ہے تو Rs 7.50-8.00 تک جانے کا مضبوط امکان ہے۔ بہترین انٹری Rs 5.00 پر ہے۔"
+    "support_levels": "Rs 5.00 (BEST BUYING ZONE), Rs 5.50",
+    "resistance_levels": "Rs 5.95 (IMMEDIATE RESISTANCE), Rs 6.25",
+    "trend_analysis": "موجودہ قیمت Rs 5.80 ہے۔ Rs 5.95 کا فوری ریزسٹنس اہم ہے۔ اگر اسے توڑتی ہے تو Rs 7.50-8.00 تک جانے کا مضبوط امکان ہے۔ بہترین انٹری Rs 5.00 پر ہے۔"
   },
 
   "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 5.80",
     "کمپنی کی کمائی مسلسل کم ہو رہی ہے",
     "کمپنی اچھے طریقے سے کما نہیں رہی",
-    "کمپنی پر قرضہ بہت زیادہ ہے",
+    "کمپنی پر قرضہ بہت زیادہ ہے (Rs 185.8 billion)",
     "بہترین خریداری کا لیول Rs 5.00 ہے",
     "اس شیئر کو احتیاط کے ساتھ خریدنا چاہیے",
     "اگر Rs 5.95 توڑتی ہے تو Rs 7.50-8.00 تک کا ہدف ممکن ہے",
-    "موجودہ قیمت پر خریداری سے گریز کریں",
+    "موجودہ قیمت Rs 5.80 پر خریداری سے گریز کریں",
     "صرف Rs 5.00 کے سپورٹ لیول پر ہی خریداری کریں"
   ]
 }
