@@ -1,53 +1,83 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "D.G. Khan Cement Company (DGKC)",
+  "company_logo": "https://example.com/dgkc-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "D.G. Khan Cement Company پاکستان کی ایک ممتاز سیمنٹ مینوفیکچرنگ کمپنی ہے جو مختلف اقسام کی سیمنٹ کی تیاری اور فروخت میں مصروف ہے۔ یہ پاکستان کے بڑے سیمنٹ پروڈیوسرز میں سے ایک ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "سیمنٹ انڈسٹری کی اہم کمپنی، ملک بھر میں مارکیٹ شیئر، معیاری مصنوعات"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 94.70 billion",
+    "share_price": "Rs 215.00",
+    "eps": "Rs 4.93 (Q1 2026)",
+    "pe_ratio": "10.96",
+    "equity": "Rs 241.00 billion",
+    "roa": "5.95%",
+    "dividend": "Rs 2.00 (2025 میں)",
+    "current_ratio": "2.10",
+    "quick_ratio": "1.53",
+    "52_week_high": "Rs 275.75",
+    "52_week_low": "Rs 79.22",
+    "total_assets": "Rs 380.5 billion",
+    "total_liabilities": "Rs 139.5 billion",
+    "fcff": "Rs 12.8 billion",
+    "fcfe": "Rs 9.5 billion",
+    "book_value": "241.00"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "48%",
+    "institutional_investors": "38%",
+    "retail_investors": "12%",
+    "others": "2%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Cement Manufacturing",
+      "products_services": "سیمنٹ کی تیاری اور فروخت",
+      "revenue_contribution": "90%"
+    },
+    {
+      "segment": "Allied Products", 
+      "products_services": "سیمنٹ سے متعلق دیگر مصنوعات",
+      "revenue_contribution": "10%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "سیمنٹ سیکٹر ملکی حالات پر منحصر ہے۔ اگر کنسٹرکشن اور مالی حالات بہتر ہوں تو سیکٹر بہتر کارکردگی دکھا سکتا ہے۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/dgkc-chart.jpg",
+    "support_levels": "Rs 180-160 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 240.00, Rs 275.75",
+    "trend_analysis": "موجودہ قیمت Rs 215.00 ہے۔ ایلیووے ڈویو کے مطابق تھوڑی سی سیلنگ نظر آ رہی ہے۔ فرسٹ ویو میں تھوڑا موو ہو سکتا ہے، سیکنڈ ویو میں ایلیووے کی بنیاد پر Rs 240 تک جا سکتا ہے۔ بہترین خریداری کا زون Rs 180 سے Rs 160 کے درمیان ہے۔"
   },
+
   "summary_key_notes": [
-    ""
+    "موجودہ مارکیٹ قیمت: Rs 215.00",
+    "سیمنٹ سیکٹر ملکی حالات پر منحصر ہے",
+    "اگر کنسٹرکشن اور مالی حالات بہتر ہوں تو سیکٹر اچھا چلتا ہے",
+    "Q1 2026 EPS: Rs 4.93",
+    "PE ریٹیو: 10.96 (معقول)",
+    "ROA: 5.95% (قابل قبول)",
+    "ڈویڈنڈ: Rs 2.00 (2025 میں)",
+    "بک ویلیو: Rs 241.00",
+    "مارکیٹ کیپ: Rs 94.70 ارب",
+    "52 ہفتوں کا ہائی: Rs 275.75, لو: Rs 79.22",
+    "کرنٹ ریشو: 2.10 (اچھا)",
+    "کوئیک ریشو: 1.53 (اچھا)",
+    "ایلیووے ڈویو کے مطابق تھوڑی سیلنگ نظر آ رہی ہے",
+    "فرسٹ ویو میں تھوڑا موو ہو سکتا ہے",
+    "سیکنڈ ویو میں ایلیووے کی بنیاد پر Rs 240 تک کا ہدف",
+    "بہترین خریداری زون: Rs 180 سے Rs 160 کے درمیان",
+    "ویٹ کریں گے تو اچھا لیول ملے گا",
+    "اچھے لیول سے زیادہ پرافٹ کمایا جا سکتا ہے",
+    "سیمنٹ سیکٹر کی اہم کمپنی"
   ]
 }
