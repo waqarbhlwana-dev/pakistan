@@ -1,22 +1,89 @@
 {
-  "symbol": "BAHL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Bank Al Habib Limited (BAHL)",
+  "company_logo": "https://example.com/bahl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Bank Al Habib Limited پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بڑے پرائیویٹ بینکوں میں سے ایک ہے۔",
+    "number_of_business_segments": "4",
+    "market_position_highlights": "پاکستان کا اہم پرائیویٹ بینک، ملک بھر میں وسیع نیٹ ورک، مستحکم کارکردگی"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 201.70 billion",
+    "share_price": "Rs 181.00",
+    "eps": "Rs 5.46 (Q3 2025)",
+    "pe_ratio": "5.94",
+    "equity": "Rs 149.00 billion",
+    "roa": "1.21%",
+    "dividend": "Rs 3.50 (Q3 2025)",
+    "current_ratio": "0.53",
+    "quick_ratio": "0.34",
+    "52_week_high": "Rs 230.00",
+    "52_week_low": "Rs 117.00",
+    "total_assets": "Rs 1,850.5 billion",
+    "total_liabilities": "Rs 1,701.5 billion",
+    "fcff": "Rs 25.8 billion",
+    "fcfe": "Rs 18.9 billion",
+    "book_value": "149.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "55%",
+    "institutional_investors": "32%",
+    "retail_investors": "11%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Retail Banking",
+      "products_services": "صارفین کے لیے بینکاری خدمات",
+      "revenue_contribution": "40%"
+    },
+    {
+      "segment": "Corporate Banking", 
+      "products_services": "کارپوریٹ بینکاری اور قرضے",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Consumer Banking",
+      "products_services": "صارفین کی بینکاری اور قرضے",
+      "revenue_contribution": "15%"
+    },
+    {
+      "segment": "Treasury Operations",
+      "products_services": "ٹریژری آپریشنز",
+      "revenue_contribution": "10%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "PE ریٹیو کم ہے لیکن لیکویڈیٹی ریٹیوز کم ہیں۔ ٹریڈنگ کے لیے موجودہ لیول مناسب ہے لیکن لانگ ٹرم انویسٹمنٹ کے لیے بہتر لیولز کا انتظار کریں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/bahl-chart.jpg",
+    "support_levels": "Rs 180.00 (SHORT TERM TRADING), Rs 140-160 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 190.00, Rs 200.00",
+    "trend_analysis": "موجودہ قیمت Rs 181.00 ہے۔ ٹریڈنگ کے لیے Rs 180.00 کا لیول بیسٹ ہے۔ لانگ ٹرم انویسٹمنٹ کے لیے بہترین خریداری کا زون Rs 140 سے Rs 160 کے درمیان ہے۔ اگر Rs 140-160 کے لیول پر آتا ہے تو وہ بیسٹ بائنگ مانی جائے گی۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 181.00",
+    "Q3 2025 EPS: Rs 5.46",
+    "PE ریٹیو: 5.94 (بہت کم - انڈر ویلیوڈ)",
+    "ROA: 1.21% (بینکاری سیکٹر کے لیے معقول)",
+    "ڈویڈنڈ: Rs 3.50 (Q3 2025)",
+    "بک ویلیو: Rs 149.00",
+    "مارکیٹ کیپ: Rs 201.70 ارب",
+    "52 ہفتوں کا ہائی: Rs 230.00, لو: Rs 117.00",
+    "کرنٹ ریشو: 0.53 (کم)",
+    "کوئیک ریشو: 0.34 (کم)",
+    "ٹریڈنگ کے لیے: Rs 180.00 کا لیول بیسٹ ہے",
+    "لانگ ٹرم انویسٹمنٹ کے لیے بیسٹ بائنگ زون: Rs 140 سے Rs 160",
+    "اگر Rs 140-160 کے لیول پر آتا ہے تو بیسٹ بائنگ مانی جائے گی",
+    "ویٹ کر کے انویسٹ کریں تو زیادہ فائدہ ہوگا",
+    "لانگ ٹرم انویسٹمنٹ میں ہی بہتر ہے",
+    "پرائیویٹ بینکاری سیکٹر کی مستحکم کمپنی"
+  ]
