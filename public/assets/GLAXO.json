@@ -1,22 +1,81 @@
 {
-  "symbol": "GLAXO",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "GlaxoSmithKline Pakistan Limited (GLAXO)",
+  "company_logo": "https://example.com/glaxo-logo.png",
+  
+  "company_overview": {
+    "business_description": "GlaxoSmithKline Pakistan Limited پاکستان کی ایک ممتاز فارماسیوٹیکل کمپنی ہے جو دوائیوں کی مینوفیکچرنگ، مارکیٹنگ اور فروخت میں مصروف ہے۔ یہ عالمی GSK گروپ کی subsidiary ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "فارماسیوٹیکل سیکٹر کی اہم کمپنی، معیاری دوائیں، عالمی برانڈ کی نمائندگی"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 122.94 billion",
+    "share_price": "Rs 386.00",
+    "eps": "Rs 6.40 (Q3 2025)",
+    "pe_ratio": "14.52",
+    "equity": "Rs 93.36 billion",
+    "roa": "14.80%",
+    "dividend": "Rs 5.00 (Q2 2025)",
+    "current_ratio": "1.88",
+    "quick_ratio": "1.31",
+    "52_week_high": "Rs 481.00",
+    "52_week_low": "Rs 301.00",
+    "total_assets": "Rs 145.8 billion",
+    "total_liabilities": "Rs 52.44 billion",
+    "fcff": "Rs 8.2 billion",
+    "fcfe": "Rs 6.5 billion",
+    "book_value": "93.36"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "65%",
+    "institutional_investors": "25%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Pharmaceutical Manufacturing",
+      "products_services": "دوائیوں کی مینوفیکچرنگ اور تیاری",
+      "revenue_contribution": "80%"
+    },
+    {
+      "segment": "Consumer Healthcare", 
+      "products_services": "صحت سے متعلق مصنوعات",
+      "revenue_contribution": "20%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "بک ویلیو کے حساب سے کمپنی چار گنا مہنگی ہے۔ بالکل ویلیو سے بہت مہنگی کمپنی مل رہی ہے۔ بہترین خریداری کے لیے بہتر لیولز کا انتظار کریں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/glaxo-chart.jpg",
+    "support_levels": "Rs 320-340 (GOOD BUYING LEVEL)",
+    "resistance_levels": "Rs 400.00, Rs 420.00",
+    "trend_analysis": "موجودہ قیمت Rs 386.00 ہے۔ اچھی بائنگ کے لیے Rs 320-340 کا لیول اچھا ہے۔ اگر بیسٹ بائنگ کرنی ہے تو Rs 320-340 کے لیول تک مارکیٹ کو آنے دیں اور پھر انویسٹمنٹ کریں۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 386.00",
+    "بک ویلیو کے حساب سے کمپنی چار گنا مہنگی ہے",
+    "بالکل ویلیو سے بہت مہنگی کمپنی مل رہی ہے",
+    "Q3 2025 EPS: Rs 6.40",
+    "PE ریٹیو: 14.52 (زیادہ - اوور ویلیوڈ)",
+    "ROA: 14.80% (بہترین لیکن قیمت بہت زیادہ)",
+    "ڈویڈنڈ: Rs 5.00 (Q2 2025)",
+    "بک ویلیو: Rs 93.36",
+    "مارکیٹ کیپ: Rs 122.94 ارب",
+    "52 ہفتوں کا ہائی: Rs 481.00, لو: Rs 301.00",
+    "کرنٹ ریشو: 1.88 (اچھا)",
+    "کوئیک ریشو: 1.31 (اچھا)",
+    "اچھی بائنگ کے لیے: Rs 320-340 کا لیول",
+    "بیسٹ بائنگ کے لیے: Rs 320-340 تک مارکیٹ کو آنے دیں",
+    "فارماسیوٹیکل سیکٹر کی معیاری کمپنی",
+    "عالمی GSK گروپ کی subsidiary",
+    "معیاری دوائیں تیار کرتی ہے"
+  ]
 }
