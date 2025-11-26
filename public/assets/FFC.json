@@ -1,53 +1,80 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "Fauji Fertilizer Company (FFC)",
+  "company_logo": "https://example.com/ffc-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "Fauji Fertilizer Company پاکستان کی سب سے بڑی فرٹیلائزر مینوفیکچرنگ کمپنی ہے جو یوریا اور دیگر کیمیائی کھادیں تیار اور فروخت کرتی ہے۔ یہ Fauji Foundation گروپ کی پرچم بردار کمپنی ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "پاکستان کی سب سے بڑی فرٹیلائزر کمپنی، مارکیٹ لیڈر، مضبوط برانڈ ایکویٹی"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 822.40 billion",
+    "share_price": "Rs 578.00",
+    "eps": "Rs 16.63 (Q3 2025)",
+    "pe_ratio": "10.01",
+    "equity": "Rs 179.00 billion",
+    "roa": "14.92%",
+    "dividend": "Rs 9.50 per share (Q3 2025)",
+    "current_ratio": "1.18",
+    "quick_ratio": "1.14",
+    "52_week_high": "Rs 586.00",
+    "52_week_low": "Rs 312.07",
+    "total_assets": "Rs 350.8 billion",
+    "total_liabilities": "Rs 171.8 billion",
+    "fcff": "Rs 28.5 billion",
+    "fcfe": "Rs 22.7 billion",
+    "book_value": "179.00"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "45%",
+    "institutional_investors": "40%",
+    "retail_investors": "13%",
+    "others": "2%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Urea Fertilizer",
+      "products_services": "یوریا کھاد کی تیاری اور فروخت",
+      "revenue_contribution": "75%"
+    },
+    {
+      "segment": "Other Chemical Products", 
+      "products_services": "دیگر کیمیائی مصنوعات، بائی پروڈکٹس",
+      "revenue_contribution": "25%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "کمپنی فنڈامنٹلی سٹرانگ ہے لیکن موجودہ قیمت پر اوور ویلیو لگ رہی ہے۔ بہترین خریداری کے لیے بہتر لیولز کا انتظار کریں۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/ffc-chart.jpg",
+    "support_levels": "Rs 520.00 (FIRST BUYING LEVEL), Rs 480-460 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 586.00, Rs 600.00",
+    "trend_analysis": "موجودہ قیمت Rs 578.00 ہے۔ ٹیکنیکلی ڈبل ٹاپ بنانے کا امکان ہے۔ پہلا خریداری لیول Rs 500 کے قریب، دوسرا اور بہترین لیول Rs 480 سے Rs 460 کے درمیان ہے۔ ویٹ کر کے اچھے لیول پر خریداری سے اچھا پرافٹ ہوگا۔"
   },
+
   "summary_key_notes": [
-    ""
+    "موجودہ مارکیٹ قیمت: Rs 578.00",
+    "کمپنی فنڈامنٹلی سٹرانگ لیکن اوور ویلیو ہے",
+    "پہلا خریداری لیول: Rs 520.00",
+    "بہترین خریداری زون: Rs 480 سے Rs 460 کے درمیان",
+    "Q3 2025 EPS: Rs 16.63",
+    "PE ریٹیو: 10.01 (معقول لیکن موجودہ قیمت پر اوور ویلیو)",
+    "ROA: 14.92% (بہترین)",
+    "ڈویڈنڈ: Rs 9.50 فی شیئر (Q3 2025)",
+    "بک ویلیو: Rs 179.00",
+    "مارکیٹ کیپ: Rs 822.40 ارب",
+    "52 ہفتوں کا ہائی: Rs 586.00, لو: Rs 312.07",
+    "کرنٹ ریشو: 1.18 (قابل قبول)",
+    "کوئیک ریشو: 1.14 (قابل قبول)",
+    "ٹیکنیکلی ڈبل ٹاپ بنانے کا امکان ہے",
+    "ویٹ کر کے اچھے لیول پر خریداری سے اچھا پرافٹ ہوگا",
+    "فرٹیلائزر سیکٹر کی لیڈر کمپنی"
   ]
 }
