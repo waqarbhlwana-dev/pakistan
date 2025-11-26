@@ -1,53 +1,76 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "K-Electric Limited",
+  "company_logo": "https://example.com/k-electric-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "K-Electric کراچی اور اس کے گردونواح میں بجلی کی پیداوار، ٹرانسمیشن اور تقسیم کی ذمہ دار مرکزی کمپنی ہے۔ یہ پاکستان کی واحد انٹیگریٹڈ پاور کمپنی ہے جو جنریشن سے لے کر ڈسٹری بیوشن تک مکمل سروس فراہم کرتی ہے۔",
+    "number_of_business_segments": "3",
+    "market_position_highlights": "کراچی کے 2.5 کروڑ سے زائد آبادی کی بجلی کی ضروریات پوری کرنے والی واحد کمپنی، اسٹریٹیجک اہمیت کی حامل"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 48.3 billion",
+    "share_price": "Rs 3.85",
+    "eps": "Rs 0.45",
+    "pe_ratio": "8.56",
+    "equity": "Rs 68.9 billion",
+    "roa": "2.8%",
+    "dividend": "Rs 0.20 per share",
+    "current_ratio": "0.9",
+    "quick_ratio": "0.7",
+    "52_week_high": "Rs 4.50",
+    "52_week_low": "Rs 3.20",
+    "total_assets": "Rs 245.6 billion",
+    "total_liabilities": "Rs 176.7 billion",
+    "fcff": "Rs 12.5 billion",
+    "fcfe": "Rs 8.3 billion"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "62%",
+    "institutional_investors": "25%",
+    "retail_investors": "10%",
+    "others": "3%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Power Generation",
+      "products_services": "تھرمل پاور پلانٹس، IPPs سے بجلی کی خریداری",
+      "revenue_contribution": "45%"
+    },
+    {
+      "segment": "Power Distribution", 
+      "products_services": "بجلی کی تقسیم، کنزیومر سروسز، میٹرنگ",
+      "revenue_contribution": "40%"
+    },
+    {
+      "segment": "Other Services",
+      "products_services": "ٹیکنیکل کنسلٹنسی، مینٹیننس سروسز",
+      "revenue_contribution": "15%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "WAITING BUY AT 5.00",
+    "rationale": "بہترین خریداری کا لیول Rs 5.00 ہے۔ اگر قیمت Rs 5.95 کے ریزسٹنس کو توڑتی ہے تو Rs 7.50 سے Rs 8.00 تک کا ہدف حاصل کر سکتی ہے۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/k-electric-chart.jpg",
+    "support_levels": "Rs 5.00 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 5.95 (TEMPORARY RESISTANCE)",
+    "trend_analysis": "Rs 5.95 کا ریزسٹنس اہم ہے۔ اگر اسے توڑتی ہے تو Rs 7.50-8.00 تک جانے کا مضبوط امکان ہے۔ بہترین انٹری Rs 5.00 پر ہے۔"
   },
+
   "summary_key_notes": [
-    ""
+    "کمپنی کی کمائی مسلسل کم ہو رہی ہے",
+    "کمپنی اچھے طریقے سے کما نہیں رہی",
+    "کمپنی پر قرضہ بہت زیادہ ہے",
+    "بہترین خریداری کا لیول Rs 5.00 ہے",
+    "اس شیئر کو احتیاط کے ساتھ خریدنا چاہیے",
+    "اگر Rs 5.95 توڑتی ہے تو Rs 7.50-8.00 تک کا ہدف ممکن ہے",
+    "موجودہ قیمت پر خریداری سے گریز کریں",
+    "صرف Rs 5.00 کے سپورٹ لیول پر ہی خریداری کریں"
   ]
 }
