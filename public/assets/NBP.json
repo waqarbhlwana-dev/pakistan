@@ -1,22 +1,74 @@
 {
-  "symbol": "NBP",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "National Bank of Pakistan (NBP)",
+  "company_logo": "https://example.com/nbp-logo.png",
+  
+  "company_overview": {
+    "business_description": "National Bank of Pakistan پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بڑے سرکاری بینکوں میں سے ایک ہے۔",
+    "number_of_business_segments": "4",
+    "market_position_highlights": "پاکستان کا اہم سرکاری بینک، ملک بھر میں برانچز کا وسیع نیٹ ورک، حکومتی بینکاری کی ذمہ دار"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 441.57 billion",
+    "share_price": "Rs 207.00",
+    "eps": "Rs 10.99 (Q3 2025)",
+    "pe_ratio": "4.97",
+    "equity": "Rs 241.00 billion",
+    "roa": "0.41%",
+    "dividend": "Rs 8.00 (2024 میں)",
+    "current_ratio": "0.30",
+    "quick_ratio": "0.20",
+    "52_week_high": "Rs 233.90",
+    "52_week_low": "Rs 58.00",
+    "total_assets": "Rs 4,850.2 billion",
+    "total_liabilities": "Rs 4,609.2 billion",
+    "fcff": "Rs 45.8 billion",
+    "fcfe": "Rs 32.7 billion",
+    "book_value": "241.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "75%",
+    "institutional_investors": "18%",
+    "retail_investors": "6%",
+    "others": "1%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Retail Banking",
+      "products_services": "صارفین کے لیے بینکاری خدمات",
+      "revenue_contribution": "40%"
+    },
+    {
+      "segment": "Corporate Banking", 
+      "products_services": "کارپوریٹ بینکاری اور قرضے",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Treasury Operations",
+      "products_services": "ٹریژری آپریشنز اور انویسٹمنٹ",
+      "revenue_contribution": "20%"
+    },
+    {
+      "segment": "International Banking",
+      "products_services": "بین الاقوامی بینکاری خدمات",
+      "revenue_contribution": "5%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "فنڈامنٹل کافی سٹرانگ ہے لیکن کرنٹ ریشو اور کوئک ریشو کم ہیں۔ ٹیکنیکلی ڈبل ٹاپ لگ رہا ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/nbp-chart.jpg",
+    "support_levels": "Rs 200.00 (KEY LEVEL), Rs 180.00 (NEAR BUYING), Rs 160.00 (BEST BUYING)",
+    "resistance_levels": "Rs 210.00, Rs 233.90",
+    "trend_analysis": "موجودہ قیمت Rs 207.00 ہے۔ ٹیکنیکلی ڈبل ٹاپ لگ رہا ہے۔ Rs 200.00 کا لیول اہم ہے، اگر نیچے بریک ہوتا ہے تو نیر بائنگ Rs 180.00 پر بنے گی۔ بہترین خریداری کا لیول Rs 160.00 کے قریب ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 207.00",
+    "فنڈامنٹل کافی سٹرانگ ہے لیکن
