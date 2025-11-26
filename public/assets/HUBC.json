@@ -1,53 +1,82 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "Hub Power Company (HUBC)",
+  "company_logo": "https://example.com/hubc-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "Hub Power Company پاکستان کی سب سے بڑی انڈیپنڈنٹ پاور پروڈیوسر (IPP) ہے جو تھرمل پاور پلانٹس کے ذریعے بجلی کی پیداوار اور فروخت میں مصروف ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "پاکستان کی سب سے بڑی انڈیپنڈنٹ پاور پروڈیوسر، انرجی سیکٹر کی اہم کمپنی"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 276.81 billion",
+    "share_price": "Rs 213.00",
+    "eps": "Rs 8.96 (Q1 2026)",
+    "pe_ratio": "5.95",
+    "equity": "Rs 198.25 billion",
+    "roa": "13.00%",
+    "dividend": "Rs 5.00 per share (Q1 2026)",
+    "current_ratio": "1.70",
+    "quick_ratio": "1.40",
+    "52_week_high": "Rs 274.90",
+    "52_week_low": "Rs 108.00",
+    "total_assets": "Rs 350.2 billion",
+    "total_liabilities": "Rs 151.95 billion",
+    "fcff": "Rs 22.8 billion",
+    "fcfe": "Rs 18.5 billion",
+    "book_value": "198.25"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "52%",
+    "institutional_investors": "35%",
+    "retail_investors": "11%",
+    "others": "2%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Power Generation",
+      "products_services": "تھرمل پاور پلانٹس کے ذریعے بجلی کی پیداوار",
+      "revenue_contribution": "85%"
+    },
+    {
+      "segment": "Energy Services", 
+      "products_services": "انرجی سے متعلق دیگر خدمات",
+      "revenue_contribution": "15%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "کمپنی اوور ویلیو ہے۔ اوور ویلیو کمپنی میں انویسٹمنٹ نہیں کرنی چاہیے چاہے وہ کمپنی کتنی ہی اچھی کیوں نہ ہو۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/hubc-chart.jpg",
+    "support_levels": "Rs 200.00 (NEAR LEVEL), Rs 165-170 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 220.00, Rs 240.00",
+    "trend_analysis": "موجودہ قیمت Rs 213.00 ہے جو اوور ویلیو ہے۔ نیر انویسٹمنٹ لیول Rs 200 ہے لیکن بہترین خریداری کا زون Rs 165 سے Rs 170 کے درمیان ہے۔ اگر ویٹ کریں تو یہ Rs 170 کے قریب مل سکتا ہے جس سے اچھا پرافٹ ہو سکتا ہے۔"
   },
+
   "summary_key_notes": [
-    ""
+    "موجودہ مارکیٹ قیمت: Rs 213.00",
+    "کمپنی فی الحال اوور ویلیو ہے",
+    "اوور ویلیو کمپنی میں انویسٹمنٹ نہیں کرنی چاہیے",
+    "نیر انویسٹمنٹ لیول: Rs 200.00",
+    "بہترین خریداری زون: Rs 165 سے Rs 170 کے درمیان",
+    "Q1 2026 EPS: Rs 8.96",
+    "PE ریٹیو: 5.95 (کم لیکن موجودہ قیمت پر اوور ویلیو)",
+    "ROA: 13.00% (بہترین)",
+    "ڈویڈنڈ: Rs 5.00 فی شیئر (Q1 2026)",
+    "بک ویلیو: Rs 198.25",
+    "مارکیٹ کیپ: Rs 276.81 ارب",
+    "52 ہفتوں کا ہائی: Rs 274.90, لو: Rs 108.00",
+    "کرنٹ ریشو: 1.70 (اچھا)",
+    "کوئیک ریشو: 1.40 (اچھا)",
+    "ایل ایٹ ویو کے حساب سے بھی بہترین لیول Rs 165-170 ہے",
+    "اگر ویٹ کریں تو Rs 170 کے قریب مل سکتا ہے",
+    "ویٹ کر کے اچھے لیول پر خریداری سے اچھا پرافٹ ہو سکتا ہے",
+    "پاور سیکٹر کی لیڈر کمپنی"
   ]
 }
