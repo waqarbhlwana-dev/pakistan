@@ -1,22 +1,80 @@
 {
-  "symbol": "ATRL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Attock Refinery Limited (ATRL)",
+  "company_logo": "https://example.com/atrl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Attock Refinery Limited پاکستان کی ایک ممتاز آئل ریفائننگ کمپنی ہے جو خام تیل کی صفائی اور پٹرولیم مصنوعات کی تیاری میں مصروف ہے۔ یہ پاکستان کے پرائیویٹ سیکٹر کی اہم ریفائنری ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "آئل ریفائننگ سیکٹر کی اہم کمپنی، معیاری پٹرولیم مصنوعات، پرائیویٹ سیکٹر کی ریفائنری"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 67.87 billion",
+    "share_price": "Rs 634.00",
+    "eps": "Rs 13.62 (Q1 2026)",
+    "pe_ratio": "11.69",
+    "equity": "Rs 1,361.00 billion",
+    "roa": "5.75%",
+    "dividend": "Rs 5.00 (2025 میں)",
+    "current_ratio": "1.91",
+    "quick_ratio": "1.83",
+    "52_week_high": "Rs 775.75",
+    "52_week_low": "Rs 410.00",
+    "total_assets": "Rs 95.8 billion",
+    "total_liabilities": "Rs 31.9 billion",
+    "fcff": "Rs 8.5 billion",
+    "fcfe": "Rs 6.2 billion",
+    "book_value": "1,361.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "60%",
+    "institutional_investors": "30%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Oil Refining",
+      "products_services": "خام تیل کی صفائی اور ریفائننگ",
+      "revenue_contribution": "85%"
+    },
+    {
+      "segment": "Petroleum Products", 
+      "products_services": "پٹرولیم مصنوعات کی فروخت",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "فنڈامنٹلی بہت اچھی کمپنی ہے لیکن ارننگ کم ہونے کی وجہ سے مشکلات کا شکار ہے۔ شیئر پرائس نیچے آرہی ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/atrl-chart.jpg",
+    "support_levels": "Rs 600.00 (NEAR BUYING FOR TRADING), Rs 520-540 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 650.00, Rs 700.00",
+    "trend_analysis": "موجودہ قیمت Rs 634.00 ہے۔ ارننگ کم ہونے کی وجہ سے شیئر پرائس نیچے آرہی ہے۔ ٹریڈنگ کے لیے Rs 600.00 کا لیول نیر بائنگ ہے۔ بہترین خریداری کا زون Rs 520 سے Rs 540 کے درمیان ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 634.00",
+    "فنڈامنٹلی بہت اچھی کمپنی ہے لیکن ارننگ کم ہونے کی وجہ سے مشکلات",
+    "Q1 2026 EPS: Rs 13.62 (پچھلے سال کے مقابلے میں بہت کم)",
+    "PE ریٹیو: 11.69 (معقول)",
+    "ROA: 5.75% (قابل قبول)",
+    "ڈویڈنڈ: Rs 5.00 (2025 میں)",
+    "بک ویلیو: Rs 1,361.00",
+    "مارکیٹ کیپ: Rs 67.87 ارب",
+    "52 ہفتوں کا ہائی: Rs 775.75, لو: Rs 410.00",
+    "کرنٹ ریشو: 1.91 (اچھا)",
+    "کوئیک ریشو: 1.83 (اچھا)",
+    "ارننگ کم ہونے کی وجہ سے شیئر پرائس نیچے آرہی ہے",
+    "ٹریڈنگ کے لیے نیر بائنگ: Rs 600.00",
+    "بہترین خریداری زون: Rs 520 سے Rs 540 کے درمیان",
+    "اگر ٹریڈنگ کرنی ہے تو Rs 600.00 کا لیول دیکھیں",
+    "اگر اچھی بیسٹ بائنگ کرنی ہے تو Rs 520-540 کا زون بہترین",
+    "آئل ریفائننگ سیکٹر کی اہم کمپنی"
+  ]
