@@ -1,9 +1,9 @@
 {
-  "company_name": "Bank Al Falah Limited (BAFL)",
+  "company_name": "Bank Alfalah Limited (BAFL)",
   "company_logo": "https://example.com/bafl-logo.png",
   
   "company_overview": {
-    "business_description": "Bank Al Falah Limited پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بڑے پرائیویٹ بینکوں میں سے ایک ہے۔",
+    "business_description": "Bank Alfalah Limited پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بڑے پرائیویٹ بینکوں میں سے ایک ہے۔",
     "number_of_business_segments": "4",
     "market_position_highlights": "پاکستان کا اہم پرائیویٹ بینک، ملک بھر میں وسیع نیٹ ورک، جدید بینکاری سہولیات"
   },
@@ -88,3 +88,4 @@
     "آنے والے دنوں میں Rs 80-90 کے زون میں خریداری کے مواقع",
     "پرائیویٹ بینکاری سیکٹر کی اہم کمپنی"
   ]
+}
