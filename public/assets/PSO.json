@@ -54,14 +54,14 @@
 
   "analyst_recommendation": {
     "recommendation": "WAITING BUY AT 400",
-    "rationale": "PE ریٹیو 4.81 بہت کم ہے اور ڈویڈنڈ ییلڈ اچھی ہے۔ نیر بائنگ Rs 225-226 ہے لیکن بہترین خریداری Rs 400 کے لیول پر ہے جو اچھا پرافٹ دے سکتا ہے۔"
+    "rationale": "PE ریٹیو 4.81 بہت کم ہے اور ڈویڈنڈ ییلڈ اچھی ہے۔ نیر بائنگ Rs 380 ہے لیکن بہترین خریداری Rs 400 کے لیول پر ہے جو اچھا پرافٹ دے سکتا ہے۔"
   },
 
   "technical_analysis": {
     "chart": "https://example.com/pso-chart.jpg",
-    "support_levels": "Rs 400.00 (BEST BUYING ZONE), Rs 225-226 (NEAR BUYING)",
+    "support_levels": "Rs 400.00 (BEST BUYING ZONE),380  (NEAR BUYING)",
     "resistance_levels": "Rs 450.00, Rs 494.80",
-    "trend_analysis": "موجودہ قیمت Rs 431.00 ہے۔ نیر بائنگ Rs 225-226 ہے لیکن بہترین انٹری Rs 400 پر ہے۔ اگر Rs 400 کے قریب خریداری کی جائے تو اچھا پرافٹ ممکن ہے۔"
+    "trend_analysis": "موجودہ قیمت Rs 431.00 ہے۔ نیر بائنگ  ہے لیکن بہترین انٹری Rs 400 پر ہے۔ اگر Rs 400 کے قریب خریداری کی جائے تو اچھا پرافٹ ممکن ہے۔"
   },
 
   "summary_key_notes": [
