@@ -1,22 +1,90 @@
 {
-  "symbol": "BAFL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Bank Al Falah Limited (BAFL)",
+  "company_logo": "https://example.com/bafl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Bank Al Falah Limited پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بڑے پرائیویٹ بینکوں میں سے ایک ہے۔",
+    "number_of_business_segments": "4",
+    "market_position_highlights": "پاکستان کا اہم پرائیویٹ بینک، ملک بھر میں وسیع نیٹ ورک، جدید بینکاری سہولیات"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 161.77 billion",
+    "share_price": "Rs 102.00",
+    "eps": "Rs 3.91 (Q3 2025)",
+    "pe_ratio": "5.66",
+    "equity": "Rs 121.00 billion",
+    "roa": "1.04%",
+    "dividend": "Rs 2.50 (Q3 2025)",
+    "current_ratio": "0.44",
+    "quick_ratio": "0.29",
+    "52_week_high": "Rs 119.90",
+    "52_week_low": "Rs 62.00",
+    "total_assets": "Rs 2,150.8 billion",
+    "total_liabilities": "Rs 2,029.8 billion",
+    "fcff": "Rs 28.5 billion",
+    "fcfe": "Rs 18.9 billion",
+    "book_value": "121.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "52%",
+    "institutional_investors": "35%",
+    "retail_investors": "11%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Retail Banking",
+      "products_services": "صارفین کے لیے بینکاری خدمات",
+      "revenue_contribution": "40%"
+    },
+    {
+      "segment": "Corporate Banking", 
+      "products_services": "کارپوریٹ بینکاری اور قرضے",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Consumer Banking",
+      "products_services": "صارفین کی بینکاری اور قرضے",
+      "revenue_contribution": "15%"
+    },
+    {
+      "segment": "Treasury Operations",
+      "products_services": "ٹریژری آپریشنز",
+      "revenue_contribution": "10%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "فنڈامنٹلی کافی سٹرانگ ہے لیکن ٹیکنیکلی ڈبل/ٹرپل ٹاپ کی انفارمیشن ہے۔ اگر Rs 100 سے نیچے آتا ہے تو بہترین خریداری کے مواقع میسر آئیں گے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/bafl-chart.jpg",
+    "support_levels": "Rs 100.00 (CURRENT SUPPORT), Rs 90.00 (FIRST BUYING), Rs 80.00 (BEST BUYING)",
+    "resistance_levels": "Rs 110.00, Rs 119.90",
+    "trend_analysis": "موجودہ قیمت Rs 102.00 ہے۔ Rs 100.00 پر اچھی سپورٹ لائن ہے۔ اوپر Rs 120.00 پر ڈبل/ٹرپل ٹاپ کی انفارمیشن ہے۔ اگر Rs 100.00 سے نیچے آتا ہے تو پہلی بیسٹ بائنگ Rs 90.00 پر اور دوسری بیسٹ بائنگ Rs 80.00 پر ہوگی۔ آنے والے دنوں میں یہ سطحیں مل سکتی ہیں۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 102.00",
+    "فنڈامنٹلی کافی سٹرانگ بینک",
+    "Q3 2025 EPS: Rs 3.91",
+    "PE ریٹیو: 5.66 (بہت کم - انڈر ویلیوڈ)",
+    "ROA: 1.04% (بینکاری سیکٹر کے لیے معقول)",
+    "ڈویڈنڈ: Rs 2.50 (Q3 2025)",
+    "بک ویلیو: Rs 121.00",
+    "مارکیٹ کیپ: Rs 161.77 ارب",
+    "52 ہفتوں کا ہائی: Rs 119.90, لو: Rs 62.00",
+    "کرنٹ ریشو: 0.44 (کم)",
+    "کوئیک ریشو: 0.29 (کم)",
+    "موجودہ سپورٹ: Rs 100.00",
+    "اوپر ریزسٹنس: Rs 120.00 (ڈبل/ٹرپل ٹاپ)",
+    "اگر Rs 100.00 نیچے ٹوٹتا ہے تو پہلی بیسٹ بائنگ: Rs 90.00",
+    "دوسری بیسٹ بائنگ: Rs 80.00",
+    "آنے والے دنوں میں Rs 80-90 کے زون میں خریداری کے مواقع",
+    "پرائیویٹ بینکاری سیکٹر کی اہم کمپنی"
+  ]
