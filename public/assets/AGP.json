@@ -1,22 +1,81 @@
 {
-  "symbol": "AGP",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "AGP Limited",
+  "company_logo": "https://example.com/agp-logo.png",
+  
+  "company_overview": {
+    "business_description": "AGP Limited پاکستان کی ایک ممتاز فارماسیوٹیکل کمپنی ہے جو دوائیوں کی مینوفیکچرنگ، مارکیٹنگ اور فروخت میں مصروف ہے۔ یہ ملکی اور بین الاقوامی مارکیٹس میں اپنی مصنوعات پیش کرتی ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "فارماسیوٹیکل سیکٹر کی اہم کمپنی، معیاری دوائیوں کی تیاری، ملکی اور بین الاقوامی مارکیٹ میں موجودگی"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 51.10 billion",
+    "share_price": "Rs 182.00",
+    "eps": "Rs 2.40 (Q3 2025)",
+    "pe_ratio": "21.80",
+    "equity": "Rs 43.99 billion",
+    "roa": "11.26%",
+    "dividend": "Rs 2.00 (Q2 2025)",
+    "current_ratio": "1.28",
+    "quick_ratio": "0.95",
+    "52_week_high": "Rs 220.00",
+    "52_week_low": "Rs 142.00",
+    "total_assets": "Rs 65.8 billion",
+    "total_liabilities": "Rs 21.81 billion",
+    "fcff": "Rs 4.2 billion",
+    "fcfe": "Rs 3.5 billion",
+    "book_value": "43.99"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "48%",
+    "institutional_investors": "38%",
+    "retail_investors": "12%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Pharmaceutical Manufacturing",
+      "products_services": "دوائیوں کی مینوفیکچرنگ اور تیاری",
+      "revenue_contribution": "80%"
+    },
+    {
+      "segment": "Marketing & Distribution", 
+      "products_services": "دوائیوں کی مارکیٹنگ اور تقسیم",
+      "revenue_contribution": "20%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "HIGH RISK - OVERVALUED",
+    "rationale": "کمپنی تقریباً چار گنا مہنگی ہے اور فنڈامنٹلی ویک ہے۔ موجودہ قیمت پر انویسٹمنٹ خطرناک ہو سکتی ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/agp-chart.jpg",
+    "support_levels": "Rs 180.00 (SHORT TERM TRADING), Rs 140-160 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 190.00, Rs 200.00",
+    "trend_analysis": "موجودہ قیمت Rs 182.00 ہے۔ شارٹ ٹرم ٹریڈنگ کے لیے Rs 180.00 کا لیول ہے جہاں سے 5-10 روپے کا گیم ہو سکتا ہے۔ لانگ ٹرم انویسٹمنٹ کے لیے بہترین خریداری کا زون Rs 140 سے Rs 160 کے درمیان ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 182.00",
+    "کمپنی تقریباً چار گنا مہنگی ہے",
+    "فنڈامنٹلی ویک ہے",
+    "Q3 2025 EPS: Rs 2.40",
+    "PE ریٹیو: 21.80 (زیادہ - اوور ویلیو)",
+    "ROA: 11.26% (اچھا لیکن قیمت بہت زیادہ)",
+    "ڈویڈنڈ: Rs 2.00 (Q2 2025)",
+    "بک ویلیو: Rs 43.99",
+    "مارکیٹ کیپ: Rs 51.10 ارب",
+    "52 ہفتوں کا ہائی: Rs 220.00, لو: Rs 142.00",
+    "کرنٹ ریشو: 1.28 (قابل قبول)",
+    "کوئیک ریشو: 0.95 (کم)",
+    "شارٹ ٹرم ٹریڈنگ کے لیے: Rs 180.00 (5-10 روپے کا گیم)",
+    "لانگ ٹرم انویسٹمنٹ کے لیے بیسٹ بائنگ زون: Rs 140 سے Rs 160",
+    "موجودہ قیمت پر انویسٹمنٹ خطرناک ہو سکتی ہے",
+    "فارماسیوٹیکل سیکٹر کی کمپنی لیکن بہت مہنگی",
+    "صرف شارٹ ٹرم ٹریڈرز کے لیے موزوں",
+    "لانگ ٹرم انویسٹرز کے لیے Rs 140-160 کا انتظار کریں"
+  ]
