@@ -1,22 +1,91 @@
 {
-  "symbol": "MEBL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Meezan Bank Limited (MEBL)",
+  "company_logo": "https://example.com/mebl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Meezan Bank Limited پاکستان کا پہلا اور سب سے بڑا اسلامی بینک ہے جو شرعی اصولوں کے مطابق بینکاری خدمات فراہم کرتا ہے۔ یہ ملک کے تیزی سے ترقی کرنے والے بینکوں میں سے ایک ہے۔",
+    "number_of_business_segments": "4",
+    "market_position_highlights": "پاکستان کا پہلا اور سب سے بڑا اسلامی بینک، شرعی بینکاری میں لیڈر، تیز رفتار ترقی"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 746.76 billion",
+    "share_price": "Rs 414.00",
+    "eps": "Rs 11.70 (Q3 2025)",
+    "pe_ratio": "8.33",
+    "equity": "Rs 151.00 billion",
+    "roa": "2.61%",
+    "dividend": "Rs 7.00 (Q3 2025)",
+    "current_ratio": "0.61",
+    "quick_ratio": "0.37",
+    "52_week_high": "Rs 490.00",
+    "52_week_low": "Rs 210.00",
+    "total_assets": "Rs 2,850.5 billion",
+    "total_liabilities": "Rs 2,699.5 billion",
+    "fcff": "Rs 68.5 billion",
+    "fcfe": "Rs 45.2 billion",
+    "book_value": "151.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "50%",
+    "institutional_investors": "35%",
+    "retail_investors": "13%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Islamic Retail Banking",
+      "products_services": "شرعی اصولوں پر صارفین کی بینکاری",
+      "revenue_contribution": "45%"
+    },
+    {
+      "segment": "Islamic Corporate Banking", 
+      "products_services": "کارپوریٹ اسلامی بینکاری",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Treasury & Investment",
+      "products_services": "ٹریژری اور انویسٹمنٹ آپریشنز",
+      "revenue_contribution": "15%"
+    },
+    {
+      "segment": "Trade Finance",
+      "products_services": "تجارتی مالیات",
+      "revenue_contribution": "5%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "کمپنی اوور ویلیو ہے۔ شارٹ ٹرم ٹریڈنگ کے لیے Rs 400 کا لیول اچھا ہے، لیکن بیسٹ بائنگ کے لیے بہتر لیولز کا انتظار کریں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/mebl-chart.jpg",
+    "support_levels": "Rs 400.00 (NEAR BUYING FOR SHORT TERM), Rs 360-340 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 430.00, Rs 450.00",
+    "trend_analysis": "موجودہ قیمت Rs 414.00 ہے جو اوور ویلیو ہے۔ نیر بائنگ Rs 400.00 پر ہے جہاں سے شارٹ ٹرم میں 10-20 روپے کا گیم ہو سکتا ہے۔ بہترین خریداری کا زون Rs 360 سے Rs 340 کے درمیان ہے۔ ویٹ کرنے سے اس زون میں اچھی پوزیشن مل سکتی ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 414.00",
+    "کمپنی فی الحال اوور ویلیو ہے",
+    "Q3 2025 EPS: Rs 11.70",
+    "PE ریٹیو: 8.33 (معقول لیکن موجودہ قیمت پر اوور ویلیو)",
+    "ROA: 2.61% (بینکاری سیکٹر کے لیے اچھا)",
+    "ڈویڈنڈ: Rs 7.00 (Q3 2025)",
+    "بک ویلیو: Rs 151.00",
+    "مارکیٹ کیپ: Rs 746.76 ارب",
+    "52 ہفتوں کا ہائی: Rs 490.00, لو: Rs 210.00",
+    "کرنٹ ریشو: 0.61 (کم)",
+    "کوئیک ریشو: 0.37 (کم)",
+    "نیر بائنگ لیول: Rs 400.00 (شارٹ ٹرم ٹریڈنگ کے لیے)",
+    "Rs 400 پر 10-20 روپے کا گیم ہو سکتا ہے",
+    "بہترین خریداری زون: Rs 360 سے Rs 340 کے درمیان",
+    "ویٹ کرنے سے Rs 360-340 میں اچھی پوزیشن مل سکتی ہے",
+    "شارٹ ٹرم ٹریڈرز کے لیے Rs 400 اچھا لیول ہے",
+    "لانگ ٹرم انویسٹرز کے لیے Rs 360-340 کا انتظار کریں",
+    "پاکستان کا پہلا اور سب سے بڑا اسلامی بینک"
+  ]
