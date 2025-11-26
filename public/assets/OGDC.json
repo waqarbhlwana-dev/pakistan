@@ -1,53 +1,83 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "Oil & Gas Development Company Limited (OGDCL)",
+  "company_logo": "https://example.com/ogdcl-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "OGDCL پاکستان کی سب سے بڑی ایکسپلوریشن اینڈ پروڈکشن کمپنی ہے جو تیل اور گیس کی دریافت، پیداوار اور فروخت میں مصروف ہے۔ یہ پاکستان کی انرجی سیکٹر کی سب سے بڑی کمپنی ہے۔",
+    "number_of_business_segments": "3",
+    "market_position_highlights": "پاکستان کی سب سے بڑی ایکسپلوریشن اینڈ پروڈکشن کمپنی، ملک کے تیل اور گیس کے ذخائر میں اہم کردار"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 1.06 trillion",
+    "share_price": "Rs 247.00",
+    "eps": "Rs 8.91 (Q1 2026)",
+    "pe_ratio": "6.96",
+    "equity": "Rs 322.00 billion",
+    "roa": "10.5%",
+    "dividend": "Rs 3.50 per share (Q1 2026)",
+    "current_ratio": "10.4",
+    "quick_ratio": "8.96",
+    "52_week_high": "Rs 290.00",
+    "52_week_low": "Rs 174.00",
+    "total_assets": "Rs 850.2 billion",
+    "total_liabilities": "Rs 528.2 billion",
+    "fcff": "Rs 45.8 billion",
+    "fcfe": "Rs 38.9 billion",
+    "book_value": "322.00"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "65%",
+    "institutional_investors": "25%",
+    "retail_investors": "8%",
+    "others": "2%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Exploration & Production",
+      "products_services": "تیل اور گیس کی دریافت اور پیداوار",
+      "revenue_contribution": "85%"
+    },
+    {
+      "segment": "Oil Refining", 
+      "products_services": "تیل کی صفائی اور ریفائننگ",
+      "revenue_contribution": "10%"
+    },
+    {
+      "segment": "Gas Marketing",
+      "products_services": "گیس کی مارکیٹنگ اور فروخت",
+      "revenue_contribution": "5%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "BUY",
+    "rationale": "PE ریٹیو 6.96 بہت کم ہے، ڈویڈنڈ ییلڈ اچھی ہے، اور فنانشل ہیلتھ بہترین ہے۔ Rs 240 کے ایریے سے بھی خریداری کی جا سکتی ہے لیکن بہترین انٹری Rs 220 کے لیول پر ہے۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/ogdcl-chart.jpg",
+    "support_levels": "Rs 220.00 (BEST BUYING ZONE), Rs 230.00",
+    "resistance_levels": "Rs 260.00, Rs 290.00",
+    "trend_analysis": "موجودہ قیمت Rs 247.00 ہے۔ Rs 240 کے ایریے سے خریداری کی جا سکتی ہے لیکن بہترین خریداری کا لیول Rs 220 ہے۔ 52 ہفتوں کا ہائی Rs 290.00 اور لو Rs 174.00 ہے۔"
   },
+
   "summary_key_notes": [
-    ""
+    "موجودہ مارکیٹ قیمت: Rs 247.00",
+    "بہترین خریداری کا لیول: Rs 220.00",
+    "Rs 240 کے ایریے سے بھی خریداری کی جا سکتی ہے",
+    "Q1 2026 EPS: Rs 8.91",
+    "PE ریٹیو: 6.96 (بہت کم - انڈر ویلیوڈ)",
+    "ROA: 10.5% (بہترین)",
+    "ڈویڈنڈ: Rs 3.50 فی شیئر",
+    "مارکیٹ کیپ: Rs 1.06 ٹرلین",
+    "52 ہفتوں کا ہائی: Rs 290.00, لو: Rs 174.00",
+    "کرنٹ ریشو: 10.4 (بہترین)",
+    "کوئیک ریشو: 8.96 (بہترین)",
+    "لیکویڈیٹی پوزیشن انتہائی مضبوط",
+    "انرجی سیکٹر میں لیڈر کمپنی",
+    "خریداری کے لیے موزوں - بہترین انٹری Rs 220 پر"
   ]
 }
