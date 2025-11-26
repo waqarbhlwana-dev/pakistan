@@ -1,22 +1,87 @@
 {
-  "symbol": "AICL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Adamjee Insurance Company Limited (AICL)",
+  "company_logo": "https://example.com/aicl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Adamjee Insurance Company Limited پاکستان کی ایک ممتاز انشورنس کمپنی ہے جو جنرل انشورنس، موٹر انشورنس، اور دیگر انشورنس پروڈکٹس فراہم کرتی ہے۔ یہ ملک کی بڑی انشورنس کمپنیوں میں سے ایک ہے۔",
+    "number_of_business_segments": "3",
+    "market_position_highlights": "پاکستان کی اہم انشورنس کمپنی، وسیع نیٹ ورک، مضبوط برانڈ ایکویٹی"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 26.95 billion",
+    "share_price": "Rs 70.00",
+    "eps": "Rs 4.42 (Q3 2025)",
+    "pe_ratio": "4.86",
+    "equity": "Rs 134.00 billion",
+    "roa": "3.72%",
+    "dividend": "Rs 2.00 (Q2 2025)",
+    "current_ratio": "0.65",
+    "quick_ratio": "0.68",
+    "52_week_high": "Rs 93.00",
+    "52_week_low": "Rs 39.60",
+    "total_assets": "Rs 185.2 billion",
+    "total_liabilities": "Rs 51.2 billion",
+    "fcff": "Rs 8.5 billion",
+    "fcfe": "Rs 6.2 billion",
+    "book_value": "134.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "55%",
+    "institutional_investors": "35%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "General Insurance",
+      "products_services": "جنرل انشورنس پالیسیاں",
+      "revenue_contribution": "50%"
+    },
+    {
+      "segment": "Motor Insurance", 
+      "products_services": "موٹر انشورنس اور بیمہ",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Other Insurance Products",
+      "products_services": "دیگر انشورنس مصنوعات",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "BUY ON DIPS",
+    "rationale": "کمپنی انڈر ویلیو ہے لیکن لیکویڈیٹی ریٹیوز کم ہیں جو مشکلات کا اشارہ دیتے ہیں۔ شارٹ ٹرم کر کے دینے میں مشکلات ہیں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/aicl-chart.jpg",
+    "support_levels": "Rs 70-74 (TRADING POINT OF VIEW), Rs 60.00 (BEST LONG TERM LEVEL)",
+    "resistance_levels": "Rs 80.00, Rs 85.00",
+    "trend_analysis": "موجودہ قیمت Rs 70.00 ہے۔ ٹریڈنگ پوائنٹ آف ویو سے Rs 70-74 کا لیول بائنگ کا اچھا لیول ہے۔ لانگ ٹرم انویسٹمنٹ کے لیے بہترین لیول Rs 60.00 ہے۔ اگر Rs 60.00 کے لیول تک آتا ہے تو اچھی اپرچونٹی ہو سکتی ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 70.00",
+    "کمپنی انڈر ویلیو ہے - اوور ویلیو نہیں ہے",
+    "Q3 2025 EPS: Rs 4.42",
+    "PE ریٹیو: 4.86 (بہت کم - انڈر ویلیوڈ)",
+    "ROA: 3.72% (قابل قبول)",
+    "ڈویڈنڈ: Rs 2.00 (Q2 2025)",
+    "بک ویلیو: Rs 134.00",
+    "مارکیٹ کیپ: Rs 26.95 ارب",
+    "52 ہفتوں کا ہائی: Rs 93.00, لو: Rs 39.60",
+    "کرنٹ ریشو: 0.65 (بہت کم - کم از کم 1 ہونا چاہیے)",
+    "کوئیک ریشو: 0.68 (بہت کم - کم از کم 1 ہونا چاہیے)",
+    "لیکویڈیٹی ریٹیوز بہت کم ہیں - مشکلات کا اشارہ",
+    "کمپنی شارٹ ٹرم کر کے دینے کی اہلیت نہیں رکھتی",
+    "ٹریڈنگ پوائنٹ آف ویو: Rs 70-74 (بائنگ کا اچھا لیول)",
+    "لانگ ٹرم انویسٹمنٹ کے لیے بیسٹ لیول: Rs 60.00",
+    "اگر Rs 60.00 تک آتا ہے تو اچھی اپرچونٹی ہو سکتی ہے",
+    "انشورنس سیکٹر کی اہم کمپنی",
+    "انڈر ویلیوڈ لیکن لیکویڈیٹی کے مسائل"
+  ]
 }
