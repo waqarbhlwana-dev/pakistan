@@ -1,67 +1,69 @@
 {
-  "company_name": "Pakistan Investment Bond Trust Limited (PIBTL)",
+  "company_name": "Pakistan International Bulk Terminal Limited (PIBTL)",
   "company_logo": "https://example.com/pibtl-logo.png",
   
   "company_overview": {
-    "business_description": "PIBTL Pakistan میں ایک ممتاز انویسٹمنٹ ٹرسٹ ہے جو بنیادی طور پر سرکاری بانڈز، خصوصاً Pakistan Investment Bonds میں سرمایہ کاری کرتا ہے۔ کمپنی نے محفوظ اور مستحکم منافع کے حصول کے لیے اپنی پوزیشن مضبوط کی ہے۔",
-    "number_of_business_segments": "1",
-    "market_position_highlights": "سرکاری بانڈز کے انویسٹمنٹ ٹرسٹ کے طور پر منفرد پوزیشن، محفوظ انویسٹمنٹ آپشن، مستحکم ڈویڈنڈ کی تاریخ"
+    "business_description": "PIBTL پاکستان کی پہلی برکل کارگو ٹرمنل ہے جو کراچی پورٹ پر واقع ہے۔ کمپنی کوئلہ، سیمنٹ، کلنکر اور دیگر ڈرائی بَلک کارگو ہینڈل کرتی ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "پاکستان کی واحد برکل کارگو ٹرمنل، اسٹریٹیجک لوکیشن، بڑے صنعتی گاہکوں کے ساتھ معاہدے"
   },
 
   "key_financial_metrics": {
-    "market_capitalization": "Rs 15.2 billion",
-    "share_price": "Rs 25.50",
-    "eps": "Rs 3.20",
-    "pe_ratio": "7.97",
-    "equity": "Rs 12.8 billion",
-    "roa": "8.5%",
-    "dividend": "Rs 2.50 per share",
-    "current_ratio": "2.1",
-    "quick_ratio": "1.8",
-    "52_week_high": "Rs 28.75",
-    "52_week_low": "Rs 22.10",
-    "total_assets": "Rs 18.5 billion",
-    "total_liabilities": "Rs 5.7 billion",
-    "fcff": "Rs 1.2 billion",
-    "fcfe": "Rs 980 million"
+    "market_capitalization": "Rs 22.5 billion",
+    "share_price": "Rs 15.17",
+    "eps": "Rs 1.45",
+    "pe_ratio": "10.46",
+    "equity": "Rs 35.2 billion",
+    "roa": "3.2%",
+    "dividend": "Rs 0.50 per share",
+    "current_ratio": "1.4",
+    "quick_ratio": "1.1",
+    "52_week_high": "Rs 22.40",
+    "52_week_low": "Rs 15.13",
+    "total_assets": "Rs 58.7 billion",
+    "total_liabilities": "Rs 23.5 billion",
+    "fcff": "Rs 3.8 billion",
+    "fcfe": "Rs 2.1 billion"
   },
 
   "shareholding_structure": {
-    "promoters_major_holders": "55%",
-    "institutional_investors": "30%",
-    "retail_investors": "12%",
-    "others": "3%"
+    "promoters_major_holders": "48%",
+    "institutional_investors": "35%",
+    "retail_investors": "15%",
+    "others": "2%"
   },
 
   "business_segments_products": [
     {
-      "segment": "Government Bonds Portfolio",
-      "products_services": "Pakistan Investment Bonds, Treasury Bills, Government Securities",
-      "revenue_contribution": "85%"
+      "segment": "Dry Bulk Terminal",
+      "products_services": "کوئلہ، سیمنٹ، کلنکر ہینڈلنگ",
+      "revenue_contribution": "65%"
     },
     {
-      "segment": "Money Market Instruments",
-      "products_services": "Term Deposit Certificates, Commercial Papers, Other Debt Instruments",
-      "revenue_contribution": "15%"
+      "segment": "General Cargo Terminal",
+      "products_services": "دیگر ڈرائی کارگو، اسٹوریج سہولیات",
+      "revenue_contribution": "35%"
     }
   ],
 
   "analyst_recommendation": {
-    "recommendation": "BUY",
-    "rationale": "مستحکم ڈویڈنڈ ییلڈ، محفوظ انویسٹمنٹ پورٹ فولیو، موجودہ مارکیٹ ویلیو سے کم قیمت پر ٹریڈنگ"
+    "recommendation": "WAITING BUY 9 TO 10",
+    "rationale": "فی الحال شیئر Rs 15.17 پر ٹریڈ کر رہا ہے جو اوور ویلیو ہے۔ BEST BUYING ZONE Rs 9 سے Rs 10 کے درمیان ہے۔ موجودہ قیمت پر خریداری سے پرہیز کریں۔"
   },
 
   "technical_analysis": {
-    "chart": "https://example.com/pibtl-chart.png",
-    "support_levels": "Rs 24.00, Rs 23.20",
-    "resistance_levels": "Rs 26.80, Rs 27.50",
-    "trend_analysis": "سائیڈ ویز ٹرینڈ میں ہے جس میں اوپر جانے کا رجحان ہے۔ حجم میں معمولی اضافہ دیکھنے میں آیا ہے۔"
+    "chart": "deepseek-17641330975572930932556768076225.jpg",
+    "support_levels": "Rs 9.00, Rs 10.00 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 15.40, Rs 16.00",
+    "trend_analysis": "شارٹ ٹرم میں ڈاؤن ٹرینڈ، روزانہ چارٹ کے مطابق قیمت Rs 15.14 ہائی اور Rs 15.13 لو کے درمیان ٹریڈ کر رہی ہے۔ بہترین انٹری پوائنٹ Rs 9-10 زون کا انتظار ہے۔"
   },
 
   "summary_key_notes": [
-    "مستحکم ڈویڈنڈ ییلڈ (9.8%) پیش کرتا ہے",
-    "سرکاری بانڈز پر مبنی محفوظ پورٹ فولیو",
-    "PE ریٹیو صنعت کے اوسط سے کم ہے",
-    "مضبوط لیکویڈیٹی پوزیشن"
+    "فی الحال شیئر Rs 15.17 پر ٹریڈ کر رہا ہے جو اوور ویلیو ہے",
+    "بہترین خریداری کا زون Rs 9 سے Rs 10 کے درمیان ہے",
+    "چارٹ پر واضح طور پر BEST BUYING 9 TO 10 درج ہے",
+    "موجودہ قیمت پر خریداری سے گریز کریں",
+    "سپورٹ لیول Rs 9-10 پر خریداری سے زیادہ سے زیادہ پرافٹ کمانے کا موقع ملے گا",
+    "آج کا ٹریڈنگ رینج: Rs 15.13 سے Rs 15.40"
   ]
 }
