@@ -1,22 +1,64 @@
 {
-  "symbol": "HCAR",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Honda Atlas Cars Pakistan Limited (HCAR)",
+  "company_logo": "https://example.com/hcar-logo.png",
+  
+  "company_overview": {
+    "business_description": "Honda Atlas Cars Pakistan Limited پاکستان کی ایک ممتاز آٹوموبائل مینوفیکچرنگ کمپنی ہے جو ہونڈا برانڈ کی گاڑیوں کی اسمبلی، مارکیٹنگ اور فروخت میں مصروف ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "پاکستان کی اہم آٹوموبائل مینوفیکچرنگ کمپنی، ہونڈا برانڈ کی نمائندگی، مارکیٹ میں مضبوط پوزیشن"
   },
-  "management_team": [],
-  "notes": ""
-}
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 39.46 billion",
+    "share_price": "Rs 276.00",
+    "eps": "Rs 5.20 (Q2 2026)",
+    "pe_ratio": "12.56",
+    "equity": "Rs 167.00 billion",
+    "roa": "5.53%",
+    "dividend": "Rs 8.00 (2025 میں)",
+    "current_ratio": "1.46",
+    "quick_ratio": "1.20",
+    "52_week_high": "Rs 354.98",
+    "52_week_low": "Rs 221.00",
+    "total_assets": "Rs 285.5 billion",
+    "total_liabilities": "Rs 118.5 billion",
+    "fcff": "Rs 6.8 billion",
+    "fcfe": "Rs 5.2 billion",
+    "book_value": "167.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "55%",
+    "institutional_investors": "32%",
+    "retail_investors": "11%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Automobile Assembly",
+      "products_services": "گاڑیوں کی اسمبلی اور مینوفیکچرنگ",
+      "revenue_contribution": "85%"
+    },
+    {
+      "segment": "Spare Parts & Services", 
+      "products_services": "اسپئر پارٹس اور سروسز",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAITING FOR BETTER LEVELS",
+    "rationale": "فنڈامنٹل اشاریے ٹھیک ہیں لیکن کمپنی تھوڑی سی اوور ویلیو لگ رہی ہے۔ بہترین خریداری کے لیے بہتر لیولز کا انتظار کریں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/hcar-chart.jpg",
+    "support_levels": "Rs 270-275 (NEAR BUYING), Rs 250-260 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 300.00, Rs 320.00",
+    "trend_analysis": "موجودہ قیمت Rs 276.00 ہے جو تھوڑی سی اوور ویلیو ہے۔ Rs 270-275 کے درمیان نیر بائنگ ہے جو ریئر بائنگ کہلا سکتی ہے۔ بہترین خریداری کا زون Rs 250 سے Rs 260 کے درمیان ہے۔ آنے والے دنوں میں ویٹ کرنے سے اس زون میں اچھی خریداری ہو سکتی ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 276.00",
+    "فنڈامنٹل اشاریے ٹھیک ہیں لیک
