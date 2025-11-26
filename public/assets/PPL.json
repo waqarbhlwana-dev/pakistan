@@ -1,53 +1,81 @@
-
 {
-  "company_name": "pakistan international bulk terminal LTD",
-  "company_logo": "pibtl",
+  "company_name": "Pakistan Petroleum Limited (PPL)",
+  "company_logo": "https://example.com/ppl-logo.png",
+  
   "company_overview": {
-    "business_description": "+",
-    "number_of_business_segments": "",
-    "market_position_highlights": ""
+    "business_description": "Pakistan Petroleum Limited پاکستان کی ایک ممتاز ایکسپلوریشن اینڈ پروڈکشن کمپنی ہے جو تیل اور گیس کی دریافت، پیداوار اور فروخت میں مصروف ہے۔ یہ ملک کی انرجی سیکٹر کی اہم کمپنیوں میں سے ایک ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "انرجی سیکٹر کی اہم کمپنی، تیل اور گیس کے بڑے ذخائر پر کام، مستحکم کارکردگی"
   },
+
   "key_financial_metrics": {
-    "market_capitalization": "27.10B",
-    "share_price": "15.20",
-    "eps": "0.35 Q12026",
-    "pe_ratio": "10.84 Q12026",
-    " debt to equity": "",
-    "roa": "-0.9%",
-    "dividend": "0%",
-    "current_ratio": "0.87",
-    "quick_ratio": "0.79",
-    "52_week_high": "16.99",
-    "52_week_low": "6.89",
-    "total_assets": "",
-    "total_liabilities": "",
-    "fcff": "",
-    "fcfe": ""
+    "market_capitalization": "Rs 527.32 billion",
+    "share_price": "Rs 194.00",
+    "eps": "Rs 7.38 (Q1 2026)",
+    "pe_ratio": "6.57",
+    "equity": "Rs 266.63 billion",
+    "roa": "9.94%",
+    "dividend": "Rs 2.00 per share (Q1 2026)",
+    "current_ratio": "4.76",
+    "quick_ratio": "4.81",
+    "52_week_high": "Rs 216.50",
+    "52_week_low": "Rs 128.56",
+    "total_assets": "Rs 650.8 billion",
+    "total_liabilities": "Rs 384.2 billion",
+    "fcff": "Rs 42.5 billion",
+    "fcfe": "Rs 35.7 billion",
+    "book_value": "266.63"
   },
+
   "shareholding_structure": {
-    "promoters_major_holders": "6666",
-    "institutional_investors": "555",
-    "retail_investors": "666",
-    "others": "888"
+    "promoters_major_holders": "55%",
+    "institutional_investors": "32%",
+    "retail_investors": "11%",
+    "others": "2%"
   },
+
   "business_segments_products": [
     {
-      "segment": "",
-      "products_services": "777",
-      "revenue_contribution": "7777"
+      "segment": "Exploration & Production",
+      "products_services": "تیل اور گیس کی دریافت اور پیداوار",
+      "revenue_contribution": "90%"
+    },
+    {
+      "segment": "Gas Marketing", 
+      "products_services": "گیس کی مارکیٹنگ اور فروخت",
+      "revenue_contribution": "10%"
     }
   ],
+
   "analyst_recommendation": {
-    "recommendation": "777",
-    "rationale": "777"
+    "recommendation": "BUY ON DIPS",
+    "rationale": "PE ریٹیو 6.57 بہت کم ہے، فنانشل ہیلتھ بہترین ہے۔ بہترین خریداری Rs 176-180 کے زون میں ہے۔ اگر قیمت Rs 211 کے اوپر کلوز کرتی ہے تو Rs 260 تک کا ہدف ممکن ہے۔"
   },
+
   "technical_analysis": {
-    "chart": "666",
-    "support_levels": "666",
-    "resistance_levels": "66",
-    "trend_analysis": "666"
+    "chart": "https://example.com/ppl-chart.jpg",
+    "support_levels": "Rs 176-180 (BEST BUYING ZONE), Rs 187-188",
+    "resistance_levels": "Rs 211.00 (KEY BREAKOUT LEVEL), Rs 216.50",
+    "trend_analysis": "موجودہ قیمت Rs 194.00 ہے۔ ٹرینڈ لائن سپورٹ Rs 187-188 پر ہے۔ اگر Rs 211 کے اوپر کلوز ہوتی ہے تو Rs 260 تک کی موو ممکن ہے (تقریباً Rs 50 کا فائدہ)। بڑی اپورچونٹی جیک پارٹ پیٹرن میں ہے۔"
   },
+
   "summary_key_notes": [
-    ""
+    "مارکیٹ کیپ: Rs 527.32 ارب روپے",
+    "موجودہ مارکیٹ قیمت: Rs 194.00",
+    "بہترین خریداری کا زون: Rs 176-180",
+    "اگر Rs 211 کے اوپر کلوز ہوتی ہے تو Rs 260 کا ہدف ممکن",
+    "تقریباً Rs 50 کی موو دیکھی جا سکتی ہے",
+    "Q1 2026 EPS: Rs 7.38",
+    "PE ریٹیو: 6.57 (بہت کم - انڈر ویلیوڈ)",
+    "ROA: 9.94% (بہترین)",
+    "ڈویڈنڈ: Rs 2.00 فی شیئر",
+    "بک ویلیو: Rs 266.63",
+    "52 ہفتوں کا ہائی: Rs 216.50, لو: Rs 128.56",
+    "کرنٹ ریشو: 4.76 (بہترین)",
+    "کوئیک ریشو: 4.81 (بہترین)",
+    "لیکویڈیٹی پوزیشن انتہائی مضبوط",
+    "بڑی اپورچونٹی جیک پارٹ پیٹرن میں",
+    "سٹیبل اور مضبوط کمپنی",
+    "انرجی سیکٹر میں اہم کھلاڑی"
   ]
 }
