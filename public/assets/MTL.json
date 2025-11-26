@@ -1,22 +1,81 @@
 {
-  "symbol": "MTL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Millat Tractors Limited (MTL)",
+  "company_logo": "https://example.com/mtl-logo.png",
+  
+  "company_overview": {
+    "business_description": "Millat Tractors Limited پاکستان کی ایک ممتاز ٹریکٹر مینوفیکچرنگ کمپنی ہے جو ٹریکٹرز اور زرعی مشینری کی تیاری اور فروخت میں مصروف ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "ٹریکٹر مینوفیکچرنگ میں لیڈر، زرعی مشینری کی تیاری، مضبوط مارکیٹ پوزیشن"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 100.00 billion",
+    "share_price": "Rs 550.00",
+    "eps": "Rs 3.07",
+    "pe_ratio": "41.80",
+    "equity": "Rs 49.00 billion",
+    "roa": "18.14%",
+    "dividend": "Rs 0.00 (کوئی ڈویڈنڈ نہیں)",
+    "current_ratio": "1.12",
+    "quick_ratio": "0.55",
+    "52_week_high": "Rs 760.00",
+    "52_week_low": "Rs 488.00",
+    "total_assets": "Rs 85.2 billion",
+    "total_liabilities": "Rs 36.2 billion",
+    "fcff": "Rs 6.8 billion",
+    "fcfe": "Rs 5.2 billion",
+    "book_value": "49.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "45%",
+    "institutional_investors": "40%",
+    "retail_investors": "13%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Tractor Manufacturing",
+      "products_services": "ٹریکٹرز کی مینوفیکچرنگ اور فروخت",
+      "revenue_contribution": "85%"
+    },
+    {
+      "segment": "Agricultural Machinery", 
+      "products_services": "زرعی مشینری اور اسپئر پارٹس",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "HIGH RISK - AVOID",
+    "rationale": "کمپنی بہت اوور ویلیو ہے - تقریباً 10 گنا زیادہ پیسے دے رہے ہیں۔ انویسٹرز کے لیے انتہائی خطرناک ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/mtl-chart.jpg",
+    "support_levels": "Rs 500.00, Rs 480-490 (TRADING LEVEL)",
+    "resistance_levels": "Rs 580.00, Rs 600.00",
+    "trend_analysis": "موجودہ قیمت Rs 550.00 ہے۔ ٹریڈرز کے لیے بائنگ کی اپرچونٹی Rs 480-490 کے درمیان ہے۔ Rs 500.00 کا بھی لیول ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 550.00",
+    "کمپنی بہت اوور ویلیو ہے - تقریباً 10 گنا زیادہ پیسے دے رہے ہیں",
+    "EPS: Rs 3.07",
+    "PE ریٹیو: 41.80 (بہت زیادہ - انتہائی اوور ویلیوڈ)",
+    "ROA: 18.14% (بہترین لیکن قیمت بہت زیادہ)",
+    "ڈویڈنڈ: 0 (کوئی ڈویڈنڈ نہیں)",
+    "بک ویلیو: Rs 49.00",
+    "مارکیٹ کیپ: Rs 100.00 ارب",
+    "52 ہفتوں کا ہائی: Rs 760.00, لو: Rs 488.00",
+    "کرنٹ ریشو: 1.12 (قابل قبول)",
+    "کوئیک ریشو: 0.55 (اچھی نہیں)",
+    "انویسٹر حضرات کے لیے: اس کمپنی میں انویسٹ نہ کریں",
+    "ٹریڈر حضرات کے لیے بائنگ اپرچونٹی: Rs 480-490",
+    "Rs 500.00 کا بھی لیول ہے",
+    "زرعی مشینری سیکٹر کی کمپنی",
+    "ٹریکٹر مینوفیکچرنگ میں لیڈر",
+    "ہائی رسک انویسٹمنٹ - احتیاط ضروری"
+  ]
 }
