@@ -1,22 +1,82 @@
 {
-  "symbol": "EFERT",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Engro Fertilizers Limited (ENGRO)",
+  "company_logo": "https://example.com/engro-logo.png",
+  
+  "company_overview": {
+    "business_description": "Engro Fertilizers Limited پاکستان کی ایک ممتاز فرٹیلائزر مینوفیکچرنگ کمپنی ہے جو یوریا اور دیگر کیمیائی کھادیں تیار اور فروخت کرتی ہے۔ یہ Engro Corporation کی subsidiary ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "فرٹیلائزر انڈسٹری کی اہم کمپنی، معیاری مصنوعات، مضبوط برانڈ ایکویٹی"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 200.92 billion",
+    "share_price": "Rs 219.00",
+    "eps": "Rs 4.07 (Q3 2025)",
+    "pe_ratio": "15.01",
+    "equity": "Rs 31.00 billion",
+    "roa": "18.55%",
+    "dividend": "Rs 4.50 (Q3 2025)",
+    "current_ratio": "0.86",
+    "quick_ratio": "0.62",
+    "52_week_high": "Rs 248.00",
+    "52_week_low": "Rs 145.25",
+    "total_assets": "Rs 85.2 billion",
+    "total_liabilities": "Rs 54.2 billion",
+    "fcff": "Rs 12.5 billion",
+    "fcfe": "Rs 9.8 billion",
+    "book_value": "31.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "55%",
+    "institutional_investors": "35%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Urea Fertilizer",
+      "products_services": "یوریا کھاد کی تیاری اور فروخت",
+      "revenue_contribution": "80%"
+    },
+    {
+      "segment": "Other Fertilizers & Chemicals", 
+      "products_services": "دیگر کھادیں اور کیمیائی مصنوعات",
+      "revenue_contribution": "20%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "AVOID - HIGHLY OVERVALUED",
+    "rationale": "کمپنی بہت زیادہ اوور ویلیو ہے - تقریباً سات گنا مہنگی۔ ارننگ کم ہونے کے باوجود ڈیویڈنڈ دیا جو درست نہیں۔ صرف ڈیویڈنڈ کی وجہ سے انویسٹرز اس میں ہیں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/engro-chart.jpg",
+    "support_levels": "Rs 200.00 (TRADING LEVEL), Rs 180-160 (INVESTMENT ZONE), Rs 60-180 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 230.00, Rs 248.00",
+    "trend_analysis": "موجودہ قیمت Rs 219.00 ہے جو بہت زیادہ اوور ویلیو ہے۔ ٹریڈنگ کے لیے Rs 200.00 کا لیول نیر بائنگ ہے۔ انویسٹمنٹ کے لیے بہترین خریداری کا زون Rs 60 سے Rs 180 کے درمیان ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 219.00",
+    "کمپنی بہت زیادہ اوور ویلیو ہے - تقریباً سات گنا مہنگی",
+    "Q3 2025 EPS: Rs 4.07 (ارننگ کم ہوئی ہے)",
+    "PE ریٹیو: 15.01 (زیادہ - اوور ویلیو)",
+    "ROA: 18.55% (بہترین لیکن قیمت بہت زیادہ)",
+    "ڈویڈنڈ: Rs 4.50 (ارننگ کم ہونے کے باوجود - درست نہیں)",
+    "بک ویلیو: Rs 31.00",
+    "مارکیٹ کیپ: Rs 200.92 ارب",
+    "52 ہفتوں کا ہائی: Rs 248.00, لو: Rs 145.25",
+    "کرنٹ ریشو: 0.86 (قابل قبول)",
+    "کوئیک ریشو: 0.62 (قابل قبول)",
+    "صرف ڈیویڈنڈ کی وجہ سے انویسٹرز اس میں ہیں",
+    "ٹریڈنگ کے لیے نیر بائنگ: Rs 200.00",
+    "انویسٹمنٹ کے لیے بہترین خریداری زون: Rs 60 سے Rs 180",
+    "اوور ویلیو ہے - سمجھ میں نہیں آتا",
+    "ڈیویڈنڈ پر انحصار کرنے والے انویسٹرز کے لیے موزوں",
+    "ویلیو انویسٹمنٹ کے لیے موزوں نہیں",
+    "فرٹیلائزر سیکٹر کی اہم کمپنی لیکن بہت مہنگی"
+  ]
 }
