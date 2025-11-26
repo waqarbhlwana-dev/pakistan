@@ -1,22 +1,82 @@
 {
-  "symbol": "CHCC",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Cherat Cement Company Limited (CHCC)",
+  "company_logo": "https://example.com/chcc-logo.png",
+  
+  "company_overview": {
+    "business_description": "Cherat Cement Company Limited پاکستان کی ایک ممتاز سیمنٹ مینوفیکچرنگ کمپنی ہے جو مختلف اقسام کی سیمنٹ کی تیاری اور فروخت میں مصروف ہے۔ یہ چرات گروپ کی پرچم بردار کمپنی ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "سیمنٹ انڈسٹری کی اہم کمپنی، معیاری مصنوعات، مضبوط مارکیٹ پوزیشن"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 62.95 billion",
+    "share_price": "Rs 324.00",
+    "eps": "Rs 10.79 (Q1 2026)",
+    "pe_ratio": "7.51",
+    "equity": "Rs 182.50 billion",
+    "roa": "17.80%",
+    "dividend": "Rs 4.00 (2025 میں)",
+    "current_ratio": "2.41",
+    "quick_ratio": "2.25",
+    "52_week_high": "Rs 390.00",
+    "52_week_low": "Rs 228.00",
+    "total_assets": "Rs 285.2 billion",
+    "total_liabilities": "Rs 102.7 billion",
+    "fcff": "Rs 18.5 billion",
+    "fcfe": "Rs 15.2 billion",
+    "book_value": "182.50"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "48%",
+    "institutional_investors": "38%",
+    "retail_investors": "12%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Cement Manufacturing",
+      "products_services": "سیمنٹ کی تیاری اور فروخت",
+      "revenue_contribution": "90%"
+    },
+    {
+      "segment": "Allied Products", 
+      "products_services": "سیمنٹ سے متعلق دیگر مصنوعات",
+      "revenue_contribution": "10%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "BUY ON DIPS",
+    "rationale": "فنڈامنٹلی مضبوط کمپنی ہے۔ PE ریٹیو کم ہے اور فنانشل ہیلتھ بہترین ہے۔ بہترین خریداری کے لیے ڈِپس کا انتظار کریں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/chcc-chart.jpg",
+    "support_levels": "Rs 300.00 (TRADING LEVEL), Rs 260-280 (BEST BUYING ZONE)",
+    "resistance_levels": "Rs 350.00, Rs 390.00",
+    "trend_analysis": "موجودہ قیمت Rs 324.00 ہے۔ شارٹ ٹرم ٹریڈنگ کے لیے Rs 300.00 کا لیول اچھا ہے۔ بیسٹ بائنگ کے لیے بہترین خریداری کا زون Rs 260 سے Rs 280 کے درمیان ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 324.00",
+    "فنڈامنٹلی مضبوط کمپنی",
+    "Q1 2026 EPS: Rs 10.79",
+    "PE ریٹیو: 7.51 (کم - انڈر ویلیوڈ)",
+    "ROA: 17.80% (بہترین)",
+    "ڈویڈنڈ: Rs 4.00 (2025 میں)",
+    "بک ویلیو: Rs 182.50",
+    "مارکیٹ کیپ: Rs 62.95 ارب",
+    "52 ہفتوں کا ہائی: Rs 390.00, لو: Rs 228.00",
+    "کرنٹ ریشو: 2.41 (بہترین)",
+    "کوئیک ریشو: 2.25 (بہترین)",
+    "شارٹ ٹرم ٹریڈنگ کے لیے: Rs 300.00 کا لیول اچھا ہے",
+    "بیسٹ بائنگ زون: Rs 260 سے Rs 280 کے درمیان",
+    "اگر ٹریڈر حضرات ہیں تو Rs 300.00 پر غور کریں",
+    "اگر بیسٹ بائنگ کرنی ہے تو Rs 260-280 کا انتظار کریں",
+    "سیمنٹ سیکٹر کی مضبوط کمپنی",
+    "چرات گروپ کی پرچم بردار کمپنی",
+    "بہترین فنانشل ہیلتھ کے ساتھ"
+  ]
 }
