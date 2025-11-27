@@ -1,22 +1,120 @@
 {
-  "symbol": "NESTLE",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Nestle Pakistan Limited (NESTLE)",
+  "company_logo": "https://example.com/nestle-logo.png",
+  
+  "company_overview": {
+    "business_description": "نیسلے پاکستان لمیٹڈ پاکستان کی معروف فوڈ اینڈ بیوریج کمپنی ہے جو دنیا کی سب سے بڑی فوڈ کمپنی نیسلے کی ملکی ذیلی کمپنی ہے۔ کمپنی دودھ اور دودھ کی مصنوعات، پانی، انفنٹ نیوٹریشن اور دیگر غذائی مصنوعات تیار اور فروخت کرتی ہے۔",
+    "number_of_business_segments": "4",
+    "market_position_highlights": "پاکستان کی سب سے بڑی فوڈ اینڈ بیوریج کمپنی، عالمی نیسلے گروپ کی ذیلی کمپنی، ملک بھر میں مضبوط برانڈنگ اور ڈسٹری بیوشن"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 360.29 billion",
+    "share_price": "Rs 7994.00",
+    "eps": "Rs 152.90 (2024)",
+    "pe_ratio": "52.28",
+    "equity": "Rs 46.70 billion",
+    "roa": "17.72%",
+    "dividend": "Rs 78.00 (2024)",
+    "current_ratio": "0.87",
+    "quick_ratio": "0.45",
+    "52_week_high": "Rs 10524.00",
+    "52_week_low": "Rs 6402.00",
+    "total_assets": "Rs 85.6 billion",
+    "total_liabilities": "Rs 38.9 billion",
+    "fcff": "Rs 12.8 billion",
+    "fcfe": "Rs 10.5 billion",
+    "book_value": "467.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "75%",
+    "institutional_investors": "15%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Dairy Products",
+      "products_services": "دودھ، کریم، دہی، ڈیری مصنوعات",
+      "revenue_contribution": "40%"
+    },
+    {
+      "segment": "Beverages", 
+      "products_services": "پانی، جوسز، مشروبات",
+      "revenue_contribution": "25%"
+    },
+    {
+      "segment": "Infant Nutrition",
+      "products_services": "بچوں کی غذائی مصنوعات",
+      "revenue_contribution": "20%"
+    },
+    {
+      "segment": "Other Food Products",
+      "products_services": "بسکٹ، چاکلیٹ، دیگر غذائی مصنوعات",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "HIGH RISK / CONSIDER FFL AS ALTERNATIVE",
+    "rationale": "کمپنی بہت زیادہ اوور ویلیو ہے اور PE ریٹیو 52.28 تشویشناک حد تک زیادہ ہے۔ فوڈ سیکٹر میں فوڈز فیلمز لمیٹڈ (FFL) بہتر اور سستا متبادل ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/nestle-chart.jpg",
+    "support_levels": "Rs 7000.00 (BEST BUYING LEVEL), Rs 7500.00 (اچھا خریداری لیول)",
+    "resistance_levels": "Rs 7994.00, Rs 8500.00, Rs 10524.00",
+    "trend_analysis": "موجودہ قیمت Rs 7994.00 ہے جو انتہائی اوور ویلیوڈ زون میں ہے۔ 7000-7500 کا زون ہی قابل قبول خریداری کا علاقہ ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 7994.00",
+    "2024 EPS: Rs 152.90",
+    "PE ریٹیو: 52.28 (بہت زیادہ - اوور ویلیوڈ)",
+    "ROA: 17.72% (بہترین)",
+    "ڈویڈنڈ: Rs 78.00 (ڈیویڈنڈ ییلڈ: 0.98%)",
+    "بک ویلیو: Rs 467.00 (موجودہ قیمت سے 94% کم)",
+    "مارکیٹ کیپ: Rs 360.29 ارب",
+    "52 ہفتوں کا ہائی: Rs 10524.00, لو: Rs 6402.00",
+    "کرنٹ ریشو: 0.87 (کم)",
+    "کوئیک ریشو: 0.45 (بہت کم)",
+    
+    "🚫 **خطرے کے واضح اشارے:**",
+    "   - PE ریٹیو 52.28 بہت زیادہ ہے",
+    "   - یہ کمپنی بہت زیادہ اوور ویلیو ہے",
+    "   - بک ویلیو موجودہ قیمت سے 94% کم ہے",
+    "   - بڑے رسکی والی کمپنی ہے",
+    "   - کوئیک ریشو 0.45 بہت کم ہے",
+    
+    "✅ **متبادل تجویز:**",
+    "   - فوڈ سیکٹر میں FFL کمپنی بڑی اچھی ہے",
+    "   - FFL کا شیئر سستا ہے",
+    "   - FFL بہتر ویلیو پیش کرتی ہے",
+    
+    "🎯 **اگر پھر بھی لینی ہے تو بیسٹ بائنگ لیول:**",
+    "   - Rs 7000 (بیسٹ بائنگ لیول)",
+    "   - Rs 7500 (اچھا بائنگ لیول)",
+    
+    "💰 **ڈیویڈنڈ کے لحاظ سے:**",
+    "ڈیویڈنڈ ییلڈ: 0.98% (بہت کم)",
+    "ڈیویڈنڈ کی ادائیگی مثبت لیکن ناکافی",
+    
+    "🏭 **فوڈ سیکٹر کا موازنہ:**",
+    "نیسلے: بہت مہنگا، اوور ویلیوڈ",
+    "FFL: بہتر ویلیو، سستا",
+    
+    "📈 **سرمایہ کاری کی حکمت عملی:**",
+    "📌 **فی الحال مکمل Avoid کریں**",
+    "📌 **FFL کو ترجیح دیں**",
+    "📌 **اگر پھر بھی لینی ہے تو 7000-7500 کے زون کا انتظار کریں**",
+    "📌 **7000 سے 7500 کے قریب ادھر سے بائنگ کر سکتے ہیں**",
+    
+    "🛑 **حتمی سفارش:**",
+    "یہ کمپنی بہت زیادہ اوور ویلیو ہے",
+    "فوڈ سیکٹر میں FFL بہتر متبادل ہے",
+    "high risk والی سرمایہ کاری ہے",
+    "7000-7500 کے زون میں ہی غور کریں"
+  ]
 }
