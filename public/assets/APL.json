@@ -1,40 +1,90 @@
 {
-  "symbol": "APL",
-  "company_name": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
-  "sector": "333333333333333333333333333333333333333333",
-  "subsector": "9999999999999999999999999999999999999999999999999999999",
-  "founded_year": "00000000000000000000000000000000000000",
-  "headquarters": "",
-  "website": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
-  "business_overview": "44444444444444444444444444444",
-  "product_lines": [
-    "4444444444444444444444444444444444444444444444444444444"
-  ],
-  "key_strengths": [
-    "666666666666666666666666666666666666"
-  ],
-  "market_share": "ttttttttttttttttttttttttttttttt",
-  "recent_developments": [
-    "888888888888888888888888888888"
-  ],
-  "financial_highlights": {
-    "revenue": "3",
-    "profit": "3",
-    "growth_rate": "3"
+  "company_name": "Attock Petroleum Limited (APL)",
+  "company_logo": "https://example.com/apl-logo.png",
+  
+  "company_overview": {
+    "business_description": "اٹک پیٹرولیم لمیٹڈ پاکستان کی معروف آئل مارکیٹنگ کمپنیوں میں سے ایک ہے جو پیٹرول، ڈیزل، فرنس آئل، لوبریکانٹس اور دیگر پٹرولیم مصنوعات کی خریداری، اسٹوریج، ڈسٹری بیوشن اور مارکیٹنگ میں مصروف ہے۔",
+    "number_of_business_segments": "3",
+    "market_position_highlights": "پاکستان کی معروف آئل مارکیٹنگ کمپنیوں میں سے ایک، ATGO گروپ کا حصہ، ملک بھر میں ریٹیل آؤٹ لیٹس"
   },
-  "management_team": [],
-  "notes": "gjdsdfgffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-  "marketcap": "6666",
-  "Eps": "66",
-  "PeRatio": "66666666666666666",
-  "Divident": "666666666666666666",
-  "Current Ratio": "6666666666666666666",
-  "Quick Ratio": "6666666666666666666666666",
-  "Total Assets": "666666666666666666666666666666666666",
-  "Total Liability": "66666666666666666666666666666666666666666",
-  "FCF": "666",
-  "FCFE": "666666666666666666666666",
-  "Share Holder": "66666666666666666666",
-  "BUY Area": "666666666666666666666",
-  "SELL Area": "666666666666666666666666666666"
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 67.05 billion",
+    "share_price": "Rs 540.00",
+    "eps": "Rs 30.63 (Q1 2026)",
+    "pe_ratio": "17.63",
+    "equity": "Rs 534.00 billion",
+    "roa": "8.51%",
+    "dividend": "Rs 13.00 (2025)",
+    "current_ratio": "101.98",
+    "quick_ratio": "101.98",
+    "52_week_high": "Rs 578.00",
+    "52_week_low": "Rs 377.00",
+    "total_assets": "Rs 85.2 billion",
+    "total_liabilities": "Rs 31.8 billion",
+    "fcff": "Rs 8.5 billion",
+    "fcfe": "Rs 7.2 billion",
+    "book_value": "534.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "65%",
+    "institutional_investors": "25%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "White Oil Products",
+      "products_services": "پیٹرول، ڈیزل، جیٹ فیول",
+      "revenue_contribution": "60%"
+    },
+    {
+      "segment": "Black Oil Products", 
+      "products_services": "فرنس آئل، ایچ ایس ڈی",
+      "revenue_contribution": "25%"
+    },
+    {
+      "segment": "Lubricants & LPG",
+      "products_services": "انڈسٹریل لبریکنٹس، آٹوموٹو لبریکنٹس، LPG",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "BUY AT 460-475",
+    "rationale": "بہترین خریداری Rs 460 سے Rs 475 کے درمیان ہے۔ کمپنی بنیادی طور پر مضبوط ہے، ROA 8.51% بہترین ہے، اور کرنٹ ریشو 101.98 بہت اچھا ہے۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/apl-chart.jpg",
+    "support_levels": "Rs 460.00 - Rs 475.00 (BEST BUYING ZONE), Rs 500.00, Rs 520.00",
+    "resistance_levels": "Rs 540.00, Rs 578.00",
+    "trend_analysis": "موجودہ قیمت Rs 540.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ Rs 460-475 کے زون میں خریدنے پر بہترین منافع کی توقع کی جا سکتی ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 540.00",
+    "Q1 2026 EPS: Rs 30.63",
+    "PE ریٹیو: 17.63 (معقول)",
+    "ROA: 8.51% (بہترین)",
+    "ڈویڈنڈ: Rs 13.00 (2025)",
+    "بک ویلیو: Rs 534.00",
+    "مارکیٹ کیپ: Rs 67.05 ارب",
+    "کرنٹ ریشو: 101.98 (بہترین)",
+    "52 ہفتوں کا ہائی: Rs 578.00, لو: Rs 377.00",
+    
+    "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
+    "   - Rs 475 (بیسٹ بائنگ ایریا)",
+    "   - Rs 500 (اچھا انویسٹمنٹ لیول)",
+    
+    "📈 **ٹریڈنگ کے لیے لیول:**", 
+    "   - Rs 520 (ٹریڈنگ کے لیے اچھا انٹری)",
+    
+    "بنیادی طور پر کمپنی کافی مضبوط ہے",
+    "اگر Rs 460-475 کے زون میں خریداری کی جائے تو بہترین پرافٹ ممکن",
+    "ATGO گروپ کی مضبوط کمپنی",
+    "لکویڈیٹی کے لحاظ سے بہترین پوزیشن"
+  ]
 }
