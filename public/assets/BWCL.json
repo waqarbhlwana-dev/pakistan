@@ -1,22 +1,91 @@
 {
-  "symbol": "BWCL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Bestway Cement Limited (BWCL)",
+  "company_logo": "https://example.com/bwcl-logo.png",
+  
+  "company_overview": {
+    "business_description": "بیسٹ وے سیمنٹ لمیٹڈ پاکستان کی معروف سیمنٹ مینوفیکچرنگ کمپنیوں میں سے ایک ہے جو مختلف اقسام کی سیمنٹ تیار کرتی ہے۔ کمپنی بیسٹ وے گروپ کا حصہ ہے اور ملک بھر میں اپنی مصنوعات کی مارکیٹنگ کرتی ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "پاکستان کی بڑی سیمنٹ مینوفیکچرنگ کمپنیوں میں سے ایک، بیسٹ وے گروپ کا حصہ، وسیع ڈسٹری بیوشن نیٹ ورک"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 31.3 billion",
+    "share_price": "Rs 525.00",
+    "eps": "Rs 14.00 (Q1 2026)",
+    "pe_ratio": "37.50",
+    "equity": "Rs 21.4 billion",
+    "roa": "6.7%",
+    "dividend": "N/A",
+    "current_ratio": "0.48",
+    "quick_ratio": "0.39",
+    "52_week_high": "Rs 687.10",
+    "52_week_low": "Rs 309.50",
+    "total_assets": "Rs 45.2 billion",
+    "total_liabilities": "Rs 23.8 billion",
+    "fcff": "Rs 3.2 billion",
+    "fcfe": "Rs 2.8 billion",
+    "book_value": "214.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "70%",
+    "institutional_investors": "20%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Grey Cement",
+      "products_services": "عام استعمال کی سیمنٹ، پریمیوم گریڈ سیمنٹ",
+      "revenue_contribution": "85%"
+    },
+    {
+      "segment": "Specialty Cement", 
+      "products_services": "خصوصی استعمال کی سیمنٹ، تیار کردہ مصنوعات",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "WAIT FOR BETTER ENTRY",
+    "rationale": "موجودہ قیمت اوور ویلیوڈ ہے۔ کرنٹ ریشو اور کوئیک ریشو کم ہونے کی وجہ سے کمپنی شارٹ ٹرم قرضے ادا کرنے کے قابل نہیں ہے۔ سرمایہ کاری کے لیے بہتر قیمت کا انتظار کریں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/bwcl-chart.jpg",
+    "support_levels": "Rs 410.00 - Rs 420.00 (BEST INVESTMENT ZONE), Rs 500.00 (ٹریڈنگ سپورٹ)",
+    "resistance_levels": "Rs 525.00, Rs 550.00, Rs 687.10",
+    "trend_analysis": "موجودہ قیمت Rs 525.00 ہے جو اوور ویلیوڈ زون میں ہے۔ سرمایہ کاری کے لیے Rs 410-420 کے زون کا انتظار کریں۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 525.00",
+    "Q1 2026 EPS: Rs 14.00",
+    "PE ریٹیو: 37.50 (اوور ویلیوڈ)",
+    "ROA: 6.7% (معقول)",
+    "بک ویلیو: Rs 214.00 (موجودہ قیمت سے 59% کم)",
+    "مارکیٹ کیپ: Rs 31.3 ارب",
+    "52 ہفتوں کا ہائی: Rs 687.10, لو: Rs 309.50",
+    "کرنٹ ریشو: 0.48 (کم - ایک ہونا چاہیے)",
+    "کوئیک ریشو: 0.39 (کم - ایک ہونا چاہیے)",
+    
+    "⚠️ **خطرے کے اشارے:**",
+    "   - PE ریٹیو اوور ویلیوڈ ہے",
+    "   - کرنٹ ریشو اور کوئیک ریشو کم ہیں",
+    "   - کمپنی شارٹ ٹرم قرضے ادا کرنے کے قابل نہیں",
+    "   - سردیوں میں سیمنٹ انڈسٹری میں مسائل ہوتے ہیں",
+    
+    "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
+    "   - Rs 410-420 (بیسٹ انویسٹمنٹ زون)",
+    
+    "📈 **ٹریڈنگ کے لیے لیول:**",
+    "   - Rs 500 (ٹریڈنگ کے لیے حدی انٹری)",
+    
+    "🛑 **انتباہ:**",
+    "اوور ویلیوڈ سٹاک میں انویسٹمنٹ سے گریز کریں",
+    "کمپنی کی لکویڈیٹی پوزیشن کمزور ہے",
+    "سرمایہ کاری سے پہلے بہتر انٹری پوائنٹ کا انتظار کریں",
+    "فی الحال احتیاطی حکمت عملی اختیار کریں"
+  ]
 }
