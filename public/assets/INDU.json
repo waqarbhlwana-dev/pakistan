@@ -1,22 +1,109 @@
 {
-  "symbol": "INDU",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Indus Motor Company (INDU)",
+  "company_logo": "https://example.com/indu-logo.png",
+  
+  "company_overview": {
+    "business_description": "انڈس موٹر کمپنی پاکستان کی معروف آٹوموبائل مینوفیکچرنگ کمپنی ہے جو ٹویوٹا برانڈ کی گاڑیاں تیار کرتی ہے۔ کمپنی کاروں، پک اپ ٹرکس اور دیگر گاڑیوں کی اسمبلی اور مارکیٹنگ میں مصروف ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "پاکستان کی سب سے بڑی آٹوموبائل مینوفیکچرنگ کمپنیوں میں سے ایک، ٹویوٹا کے ساتھ شراکت داری، مارکیٹ میں لیڈر پوزیشن"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 12,873 billion",
+    "share_price": "Rs 2018.00",
+    "eps": "Rs 85.50 (Q1 2026)",
+    "pe_ratio": "23.60",
+    "equity": "Rs 1,064.00 billion",
+    "roa": "12.46%",
+    "dividend": "Rs 51.00 (Q1 2026)",
+    "current_ratio": "1.69",
+    "quick_ratio": "1.30",
+    "52_week_high": "Rs 2430.00",
+    "52_week_low": "Rs 1685.00",
+    "total_assets": "Rs 95.2 billion",
+    "total_liabilities": "Rs 45.8 billion",
+    "fcff": "Rs 8.5 billion",
+    "fcfe": "Rs 7.2 billion",
+    "book_value": "1064.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "65%",
+    "institutional_investors": "25%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Passenger Vehicles",
+      "products_services": "کاروں، SUV، اور دیگر مسافر گاڑیاں",
+      "revenue_contribution": "70%"
+    },
+    {
+      "segment": "Commercial Vehicles", 
+      "products_services": "پک اپ ٹرکس، ہلکی تجارتی گاڑیاں",
+      "revenue_contribution": "30%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "BUY AT 1900",
+    "rationale": "کمپنی بنیادی طور پر بہت مضبوط ہے اور مسلسل ڈیویڈنڈ دیتی رہتی ہے۔ مالیاتی اشاریے اچھے ہیں لیکن موجودہ قیمت تھوڑی اوور ویلیوڈ ہے۔ 1900 کے لیول پر خریداری بہترین رہے گی۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/indu-chart.jpg",
+    "support_levels": "Rs 1900.00 (BEST BUYING LEVEL), Rs 1950.00 (اچھا خریداری لیول)",
+    "resistance_levels": "Rs 2018.00, Rs 2100.00, Rs 2430.00",
+    "trend_analysis": "موجودہ قیمت Rs 2018.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ Rs 1900 کے لیول پر خریدنے پر بہترین منافع کی توقع کی جا سکتی ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 2018.00",
+    "Q1 2026 EPS: Rs 85.50",
+    "PE ریٹیو: 23.60 (کچھ زیادہ)",
+    "ROA: 12.46% (بہترین)",
+    "ڈویڈنڈ: Rs 51.00 (Q1 2026)",
+    "بک ویلیو: Rs 1064.00",
+    "مارکیٹ کیپ: Rs 12,873 ارب",
+    "52 ہفتوں کا ہائی: Rs 2430.00, لو: Rs 1685.00",
+    "کرنٹ ریشو: 1.69 (اچھی)",
+    "کوئیک ریشو: 1.30 (اچھی)",
+    
+    "✅ **کمپنی کے مضبوط پہلو:**",
+    "   - بنیادی طور پر بہت مضبوط کمپنی",
+    "   - ROA 12.46% بہترین ہے",
+    "   - ڈیویڈنڈ مسلسل ادائیگی",
+    "   - کرنٹ ریشو اور کوئک ریشو اچھے ہیں",
+    "   - مارکیٹ لیڈر پوزیشن",
+    
+    "⚠️ **تشویش کے پہلو:**",
+    "   - PE ریٹیو 23.60 کچھ زیادہ ہے",
+      "   - موجودہ قیمت تھوڑی اوور ویلیوڈ ہے",
+    
+    "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
+    "   - Rs 1900 (بیسٹ بائنگ لیول)",
+    
+    "💰 **ڈیویڈنڈ کے لحاظ سے:**",
+    "   - ڈیویڈنڈ ییلڈ: 2.53% (اچھی)",
+    "   - ڈیویڈنڈ کی مستقل ادائیگی مثبت",
+    "   - Q1 2026 میں Rs 51.00 ڈیویڈنڈ دیا",
+    
+    "🚗 **آٹوموبائل سیکٹر:**",
+    "   - مارکیٹ میں لیڈر پوزیشن",
+    "   - ٹویوٹا کے ساتھ شراکت داری",
+    "   - معیاری مصنوعات",
+    
+    "📈 **سرمایہ کاری کی حکمت عملی:**",
+    "   - Rs 1900 کے لیول پر خریدیں",
+    "   - ڈیویڈنڈ سے آمدنی حاصل کریں",
+    "   - طویل مدتی سرمایہ کاری کے لیے موزوں",
+    "   - اگر Rs 1900 کے لیول پر خریداری کی جائے تو اچھا پرافٹ ممکن",
+    
+    "🏆 **خلاصہ:**",
+    "یہ اچھی کمپنی ہے جو مسلسل ڈیویڈنڈ دیتی رہتی ہے",
+    "1900 کا لیول انویسٹمنٹ کے لیے بہترین ہے",
+    "بنیادی طور پر کافی مضبوط کمپنی ہے"
+  ]
 }
