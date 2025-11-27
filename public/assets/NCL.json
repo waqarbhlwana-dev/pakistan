@@ -1,22 +1,118 @@
 {
-  "symbol": "NCL",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "Nishat Chunian Limited (NCL)",
+  "company_logo": "https://example.com/ncl-logo.png",
+  
+  "company_overview": {
+    "business_description": "نشاد چنیوٹ کمپنی لمیٹڈ پاکستان کی معروف ٹیکسٹائل مینوفیکچرنگ کمپنیوں میں سے ایک ہے جو سپننگ، ویونگ اور پروسیسنگ کے شعبوں میں مصروف ہے۔ کمپنی کا تعلق نشاد گروپ سے ہے اور یہ کاٹن یارن اور فیبرک کی پیداوار میں اہم کردار ادا کرتی ہے۔",
+    "number_of_business_segments": "3",
+    "market_position_highlights": "نشاد گروپ کی اہم کمپنی، ٹیکسٹائل انڈسٹری میں معروف نام، برآمدات اور مقامی مارکیٹ دونوں میں مضبوط موجودگی"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 10.7 billion",
+    "share_price": "Rs 43.00",
+    "eps": "Rs 2.80 (Q1 2026)",
+    "pe_ratio": "15.36",
+    "equity": "Rs 9.30 billion",
+    "roa": "1.4%",
+    "dividend": "Rs 1.00 (2025)",
+    "current_ratio": "1.30",
+    "quick_ratio": "0.48",
+    "52_week_high": "Rs 51.60",
+    "52_week_low": "Rs 29.56",
+    "total_assets": "Rs 25.8 billion",
+    "total_liabilities": "Rs 16.5 billion",
+    "fcff": "Rs 1.2 billion",
+    "fcfe": "Rs 0.9 billion",
+    "book_value": "93.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "60%",
+    "institutional_investors": "25%",
+    "retail_investors": "12%",
+    "others": "3%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Spinning",
+      "products_services": "سوتی دھاگہ، کاٹن یارن، مختلف کاؤنٹس",
+      "revenue_contribution": "50%"
+    },
+    {
+      "segment": "Weaving", 
+      "products_services": "گری فیبرک، کپڑا، مختلف اقسام",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Processing",
+      "products_services": "کپڑے کی پروسیسنگ، فنیشنگ",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "BUY AT 38-40 (BEST), CAN BUY AT 42-43 (CURRENT)",
+    "rationale": "کمپنی فنڈامنٹلی اچھی ہے اور ارننگ میں بہتری آئی ہے۔ فری فلوٹ 50% ہے جو اچھا ہے۔ موجودہ قیمت پر بھی خریدا جا سکتا ہے لیکن بہترین خریداری 38-40 کے زون میں ہوگی۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/ncl-chart.jpg",
+    "support_levels": "Rs 38.00 - Rs 40.00 (BEST BUYING ZONE), Rs 42.00 - Rs 43.00 (موجودہ قیمت)",
+    "resistance_levels": "Rs 45.00, Rs 48.00, Rs 51.60",
+    "trend_analysis": "موجودہ قیمت Rs 43.00 ہے۔ ارننگ میں بہتری کی وجہ سے کمپنی کی کارکردگی بہتر ہوئی ہے۔ 38-40 کا زون بہترین خریداری کا موقع فراہم کرتا ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 43.00",
+    "Q1 2026 EPS: Rs 2.80",
+    "PE ریٹیو: 15.36 (معقول)",
+    "ROA: 1.4% (قابل قبول)",
+    "ڈویڈنڈ: Rs 1.00 (ڈیویڈنڈ ییلڈ: 2.33%)",
+    "بک ویلیو: Rs 93.00 (موجودہ قیمت سے 116% زیادہ)",
+    "مارکیٹ کیپ: Rs 10.7 ارب",
+    "52 ہفتوں کا ہائی: Rs 51.60, لو: Rs 29.56",
+    "کرنٹ ریشو: 1.30 (اچھی)",
+    "کوئیک ریشو: 0.48 (کمزور)",
+    "فری فلوٹ: 50% (اچھا)",
+    
+    "✅ **کمپنی کے مضبوط پہلو:**",
+    "   - فنڈامنٹلی اچھی کمپنی ہے",
+    "   - ارننگ بہتر ہوئی ہے",
+    "   - فری فلوٹ 50% اچھا ہے",
+    "   - بک ویلیو موجودہ قیمت سے دوگنا ہے",
+    "   - PE ریٹیو معقول ہے",
+    "   - تھوڑا بہت ڈیویڈنڈ بھی دیتی ہے",
+    
+    "⚠️ **تشویش کے پہلو:**",
+    "   - کوئیک ریشو 0.48 کمزور ہے",
+    "   - ROA 1.4% کم ہے",
+    
+    "🎯 **انویسٹمنٹ کے لیے لیول:**",
+    "   - Rs 38-40 (بیسٹ بائنگ زون)",
+    "   - Rs 42-43 (کرنٹ ریٹ پر بھی بائے کیا جا سکتا ہے)",
+    
+    "💰 **ڈیویڈنڈ کے لحاظ سے:**",
+    "ڈیویڈنڈ ییلڈ: 2.33% (اچھی)",
+    "ڈیویڈنڈ کی ادائیگی مثبت",
+    
+    "🏭 **ٹیکسٹائل سیکٹر:**",
+    "نشاد گروپ کی معروف کمپنی",
+    "برآمدات میں حصہ دار",
+    "طویل مدتی سرمایہ کاری کے لیے موزوں",
+    
+    "📈 **سرمایہ کاری کی حکمت عملی:**",
+    "✅ **موجودہ قیمت Rs 42-43 پر خریدا جا سکتا ہے**",
+    "✅ **بیسٹ بائنگ Rs 38-40 کے زون میں**",
+    "✅ **اگر ویٹ کر سکتے ہیں تو بہترین لیول کا انتظار کریں**",
+    "✅ **اچھی کمپنی ہے، ڈیویڈنڈ بھی دیتی ہے**",
+    
+    "💎 **خلاصہ:**",
+    "فنڈامنٹلی اچھی کمپنی ہے",
+    "ارننگ بھی بہتر ہوئی ہے",
+    "بیسٹ بائنگ 38-40 کا اچھا لیول ہے",
+    "موجودہ قیمت پر بھی خرید سکتے ہیں",
+    "تھوڑا بہت ڈیویڈنڈ بھی دیتی ہے"
+  ]
 }
