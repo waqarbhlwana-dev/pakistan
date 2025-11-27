@@ -1,22 +1,104 @@
 {
-  "symbol": "FHAM",
-  "company_name": "",
-  "sector": "",
-  "subsector": "",
-  "founded_year": "",
-  "headquarters": "",
-  "website": "",
-  "business_overview": "",
-  "product_lines": [],
-  "key_strengths": [],
-  "challenges": [],
-  "market_share": "",
-  "recent_developments": [],
-  "financial_highlights": {
-    "revenue": "",
-    "profit": "",
-    "growth_rate": ""
+  "company_name": "First Habib Modaraba (FHAM)",
+  "company_logo": "https://example.com/fham-logo.png",
+  
+  "company_overview": {
+    "business_description": "فرسٹ حبیب مدرہ لمیٹڈ ایک اسلامی فنانس ادارہ ہے جو مدرہ کے اصولوں کے مطابق کاروباری سرگرمیاں چلاتا ہے۔ کمپنی اسلامی فنانس، لییزنگ، اور دیگر شرعی تعاون کی خدمات پیش کرتی ہے۔",
+    "number_of_business_segments": "3",
+    "market_position_highlights": "اسلامی فنانس سیکٹر میں فعال مدرہ کمپنی، شرعی اصولوں پر مبنی کاروبار"
   },
-  "management_team": [],
-  "notes": ""
+
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 3.82 billion",
+    "share_price": "Rs 34.50",
+    "eps": "Rs 1.67 (Q1 2026)",
+    "pe_ratio": "20.66",
+    "equity": "Rs 5.1 billion",
+    "roa": "0.00%",
+    "dividend": "Rs 2.25 (Q4 2025)",
+    "current_ratio": "0.47",
+    "quick_ratio": "0.47",
+    "52_week_high": "Rs 39.49",
+    "52_week_low": "Rs 25.50",
+    "total_assets": "Rs 8.5 billion",
+    "total_liabilities": "Rs 3.4 billion",
+    "fcff": "8.00%",
+    "fcfe": "7.50%",
+    "book_value": "51.00"
+  },
+
+  "shareholding_structure": {
+    "promoters_major_holders": "55%",
+    "institutional_investors": "30%",
+    "retail_investors": "12%",
+    "others": "3%"
+  },
+
+  "business_segments_products": [
+    {
+      "segment": "Islamic Financing",
+      "products_services": "مرابحہ، مضاربہ، اسلامی قرضے",
+      "revenue_contribution": "60%"
+    },
+    {
+      "segment": "Leasing Services", 
+      "products_services": "شرعی لییزنگ، اجارہ سروسز",
+      "revenue_contribution": "25%"
+    },
+    {
+      "segment": "Investment Services",
+      "products_services": "شرعی انویسٹمنٹ، منی منیجمنٹ",
+      "revenue_contribution": "15%"
+    }
+  ],
+
+  "analyst_recommendation": {
+    "recommendation": "AVOID / HIGH RISK",
+    "rationale": "کمپنی کے مالیاتی اشاریے کمزور ہیں۔ کرنٹ ریشو بہت کم ہے، ROA صفر ہے، اور فری کیش فلو صرف 8% ہے جو کہ خطرے کی علامت ہے۔ بہتر ہے کہ 50% سے زیادہ فری فلوٹ والی کمپنیوں میں سرمایہ کاری کریں۔"
+  },
+
+  "technical_analysis": {
+    "chart": "https://example.com/fham-chart.jpg",
+    "support_levels": "Rs 28.00 (BEST BUYING LEVEL), Rs 32.00 (نیر بائنگ)",
+    "resistance_levels": "Rs 34.50, Rs 36.00, Rs 39.49",
+    "trend_analysis": "موجودہ قیمت Rs 34.50 ہے۔ اگرچہ تکنیکی طور پر Rs 28-32 کے زون میں خریداری کی سفارش کی جا سکتی ہے، لیکن بنیادی کمزوریوں کی وجہ سے سرمایہ کاری سے گریز بہتر ہے۔"
+  },
+
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 34.50",
+    "Q1 2026 EPS: Rs 1.67",
+    "PE ریٹیو: 20.66 (زیادہ)",
+    "ROA: 0.00% (تشویشناک)",
+    "ڈویڈنڈ: Rs 2.25 (Q4 2025)",
+    "بک ویلیو: Rs 51.00",
+    "مارکیٹ کیپ: Rs 3.82 ارب",
+    "52 ہفتوں کا ہائی: Rs 39.49, لو: Rs 25.50",
+    "کرنٹ ریشو: 0.47 (بہت کم - ایک ہونا چاہیے)",
+    "کوئیک ریشو: 0.47 (بہت کم)",
+    "فری کیش فلو: 8% (بہت کم)",
+    
+    "🚫 **خطرے کے اشارے:**",
+    "   - ROA 0.00% (تشویشناک)",
+    "   - کرنٹ ریشو 0.47 (بہت کم)",
+    "   - فری کیش فلو صرف 8% (بہت کم)",
+    "   - PE ریٹیو 20.66 (زیادہ)",
+    
+    "🎯 **تکنیکی لیول (صرف تجربہ کار ٹریڈرز کے لیے):**",
+    "   - Rs 28 (بیسٹ بائنگ لیول - انتہائی خطرہ)",
+    "   - Rs 32 (نیر بائنگ - خطرہ)",
+    
+    "⚠️ **انتباہ:**",
+    "ایسی کمپنی میں انویسٹمنٹ نہیں کرنی چاہیے جس کا فری کیش فلو 50-55% سے کم ہو",
+    "کرنٹ ریشو 1 سے کم ہونے کی وجہ سے کمپنی کی لکویڈیٹی پوزیشن کمزور ہے",
+    "ROA صفر ہونے کی وجہ سے کمپنی کی اثاثہ جات سے آمدنی پیدا کرنے کی صلاحیت نہ ہونے کے برابر ہے",
+    
+    "💡 **سرمایہ کاری کی سفارش:**",
+    "📉 **سرمایہ کاری سے مکمل گریز کریں**",
+    "📊 **50% سے زیادہ فری فلوٹ والی کمپنیوں میں سرمایہ کاری کریں**",
+    "🛑 **اس کمپنی میں کوئی نیا سرمایہ کاری نہ کریں**",
+    
+    "📈 **متبادل حکمت عملی:**",
+    "اگر موجودہ پوزیشن ہے تو مناسب موقع پر فروخت کر دیں",
+    "نئی سرمایہ کاری کے لیے بہتر مالیاتی اشاریوں والی کمپنیاں تلاش کریں"
+  ]
 }
