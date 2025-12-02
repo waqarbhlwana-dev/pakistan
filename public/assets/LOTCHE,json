@@ -1,12 +1,11 @@
-
 {
   "company_name": "Lotte Chemical Pakistan Limited (LOTCHEM)",
   "company_logo": "https://example.com/lotchem-logo.png",
   
   "company_overview": {
-    "business_description": "Lotte Chemical Pakistan Limited پاکستان کی معروف پیٹرو کیمیکل مینوفیکچرنگ کمپنی ہے جو PTA (Purified Terephthalic Acid) کی پیداوار اور فروخت میں مصروف ہے۔ کمپنی کا تعلق جنوبی کوریا کے لوتے گروپ سے ہے۔",
+    "business_description": "Lotte Chemical Pakistan Limited Pakistan ki ma'roof petro chemical manufacturing company hai jo PTA (Purified Terephthalic Acid) ki paidawar aur farokht mein masroof hai. Company ka talluq South Korea ke Lotte Group se hai.",
     "number_of_business_segments": "2",
-    "market_position_highlights": "پاکستان کی معروف پیٹرو کیمیکل کمپنی، PTA مینوفیکچرنگ میں مارکیٹ لیڈر، بین الاقوامی گروپ کی ذیلی کمپنی"
+    "market_position_highlights": "Pakistan ki ma'roof petro chemical company, PTA manufacturing mein market leader, beyn al aqwami group ki zeli company"
   },
 
   "key_financial_metrics": {
@@ -25,7 +24,7 @@
     "total_liabilities": "Rs 29.85 billion",
     "fcff": "Rs 1.2 billion",
     "fcfe": "Rs 0.8 billion",
-    "book_value": "15.35",
+    "book_value": 15.35,
     "total_debt": "Rs 18.5 billion",
     "debt_to_equity": "1.21"
   },
@@ -40,91 +39,78 @@
   "business_segments_products": [
     {
       "segment": "PTA Production",
-      "products_services": "Purified Terephthalic Acid کی پیداوار",
+      "products_services": "Purified Terephthalic Acid ki paidawar",
       "revenue_contribution": "85%"
     },
     {
       "segment": "By-Products", 
-      "products_services": "کیمیکل بائی پروڈکٹس",
+      "products_services": "Chemical by-products",
       "revenue_contribution": "15%"
     }
   ],
 
   "analyst_recommendation": {
     "recommendation": "HIGH RISK - BUY AT 20 ONLY",
-    "rationale": "کمپنی کا PE ریٹیو 450 انتہائی زیادہ ہے اور EPS بہت کم ہے۔ موجودہ قیمت اوور ویلیوڈ ہے۔ صرف 20 کے لیول پر ہی غور کریں۔"
+    "rationale": "Company ka PE ratio 450 intehai zyada hai aur EPS bohat kam hai. Mojuda qeemat overvalued hai. Sirf 20 ke level par hi ghor karein."
   },
 
   "technical_analysis": {
     "chart": "https://example.com/lotchem-chart.jpg",
-    "support_levels": "Rs 20.00 (BEST BUYING LEVEL), Rs 24.00 (ٹریڈنگ لیول)",
+    "support_levels": "Rs 20.00 (BEST BUYING LEVEL), Rs 24.00 (Trading Level)",
     "resistance_levels": "Rs 27.00, Rs 28.00, Rs 30.00",
-    "trend_analysis": "موجودہ قیمت Rs 27.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ 20 کا لیول ہی محفوظ خریداری کا علاقہ ہے۔"
+    "trend_analysis": "Mojuda qeemat Rs 27.00 hai jo behtareen khareedari zone se oopar hai. 20 ka level hi mehfooz khareedari ka ilaqa hai."
   },
 
   "summary_key_notes": [
-    "موجودہ مارکیٹ قیمت: Rs 27.00",
-    "Q3 2025 EPS: Rs 0.06 (انتہائی کم)",
-    "PE ریٹیو: 450.00 (انتہائی زیادہ)",
-    "ROA: 0.39% (بہت کم)",
-    "ڈویڈنڈ: Rs 0.50 (2024)",
-    "بک ویلیو: Rs 15.35 (موجودہ قیمت سے 43% کم)",
-    "مارکیٹ کیپ: Rs 40.84 ارب",
-    "52 ہفتوں کا ہائی: Rs 30.00, لو: Rs 15.00",
-    "کرنٹ ریشو: 1.83 (اچھا)",
-    "کوئیک ریشو: 1.37 (اچھا)",
-    
-    "📊 **2025 کے مالیاتی اشاریے:**",
-    "کل قرضہ: Rs 18.5 ارب",
-    "قرض سے حصص کا تناسب: 1.21 (زیادہ)",
-    "کل اثاثے: Rs 45.2 ارب",
-    "کل واجبات: Rs 29.85 ارب",
-    
-    "👨‍💼 **مینجمنٹ کا جائزہ:**",
-    "مینجمنٹ 15+ سال پرانی ہے",
-    "بین الاقوامی گروپ کی سپورٹ",
-    "مینجمنٹ کی کارکردگی میں کمی واقع ہوئی ہے",
-    
-    "🚫 **خطرے کے واضح اشارے:**",
-    "   - PE ریٹیو 450.00 انتہائی زیادہ",
-    "   - EPS صرف 0.06 روپے (انتہائی کم)",
-    "   - ROA 0.39% بہت کم ہے",
-    "   - کل قرضہ Rs 18.5 ارب (زیادہ)",
-    "   - قرض سے حصص کا تناسب 1.21 (تشویشناک)",
-    "   - بک ویلیو موجودہ قیمت سے 43% کم ہے",
-    "   - کمپنی اس وقت اوور ویلیو ہے",
-    
-    "✅ **مثبت پہلو:**",
-    "   - کرنٹ ریشو 1.83 اچھا ہے",
-    "   - کوئیک ریشو 1.37 اچھا ہے",
-    "   - بین الاقوامی گروپ کی سپورٹ",
-    "   - مارکیٹ لیڈر پوزیشن",
-    
-    "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
-    "   - Rs 20 (بیسٹ بائنگ لیول)",
-    
-    "📈 **ٹریڈنگ کے لیے:**",
-    "   - Rs 24 (ٹریڈنگ کے لیے لیول)",
-    
-    "💼 **کاروباری چیلنجز:**",
-    "ارننگ میں شدید کمی",
-    "قرض کا بوجھ",
-    "بین الاقوامی کیمیکل قیمتوں کا اثر",
-    
-    "📈 **سرمایہ کاری کی حکمت عملی:**",
-    "📌 **ہائی رسک انویسٹمنٹ**",
-    "📌 **صرف 20 کے لیول پر خریدیں**",
-    "📌 **ٹریڈنگ کے لیے: 24 پر غور کریں**",
-    "📌 **موجودہ قیمت پر خریدنے سے گریز کریں**",
-    "📌 **احتیاط کرنی چاہیے**",
-    
-    "💎 **خلاصہ:**",
-    "PE ریٹیو 450 انتہائی زیادہ ہے",
-    "EPS صرف 0.06 روپے ہے",
-    "مینجمنٹ 15+ سال پرانی ہے",
-    "کل قرضہ Rs 18.5 ارب ہے",
-    "بیسٹ بائنگ 20 کے لیول پر ہے",
-    "ٹریڈنگ کے لیے 24 کا لیول ہے",
-    "کمپنی اوور ویلیو ہونے کی وجہ سے احتیاط کریں"
+    "Mojuda market qeemat: Rs 27.00",
+    "Q3 2025 EPS: Rs 0.06 (Intehai kam)",
+    "PE Ratio: 450.00 (Intehai zyada)",
+    "ROA: 0.39% (Bohat kam)",
+    "Dividend: Rs 0.50 (2024)",
+    "Book Value: Rs 15.35 (Mojuda qeemat se 43% kam)",
+    "Market Cap: Rs 40.84 arab",
+    "52 Week High: Rs 30.00, Low: Rs 15.00",
+    "Current Ratio: 1.83 (Acha)",
+    "Quick Ratio: 1.37 (Acha)",
+    "2025 Ke Maliati Ashare:",
+    "Total Qarza: Rs 18.5 arab",
+    "Qarza se Hissay ka Tanasub: 1.21 (Zyada)",
+    "Total Asase: Rs 45.2 arab",
+    "Total Wajibat: Rs 29.85 arab",
+    "Management Ka Jaiza:",
+    "Management 15+ saal purani hai",
+    "Beyn al aqwami group ki support",
+    "Management ki karkardagi mein kami waqay hui hai",
+    "Khatray Ke Wazeh Isharay:",
+    "PE Ratio 450.00 intehai zyada",
+    "EPS sirf 0.06 rupay (intehai kam)",
+    "ROA 0.39% bohat kam hai",
+    "Total qarza Rs 18.5 arab (zyada)",
+    "Qarza se hissay ka tanasub 1.21 (tashweeshnaak)",
+    "Book value mojuda qeemat se 43% kam hai",
+    "Company is waqt overvalued hai",
+    "Musbat Pehlu:",
+    "Current Ratio 1.83 acha hai",
+    "Quick Ratio 1.37 acha hai",
+    "Beyn al aqwami group ki support",
+    "Market leader position",
+    "Investment Ke Liye Behtareen Level:",
+    "Rs 20 (Best Buying Level)",
+    "Trading Ke Liye:",
+    "Rs 24 (Trading ke liye level)",
+    "Sarmaya Kari Ki Himayat:",
+    "High risk investment",
+    "Sirf 20 ke level par khareedein",
+    "Trading ke liye: 24 par ghor karein",
+    "Mojuda qeemat par khareedne se gurez karein",
+    "Ehtiyat karni chahiye",
+    "Khulasa:",
+    "PE Ratio 450 intehai zyada hai",
+    "EPS sirf 0.06 rupay hai",
+    "Management 15+ saal purani hai",
+    "Total qarza Rs 18.5 arab hai",
+    "Best buying 20 ke level par hai",
+    "Trading ke liye 24 ka level hai",
+    "Company overvalued hone ki wajah se ehtiyat karein"
   ]
 }
