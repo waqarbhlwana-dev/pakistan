@@ -101,7 +101,7 @@ export default function Index() {
             {/* Hero Content */}
             <div className="text-center mb-12">
               <h1 className="text-5xl sm:text-6xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent mb-6 leading-tight">
-                Master Pakistan's Stock Market
+                Master Pakistan Stock Market
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
                 Learn, analyze, and invest with confidence. Access real-time
