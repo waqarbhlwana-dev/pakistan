@@ -47,6 +47,7 @@ export default function Navigation() {
     "FFC",
     "FFBL",
     "FHAM",
+    "FPJM",
     "GATM",
     "GLAXO",
     "GRLE",
