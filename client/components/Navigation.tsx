@@ -99,6 +99,7 @@ export default function Navigation() {
     "SSGC",
     "SIEMENS",
     "TASS",
+    "TOMCL",
     "TRG",
     "TVMH",
     "UBL",
