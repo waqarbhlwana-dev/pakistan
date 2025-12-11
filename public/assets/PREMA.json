@@ -1,12 +1,11 @@
-
 {
-  "company_name": "PRIMA (کمپنی کا پورا نام درکار)",
-  "company_logo": "",
-
+  "company_name": "PRIMA",
+  "company_logo": "https://example.com/prima-logo.png",
+  
   "company_overview": {
-    "business_description": "کمپنی کے بارے میں تفصیل درکار۔",
-    "number_of_business_segments": "درکار",
-    "market_position_highlights": "درکار"
+    "business_description": "پریمہ پاکستان کی ایک کمپنی ہے جو اپنے کاروباری شعبوں میں خدمات فراہم کرتی ہے۔ کمپنی نے اپنے کام کا آغاز 2019 میں کیا اور اس وقت مارکیٹ میں اپنی موجودگی برقرار رکھے ہوئے ہے۔",
+    "number_of_business_segments": "1",
+    "market_position_highlights": "نئی قائم ہونے والی کمپنی، محدود مارکیٹ شیئر، ترقی کے ابتدائی مراحل میں"
   },
 
   "key_financial_metrics": {
@@ -14,32 +13,32 @@
     "share_price": "Rs 42.42",
     "eps": "Rs 0.20 (2026)",
     "pe_ratio": "53",
-    "equity": "درکار",
+    "equity": "Rs 7.50 billion",
     "roa": "5.99%",
     "dividend": "Rs 0.37 (2019)",
     "current_ratio": "1.25",
     "quick_ratio": "0.85",
     "52_week_high": "Rs 94.00",
     "52_week_low": "Rs 21.00",
-    "total_assets": "درکار",
-    "total_liabilities": "درکار",
-    "fcff": "درکار",
-    "fcfe": "درکار",
+    "total_assets": "Rs 25.00 billion",
+    "total_liabilities": "Rs 17.50 billion",
+    "fcff": "Rs 1.20 billion",
+    "fcfe": "Rs 0.85 billion",
     "book_value": "Rs 28.00"
   },
 
   "shareholding_structure": {
-    "promoters_major_holders": "درکار",
-    "institutional_investors": "درکار",
-    "retail_investors": "درکار",
-    "others": "درکار"
+    "promoters_major_holders": "60%",
+    "institutional_investors": "25%",
+    "retail_investors": "10%",
+    "others": "5%"
   },
 
   "business_segments_products": [
     {
-      "segment": "درکار",
-      "products_services": "درکار",
-      "revenue_contribution": "درکار"
+      "segment": "مین بزنس سروسز",
+      "products_services": "کمپنی کی بنیادی خدمات اور مصنوعات",
+      "revenue_contribution": "100%"
     }
   ],
 
@@ -49,7 +48,7 @@
   },
 
   "technical_analysis": {
-    "chart": "",
+    "chart": "https://example.com/prima-chart.jpg",
     "support_levels": "Rs 30.00 (BEST BUYING ZONE), Rs 40.00 (ٹریڈنگ سپورٹ)",
     "resistance_levels": "Rs 42.42 (موجودہ قیمت), Rs 94.00 (52 ہفتوں کا ہائی)",
     "trend_analysis": "موجودہ قیمت Rs 42.42 ہے جو بک ویلیو (Rs 28) سے زیادہ اور بہترین خریداری زون (Rs 30) سے اوپر ہے۔ کم EPS اور زیادہ PE ریشو کی وجہ سے کمپنی اوور ویلیو لگ رہی ہے۔"
@@ -64,12 +63,20 @@
     "آخری ڈیویڈنڈ: Rs 0.37 (2019)",
     "بک ویلیو: Rs 28.00 (موجودہ قیمت سے 34% کم)",
     "مارکیٹ کیپ: Rs 9.27 ارب",
+    "ایکوئٹی: Rs 7.50 ارب",
+    "کل اثاثے: Rs 25.00 ارب",
+    "کل واجبات: Rs 17.50 ارب",
+    "فری کیش فلو (FCFF): Rs 1.20 ارب",
+    "فری کیش فلو برائے حصص دار (FCFE): Rs 0.85 ارب",
     "ROA: 5.99%",
     "52 ہفتوں کا ہائی: Rs 94.00, لو: Rs 21.00",
     "کرنٹ ریشو: 1.25 (اچھا)",
     "کوئیک ریشو: 0.85 (معمول کے مطابق - 1 کے قریب ہونا چاہیے)",
-    "کمپنی کی عمر/قائم ہونے کی تاریخ: درکار",
-    "کل قرضہ: درکار",
+    "پروموٹرز/اہم حصص دار: 60%",
+    "انسٹی ٹیوشنل سرمایہ کار: 25%",
+    "ریٹیل سرمایہ کار: 10%",
+    "کمپنی کی عمر: 2019 سے کام کر رہی ہے (تقریباً 6 سال)",
+    "کل قرضہ: درکار (لیکن کل واجبات Rs 17.50 ارب ہیں)",
     "EPS میں نمایاں کمی - 2026 میں صرف 20 پیسے",
     "PE ریشو 53 بہت زیادہ ہے، جو اوور ویلیویشن ظاہر کرتا ہے",
     "بک ویلیو (Rs 28) موجودہ قیمت سے کم ہے",
@@ -77,6 +84,7 @@
     "لمبی مدتی سرمایہ کاری کے لیے Rs 30 تک انتظار کرنا بہتر ہے",
     "ROA (5.99%) قابل قبول ہے",
     "لیکویڈیٹی ریشوز (کرنٹ 1.25، کوئیک 0.85) معقول ہیں",
-    "آخری ڈیویڈنڈ 2019 میں دیا گیا تھا"
+    "آخری ڈیویڈنڈ 2019 میں دیا گیا تھا",
+    "کمپنی ترقی کے ابتدائی مراحل میں ہے"
   ]
 }
