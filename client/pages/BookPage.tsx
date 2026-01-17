@@ -10,7 +10,7 @@ export default function BookPage() {
   const currentPage = parseInt(pageNum || "1", 10);
   const totalPages = 100;
   const [PageContent, setPageContent] = useState<any>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Validate page number
   const isValidPage = currentPage >= 1 && currentPage <= totalPages;
@@ -21,6 +21,7 @@ export default function BookPage() {
       return;
     }
 
+    setIsLoading(true);
     // Dynamically import the book page component
     import(`./book/${currentPage}.tsx`)
       .then((module) => {
