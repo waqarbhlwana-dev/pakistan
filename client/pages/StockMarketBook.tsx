@@ -7,6 +7,7 @@ const COVER_IMAGE =
   "https://cdn.builder.io/api/v1/image/assets%2F0c52bb94a8fc4cc08912fe4d89fdbf38%2F288e885f49c646048da1fe2e2bd8abaf?format=webp&width=800";
 
 export default function StockMarketBook() {
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     fullName: "",
     email: "",
