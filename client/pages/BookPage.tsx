@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -8,9 +9,45 @@ export default function BookPage() {
   const navigate = useNavigate();
   const currentPage = parseInt(pageNum || "1", 10);
   const totalPages = 100;
+  const [PageContent, setPageContent] = useState<any>(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Validate page number
   const isValidPage = currentPage >= 1 && currentPage <= totalPages;
+
+  useEffect(() => {
+    if (!isValidPage) {
+      setIsLoading(false);
+      return;
+    }
+
+    setIsLoading(true);
+    // Dynamically import the book page component
+    import(`./book/${currentPage}.tsx`)
+      .then((module) => {
+        setPageContent(() => module.default);
+        setIsLoading(false);
+      })
+      .catch(() => {
+        setIsLoading(false);
+      });
+  }, [currentPage, isValidPage]);
+
+  const handlePrevious = () => {
+    if (currentPage > 1) {
+      navigate(`/book/page/${currentPage - 1}`);
+    }
+  };
+
+  const handleNext = () => {
+    if (currentPage < totalPages) {
+      navigate(`/book/page/${currentPage + 1}`);
+    }
+  };
+
+  const handlePageClick = (pageNum: number) => {
+    navigate(`/book/page/${pageNum}`);
+  };
 
   if (!isValidPage) {
     return (
@@ -35,51 +72,34 @@ export default function BookPage() {
     );
   }
 
-  const handlePrevious = () => {
-    if (currentPage > 1) {
-      navigate(`/book/page/${currentPage - 1}`);
-    }
-  };
-
-  const handleNext = () => {
-    if (currentPage < totalPages) {
-      navigate(`/book/page/${currentPage + 1}`);
-    }
-  };
-
-  const handlePageClick = (pageNum: number) => {
-    navigate(`/book/page/${pageNum}`);
-  };
+  // Show fallback content immediately while loading
+  const pageContent = PageContent ? (
+    <PageContent />
+  ) : (
+    <div className="bg-card border border-border rounded-xl p-8 mb-8">
+      <h1 className="text-2xl font-bold mb-4">صفحہ {currentPage}</h1>
+      <div className="prose prose-invert max-w-none">
+        <p className="text-muted-foreground leading-relaxed">
+          یہاں صفحہ {currentPage} کا مواد ہوگا۔
+        </p>
+        <p className="text-muted-foreground leading-relaxed mt-4">
+          This is the content area for page {currentPage}. Add your book content
+          here.
+        </p>
+      </div>
+    </div>
+  );
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       <Navigation />
 
       <main className="flex-1 max-w-6xl mx-auto w-full p-4 py-8">
-        {/* Page Content */}
-        <div className="bg-card border border-border rounded-xl p-8 mb-8">
-          <div className="flex justify-between items-center mb-6 pb-4 border-b border-border">
-            <h1 className="text-2xl font-bold">Page {currentPage}</h1>
-            <span className="text-muted-foreground">
-              {currentPage} of {totalPages}
-            </span>
-          </div>
-
-          {/* Page Viewer */}
-          <div className="bg-background rounded-lg p-8 min-h-96 flex items-center justify-center border border-border/50">
-            <div className="text-center">
-              <div className="text-6xl font-light text-muted-foreground mb-4">
-                {currentPage}
-              </div>
-              <p className="text-muted-foreground">
-                Page content would be displayed here
-              </p>
-            </div>
-          </div>
-        </div>
+        {/* Render the page content or fallback */}
+        {pageContent}
 
         {/* Navigation Controls */}
-        <div className="bg-card border border-border rounded-xl p-6 mb-8">
+        <div className="bg-card border border-border rounded-xl p-6 mb-8 mt-8">
           <div className="flex items-center justify-between gap-4">
             <button
               onClick={handlePrevious}
@@ -117,28 +137,6 @@ export default function BookPage() {
               Next
               <ChevronRight size={18} />
             </button>
-          </div>
-        </div>
-
-        {/* Page Grid */}
-        <div className="bg-card border border-border rounded-xl p-6">
-          <h2 className="text-lg font-semibold mb-4">All Pages</h2>
-          <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-15 gap-2">
-            {Array.from({ length: totalPages }, (_, i) => i + 1).map(
-              (pageNum) => (
-                <button
-                  key={pageNum}
-                  onClick={() => handlePageClick(pageNum)}
-                  className={`aspect-square flex items-center justify-center rounded-md border font-semibold text-sm transition-colors ${
-                    currentPage === pageNum
-                      ? "bg-primary text-primary-foreground border-primary"
-                      : "border-border bg-background hover:bg-primary hover:text-primary-foreground"
-                  }`}
-                >
-                  {pageNum}
-                </button>
-              ),
-            )}
           </div>
         </div>
 

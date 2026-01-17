@@ -1,19 +1,15 @@
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-
 export default function BookPage89() {
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <Navigation />
-      <main className="flex-1 max-w-4xl mx-auto w-full p-4 py-8">
-        <div className="bg-card border border-border rounded-xl p-8">
-          <h1 className="text-2xl font-bold mb-4">Page 89</h1>
-          <div className="prose prose-invert max-w-none">
-            {/* Page content will be added here */}
-          </div>
-        </div>
-      </main>
-      <Footer />
+    <div className="bg-card border border-border rounded-xl p-8 mb-8">
+      <h1 className="text-2xl font-bold mb-4">صفحہ 89</h1>
+      <div className="prose prose-invert max-w-none">
+        <p className="text-muted-foreground leading-relaxed">
+          یہاں صفحہ 89 کا مواد ہوگا۔
+        </p>
+        <p className="text-muted-foreground leading-relaxed mt-4">
+          This is the content area for page 89. Add your book content here.
+        </p>
+      </div>
     </div>
   );
 }

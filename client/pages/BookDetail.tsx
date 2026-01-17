@@ -1,12 +1,18 @@
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-
-const COVER_IMAGE =
-  "https://cdn.builder.io/api/v1/image/assets%2F0c52bb94a8fc4cc08912fe4d89fdbf38%2F288e885f49c646048da1fe2e2bd8abaf?format=webp&width=800";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 export default function BookDetail() {
   const navigate = useNavigate();
+  const [selectedPage, setSelectedPage] = useState<string>("");
 
   const bookInfo = {
     title: "PSX Capitals - کتاب برائے اسٹاک مارکیٹ",
@@ -36,6 +42,11 @@ export default function BookDetail() {
     navigate(`/book/page/${pageNum}`);
   };
 
+  const handlePageSelect = (value: string) => {
+    setSelectedPage(value);
+    handlePageClick(parseInt(value));
+  };
+
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       <Navigation />
@@ -45,12 +56,6 @@ export default function BookDetail() {
           {/* Book Cover and Info */}
           <div className="md:col-span-2">
             <div className="bg-card border border-border rounded-xl p-6">
-              <img
-                src={COVER_IMAGE}
-                alt="PSX Capitals Book Cover"
-                className="w-full rounded-md mb-6 object-cover max-h-96"
-              />
-
               <h1 className="text-3xl font-bold mb-4">{bookInfo.title}</h1>
               <p className="text-muted-foreground mb-6 leading-relaxed whitespace-pre-line">
                 {bookInfo.description}
@@ -105,16 +110,21 @@ export default function BookDetail() {
         <div className="mt-12">
           <h2 className="text-2xl font-bold mb-6">صفحات</h2>
           <div className="bg-card border border-border rounded-xl p-6">
-            <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-8 lg:grid-cols-10 gap-2">
-              {Array.from({ length: 100 }, (_, i) => i + 1).map((pageNum) => (
-                <button
-                  key={pageNum}
-                  onClick={() => handlePageClick(pageNum)}
-                  className="aspect-square flex items-center justify-center rounded-md border border-border bg-background hover:bg-primary hover:text-primary-foreground transition-colors font-semibold text-sm"
-                >
-                  {pageNum}
-                </button>
-              ))}
+            <div className="max-w-xs">
+              <Select value={selectedPage} onValueChange={handlePageSelect}>
+                <SelectTrigger>
+                  <SelectValue placeholder="صفحہ منتخب کریں" />
+                </SelectTrigger>
+                <SelectContent>
+                  {Array.from({ length: 100 }, (_, i) => i + 1).map(
+                    (pageNum) => (
+                      <SelectItem key={pageNum} value={pageNum.toString()}>
+                        صفحہ {pageNum}
+                      </SelectItem>
+                    ),
+                  )}
+                </SelectContent>
+              </Select>
             </div>
           </div>
         </div>
