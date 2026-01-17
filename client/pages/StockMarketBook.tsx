@@ -96,7 +96,7 @@ export default function StockMarketBook() {
               کتاب میں شامل کورسس
             </h2>
              <h2 className="text-lg font-semibold mt-6 mb-2">
-<a href="book.tsx">READ NOW   </a>        </h2>
+<a href="/book/book.tsx">READ NOW   </a>        </h2>
             
             <ul className="list-disc list-inside space-y-1 text-muted-foreground">
               {coursesIncluded.map((c) => (
