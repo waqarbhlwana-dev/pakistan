@@ -26,6 +26,8 @@ import AccountManagement from "./pages/AccountManagement";
 import PortfolioManagment from "./pages/PortfolioManagment";
 import StockMarketBook from "./pages/StockMarketBook";
 import SplashScreen from "./pages/SplashScreen";
+import BookDetail from "./pages/BookDetail";
+import BookPage from "./pages/BookPage";
 
 const queryClient = new QueryClient();
 
@@ -82,6 +84,8 @@ const App = () => {
               element={<PortfolioManagment />}
             />
             <Route path="/stock-market-book" element={<StockMarketBook />} />
+            <Route path="/book" element={<BookDetail />} />
+            <Route path="/book/page/:pageNum" element={<BookPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

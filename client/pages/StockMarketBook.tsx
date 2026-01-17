@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -6,6 +7,7 @@ const COVER_IMAGE =
   "https://cdn.builder.io/api/v1/image/assets%2F0c52bb94a8fc4cc08912fe4d89fdbf38%2F288e885f49c646048da1fe2e2bd8abaf?format=webp&width=800";
 
 export default function StockMarketBook() {
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     fullName: "",
     email: "",
@@ -93,11 +95,15 @@ export default function StockMarketBook() {
             </p>
 
             <h2 className="text-lg font-semibold mt-6 mb-2">
-              کتاب میں شامل کورسس
+              کتاب میں شامل کورسز
             </h2>
-             <h2 className="text-lg font-semibold mt-6 mb-2">
-<a href="/book/book.tsx">READ NOW   </a>        </h2>
-            
+            <button
+              onClick={() => navigate("/book")}
+              className="inline-flex items-center bg-primary text-primary-foreground px-6 py-2 rounded-md font-semibold hover:opacity-90 transition-opacity mb-6"
+            >
+              READ NOW
+            </button>
+
             <ul className="list-disc list-inside space-y-1 text-muted-foreground">
               {coursesIncluded.map((c) => (
                 <li key={c}>{c}</li>
