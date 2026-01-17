@@ -2,8 +2,6 @@ import { useNavigate } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
-const COVER_IMAGE =
-  "https://cdn.builder.io/api/v1/image/assets%2F0c52bb94a8fc4cc08912fe4d89fdbf38%2F288e885f49c646048da1fe2e2bd8abaf?format=webp&width=800";
 
 export default function BookDetail() {
   const navigate = useNavigate();
@@ -45,12 +43,6 @@ export default function BookDetail() {
           {/* Book Cover and Info */}
           <div className="md:col-span-2">
             <div className="bg-card border border-border rounded-xl p-6">
-              <img
-                src={COVER_IMAGE}
-                alt="PSX Capitals Book Cover"
-                className="w-full rounded-md mb-6 object-cover max-h-96"
-              />
-
               <h1 className="text-3xl font-bold mb-4">{bookInfo.title}</h1>
               <p className="text-muted-foreground mb-6 leading-relaxed whitespace-pre-line">
                 {bookInfo.description}
