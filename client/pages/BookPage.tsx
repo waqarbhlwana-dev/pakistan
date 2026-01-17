@@ -83,7 +83,8 @@ export default function BookPage() {
           یہاں صفحہ {currentPage} کا مواد ہوگا۔
         </p>
         <p className="text-muted-foreground leading-relaxed mt-4">
-          This is the content area for page {currentPage}. Add your book content here.
+          This is the content area for page {currentPage}. Add your book content
+          here.
         </p>
       </div>
     </div>

@@ -10,7 +10,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-
 export default function BookDetail() {
   const navigate = useNavigate();
   const [selectedPage, setSelectedPage] = useState<string>("");
@@ -117,11 +116,13 @@ export default function BookDetail() {
                   <SelectValue placeholder="صفحہ منتخب کریں" />
                 </SelectTrigger>
                 <SelectContent>
-                  {Array.from({ length: 100 }, (_, i) => i + 1).map((pageNum) => (
-                    <SelectItem key={pageNum} value={pageNum.toString()}>
-                      صفحہ {pageNum}
-                    </SelectItem>
-                  ))}
+                  {Array.from({ length: 100 }, (_, i) => i + 1).map(
+                    (pageNum) => (
+                      <SelectItem key={pageNum} value={pageNum.toString()}>
+                        صفحہ {pageNum}
+                      </SelectItem>
+                    ),
+                  )}
                 </SelectContent>
               </Select>
             </div>
