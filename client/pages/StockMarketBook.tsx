@@ -95,10 +95,14 @@ export default function StockMarketBook() {
             </p>
 
             <h2 className="text-lg font-semibold mt-6 mb-2">
-              کتاب میں شامل کورسس
+              کتاب میں شامل کورسز
             </h2>
-             <h2 className="text-lg font-semibold mt-6 mb-2">
-<a href="/book/book.tsx">READ NOW   </a>        </h2>
+            <button
+              onClick={() => navigate("/book")}
+              className="inline-flex items-center bg-primary text-primary-foreground px-6 py-2 rounded-md font-semibold hover:opacity-90 transition-opacity mb-6"
+            >
+              READ NOW
+            </button>
             
             <ul className="list-disc list-inside space-y-1 text-muted-foreground">
               {coursesIncluded.map((c) => (
