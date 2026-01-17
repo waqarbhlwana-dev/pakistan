@@ -21,7 +21,6 @@ export default function BookPage() {
       return;
     }
 
-    setIsLoading(true);
     // Dynamically import the book page component
     import(`./book/${currentPage}.tsx`)
       .then((module) => {
