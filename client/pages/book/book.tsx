@@ -1,4 +1,9 @@
- <h2 className="text-lg font-semibold mt-6 mb-2">
+import stock-market-book from /@/stock-market-book,
+
+
+
+
+<h2 className="text-lg font-semibold mt-6 mb-2">
 <a href="1.tsx">1</a>
                <a href="2.tsx">-2</a>
                <a href="3.tsx">-3</a>
