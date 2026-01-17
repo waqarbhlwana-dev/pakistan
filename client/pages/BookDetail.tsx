@@ -1,10 +1,19 @@
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 
 export default function BookDetail() {
   const navigate = useNavigate();
+  const [selectedPage, setSelectedPage] = useState<string>("1");
 
   const bookInfo = {
     title: "PSX Capitals - کتاب برائے اسٹاک مارکیٹ",
@@ -32,6 +41,11 @@ export default function BookDetail() {
 
   const handlePageClick = (pageNum: number) => {
     navigate(`/book/page/${pageNum}`);
+  };
+
+  const handlePageSelect = (value: string) => {
+    setSelectedPage(value);
+    handlePageClick(parseInt(value));
   };
 
   return (
@@ -97,16 +111,19 @@ export default function BookDetail() {
         <div className="mt-12">
           <h2 className="text-2xl font-bold mb-6">صفحات</h2>
           <div className="bg-card border border-border rounded-xl p-6">
-            <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-8 lg:grid-cols-10 gap-2">
-              {Array.from({ length: 100 }, (_, i) => i + 1).map((pageNum) => (
-                <button
-                  key={pageNum}
-                  onClick={() => handlePageClick(pageNum)}
-                  className="aspect-square flex items-center justify-center rounded-md border border-border bg-background hover:bg-primary hover:text-primary-foreground transition-colors font-semibold text-sm"
-                >
-                  {pageNum}
-                </button>
-              ))}
+            <div className="max-w-xs">
+              <Select value={selectedPage} onValueChange={handlePageSelect}>
+                <SelectTrigger>
+                  <SelectValue placeholder="صفحہ منتخب کریں" />
+                </SelectTrigger>
+                <SelectContent>
+                  {Array.from({ length: 100 }, (_, i) => i + 1).map((pageNum) => (
+                    <SelectItem key={pageNum} value={pageNum.toString()}>
+                      صفحہ {pageNum}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
             </div>
           </div>
         </div>
