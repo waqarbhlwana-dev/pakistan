@@ -56,14 +56,22 @@ export default function BookPage() {
     );
   }
 
-  if (isLoading) {
+  if (!isValidPage) {
     return (
       <div className="min-h-screen bg-background text-foreground flex flex-col">
         <Navigation />
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-            <p className="text-muted-foreground">Loading page {currentPage}...</p>
+            <h1 className="text-2xl font-bold mb-2">Invalid Page</h1>
+            <p className="text-muted-foreground mb-4">
+              Please select a page between 1 and {totalPages}
+            </p>
+            <button
+              onClick={() => navigate("/book")}
+              className="inline-flex items-center bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold hover:opacity-90"
+            >
+              Back to Book
+            </button>
           </div>
         </main>
         <Footer />
@@ -75,17 +83,68 @@ export default function BookPage() {
     return (
       <div className="min-h-screen bg-background text-foreground flex flex-col">
         <Navigation />
-        <main className="flex-1 flex items-center justify-center">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold mb-2">Page Not Found</h1>
-            <p className="text-muted-foreground mb-4">
-              Page {currentPage} could not be loaded.
-            </p>
+        <main className="flex-1 max-w-6xl mx-auto w-full p-4 py-8">
+          <div className="bg-card border border-border rounded-xl p-8 mb-8">
+            <h1 className="text-2xl font-bold mb-4">صفحہ {currentPage}</h1>
+            <div className="prose prose-invert max-w-none">
+              <p className="text-muted-foreground leading-relaxed">
+                یہاں صفحہ {currentPage} کا مواد ہوگا۔
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                This is the content area for page {currentPage}. Add your book content here.
+              </p>
+            </div>
+          </div>
+
+          {/* Navigation Controls */}
+          <div className="bg-card border border-border rounded-xl p-6 mb-8 mt-8">
+            <div className="flex items-center justify-between gap-4">
+              <button
+                onClick={handlePrevious}
+                disabled={currentPage === 1}
+                className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <ChevronLeft size={18} />
+                Previous
+              </button>
+
+              <div className="flex-1 text-center">
+                <div className="inline-flex items-center gap-2 bg-background px-4 py-2 rounded-md border border-border">
+                  <input
+                    type="number"
+                    min="1"
+                    max={totalPages}
+                    value={currentPage}
+                    onChange={(e) => {
+                      const page = parseInt(e.target.value, 10);
+                      if (page >= 1 && page <= totalPages) {
+                        handlePageClick(page);
+                      }
+                    }}
+                    className="w-16 bg-background text-foreground text-center focus:outline-none"
+                  />
+                  <span className="text-muted-foreground">/ {totalPages}</span>
+                </div>
+              </div>
+
+              <button
+                onClick={handleNext}
+                disabled={currentPage === totalPages}
+                className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Next
+                <ChevronRight size={18} />
+              </button>
+            </div>
+          </div>
+
+          {/* Quick Navigation */}
+          <div className="mt-8 text-center">
             <button
               onClick={() => navigate("/book")}
-              className="inline-flex items-center bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold hover:opacity-90"
+              className="inline-flex items-center bg-secondary text-secondary-foreground px-6 py-2 rounded-md font-semibold hover:opacity-90"
             >
-              Back to Book
+              Back to Book Overview
             </button>
           </div>
         </main>
