@@ -26,6 +26,8 @@ import AccountManagement from "./pages/AccountManagement";
 import PortfolioManagment from "./pages/PortfolioManagment";
 import StockMarketBook from "./pages/StockMarketBook";
 import SplashScreen from "./pages/SplashScreen";
+import BookDetail from "./pages/BookDetail";
+import BookPage from "./pages/BookPage";
 
 const queryClient = new QueryClient();
 
