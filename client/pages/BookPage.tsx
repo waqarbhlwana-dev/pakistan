@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -8,9 +9,29 @@ export default function BookPage() {
   const navigate = useNavigate();
   const currentPage = parseInt(pageNum || "1", 10);
   const totalPages = 100;
+  const [PageContent, setPageContent] = useState<any>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   // Validate page number
   const isValidPage = currentPage >= 1 && currentPage <= totalPages;
+
+  useEffect(() => {
+    if (!isValidPage) {
+      setIsLoading(false);
+      return;
+    }
+
+    setIsLoading(true);
+    // Dynamically import the book page component
+    import(`./book/${currentPage}.tsx`)
+      .then((module) => {
+        setPageContent(() => module.default);
+        setIsLoading(false);
+      })
+      .catch(() => {
+        setIsLoading(false);
+      });
+  }, [currentPage, isValidPage]);
 
   if (!isValidPage) {
     return (
@@ -21,6 +42,44 @@ export default function BookPage() {
             <h1 className="text-2xl font-bold mb-2">Invalid Page</h1>
             <p className="text-muted-foreground mb-4">
               Please select a page between 1 and {totalPages}
+            </p>
+            <button
+              onClick={() => navigate("/book")}
+              className="inline-flex items-center bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold hover:opacity-90"
+            >
+              Back to Book
+            </button>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-background text-foreground flex flex-col">
+        <Navigation />
+        <main className="flex-1 flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+            <p className="text-muted-foreground">Loading page {currentPage}...</p>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
+  }
+
+  if (!PageContent) {
+    return (
+      <div className="min-h-screen bg-background text-foreground flex flex-col">
+        <Navigation />
+        <main className="flex-1 flex items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-2xl font-bold mb-2">Page Not Found</h1>
+            <p className="text-muted-foreground mb-4">
+              Page {currentPage} could not be loaded.
             </p>
             <button
               onClick={() => navigate("/book")}
@@ -56,30 +115,11 @@ export default function BookPage() {
       <Navigation />
 
       <main className="flex-1 max-w-6xl mx-auto w-full p-4 py-8">
-        {/* Page Content */}
-        <div className="bg-card border border-border rounded-xl p-8 mb-8">
-          <div className="flex justify-between items-center mb-6 pb-4 border-b border-border">
-            <h1 className="text-2xl font-bold">Page {currentPage}</h1>
-            <span className="text-muted-foreground">
-              {currentPage} of {totalPages}
-            </span>
-          </div>
-
-          {/* Page Viewer */}
-          <div className="bg-background rounded-lg p-8 min-h-96 flex items-center justify-center border border-border/50">
-            <div className="text-center">
-              <div className="text-6xl font-light text-muted-foreground mb-4">
-                {currentPage}
-              </div>
-              <p className="text-muted-foreground">
-                Page content would be displayed here
-              </p>
-            </div>
-          </div>
-        </div>
+        {/* Render the page content */}
+        <PageContent />
 
         {/* Navigation Controls */}
-        <div className="bg-card border border-border rounded-xl p-6 mb-8">
+        <div className="bg-card border border-border rounded-xl p-6 mb-8 mt-8">
           <div className="flex items-center justify-between gap-4">
             <button
               onClick={handlePrevious}
