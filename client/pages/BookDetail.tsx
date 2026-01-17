@@ -13,7 +13,7 @@ import {
 
 export default function BookDetail() {
   const navigate = useNavigate();
-  const [selectedPage, setSelectedPage] = useState<string>("1");
+  const [selectedPage, setSelectedPage] = useState<string>("");
 
   const bookInfo = {
     title: "PSX Capitals - کتاب برائے اسٹاک مارکیٹ",
