@@ -1,87 +1,135 @@
-{/* Desktop Menu */}
-<div className="hidden md:flex items-center gap-0">
-  {navItems.map((item, index) => (
-    <div
-      key={`desktop-${index}`}
-      className="relative group"
-      onMouseEnter={() => setOpenDropdown(item.label)}
-      onMouseLeave={() => setOpenDropdown(null)}
-    >
-      {item.href && !item.submenu ? (
-        <Link
-          to={item.href}
-          className="px-4 py-2 text-sm font-medium text-slate-200 hover:text-white hover:bg-slate-800 transition-colors rounded-md"
-        >
-          {item.label}
-        </Link>
-      ) : (
-        <>
-          <button
-            className="px-4 py-2 text-sm font-medium text-slate-200 hover:text-white hover:bg-slate-800 transition-colors rounded-md flex items-center gap-1"
-            type="button"
-          >
-            {item.label}
-            {item.submenu && <ChevronDown className="h-4 w-4" />}
-          </button>
+import { Link } from "react-router-dom";
+import { TrendingUp, Menu, X, ChevronDown, Search } from "lucide-react";
+import { useState } from "react";
 
-          {/* Dropdown Menu */}
-          {item.submenu && openDropdown === item.label && (
-            <div className="absolute left-0 mt-0 w-56 bg-slate-800 border border-slate-700 rounded-md shadow-lg z-50">
-              {item.label === "Research Report" && (
-                <div className="sticky top-0 bg-slate-800 border-b border-slate-700 p-3 rounded-t-md">
-                  <div className="relative">
-                    <Search className="absolute left-2 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
-                    <input
-                      type="text"
-                      placeholder="Search assets..."
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      className="w-full bg-slate-700 text-slate-100 placeholder-slate-400 rounded px-3 py-2 pl-8 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    />
-                  </div>
-                </div>
-              )}
+interface DropdownItem {
+  label: string;
+  href: string;
+}
 
+interface NavItem {
+  label: string;
+  href?: string;
+  submenu?: DropdownItem[];
+}
+
+export default function Navigation() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const kse100Symbols = [
+    "ABL","ABOT","AGP","AICL","AKBL","APL","ATLH","ATRL","BAFL","BNWM","BAHL",
+    "BYCO","BWCL","CHCC","DPHL","COLG","CNERGY","CHPL","CRYL","DCR","DGKC",
+    "DAWH","DOHM","DCCI","EFUG","EFERT","EPCL","ENGRO","FATIMA","FAYS","FFC",
+    "FFL","FCCL","FFBL","FHAM","FPJM","GATM","GAL","GADT","GHNI","GLAXO",
+    "GRLE","HBL","HABIB","HUMNL","HGFA","HALEON","HMB","HCAR","HUBC","ICI",
+    "IBFL","INDU","IPMV","JDWS","KAPCO","KEL","KTML","LUCK","LOTCHEM","MAPLE",
+    "MARI","MEHT","MUREB","MCB","MEBL","MLCF","MTL","NBP","NCL","NESTLE",
+    "NML","NATF","NWPL","OGDC","OIL","PAP","PAKT","PAEL","PIBTL","PIA","PLHC",
+    "POL","POIC","POWER","PPL","PREL","PSMC","PSEL","PSO","PSX","PGLC","PUL",
+    "RMPL","SHELL","SSOM","SHEL","SYS","SHFA","SNGP","SSGC","SIEMENS","TASS",
+    "TOMCL","TRG","THALL","TPLRFF1","TVMH","UBL","UPFL","UNITY","WADT",
+    "WAVESEED","ZADCO","ZONG","ZTBL"
+  ];
+
+  const otherPsxSymbols = ["AVN","PIBT","CENERGY"];
+
+  const initialSymbols = [...kse100Symbols, ...otherPsxSymbols];
+
+  const psxAssets: DropdownItem[] = initialSymbols.map((s) => ({
+    label: s,
+    href: `/assets/${s}`,
+  }));
+
+  const navItems: NavItem[] = [
+    { label: "Home", href: "/" },
+    { label: "Account Managment", href: "/account-managment" },
+    {
+      label: "SERVICE",
+      submenu: [
+        { label: "Stock Market Book", href: "/stock-market-book" },
+        { label: "Portfolio Managment", href: "/portfolio-managment" },
+        { label: "Live Update", href: "/live" },
+        { label: "Free Course", href: "/free-course" },
+        { label: "Paid Course", href: "/paid-course" },
+        { label: "Account Opening", href: "/account-opening" },
+        { label: "Live Seesion", href: "/live-seesion" },
+      ],
+    },
+    {
+      label: "Research Report",
+      submenu: psxAssets,
+    },
+  ];
+
+  return (
+    <nav className="sticky top-0 z-50 border-b border-slate-700 bg-slate-900">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
+          <Link to="/" className="font-bold text-lg">PSX CAPITALS</Link>
+
+          <div className="hidden md:flex">
+            {navItems.map((item, index) => (
               <div
-                className={
-                  item.label === "Research Report"
-                    ? "max-h-64 overflow-y-auto"
-                    : ""
-                }
+                key={index}
+                className="relative"
+                onMouseEnter={() => setOpenDropdown(item.label)}
+                onMouseLeave={() => setOpenDropdown(null)}
               >
-                {item.submenu
-                  .filter((subitem) =>
-                    item.label === "Research Report"
-                      ? subitem.label
-                          .toLowerCase()
-                          .includes(searchQuery.toLowerCase())
-                      : true
-                  )
-                  .map((subitem, subindex) => (
-                    <Link
-                      key={`submenu-${subindex}`}
-                      to={subitem.href}
-                      className="block px-4 py-2 text-sm text-slate-200 hover:text-white hover:bg-slate-700 transition-colors"
-                    >
-                      {subitem.label}
-                    </Link>
-                  ))}
+                <button className="px-4 py-2 flex items-center gap-1">
+                  {item.label}
+                  {item.submenu && <ChevronDown size={16} />}
+                </button>
 
-                {item.label === "Research Report" &&
-                  item.submenu.filter((subitem) =>
-                    subitem.label
-                      .toLowerCase()
-                      .includes(searchQuery.toLowerCase())
-                  ).length === 0 && (
-                    <div className="px-4 py-2 text-sm text-slate-400 text-center">
-                      No assets found
+                {item.submenu && openDropdown === item.label && (
+                  <div className="absolute left-0 w-56 bg-slate-800 border border-slate-700 rounded-md shadow-lg z-50">
+                    {item.label === "Research Report" && (
+                      <div className="p-3 border-b border-slate-700">
+                        <div className="relative">
+                          <Search className="absolute left-2 top-1/2 -translate-y-1/2 h-4 w-4" />
+                          <input
+                            type="text"
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
+                            placeholder="Search assets..."
+                            className="w-full pl-8 px-2 py-1 bg-slate-700 rounded"
+                          />
+                        </div>
+                      </div>
+                    )}
+
+                    <div className="max-h-64 overflow-y-auto">
+                      {item.submenu
+                        .filter((s) =>
+                          s.label
+                            .toLowerCase()
+                            .includes(searchQuery.toLowerCase())
+                        )
+                        .map((s, i) => (
+                          <Link
+                            key={i}
+                            to={s.href}
+                            className="block px-4 py-2 hover:bg-slate-700"
+                          >
+                            {s.label}
+                          </Link>
+                        ))}
                     </div>
-                  )}
+                  </div>
+                )}
               </div>
-            </div>
-          )}
-        </>
-      )}
-    </div>
-  ))}
-</div>
+            ))}
+          </div>
+
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden"
+          >
+            {isMenuOpen ? <X /> : <Menu />}
+          </button>
+        </div>
+      </div>
+    </nav>
+  );
+}
