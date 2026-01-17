@@ -103,7 +103,7 @@ export default function StockMarketBook() {
             >
               READ NOW
             </button>
-            
+
             <ul className="list-disc list-inside space-y-1 text-muted-foreground">
               {coursesIncluded.map((c) => (
                 <li key={c}>{c}</li>

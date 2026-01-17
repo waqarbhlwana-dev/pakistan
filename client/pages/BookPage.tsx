@@ -124,19 +124,21 @@ export default function BookPage() {
         <div className="bg-card border border-border rounded-xl p-6">
           <h2 className="text-lg font-semibold mb-4">All Pages</h2>
           <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-15 gap-2">
-            {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
-              <button
-                key={pageNum}
-                onClick={() => handlePageClick(pageNum)}
-                className={`aspect-square flex items-center justify-center rounded-md border font-semibold text-sm transition-colors ${
-                  currentPage === pageNum
-                    ? "bg-primary text-primary-foreground border-primary"
-                    : "border-border bg-background hover:bg-primary hover:text-primary-foreground"
-                }`}
-              >
-                {pageNum}
-              </button>
-            ))}
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map(
+              (pageNum) => (
+                <button
+                  key={pageNum}
+                  onClick={() => handlePageClick(pageNum)}
+                  className={`aspect-square flex items-center justify-center rounded-md border font-semibold text-sm transition-colors ${
+                    currentPage === pageNum
+                      ? "bg-primary text-primary-foreground border-primary"
+                      : "border-border bg-background hover:bg-primary hover:text-primary-foreground"
+                  }`}
+                >
+                  {pageNum}
+                </button>
+              ),
+            )}
           </div>
         </div>
 

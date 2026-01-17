@@ -61,7 +61,10 @@ export default function BookDetail() {
               </h2>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 {bookInfo.chapters.map((chapter, idx) => (
-                  <li key={idx} className="flex items-start text-muted-foreground">
+                  <li
+                    key={idx}
+                    className="flex items-start text-muted-foreground"
+                  >
                     <span className="mr-3 font-semibold text-primary">
                       {idx + 1}.
                     </span>
@@ -118,7 +121,9 @@ export default function BookDetail() {
 
         {/* Additional Info */}
         <div className="mt-12 bg-card border border-border rounded-xl p-6">
-          <h2 className="text-lg font-semibold mb-4">گھر پر ڈیلیوری کی سہولت</h2>
+          <h2 className="text-lg font-semibold mb-4">
+            گھر پر ڈیلیوری کی سہولت
+          </h2>
           <p className="text-muted-foreground mb-4">
             ہم کتاب آپ کے گھر پہنچا دیتے ہیں۔ ڈیلیوری چارجز علاقے کے مطابق الگ
             سے ہوں گے۔ آرڈر کی تصدیق کے بعد آپ کو فون پر آگاہ کیا جائے گا۔
