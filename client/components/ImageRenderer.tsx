@@ -21,6 +21,7 @@ export function ImageRenderer({
   const imageUrlPatterns = [
     /\.(jpg|jpeg|png|gif|webp|svg|bmp)(\?.*)?$/i,
     /^https?:\/\/.+\.(jpg|jpeg|png|gif|webp|svg|bmp)(\?.*)?$/i,
+    /^https?:\/\/.+[?&]format=(jpg|jpeg|png|gif|webp|svg|bmp)/i,
   ];
 
   const isImageUrl = imageUrlPatterns.some((pattern) =>
