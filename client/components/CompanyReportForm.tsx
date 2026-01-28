@@ -3,6 +3,7 @@ import { Save, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { ImageRenderer } from "@/components/ImageRenderer";
 import {
   Card,
   CardContent,
@@ -967,7 +968,11 @@ function CompanyReportView({ data }: { data: CompanyReportData }) {
                 <h4 className="text-sm font-semibold text-muted-foreground mb-2">
                   Chart
                 </h4>
-                <p className="whitespace-pre-wrap">{data.technicalChart}</p>
+                <ImageRenderer
+                  content={data.technicalChart}
+                  altText="Technical Chart"
+                  className="max-w-2xl h-auto rounded-lg border border-border"
+                />
               </div>
             )}
             {data.supportLevels && (

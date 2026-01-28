@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import { AlertCircle, RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ImageRenderer } from "@/components/ImageRenderer";
 
 interface CompanyOverview {
   business_description?: string;
@@ -559,7 +560,9 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
         {assetData?.business_segments_products &&
           assetData.business_segments_products.length > 0 && (
             <div className="border-t pt-6">
-              <h3 className="text-lg font-bold mb-4">Business Segments & Products</h3>
+              <h3 className="text-lg font-bold mb-4">
+                Business Segments & Products
+              </h3>
               <div className="space-y-4">
                 {assetData.business_segments_products.map((segment, idx) => (
                   <div
@@ -639,9 +642,11 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
                     <h4 className="text-sm font-semibold text-muted-foreground mb-2">
                       Chart
                     </h4>
-                    <p className="text-foreground whitespace-pre-wrap">
-                      {assetData.technical_analysis.chart}
-                    </p>
+                    <ImageRenderer
+                      content={assetData.technical_analysis.chart}
+                      altText="Technical Analysis Chart"
+                      className="max-w-2xl h-auto rounded-lg border border-border"
+                    />
                   </div>
                 )}
                 {assetData.technical_analysis.support_levels && (
