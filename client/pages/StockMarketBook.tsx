@@ -29,21 +29,31 @@ export default function StockMarketBook() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+
     if (!form.fullName || !form.email || !form.phone || !form.address) {
       alert("Please fill in all required fields");
       return;
     }
+
     setSubmitting(true);
     try {
       const res = await fetch("/api/order-book", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form }),
+        body: JSON.stringify(form),
       });
+
       const data = await res.json();
       if (!res.ok) throw new Error(data?.error || "Failed to submit");
+
       alert("Order submitted. We will contact you to confirm delivery.");
-      setForm({ fullName: "", email: "", phone: "", address: "", quantity: 1 });
+      setForm({
+        fullName: "",
+        email: "",
+        phone: "",
+        address: "",
+        quantity: 1,
+      });
     } catch (err: any) {
       alert(err?.message || "Submission failed");
     } finally {
@@ -81,12 +91,12 @@ export default function StockMarketBook() {
               src={COVER_IMAGE}
               alt="PSX Capitals Book Cover"
               className="w-full rounded-md mb-4 object-cover max-h-96"
-              style={{ width: "100%" }}
             />
 
             <h1 className="text-2xl font-bold mb-2">
               PSX Capitals - کتاب برائے اسٹاک مارکیٹ
             </h1>
+
             <p className="text-muted-foreground mb-4 whitespace-pre-line">
               یہ کتاب خاص طور پر نئے سرمایہ کاروں کے لیے مرتب کی گئی ہے۔ اس میں
               اسٹاک مارکیٹ کی بنیادی باتیں، کمپنیوں کے مالیاتی بیانات کی تشریح،
@@ -97,9 +107,10 @@ export default function StockMarketBook() {
             <h2 className="text-lg font-semibold mt-6 mb-2">
               کتاب میں شامل کورسز
             </h2>
+
             <button
               onClick={() => navigate("/book")}
-              className="inline-flex items-center bg-primary text-primary-foreground px-6 py-2 rounded-md font-semibold hover:opacity-90 transition-opacity mb-6"
+              className="inline-flex items-center bg-primary text-primary-foreground px-6 py-2 rounded-md font-semibold hover:opacity-90 mb-6"
             >
               READ NOW
             </button>
@@ -109,115 +120,67 @@ export default function StockMarketBook() {
                 <li key={c}>{c}</li>
               ))}
             </ul>
-
-            <h2 className="text-lg font-semibold mt-6 mb-2">
-              گھر پر ڈیلیوری کی سہولت
-            </h2>
-            <p className="text-muted-foreground">
-              ہم کتاب آپ کے گھر پہنچا دیتے ہیں۔ ڈیلیوری چارجز علاقے کے مطابق الگ
-              سے ہوں گے۔ آرڈر کی تصدیق کے بعد آپ کو فون پر آگاہ کیا جائے گا۔
-            </p>
-
-            <div className="mt-6 bg-slate-800/30 rounded-lg p-4 border border-border">
-              <h3 className="font-semibold mb-2">قیمت و آرڈر کی معلومات</h3>
-              <p className="text-muted-foreground mb-2">
-                کپیاں: دستیاب اسٹاک کے مطابق
-              </p>
-              <p className="text-muted-foreground">
-                رابطہ/آرڈر سبمشن: waqarbhlwana@gmail.com
-              </p>
-              <p className="text-muted-foreground">فون: 0345-0119580</p>
-            </div>
           </div>
 
           <aside className="bg-card border border-border rounded-xl p-6">
             <h2 className="text-lg font-semibold mb-4">آرڈر بک کریں</h2>
+
             <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label className="block text-sm font-semibold mb-1">نام</label>
-                <input
-                  type="text"
-                  name="fullName"
-                  value={form.fullName}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 rounded-md border border-border bg-background"
-                  required
-                />
-              </div>
+              <input
+                name="fullName"
+                placeholder="نام"
+                value={form.fullName}
+                onChange={handleChange}
+                className="w-full px-3 py-2 rounded-md border"
+                required
+              />
 
-              <div>
-                <label className="block text-sm font-semibold mb-1">
-                  ای میل
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  value={form.email}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 rounded-md border border-border bg-background"
-                  required
-                />
-              </div>
+              <input
+                type="email"
+                name="email"
+                placeholder="ای میل"
+                value={form.email}
+                onChange={handleChange}
+                className="w-full px-3 py-2 rounded-md border"
+                required
+              />
 
-              <div>
-                <label className="block text-sm font-semibold mb-1">
-                  فون نمبر
-                </label>
-                <input
-                  type="tel"
-                  name="phone"
-                  value={form.phone}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 rounded-md border border-border bg-background"
-                  required
-                />
-              </div>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="فون نمبر"
+                value={form.phone}
+                onChange={handleChange}
+                className="w-full px-3 py-2 rounded-md border"
+                required
+              />
 
-              <div>
-                <label className="block text-sm font-semibold mb-1">
-                  ڈیلیوری پتہ
-                </label>
-                <textarea
-                  name="address"
-                  value={form.address}
-                  onChange={handleChange as any}
-                  className="w-full px-3 py-2 rounded-md border border-border bg-background min-h-[80px]"
-                  required
-                />
-              </div>
+              <textarea
+                name="address"
+                placeholder="ڈیلیوری پتہ"
+                value={form.address}
+                onChange={handleChange as any}
+                className="w-full px-3 py-2 rounded-md border min-h-[80px]"
+                required
+              />
 
-              <div>
-                <label className="block text-sm font-semibold mb-1">
-                  کتنی کاپیاں
-                </label>
-                <input
-                  type="number"
-                  name="quantity"
-                  value={form.quantity}
-                  min={1}
-                  onChange={handleChange}
-                  className="w-full px-3 py-2 rounded-md border border-border bg-background"
-                />
-              </div>
+              <input
+                type="number"
+                name="quantity"
+                min={1}
+                value={form.quantity}
+                onChange={handleChange}
+                className="w-full px-3 py-2 rounded-md border"
+              />
 
-              <div className="flex items-center justify-between">
-                <div className="text-sm text-muted-foreground">
-                  ہم آپ کو آرڈر کی تصدیق ای میل پر بھیجیں گے
-                </div>
-                <button
-                  type="submit"
-                  disabled={submitting}
-                  className="inline-flex items-center bg-primary text-primary-foreground px-4 py-2 rounded-md font-semibold disabled:opacity-50"
-                >
-                  {submitting ? "ارسال ہو رہا ہے..." : "آرڈر بھیجیں"}
-                </button>
-              </div>
+              <button
+                type="submit"
+                disabled={submitting}
+                className="w-full bg-primary text-primary-foreground py-2 rounded-md font-semibold"
+              >
+                {submitting ? "ارسال ہو رہا ہے..." : "آرڈر بھیجیں"}
+              </button>
             </form>
-
-            <div className="mt-4 text-sm text-muted-foreground">
-              یا براہِ راست کال کریں:{" "}
-              <strong className="text-white">0345-0119580</strong>
-            </div>
           </aside>
         </div>
       </main>
