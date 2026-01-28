@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import { AlertCircle, RefreshCw } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ImageRenderer } from "@/components/ImageRenderer";
 
 interface CompanyOverview {
   business_description?: string;
