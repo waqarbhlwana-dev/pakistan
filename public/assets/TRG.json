@@ -1,13 +1,11 @@
 {
   "company_name": "TRG Pakistan Limited (TRG)",
-  "company_logo": "https://example.com/trg-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "TRG Pakistan Limited پاکستان کی معروف آئی ٹی اور بزنس پروسیس آؤٹ سورسنگ کمپنی ہے۔ کمپنی کی امریکہ اور دیگر ممالک میں کلائنٹ سروسز فراہم کرنے والی subsidiaries ہیں۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "آئی ٹی اور BPO سیکٹر میں معروف کمپنی، بین الاقوامی کلائنٹ بیس، امریکہ میں subsidiaries"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 38.00 billion",
     "share_price": "Rs 70.00",
@@ -28,14 +26,12 @@
     "total_debt": "Rs 12.8 billion",
     "debt_to_equity": "1.58"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "45%",
     "institutional_investors": "35%",
     "retail_investors": "15%",
     "others": "5%"
   },
-
   "business_segments_products": [
     {
       "segment": "IT Services",
@@ -43,24 +39,21 @@
       "revenue_contribution": "60%"
     },
     {
-      "segment": "Business Process Outsourcing", 
+      "segment": "Business Process Outsourcing",
       "products_services": "کال سینٹر سروسز، BPO سروسز",
       "revenue_contribution": "40%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "HIGH RISK - BUY AT 56-60 ONLY",
     "rationale": "کمپنی کی ارننگ اچھی ہے لیکن قرضہ بہت زیادہ ہے اور لکویڈیٹی پوزیشن کمزور ہے۔ شارٹ ٹرم قرضے ادا کرنے میں مشکلات کا سامنا ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/trg-chart.jpg",
     "support_levels": "Rs 56.00 - Rs 60.00 (BEST BUYING ZONE), Rs 68.00 (ٹریڈنگ لیول)",
     "resistance_levels": "Rs 70.00, Rs 75.00, Rs 84.39",
     "trend_analysis": "موجودہ قیمت Rs 70.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ 56-60 کا زون ہی محفوظ خریداری کا علاقہ ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 70.00",
     "2026 EPS: Rs 12.39 (اچھی)",
@@ -72,19 +65,16 @@
     "52 ہفتوں کا ہائی: Rs 84.39, لو: Rs 50.50",
     "کرنٹ ریشو: 0.32 (بہت کم - ایک ہونا چاہیے)",
     "کوئیک ریشو: 0.30 (بہت کم)",
-    
     "📊 **2025 کے مالیاتی اشاریے:**",
     "کل قرضہ: Rs 12.8 ارب",
     "قرض سے حصص کا تناسب: 1.58 (بہت زیادہ)",
     "کل اثاثے: Rs 25.6 ارب",
     "کل واجبات: Rs 17.5 ارب",
-    
     "👨‍💼 **مینجمنٹ کا جائزہ:**",
     "مینجمنٹ 20+ سال پرانی ہے",
     "مینجمنٹ پر قرض کے بوجھ کا دباؤ",
     "لکویڈیٹی مینجمنٹ میں چیلنجز",
     "بین الاقوامی آپریشنز کا مینجمنٹ",
-    
     "🚫 **خطرے کے واضح اشارے:**",
     "   - کل قرضہ Rs 12.8 ارب (بہت زیادہ)",
     "   - قرض سے حصص کا تناسب 1.58 (تشویشناک)",
@@ -93,31 +83,25 @@
     "   - کمپنی اپنا شارٹ ٹرم قرض نہیں دے پا رہی",
     "   - یہ بڑا مشکل ہوتا ہے جب کمپنی قرضے نہ دے پائے",
     "   - صرف ارننگ دیکھ کے پیسہ نہیں لگاتے",
-    
     "✅ **مثبت پہلو:**",
     "   - EPS Rs 12.39 اچھی ہے",
     "   - PE ریٹیو 5.65 کم ہے",
     "   - ROA 8.41% اچھی ہے",
     "   - بک ویلیو موجودہ قیمت سے بہتر ہے",
-    
     "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
     "   - Rs 56-60 (بیسٹ بائنگ زون)",
-    
     "📈 **ٹریڈنگ کے لیے:**",
     "   - Rs 68 (ٹریڈنگ کے لیے لیول)",
-    
     "💼 **کاروباری چیلنجز:**",
     "قرض کا بہت زیادہ بوجھ",
     "لکویڈیٹی کے مسائل",
     "شارٹ ٹرم قرضے ادا کرنے میں مشکلات",
-    
     "📈 **سرمایہ کاری کی حکمت عملی:**",
     "📌 **ہائی رسک انویسٹمنٹ**",
     "📌 **صرف 56-60 کے زون میں خریدیں**",
     "📌 **ٹریڈنگ کے لیے: 68 پر غور کریں**",
     "📌 **موجودہ قیمت پر خریدنے سے گریز کریں**",
     "📌 **قرض کے بوجھ کو مدنظر رکھیں**",
-    
     "💎 **خلاصہ:**",
     "ارننگ اچھی ہے مگر قرضہ بہت زیادہ ہے",
     "لکویڈیٹی پوزیشن کمزور ہے",

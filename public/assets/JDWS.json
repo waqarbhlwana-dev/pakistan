@@ -1,13 +1,11 @@
 {
   "company_name": "JDW Sugar Mills Limited (JDWS)",
-  "company_logo": "https://example.com/jdws-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "جے ڈی ڈبلیو شوگر ملز لمیٹڈ پاکستان کی سب سے بڑی شوگر مینوفیکچرنگ کمپنیوں میں سے ایک ہے۔ کمپنی شوگر کی پیداوار، ریفائننگ اور مارکیٹنگ کے ساتھ ساتھ بائی پروڈکٹس کی فروخت میں بھی مصروف ہے۔",
     "number_of_business_segments": "3",
     "market_position_highlights": "پاکستان کی سب سے بڑی شوگر مینوفیکچرنگ کمپنی، جدید پیداواری سہولیات، ملک بھر میں مارکیٹنگ نیٹ ورک"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 48.2 billion",
     "share_price": "Rs 840.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 4.5 billion",
     "book_value": "490.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "60%",
     "institutional_investors": "25%",
     "retail_investors": "12%",
     "others": "3%"
   },
-
   "business_segments_products": [
     {
       "segment": "Sugar Production",
@@ -41,7 +37,7 @@
       "revenue_contribution": "70%"
     },
     {
-      "segment": "By-Products", 
+      "segment": "By-Products",
       "products_services": "مولاسز، بگاس، دیگر ضمنی مصنوعات",
       "revenue_contribution": "20%"
     },
@@ -51,19 +47,16 @@
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAIT FOR BETTER ENTRY",
     "rationale": "کمپنی فنڈامنٹلی مہنگی ہے اور PE ریٹیو بہت زیادہ ہے۔ ارننگ پچھلے سال کی نسبت کم ہوئی ہے۔ بہترین خریداری کے لیے کم قیمت کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/jdws-chart.jpg",
     "support_levels": "Rs 760.00 (BEST BUYING LEVEL), Rs 800.00 (نیر بائنگ)",
     "resistance_levels": "Rs 840.00, Rs 900.00, Rs 1050.00",
     "trend_analysis": "موجودہ قیمت Rs 840.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ ارننگ میں کمی کی وجہ سے قیمت میں ڈیکلائن دیکھا گیا ہے۔ Rs 760 کے لیول پر خریدنے کا انتظار کریں۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 840.00",
     "Q3 2025 EPS: Rs 9.42",
@@ -75,39 +68,32 @@
     "52 ہفتوں کا ہائی: Rs 1050.00, لو: Rs 580.00",
     "کرنٹ ریشو: 1.01 (اچھی)",
     "کوئیک ریشو: 0.80 (کم - بہتری کی ضرورت)",
-    
     "✅ **کمپنی کے مضبوط پہلو:**",
     "   - ROA 18.47% بہترین ہے",
     "   - ڈیویڈنڈ ییلڈ 2.38% اچھی ہے",
     "   - کرنٹ ریشو 1.01 اچھی ہے",
     "   - مارکیٹ لیڈر پوزیشن",
     "   - ڈیویڈنڈ اچھا دیتی ہے",
-    
     "⚠️ **تشویش کے پہلو:**",
     "   - PE ریٹیو 89.17 بہت زیادہ ہے",
     "   - ارننگ پچھلے سال کی نسبت کم ہوئی ہے",
     "   - کوئیک ریشو 0.80 کم ہے",
     "   - کمپنی فنڈامنٹلی مہنگی ہے",
     "   - قیمت میں ڈیکلائن کا رجحان",
-    
     "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
     "   - Rs 760 (بیسٹ بائنگ لیول)",
     "   - Rs 800 (نیر بائنگ لیول)",
-    
     "📊 **مالیاتی جائزہ:**",
     "ارننگ بیس میں کمی آئی ہے",
     "PE ریٹیو تشویشناک حد تک زیادہ ہے",
     "بک ویلیو موجودہ قیمت سے کافی کم ہے",
-    
     "💰 **ڈیویڈنڈ کے لحاظ سے:**",
     "ڈیویڈنڈ ییلڈ: 2.38% (اچھی)",
     "ڈیویڈنڈ کی مستقل ادائیگی مثبت",
-    
     "🕐 **سرمایہ کاری کی حکمت عملی:**",
     "📌 **فی الحال ویٹ کریں**",
     "📌 **Rs 760 تک انتظار کریں**",
     "📌 **اس کے بعد ہی خریدیں**",
-    
     "🏭 **شوگر انڈسٹری:**",
     "انویسٹر حضرات کے لیے اچھی کمپنی ہے",
     "مگر ویٹ کریں اور 760 تک ویٹ کر کے پھر اس کو بائے کریں",

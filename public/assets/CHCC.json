@@ -1,13 +1,11 @@
 {
   "company_name": "Cherat Cement Company Limited (CHCC)",
-  "company_logo": "https://example.com/chcc-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "Cherat Cement Company Limited پاکستان کی ایک ممتاز سیمنٹ مینوفیکچرنگ کمپنی ہے جو مختلف اقسام کی سیمنٹ کی تیاری اور فروخت میں مصروف ہے۔ یہ چرات گروپ کی پرچم بردار کمپنی ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "سیمنٹ انڈسٹری کی اہم کمپنی، معیاری مصنوعات، مضبوط مارکیٹ پوزیشن"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 62.95 billion",
     "share_price": "Rs 324.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 15.2 billion",
     "book_value": "182.50"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "48%",
     "institutional_investors": "38%",
     "retail_investors": "12%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Cement Manufacturing",
@@ -41,24 +37,21 @@
       "revenue_contribution": "90%"
     },
     {
-      "segment": "Allied Products", 
+      "segment": "Allied Products",
       "products_services": "سیمنٹ سے متعلق دیگر مصنوعات",
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "BUY ON DIPS",
     "rationale": "فنڈامنٹلی مضبوط کمپنی ہے۔ PE ریٹیو کم ہے اور فنانشل ہیلتھ بہترین ہے۔ بہترین خریداری کے لیے ڈِپس کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/chcc-chart.jpg",
     "support_levels": "Rs 300.00 (TRADING LEVEL), Rs 260-280 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 350.00, Rs 390.00",
     "trend_analysis": "موجودہ قیمت Rs 324.00 ہے۔ شارٹ ٹرم ٹریڈنگ کے لیے Rs 300.00 کا لیول اچھا ہے۔ بیسٹ بائنگ کے لیے بہترین خریداری کا زون Rs 260 سے Rs 280 کے درمیان ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 324.00",
     "فنڈامنٹلی مضبوط کمپنی",

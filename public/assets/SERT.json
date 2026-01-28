@@ -1,13 +1,11 @@
 {
   "company_name": "Service Textile Industry",
-  "company_logo": "https://example.com/service-textile-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "سروس ٹیکسٹائل انڈسٹری پاکستان کی ایک ٹیکسٹائل مینوفیکچرنگ کمپنی ہے جو کپڑے کی تیاری، پروسیسنگ اور ٹیکسٹائل مصنوعات کی مینوفیکچرنگ میں مہارت رکھتی ہے۔ کمپنی مختلف قسم کے ٹیکسٹائل پراڈکٹس مارکیٹ میں فراہم کرتی ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "ٹیکسٹائل انڈسٹری کا حصہ، مینوفیکچرنگ یونٹس، مقامی مارکیٹ میں موجودگی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 2.80 billion",
     "share_price": "Rs 40.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs -0.90 billion",
     "book_value": "Rs 72.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "45%",
     "institutional_investors": "20%",
     "retail_investors": "30%",
     "others": "5%"
   },
-
   "business_segments_products": [
     {
       "segment": "ٹیکسٹائل مینوفیکچرنگ",
@@ -46,19 +42,16 @@
       "revenue_contribution": "25%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "TRADING BUY AT 34, BEST INVESTMENT AT 20-25 (HIGH RISK)",
     "rationale": "کمپنی فی الحال مالی مشکلات کا شکار ہے۔ EPS منفی ہے (-0.71)، ROA منفی ہے (-40.32%)، اور PE ریشو منفی ہے (-14.12)۔ تاہم، بک ویلیو (Rs 72) موجودہ قیمت (Rs 40) سے کافی زیادہ ہے جو انڈر ویلیویشن ظاہر کرتا ہے۔ لیکن مالی صحت کمزور ہے۔ ٹریڈنگ کے لیے Rs 34 اور بہت ہی ریسکی انویسٹمنٹ کے لیے Rs 20-25 بہترین ہیں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/service-textile-chart.jpg",
     "support_levels": "Rs 20-25 (HIGH RISK INVESTMENT ZONE), Rs 34.00 (ٹریڈنگ سپورٹ)",
     "resistance_levels": "Rs 40.00 (موجودہ قیمت), Rs 78.30 (52 ہفتوں کا ہائی)",
     "trend_analysis": "موجودہ قیمت Rs 40.00 بہترین سرمایہ کاری زون (Rs 20-25) سے اوپر ہے۔ کمپنی کی مالی کارکردگی بہت کمزور ہے۔ بک ویلیو Rs 72 سے کمپنی انڈر ویلیو لگ رہی ہے لیکن منفی EPS اور ROA بڑا خطرہ ہیں۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 40.00",
     "بہترین سرمایہ کاری زون (ہائی رسک): Rs 20-25",

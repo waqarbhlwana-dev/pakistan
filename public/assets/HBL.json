@@ -1,13 +1,11 @@
 {
   "company_name": "Habib Bank Limited (HBL)",
-  "company_logo": "https://example.com/hbl-logo.png",
-  
+  "company_logo": "https://www.hbl.com/images/logo.png",
   "company_overview": {
     "business_description": "Habib Bank Limited پاکستان کا سب سے بڑا اور سب سے پرانا بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بینکاری سیکٹر کی لیڈر کمپنی ہے۔",
     "number_of_business_segments": "4",
     "market_position_highlights": "پاکستان کا سب سے بڑا بینک، وسیع برانچ نیٹ ورک، بینکاری سیکٹر کی لیڈر کمپنی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 432.27 billion",
     "share_price": "Rs 294.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 38.5 billion",
     "book_value": "288.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "60%",
     "institutional_investors": "30%",
     "retail_investors": "8%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Retail Banking",
@@ -41,7 +37,7 @@
       "revenue_contribution": "35%"
     },
     {
-      "segment": "Corporate Banking", 
+      "segment": "Corporate Banking",
       "products_services": "کارپوریٹ بینکاری اور قرضے",
       "revenue_contribution": "40%"
     },
@@ -56,19 +52,16 @@
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "بینکاری سیکٹر کی لیڈر کمپنی ہے لیکن ٹیکنیکلی ڈبل ٹاپ فارمیشن ہو رہی ہے اور نیک لائن کو بریک کر چکی ہے۔ بہترین خریداری کے لیے بہتر لیولز کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/hbl-chart.jpg",
     "support_levels": "Rs 275.00 (NEAR BUYING FOR TRADING), Rs 250.00 (BEST BUYING)",
     "resistance_levels": "Rs 300.00, Rs 324.50",
     "trend_analysis": "موجودہ قیمت Rs 294.00 ہے۔ ڈبل ٹاپ فارمیشن ہو رہی ہے اور نیک لائن کو بریک کر چکی ہے۔ شارٹ ٹرم ٹریڈنگ کے لیے Rs 275.00 کا لیول نیر بائنگ ہے۔ بہترین خریداری کا لیول Rs 250.00 ہے۔ ویٹ کر کے Rs 250.00 پر اچھی خریداری ہو سکتی ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 294.00",
     "پاکستان کا سب سے بڑا بینک - لیڈر کمپنی",

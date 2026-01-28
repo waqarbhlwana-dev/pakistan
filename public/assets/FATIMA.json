@@ -1,13 +1,11 @@
 {
   "company_name": "Fatima Fertilizer Company Limited (FATIMA)",
-  "company_logo": "https://example.com/fatima-logo.png",
-  
+  "company_logo": "https://www.fatimafertilizer.com/logo.png",
   "company_overview": {
     "business_description": "Fatima Fertilizer Company Limited پاکستان کی ایک ممتاز فرٹیلائزر مینوفیکچرنگ کمپنی ہے جو یوریا، کینڈیڈ ایمونیم نائٹریٹ اور دیگر کیمیائی کھادیں تیار اور فروخت کرتی ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "فرٹیلائزر انڈسٹری کی اہم کمپنی، معیاری مصنوعات، مضبوط مارکیٹ پوزیشن"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 303.32 billion",
     "share_price": "Rs 144.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 12.5 billion",
     "book_value": "72.41"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "52%",
     "institutional_investors": "35%",
     "retail_investors": "11%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Urea Fertilizer",
@@ -41,24 +37,21 @@
       "revenue_contribution": "70%"
     },
     {
-      "segment": "Chemical Products", 
+      "segment": "Chemical Products",
       "products_services": "کینڈیڈ ایمونیم نائٹریٹ اور دیگر کیمیائی مصنوعات",
       "revenue_contribution": "30%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "فنڈامنٹلی اوور ویلیو لگ رہی ہے۔ موجودہ قیمت پر خریداری سے گریز کریں اور بہتر لیولز کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/fatima-chart.jpg",
     "support_levels": "Rs 130.00 (TRADING LEVEL), Rs 100-110 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 145.00, Rs 150.00",
     "trend_analysis": "موجودہ قیمت Rs 144.00 ہے۔ اگر ٹریڈنگ کرنی ہے تو Rs 130.00 کا لیول اچھا ہے۔ لانگ ٹرم انویسٹمنٹ کے لیے بہترین خریداری کا زون Rs 100 سے Rs 110 کے درمیان ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 144.00",
     "فنڈامنٹلی اوور ویلیو لگ رہی ہے",

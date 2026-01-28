@@ -1,13 +1,11 @@
 {
   "company_name": "Bank Alfalah Limited (BAFL)",
-  "company_logo": "https://example.com/bafl-logo.png",
-  
+  "company_logo": "https://www.bfl.com.pk/images/logo.png",
   "company_overview": {
     "business_description": "Bank Alfalah Limited پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بڑے پرائیویٹ بینکوں میں سے ایک ہے۔",
     "number_of_business_segments": "4",
     "market_position_highlights": "پاکستان کا اہم پرائیویٹ بینک، ملک بھر میں وسیع نیٹ ورک، جدید بینکاری سہولیات"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 161.77 billion",
     "share_price": "Rs 102.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 18.9 billion",
     "book_value": "121.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "52%",
     "institutional_investors": "35%",
     "retail_investors": "11%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Retail Banking",
@@ -41,7 +37,7 @@
       "revenue_contribution": "40%"
     },
     {
-      "segment": "Corporate Banking", 
+      "segment": "Corporate Banking",
       "products_services": "کارپوریٹ بینکاری اور قرضے",
       "revenue_contribution": "35%"
     },
@@ -56,19 +52,16 @@
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "فنڈامنٹلی کافی سٹرانگ ہے لیکن ٹیکنیکلی ڈبل/ٹرپل ٹاپ کی انفارمیشن ہے۔ اگر Rs 100 سے نیچے آتا ہے تو بہترین خریداری کے مواقع میسر آئیں گے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/bafl-chart.jpg",
     "support_levels": "Rs 100.00 (CURRENT SUPPORT), Rs 90.00 (FIRST BUYING), Rs 80.00 (BEST BUYING)",
     "resistance_levels": "Rs 110.00, Rs 119.90",
     "trend_analysis": "موجودہ قیمت Rs 102.00 ہے۔ Rs 100.00 پر اچھی سپورٹ لائن ہے۔ اوپر Rs 120.00 پر ڈبل/ٹرپل ٹاپ کی انفارمیشن ہے۔ اگر Rs 100.00 سے نیچے آتا ہے تو پہلی بیسٹ بائنگ Rs 90.00 پر اور دوسری بیسٹ بائنگ Rs 80.00 پر ہوگی۔ آنے والے دنوں میں یہ سطحیں مل سکتی ہیں۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 102.00",
     "فنڈامنٹلی کافی سٹرانگ بینک",

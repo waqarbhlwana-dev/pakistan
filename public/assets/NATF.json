@@ -1,7 +1,6 @@
-
 {
   "company_name": "National Foods Limited (NATF)",
-  "company_logo": "https://example.com/national-foods-logo.png",
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "نیشنل فوڈز لمیٹڈ پاکستان کی فوڈ پروسیسنگ انڈسٹری کی ایک معروف اور قدیم ترین کمپنیوں میں سے ایک ہے۔ کمپنی 1970 میں قائم ہوئی اور اس کا بنیادی کاروبار مصالحہ جات، اچار، چٹنیاں، سوپ، کیچپ، انسٹنٹ نوڈلز اور دیگر پیکجڈ فوڈ مصنوعات کی تیاری، پیکیجنگ اور فروخت ہے۔ یہ 'نیشنل' برانڈ کے تحت ملکی اور بین الاقوامی مارکیٹ میں اپنی مصنوعات فروخت کرتی ہے۔ کمپنی کی مینجمنٹ کئی دہائیوں پر محیط تجربہ رکھتی ہے اور پاکستان کی فوڈ انڈسٹری میں انتہائی معزز اور قائم شدہ سمجھی جاتی ہے۔",
     "number_of_business_segments": "1 (بنیادی طور پر پیکجڈ فوڈز)",

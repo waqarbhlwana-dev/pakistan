@@ -1,13 +1,11 @@
 {
   "company_name": "Nishat Mills Limited (NML)",
-  "company_logo": "https://example.com/nml-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "Nishat Mills Limited پاکستان کی سب سے بڑی ٹیکسٹائل مینوفیکچرنگ کمپنی ہے جو کپاس سے لے کر تیار مصنوعات تک کی مکمل ویلیو چین میں مصروف ہے۔ یہ Nishat گروپ کی پرچم بردار کمپنی ہے۔",
     "number_of_business_segments": "4",
     "market_position_highlights": "پاکستان کی سب سے بڑی ٹیکسٹائل کمپنی، مکمل ویلیو چین، برآمدات میں لیڈر"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 49.68 billion",
     "share_price": "Rs 141.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 4.2 billion",
     "book_value": "51.40"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "45%",
     "institutional_investors": "40%",
     "retail_investors": "13%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Spinning",
@@ -41,7 +37,7 @@
       "revenue_contribution": "30%"
     },
     {
-      "segment": "Weaving", 
+      "segment": "Weaving",
       "products_services": "بُنائی اور فبرک تیاری",
       "revenue_contribution": "25%"
     },
@@ -56,19 +52,16 @@
       "revenue_contribution": "25%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "BUY ON DIPS",
     "rationale": "کمپنی کافی انڈر ویلیو پڑی ہوئی ہے۔ PE ریٹیو کم ہے اور فنانشل ہیلتھ اچھی ہے۔ بہترین خریداری کے لیے ڈِپس کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/nml-chart.jpg",
     "support_levels": "Rs 139.00 (TRADING LEVEL), Rs 120.00 (BEST INVESTMENT LEVEL)",
     "resistance_levels": "Rs 150.00, Rs 160.00",
     "trend_analysis": "موجودہ قیمت Rs 141.00 ہے۔ ٹریڈنگ کے لیے Rs 139.00 کا لیول اچھا ہے۔ انویسٹمنٹ کے لیے بہترین خریداری کا لیول Rs 120.00 ہے۔ کمپنی انڈر ویلیو پڑی ہوئی ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 141.00",
     "کمپنی کافی انڈر ویلیو پڑی ہوئی ہے",

@@ -1,13 +1,11 @@
 {
   "company_name": "Mari Petroleum Company Limited (MARI)",
-  "company_logo": "https://example.com/mari-logo.png",
-  
+  "company_logo": "https://www.marigroup.com.pk/images/logo.png",
   "company_overview": {
     "business_description": "Mari Petroleum Company Limited پاکستان کی ایک ممتاز ایکسپلوریشن اینڈ پروڈکشن کمپنی ہے جو تیل اور گیس کی دریافت، پیداوار اور فروخت میں مصروف ہے۔ یہ ملک کی سب سے زیادہ منافع بخش آئل اینڈ گیس کمپنیوں میں سے ایک ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "انتہائی منافع بخش آئل اینڈ گیس کمپنی، اعلیٰ کارکردگی، مضبوط فنانشل ہیلتھ"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 828.96 billion",
     "share_price": "Rs 690.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 32.7 billion",
     "book_value": "217.52"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "60%",
     "institutional_investors": "30%",
     "retail_investors": "8%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Exploration & Production",
@@ -41,24 +37,21 @@
       "revenue_contribution": "95%"
     },
     {
-      "segment": "Gas Marketing", 
+      "segment": "Gas Marketing",
       "products_services": "گیس کی مارکیٹنگ اور فروخت",
       "revenue_contribution": "5%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "کمپنی بہت زیادہ اوور ویلیو ہے۔ ڈیویڈنڈ اور کمائی اچھی ہے لیکن موجودہ قیمت پر تقریباً تین گنا زیادہ پیسے دے رہے ہیں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/mari-chart.jpg",
     "support_levels": "Rs 550-540 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 700.00, Rs 750.00",
     "trend_analysis": "موجودہ قیمت Rs 690.00 ہے جو بہت زیادہ اوور ویلیو ہے۔ بہترین خریداری کا زون Rs 550 سے Rs 540 کے قریب ہے۔ موجودہ قیمت پر انویسٹمنٹ صحیح نہیں لگتی۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 690.00",
     "کمپنی بہت زیادہ اوور ویلیو ہے",

@@ -1,13 +1,11 @@
 {
   "company_name": "EFU General Insurance Limited (EFUG)",
-  "company_logo": "https://example.com/efug-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "ای ایف یو جنرل انشورنس لمیٹڈ پاکستان کی معروف انشورنس کمپنیوں میں سے ایک ہے جو جنرل انشورنس کی مصنوعات اور خدمات پیش کرتی ہے۔ کمپنی کی مصنوعات میں موٹر انشورنس، ہیلتھ انشورنس، پراپرٹی انشورنس اور دیگر انشورنس پروڈکٹس شامل ہیں۔",
     "number_of_business_segments": "4",
     "market_position_highlights": "پاکستان کی معروف جنرل انشورنس کمپنیوں میں سے ایک، وسیع کسٹمر بیس، ملک بھر میں نیٹ ورک"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 12.7 billion",
     "share_price": "Rs 127.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 1.8 billion",
     "book_value": "140.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "60%",
     "institutional_investors": "25%",
     "retail_investors": "12%",
     "others": "3%"
   },
-
   "business_segments_products": [
     {
       "segment": "Motor Insurance",
@@ -41,7 +37,7 @@
       "revenue_contribution": "40%"
     },
     {
-      "segment": "Health Insurance", 
+      "segment": "Health Insurance",
       "products_services": "ہیلتھ انشورنس، ہاسپٹلائزیشن کور",
       "revenue_contribution": "25%"
     },
@@ -56,19 +52,16 @@
       "revenue_contribution": "15%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "BUY AT 110-120",
     "rationale": "کمپنی بنیادی طور پر مضبوط ہے اور بک ویلیو موجودہ قیمت سے زیادہ ہے۔ کرنٹ ریشو اور کوئک ریشو میں بہتری کی گنجائش ہے لیکن مجموعی طور پر کمپنی کی کارکردگی اچھی ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/efug-chart.jpg",
     "support_levels": "Rs 110.00 - Rs 120.00 (BEST BUYING ZONE), Rs 100.00 (مضبوط سپورٹ)",
     "resistance_levels": "Rs 127.00, Rs 135.00, Rs 150.00",
     "trend_analysis": "موجودہ قیمت Rs 127.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ Rs 110-120 کے زون میں خریدنے پر بہترین منافع کی توقع کی جا سکتی ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 127.00",
     "Q3 2025 EPS: Rs 8.00",
@@ -80,30 +73,24 @@
     "52 ہفتوں کا ہائی: Rs 150.00, لو: Rs 100.00",
     "کرنٹ ریشو: 0.82 (کم - بہتری کی ضرورت)",
     "کوئیک ریشو: 0.74 (کم - بہتری کی ضرورت)",
-    
     "✅ **کمپنی کے مضبوط پہلو:**",
     "   - بنیادی طور پر مضبوط کمپنی",
     "   - بک ویلیو موجودہ قیمت سے بہتر",
     "   - PE ریٹیو معقول",
     "   - ROA قابل قبول",
     "   - ڈیویڈنڈ کی ادائیگی",
-    
     "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
     "   - Rs 110-120 (بیسٹ بائنگ زون)",
-    
     "📊 **مالیاتی جائزہ:**",
     "بک ویلیو موجودہ قیمت سے بہتر ہے",
     "PE ریٹیو معقول ہے",
     "ROA قابل قبول ہے",
-    
     "⚠️ **تشویش کے پہلو:**",
     "کرنٹ ریشو اور کوئیک ریشو کم ہیں",
     "انشورنس سیکٹر میں مسابقتی ماحول",
-    
     "💰 **ڈیویڈنڈ کے لحاظ سے:**",
     "ڈیویڈنڈ ییلڈ: 1.18% (معمولی)",
     "ڈیویڈنڈ کی مستقل ادائیگی مثبت",
-    
     "📈 **سرمایہ کاری کی حکمت عملی:**",
     "بیسٹ بائنگ Rs 110-120 کے زون میں کریں",
     "طویل مدتی سرمایہ کاری کے لیے موزوں",

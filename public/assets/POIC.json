@@ -1,13 +1,11 @@
 {
   "company_name": "Pioneer Cement Limited (PIOC)",
-  "company_logo": "https://example.com/pioc-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "پائیونیر سیمنٹ لمیٹڈ پاکستان کی معروف سیمنٹ مینوفیکچرنگ کمپنیوں میں سے ایک ہے جو مختلف اقسام کی سیمنٹ تیار کرتی ہے۔ کمپنی کے جدید پلانٹس ہیں اور یہ ملک بھر میں اپنی مصنوعات کی مارکیٹنگ کرتی ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "پاکستان کی بڑی سیمنٹ مینوفیکچرنگ کمپنیوں میں سے ایک، جدید پیداواری سہولیات، وسیع ڈسٹری بیوشن نیٹ ورک"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 78.70 billion",
     "share_price": "Rs 346.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 5.2 billion",
     "book_value": "213.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "55%",
     "institutional_investors": "30%",
     "retail_investors": "12%",
     "others": "3%"
   },
-
   "business_segments_products": [
     {
       "segment": "Grey Cement",
@@ -41,24 +37,21 @@
       "revenue_contribution": "85%"
     },
     {
-      "segment": "Specialty Cement", 
+      "segment": "Specialty Cement",
       "products_services": "خصوصی استعمال کی سیمنٹ",
       "revenue_contribution": "15%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAIT FOR BETTER ENTRY",
     "rationale": "کمپنی فنڈامنٹلی مضبوط ہے لیکن PE ریٹیو 61.68 بہت زیادہ ہے اور موجودہ قیمت اوور ویلیوڈ لگ رہی ہے۔ بہترین خریداری کے لیے کم قیمت کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/pioc-chart.jpg",
     "support_levels": "Rs 260.00 - Rs 280.00 (BEST BUYING ZONE), Rs 300.00 (نیر بائنگ)",
     "resistance_levels": "Rs 346.00, Rs 349.79, Rs 360.00",
     "trend_analysis": "موجودہ قیمت Rs 346.00 ہے جو 52 ہفتوں کے ہائی کے قریب ہے اور بہترین خریداری زون سے کافی اوپر ہے۔ 260-280 کا زون تکنیکی طور پر بہترین خریداری کا موقع فراہم کرتا ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 346.00",
     "Q1 2026 EPS: Rs 5.61",
@@ -70,36 +63,29 @@
     "52 ہفتوں کا ہائی: Rs 349.79, لو: Rs 173.00",
     "کرنٹ ریشو: 1.03 (ٹھیک)",
     "کوئیک ریشو: 0.76 (تھوڑی کم)",
-    
     "✅ **کمپنی کے مضبوط پہلو:**",
     "   - فنڈامنٹلی کمپنی سٹرانگ ہے",
     "   - سیمنٹ سیکٹر میں اہم کردار",
     "   - جدید پیداواری سہولیات",
     "   - ڈیویڈنڈ کی ادائیگی",
-    
     "⚠️ **تشویش کے پہلو:**",
     "   - PE ریٹیو 61.68 بہت زیادہ ہے",
     "   - موجودہ قیمت اوور ویلیوڈ لگ رہی ہے",
     "   - بک ویلیو موجودہ قیمت سے کافی کم ہے",
     "   - EPS نسبتاً کم ہے",
-    
     "🎯 **ٹیکنیکل بیسٹ بائنگ لیول:**",
     "   - Rs 260-280 (بیسٹ بائنگ زون)",
-    
     "💰 **ڈیویڈنڈ کے لحاظ سے:**",
     "ڈیویڈنڈ ییلڈ: 1.45% (کم)",
     "ڈیویڈنڈ کی ادائیگی مثبت لیکن ناکافی",
-    
     "🏭 **سیمنٹ سیکٹر:**",
     "تعمیراتی صنعت کا اہم حصہ",
     "حکومتی ترقیاتی منصوبوں کا اثر",
-    
     "📈 **سرمایہ کاری کی حکمت عملی:**",
     "📌 **فی الحال ویٹ کریں**",
     "📌 **260-280 کے زون کا انتظار کریں**",
     "📌 **موجودہ قیمت پر خریدنے سے گریز کریں**",
     "📌 **ٹیکنیکلی 260-280 کا زون بہترین ہے**",
-    
     "💎 **خلاصہ:**",
     "کمپنی فنڈامنٹلی مضبوط ہے مگر",
     "موجودہ قیمت اوور ویلیوڈ ہے",

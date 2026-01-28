@@ -1,13 +1,11 @@
 {
   "company_name": "Lotte Chemical Pakistan Limited (LOTCHEM)",
-  "company_logo": "https://example.com/lotchem-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "Lotte Chemical Pakistan Limited Pakistan ki ma'roof petro chemical manufacturing company hai jo PTA (Purified Terephthalic Acid) ki paidawar aur farokht mein masroof hai. Company ka talluq South Korea ke Lotte Group se hai.",
     "number_of_business_segments": "2",
     "market_position_highlights": "Pakistan ki ma'roof petro chemical company, PTA manufacturing mein market leader, beyn al aqwami group ki zeli company"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 40.84 billion",
     "share_price": "Rs 27.00",
@@ -28,14 +26,12 @@
     "total_debt": "Rs 18.5 billion",
     "debt_to_equity": "1.21"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "75%",
     "institutional_investors": "15%",
     "retail_investors": "8%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "PTA Production",
@@ -43,24 +39,21 @@
       "revenue_contribution": "85%"
     },
     {
-      "segment": "By-Products", 
+      "segment": "By-Products",
       "products_services": "Chemical by-products",
       "revenue_contribution": "15%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "HIGH RISK - BUY AT 20 ONLY",
     "rationale": "Company ka PE ratio 450 intehai zyada hai aur EPS bohat kam hai. Mojuda qeemat overvalued hai. Sirf 20 ke level par hi ghor karein."
   },
-
   "technical_analysis": {
     "chart": "https://example.com/lotchem-chart.jpg",
     "support_levels": "Rs 20.00 (BEST BUYING LEVEL), Rs 24.00 (Trading Level)",
     "resistance_levels": "Rs 27.00, Rs 28.00, Rs 30.00",
     "trend_analysis": "Mojuda qeemat Rs 27.00 hai jo behtareen khareedari zone se oopar hai. 20 ka level hi mehfooz khareedari ka ilaqa hai."
   },
-
   "summary_key_notes": [
     "Mojuda market qeemat: Rs 27.00",
     "Q3 2025 EPS: Rs 0.06 (Intehai kam)",

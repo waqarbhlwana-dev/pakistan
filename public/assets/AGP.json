@@ -1,13 +1,11 @@
 {
   "company_name": "AGP Limited",
-  "company_logo": "https://example.com/agp-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "AGP Limited پاکستان کی ایک ممتاز فارماسیوٹیکل کمپنی ہے جو دوائیوں کی مینوفیکچرنگ، مارکیٹنگ اور فروخت میں مصروف ہے۔ یہ ملکی اور بین الاقوامی مارکیٹس میں اپنی مصنوعات پیش کرتی ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "فارماسیوٹیکل سیکٹر کی اہم کمپنی، معیاری دوائیوں کی تیاری، ملکی اور بین الاقوامی مارکیٹ میں موجودگی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 51.10 billion",
     "share_price": "Rs 182.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 3.5 billion",
     "book_value": "43.99"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "48%",
     "institutional_investors": "38%",
     "retail_investors": "12%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Pharmaceutical Manufacturing",
@@ -41,24 +37,21 @@
       "revenue_contribution": "80%"
     },
     {
-      "segment": "Marketing & Distribution", 
+      "segment": "Marketing & Distribution",
       "products_services": "دوائیوں کی مارکیٹنگ اور تقسیم",
       "revenue_contribution": "20%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "HIGH RISK - OVERVALUED",
     "rationale": "کمپنی تقریباً چار گنا مہنگی ہے اور فنڈامنٹلی ویک ہے۔ موجودہ قیمت پر انویسٹمنٹ خطرناک ہو سکتی ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/agp-chart.jpg",
     "support_levels": "Rs 180.00 (SHORT TERM TRADING), Rs 140-160 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 190.00, Rs 200.00",
     "trend_analysis": "موجودہ قیمت Rs 182.00 ہے۔ شارٹ ٹرم ٹریڈنگ کے لیے Rs 180.00 کا لیول ہے جہاں سے 5-10 روپے کا گیم ہو سکتا ہے۔ لانگ ٹرم انویسٹمنٹ کے لیے بہترین خریداری کا زون Rs 140 سے Rs 160 کے درمیان ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 182.00",
     "کمپنی تقریباً چار گنا مہنگی ہے",

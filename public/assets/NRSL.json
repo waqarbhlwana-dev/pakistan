@@ -1,13 +1,11 @@
 {
   "company_name": "Nimir Resins Ltd",
-  "company_logo": "https://example.com/nimir-resins-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "نعمر ریزنز لمیٹڈ پاکستان کی ایک کیمیائی مینوفیکچرنگ کمپنی ہے جو مختلف قسم کے ریزنز، کیمیکلز اور صنعتی مصنوعات تیار کرتی ہے۔ کمپنی کا تعلق نعمر گروپ سے ہے جو پاکستان کے معروف کاروباری گروپوں میں سے ایک ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "کیمیائی صنعت میں اہم کھلاڑی، نعمر گروپ کا حصہ، معیاری مصنوعات کی مینوفیکچرنگ"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 4.62 billion",
     "share_price": "Rs 32.60",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 1.40 billion",
     "book_value": "Rs 24.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "55%",
     "institutional_investors": "30%",
     "retail_investors": "12%",
     "others": "3%"
   },
-
   "business_segments_products": [
     {
       "segment": "کیمیائی مینوفیکچرنگ",
@@ -46,19 +42,16 @@
       "revenue_contribution": "30%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "TRADING BUY AT 31, BEST INVESTMENT AT 26-27",
     "rationale": "PE ریشو 17.75 معقول ہے لیکن موجودہ قیمت بک ویلیو (Rs 24) سے زیادہ ہے۔ EPS 46 پیسے اور ڈیویڈنڈ Rs 1.00 اچھے ہیں۔ ROA 3.9% قابل قبول ہے۔ کریڈٹ ریشوز اچھے ہیں۔ ٹریڈنگ پوزیشن کے لیے Rs 31 اور لمبی مدتی سرمایہ کاری کے لیے Rs 26-27 بہترین ہیں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/nimir-resins-chart.jpg",
     "support_levels": "Rs 26-27 (BEST INVESTMENT ZONE), Rs 31.00 (ٹریڈنگ سپورٹ)",
     "resistance_levels": "Rs 32.60 (موجودہ قیمت), Rs 48.70 (52 ہفتوں کا ہائی)",
     "trend_analysis": "موجودہ قیمت Rs 32.60 بہترین سرمایہ کاری زون (Rs 26-27) سے اوپر ہے۔ بک ویلیو Rs 24 سے کمپنی تھوڑی سی اوور ویلیو لگ رہی ہے۔ ٹریڈنگ پوزیشن کے لیے Rs 31 کے قریب اچھا موقع ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 32.60",
     "بہترین سرمایہ کاری زون: Rs 26-27",

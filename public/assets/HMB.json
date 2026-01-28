@@ -1,13 +1,11 @@
 {
   "company_name": "Habib Metro Bank (HMB)",
-  "company_logo": "https://example.com/hmb-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "حبیب میٹرو بینک پاکستان کے معروف تجارتی بینکوں میں سے ایک ہے جو رٹیل بینکنگ، کارپوریٹ بینکنگ، اور ٹریژری سروسز پیش کرتا ہے۔ بینک کا ملک بھر میں وسیع برانچ نیٹ ورک ہے اور جدید ڈیجیٹل بینکنگ سہولیات فراہم کرتا ہے۔",
     "number_of_business_segments": "3",
     "market_position_highlights": "پاکستان کے مستحکم تجارتی بینکوں میں سے ایک، وسیع برانچ نیٹ ورک، جدید ڈیجیٹل بینکنگ سہولیات"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 129.45 billion",
     "share_price": "Rs 114.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 12.3 billion",
     "book_value": "117.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "52%",
     "institutional_investors": "35%",
     "retail_investors": "10%",
     "others": "3%"
   },
-
   "business_segments_products": [
     {
       "segment": "Retail Banking",
@@ -41,7 +37,7 @@
       "revenue_contribution": "50%"
     },
     {
-      "segment": "Corporate Banking", 
+      "segment": "Corporate Banking",
       "products_services": "کارپوریٹ فنانس، ٹریڈ فنانس، پراجیکٹ فنانس، کارپوریٹ قرضے",
       "revenue_contribution": "35%"
     },
@@ -51,19 +47,16 @@
       "revenue_contribution": "15%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "BUY AT 100-110",
     "rationale": "بینک بنیادی طور پر مضبوط ہے۔ کرنٹ ریشو بہترین ہے لیکن کوئک ریشو کم ہے۔ PE ریٹیو کچھ زیادہ ہے لیکن بینک کی مجموعی کارکردگی اچھی ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/hmb-chart.jpg",
     "support_levels": "Rs 100.00 (BEST BUYING LEVEL), Rs 110.00 (نیر بائنگ)",
     "resistance_levels": "Rs 114.00, Rs 120.00, Rs 139.00",
     "trend_analysis": "موجودہ قیمت Rs 114.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ Rs 100-110 کے زون میں خریدنے پر بہترین منافع کی توقع کی جا سکتی ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 114.00",
     "Q3 2025 EPS: Rs 5.33",
@@ -75,33 +68,26 @@
     "52 ہفتوں کا ہائی: Rs 139.00, لو: Rs 77.00",
     "کرنٹ ریشو: 3.97 (بہترین)",
     "کوئیک ریشو: 0.28 (کم - بہتری کی ضرورت)",
-    
     "✅ **کمپنی کے مضبوط پہلو:**",
     "   - بنیادی طور پر مضبوط بینک",
     "   - کرنٹ ریشو 3.97 بہترین ہے",
     "   - ڈیویڈنڈ ییلڈ 2.19% اچھی ہے",
     "   - بک ویلیو موجودہ قیمت کے قریب",
-    
     "⚠️ **تشویش کے پہلو:**",
     "   - کوئیک ریشو 0.28 کم ہے",
     "   - PE ریٹیو 21.39 کچھ زیادہ ہے",
-    
     "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
     "   - Rs 100 (بیسٹ بائنگ لیول)",
     "   - Rs 110 (نیر بائنگ لیول)",
-    
     "📈 **ٹریڈنگ کے لیے لیول:**",
     "   - Rs 110 (ٹریڈنگ کے لیے اچھا انٹری)",
-    
     "💰 **ڈیویڈنڈ کے لحاظ سے:**",
     "ڈیویڈنڈ ییلڈ: 2.19% (اچھی)",
     "ڈیویڈنڈ کی مستقل ادائیگی مثبت",
-    
     "🏦 **بینکنگ سیکٹر:**",
     "بینک کی مجموعی کارکردگی اچھی ہے",
     "طویل مدتی سرمایہ کاری کے لیے موزوں",
     "اگر Rs 100-110 کے زون میں خریداری کی جائے تو اچھا پرافٹ ممکن",
-    
     "📊 **مالیاتی صحت:**",
     "لکویڈیٹی کے لحاظ سے مضبوط",
     "بینک کی نمو کے مواقع موجود ہیں",

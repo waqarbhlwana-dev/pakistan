@@ -1,13 +1,11 @@
 {
   "company_name": "National Bank of Pakistan (NBP)",
-  "company_logo": "https://example.com/nbp-logo.png",
-  
+  "company_logo": "https://www.nbp.com.pk/logo.png",
   "company_overview": {
     "business_description": "National Bank of Pakistan پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بڑے سرکاری بینکوں میں سے ایک ہے۔",
     "number_of_business_segments": "4",
     "market_position_highlights": "پاکستان کا اہم سرکاری بینک، ملک بھر میں برانچز کا وسیع نیٹ ورک، حکومتی بینکاری کی ذمہ دار"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 441.57 billion",
     "share_price": "Rs 207.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 32.7 billion",
     "book_value": "241.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "75%",
     "institutional_investors": "18%",
     "retail_investors": "6%",
     "others": "1%"
   },
-
   "business_segments_products": [
     {
       "segment": "Retail Banking",
@@ -41,7 +37,7 @@
       "revenue_contribution": "40%"
     },
     {
-      "segment": "Corporate Banking", 
+      "segment": "Corporate Banking",
       "products_services": "کارپوریٹ بینکاری اور قرضے",
       "revenue_contribution": "35%"
     },
@@ -56,19 +52,16 @@
       "revenue_contribution": "5%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "فنڈامنٹل کافی سٹرانگ ہے لیکن کرنٹ ریشو اور کوئک ریشو کم ہیں۔ ٹیکنیکلی ڈبل ٹاپ لگ رہا ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/nbp-chart.jpg",
     "support_levels": "Rs 200.00 (KEY LEVEL), Rs 180.00 (NEAR BUYING), Rs 160.00 (BEST BUYING)",
     "resistance_levels": "Rs 210.00, Rs 233.90",
     "trend_analysis": "موجودہ قیمت Rs 207.00 ہے۔ ٹیکنیکلی ڈبل ٹاپ لگ رہا ہے۔ Rs 200.00 کا لیول اہم ہے، اگر نیچے بریک ہوتا ہے تو نیر بائنگ Rs 180.00 پر بنے گی۔ بہترین خریداری کا لیول Rs 160.00 کے قریب ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 207.00",
     "فنڈامنٹل کافی سٹرانگ ہے لیکن لیکویڈیٹی کم ہے",

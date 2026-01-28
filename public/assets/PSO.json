@@ -1,13 +1,11 @@
 {
   "company_name": "Pakistan State Oil (PSO)",
-  "company_logo": "https://example.com/pso-logo.png",
-  
+  "company_logo": "https://www.pso.com.pk/logo.png",
   "company_overview": {
     "business_description": "Pakistan State Oil پاکستان کی سب سے بڑی آئل مارکیٹنگ کمپنی ہے جو پیٹرول، ڈیزل، فرنس آئل، اور دیگر پٹرولیم مصنوعات کی خریداری، اسٹوریج، ڈسٹری بیوشن اور مارکیٹنگ میں مصروف ہے۔",
     "number_of_business_segments": "3",
     "market_position_highlights": "پاکستان کی سب سے بڑی آئل مارکیٹنگ کمپنی، ملک بھر میں سب سے زیادہ ریٹیل آؤٹ لیٹس"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 202.81 billion",
     "share_price": "Rs 431.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 18.9 billion",
     "book_value": "583.50"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "58%",
     "institutional_investors": "30%",
     "retail_investors": "10%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "White Oil Products",
@@ -41,7 +37,7 @@
       "revenue_contribution": "65%"
     },
     {
-      "segment": "Black Oil Products", 
+      "segment": "Black Oil Products",
       "products_services": "فرنس آئل، ایچ ایس ڈی",
       "revenue_contribution": "25%"
     },
@@ -51,19 +47,16 @@
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "BUY AT 380-400",
     "rationale": "بہترین خریداری Rs 380 سے Rs 400 کے درمیان ہے"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/pso-chart.jpg",
     "support_levels": "Rs 380.00 - Rs 400.00 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 450.00, Rs 494.80",
     "trend_analysis": "موجودہ قیمت Rs 431.00 ہے۔ بہترین خریداری Rs 380 سے Rs 400 کے درمیان ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 431.00",
     "بہترین خریداری کا زون: Rs 380 سے Rs 400 کے درمیان",

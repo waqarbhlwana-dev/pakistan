@@ -1,13 +1,11 @@
 {
   "company_name": "MCB Bank Limited (MCB)",
-  "company_logo": "https://example.com/mcb-logo.png",
-  
+  "company_logo": "https://www.mcb.com.pk/images/logo.png",
   "company_overview": {
     "business_description": "MCB Bank Limited پاکستان کا ایک ممتاز کمرشل بینک ہے جو retail banking, corporate banking, اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ یہ ملک کے بڑے پرائیویٹ بینکوں میں سے ایک ہے۔",
     "number_of_business_segments": "4",
     "market_position_highlights": "پاکستان کا اہم پرائیویٹ بینک، وسیع برانچ نیٹ ورک، مستحکم کارکردگی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 416.00 billion",
     "share_price": "Rs 351.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 28.9 billion",
     "book_value": "250.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "55%",
     "institutional_investors": "32%",
     "retail_investors": "11%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Retail Banking",
@@ -41,7 +37,7 @@
       "revenue_contribution": "35%"
     },
     {
-      "segment": "Corporate Banking", 
+      "segment": "Corporate Banking",
       "products_services": "کارپوریٹ بینکاری اور قرضے",
       "revenue_contribution": "40%"
     },
@@ -56,19 +52,16 @@
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "BUY ON DIPS",
     "rationale": "فنڈامنٹلی مضبوط بینک ہے۔ PE ریٹیو کم ہے اور ڈویڈنڈ ییلڈ اچھی ہے۔ بہترین خریداری کے لیے ڈِپس کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/mcb-chart.jpg",
     "support_levels": "Rs 340-350 (TRADING POINT OF VIEW), Rs 300-320 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 370.00, Rs 400.00",
     "trend_analysis": "موجودہ قیمت Rs 351.00 ہے۔ ٹریڈنگ پوائنٹ آف ویو سے Rs 340-350 کا لیول ہے جہاں سے 10-20 روپے کی موو مل سکتی ہے۔ ڈسکاؤنٹ بیسٹ بائنگ کے لیے Rs 300-320 کا ایریا ہے جہاں بیسٹ بائنگ مل سکتی ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 351.00",
     "فنڈامنٹلی مضبوط بینک",
