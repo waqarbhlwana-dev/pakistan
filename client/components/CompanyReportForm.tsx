@@ -968,7 +968,11 @@ function CompanyReportView({ data }: { data: CompanyReportData }) {
                 <h4 className="text-sm font-semibold text-muted-foreground mb-2">
                   Chart
                 </h4>
-                <p className="whitespace-pre-wrap">{data.technicalChart}</p>
+                <ImageRenderer
+                  content={data.technicalChart}
+                  altText="Technical Chart"
+                  className="max-w-2xl h-auto rounded-lg border border-border"
+                />
               </div>
             )}
             {data.supportLevels && (
