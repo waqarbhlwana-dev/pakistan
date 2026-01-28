@@ -58,7 +58,7 @@
   },
 
   "technical_analysis": {
-    "chart": "https://example.com/abl-chart.jpg",
+    "chart": "https://cdn.builder.io/api/v1/image/assets%2Fa1c7a87eee6b4b6e8fbfd7a732b2af55%2F6d0cb7ec4fc04d7d817243f13b4d1867?format=webp&width=800&height=1200",
     "support_levels": "Rs 170.00 - Rs 180.00 (BEST BUYING ZONE), Rs 160.00 (مضبوط سپورٹ)",
     "resistance_levels": "Rs 219.50",
     "trend_analysis": "موجودہ قیمت Rs 176.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ Rs 150-160 کے زون میں خریدنے پر بہتر منافع کی توقع کی جا سکتی ہے۔"
