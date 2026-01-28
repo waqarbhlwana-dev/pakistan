@@ -640,9 +640,11 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
                     <h4 className="text-sm font-semibold text-muted-foreground mb-2">
                       Chart
                     </h4>
-                    <p className="text-foreground whitespace-pre-wrap">
-                      {assetData.technical_analysis.chart}
-                    </p>
+                    <ImageRenderer
+                      content={assetData.technical_analysis.chart}
+                      altText="Technical Analysis Chart"
+                      className="max-w-2xl h-auto rounded-lg border border-border"
+                    />
                   </div>
                 )}
                 {assetData.technical_analysis.support_levels && (
