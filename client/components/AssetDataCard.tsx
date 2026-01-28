@@ -560,7 +560,9 @@ export default function AssetDataCard({ assetSymbol }: AssetDataCardProps) {
         {assetData?.business_segments_products &&
           assetData.business_segments_products.length > 0 && (
             <div className="border-t pt-6">
-              <h3 className="text-lg font-bold mb-4">Business Segments & Products</h3>
+              <h3 className="text-lg font-bold mb-4">
+                Business Segments & Products
+              </h3>
               <div className="space-y-4">
                 {assetData.business_segments_products.map((segment, idx) => (
                   <div
