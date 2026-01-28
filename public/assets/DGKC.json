@@ -1,13 +1,11 @@
 {
   "company_name": "D.G. Khan Cement Company (DGKC)",
-  "company_logo": "https://example.com/dgkc-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "D.G. Khan Cement Company پاکستان کی ایک ممتاز سیمنٹ مینوفیکچرنگ کمپنی ہے جو مختلف اقسام کی سیمنٹ کی تیاری اور فروخت میں مصروف ہے۔ یہ پاکستان کے بڑے سیمنٹ پروڈیوسرز میں سے ایک ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "سیمنٹ انڈسٹری کی اہم کمپنی، ملک بھر میں مارکیٹ شیئر، معیاری مصنوعات"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 94.70 billion",
     "share_price": "Rs 215.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 9.5 billion",
     "book_value": "241.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "48%",
     "institutional_investors": "38%",
     "retail_investors": "12%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Cement Manufacturing",
@@ -41,24 +37,21 @@
       "revenue_contribution": "90%"
     },
     {
-      "segment": "Allied Products", 
+      "segment": "Allied Products",
       "products_services": "سیمنٹ سے متعلق دیگر مصنوعات",
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "سیمنٹ سیکٹر ملکی حالات پر منحصر ہے۔ اگر کنسٹرکشن اور مالی حالات بہتر ہوں تو سیکٹر بہتر کارکردگی دکھا سکتا ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/dgkc-chart.jpg",
     "support_levels": "Rs 180-160 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 240.00, Rs 275.75",
     "trend_analysis": "موجودہ قیمت Rs 215.00 ہے۔ ایلیووے ڈویو کے مطابق تھوڑی سی سیلنگ نظر آ رہی ہے۔ فرسٹ ویو میں تھوڑا موو ہو سکتا ہے، سیکنڈ ویو میں ایلیووے کی بنیاد پر Rs 240 تک جا سکتا ہے۔ بہترین خریداری کا زون Rs 180 سے Rs 160 کے درمیان ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 215.00",
     "سیمنٹ سیکٹر ملکی حالات پر منحصر ہے",

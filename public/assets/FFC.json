@@ -1,13 +1,11 @@
 {
   "company_name": "Fauji Fertilizer Company (FFC)",
-  "company_logo": "https://example.com/ffc-logo.png",
-  
+  "company_logo": "https://www.ffc.com.pk/logo.png",
   "company_overview": {
     "business_description": "Fauji Fertilizer Company پاکستان کی سب سے بڑی فرٹیلائزر مینوفیکچرنگ کمپنی ہے جو یوریا اور دیگر کیمیائی کھادیں تیار اور فروخت کرتی ہے۔ یہ Fauji Foundation گروپ کی پرچم بردار کمپنی ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "پاکستان کی سب سے بڑی فرٹیلائزر کمپنی، مارکیٹ لیڈر، مضبوط برانڈ ایکویٹی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 822.40 billion",
     "share_price": "Rs 578.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 22.7 billion",
     "book_value": "179.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "45%",
     "institutional_investors": "40%",
     "retail_investors": "13%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Urea Fertilizer",
@@ -41,24 +37,21 @@
       "revenue_contribution": "75%"
     },
     {
-      "segment": "Other Chemical Products", 
+      "segment": "Other Chemical Products",
       "products_services": "دیگر کیمیائی مصنوعات، بائی پروڈکٹس",
       "revenue_contribution": "25%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "کمپنی فنڈامنٹلی سٹرانگ ہے لیکن موجودہ قیمت پر اوور ویلیو لگ رہی ہے۔ بہترین خریداری کے لیے بہتر لیولز کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/ffc-chart.jpg",
     "support_levels": "Rs 520.00 (FIRST BUYING LEVEL), Rs 480-460 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 586.00, Rs 600.00",
     "trend_analysis": "موجودہ قیمت Rs 578.00 ہے۔ ٹیکنیکلی ڈبل ٹاپ بنانے کا امکان ہے۔ پہلا خریداری لیول Rs 500 کے قریب، دوسرا اور بہترین لیول Rs 480 سے Rs 460 کے درمیان ہے۔ ویٹ کر کے اچھے لیول پر خریداری سے اچھا پرافٹ ہوگا۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 578.00",
     "کمپنی فنڈامنٹلی سٹرانگ لیکن اوور ویلیو ہے",

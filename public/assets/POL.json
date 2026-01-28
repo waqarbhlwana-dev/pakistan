@@ -1,13 +1,11 @@
 {
   "company_name": "Pakistan Oilfields Limited (POL)",
-  "company_logo": "https://example.com/pol-logo.png",
-  
+  "company_logo": "https://www.pol.com.pk/logo.png",
   "company_overview": {
     "business_description": "Pakistan Oilfields Limited پاکستان کی ایک ممتاز آئل اینڈ گیس ایکسپلوریشن اینڈ پروڈکشن کمپنی ہے جو تیل اور گیس کی دریافت، پیداوار اور فروخت میں مصروف ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "آئل اینڈ گیس سیکٹر کی اہم کمپنی، تیل اور گیس کے بڑے ذخائر، مستحکم کارکردگی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 172.53 billion",
     "share_price": "Rs 600.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 22.8 billion",
     "book_value": "251.29"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "60%",
     "institutional_investors": "30%",
     "retail_investors": "8%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Exploration & Production",
@@ -41,24 +37,21 @@
       "revenue_contribution": "85%"
     },
     {
-      "segment": "Oil & Gas Marketing", 
+      "segment": "Oil & Gas Marketing",
       "products_services": "تیل اور گیس کی مارکیٹنگ اور فروخت",
       "revenue_contribution": "15%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "کمپنی اوور ویلیو ہے۔ ویٹ کیا جا سکتا ہے اچھی بائنگ کے لیے۔ بہترین خریداری کے لیے بہتر لیولز کا انتظار کریں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/pol-chart.jpg",
     "support_levels": "Rs 560.00 (FIRST BUYING LEVEL), Rs 520.00 (BEST BUYING LEVEL)",
     "resistance_levels": "Rs 620.00, Rs 650.00",
     "trend_analysis": "موجودہ قیمت Rs 600.00 ہے جو اوور ویلیو ہے۔ اچھی بائنگ کے لیے پہلا لیول Rs 560.00 ہے۔ بیسٹ بائنگ کا لیول Rs 520.00 ہے جو بڑا اچھا لیول ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 600.00",
     "کمپنی اوور ویلیو ہے",

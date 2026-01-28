@@ -1,13 +1,11 @@
 {
   "company_name": "PRIMA",
-  "company_logo": "https://example.com/prima-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "پریمہ پاکستان کی ایک کمپنی ہے جو اپنے کاروباری شعبوں میں خدمات فراہم کرتی ہے۔ کمپنی نے اپنے کام کا آغاز 2019 میں کیا اور اس وقت مارکیٹ میں اپنی موجودگی برقرار رکھے ہوئے ہے۔",
     "number_of_business_segments": "1",
     "market_position_highlights": "نئی قائم ہونے والی کمپنی، محدود مارکیٹ شیئر، ترقی کے ابتدائی مراحل میں"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 9.27 billion",
     "share_price": "Rs 42.42",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 0.85 billion",
     "book_value": "Rs 28.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "60%",
     "institutional_investors": "25%",
     "retail_investors": "10%",
     "others": "5%"
   },
-
   "business_segments_products": [
     {
       "segment": "مین بزنس سروسز",
@@ -41,19 +37,16 @@
       "revenue_contribution": "100%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "TRADING BUY AT 40, BEST BUY AT 30",
     "rationale": "پی ای ریشو (53) بہت زیادہ ہے جس سے کمپنی اوور ویلیو لگتی ہے۔ EPS بہت کم (20 پیسے) ہے۔ بک ویلیو (Rs 28) موجودہ قیمت سے کم ہے۔ ٹریڈنگ کے لیے Rs 40 اچھا لیول ہے۔ لمبی مدتی سرمایہ کاری کے لیے Rs 30 کا لیول بہترین خریداری کا زون ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/prima-chart.jpg",
     "support_levels": "Rs 30.00 (BEST BUYING ZONE), Rs 40.00 (ٹریڈنگ سپورٹ)",
     "resistance_levels": "Rs 42.42 (موجودہ قیمت), Rs 94.00 (52 ہفتوں کا ہائی)",
     "trend_analysis": "موجودہ قیمت Rs 42.42 ہے جو بک ویلیو (Rs 28) سے زیادہ اور بہترین خریداری زون (Rs 30) سے اوپر ہے۔ کم EPS اور زیادہ PE ریشو کی وجہ سے کمپنی اوور ویلیو لگ رہی ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 42.42",
     "بہترین خریداری کا زون: Rs 30.00",

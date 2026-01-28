@@ -1,14 +1,11 @@
-
 {
   "company_name": "Otsuka Pakistan Ltd",
-  "company_logo": "https://example.com/otsuka-pakistan-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "اٹسوکا پاکستان لمیٹڈ ایک فارماسیوٹیکل اور ہیلتھ کیئر کمپنی ہے جو دوائیں، میڈیکل پروڈکٹس اور ہیلتھ کیئر مصنوعات تیار کرتی ہے۔ یہ جاپانی اٹسوکا گروپ کی ملکیت میں ہے جو بین الاقوامی سطح پر فارماسیوٹیکل انڈسٹری میں معروف ہے۔",
     "number_of_business_segments": "3",
     "market_position_highlights": "بین الاقوامی فارماسیوٹیکل کمپنی، معیاری دوائیں، ہیلتھ کیئر سیکٹر، جاپانی ٹیکنالوجی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 4.24 billion",
     "share_price": "Rs 350.00",
@@ -27,14 +24,12 @@
     "fcfe": "Rs 0.65 billion",
     "book_value": "Rs 60.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "65%",
     "institutional_investors": "20%",
     "retail_investors": "12%",
     "others": "3%"
   },
-
   "business_segments_products": [
     {
       "segment": "فارماسیوٹیکل مینوفیکچرنگ",
@@ -52,19 +47,16 @@
       "revenue_contribution": "15%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "CAUTIOUS TRADING BUY AT 320, BEST INVESTMENT AT 280",
     "rationale": "PE ریشو 8.84 معقول ہے اور EPS Rs 9.92 اچھی ہے۔ ROA 15% بہترین ہے۔ تاہم، موجودہ قیمت (Rs 350) بک ویلیو (Rs 60) سے 5.8 گنا زیادہ ہے جو اوور ویلیویشن ظاہر کرتا ہے۔ کوئیک ریشو 0.43 کمزور ہے۔ احتیاط کے ساتھ ٹریڈنگ کے لیے Rs 320 اور انویسٹمنٹ کے لیے Rs 280 بہترین ہیں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/otsuka-pakistan-chart.jpg",
     "support_levels": "Rs 280.00 (BEST INVESTMENT ZONE), Rs 320.00 (ٹریڈنگ سپورٹ)",
     "resistance_levels": "Rs 350.00 (موجودہ قیمت), Rs 478.00 (52 ہفتوں کا ہائی)",
     "trend_analysis": "موجودہ قیمت Rs 350.00 بہترین سرمایہ کاری زون (Rs 280) سے اوپر ہے۔ کمپنی کی ارننگ اچھی ہے لیکن قیمت بک ویلیو سے 5.8 گنا زیادہ ہے۔ کوئیک ریشو کمزور ہے جس سے لیکویڈیٹی کا مسئلہ ہو سکتا ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 350.00",
     "بہترین سرمایہ کاری زون: Rs 280.00",

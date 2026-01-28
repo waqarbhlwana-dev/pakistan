@@ -1,13 +1,11 @@
 {
   "company_name": "K-Electric Limited",
-  "company_logo": "https://example.com/k-electric-logo.png",
-  
+  "company_logo": "https://www.kel.com.pk/images/logo.png",
   "company_overview": {
     "business_description": "K-Electric کراچی اور اس کے گردونواح میں بجلی کی پیداوار، ٹرانسمیشن اور تقسیم کی ذمہ دار مرکزی کمپنی ہے۔ یہ پاکستان کی واحد انٹیگریٹڈ پاور کمپنی ہے جو جنریشن سے لے کر ڈسٹری بیوشن تک مکمل سروس فراہم کرتی ہے۔",
     "number_of_business_segments": "3",
     "market_position_highlights": "کراچی کے 2.5 کروڑ سے زائد آبادی کی بجلی کی ضروریات پوری کرنے والی واحد کمپنی، اسٹریٹیجک اہمیت کی حامل"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 150.78 billion",
     "share_price": "Rs 5.80",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 9.8 billion",
     "book_value": "4.2"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "60%",
     "institutional_investors": "28%",
     "retail_investors": "9%",
     "others": "3%"
   },
-
   "business_segments_products": [
     {
       "segment": "Power Generation",
@@ -41,7 +37,7 @@
       "revenue_contribution": "48%"
     },
     {
-      "segment": "Power Distribution", 
+      "segment": "Power Distribution",
       "products_services": "بجلی کی تقسیم، کنزیومر سروسز، میٹرنگ",
       "revenue_contribution": "42%"
     },
@@ -51,19 +47,16 @@
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING BUY AT 5.00",
     "rationale": "موجودہ قیمت Rs 5.80 ہے جو مطلوبہ خریداری کے لیے زیادہ ہے۔ PE ریٹیو 36.4 بہت زیادہ ہے۔ بہترین خریداری کا لیول Rs 5.00 ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/k-electric-chart.jpg",
     "support_levels": "Rs 5.00 (BEST BUYING ZONE), Rs 5.50",
     "resistance_levels": "Rs 5.95 (IMMEDIATE RESISTANCE), Rs 6.25",
     "trend_analysis": "موجودہ قیمت Rs 5.80 ہے۔ 52 ہفتوں کا ہائی Rs 8.52 اور لو Rs 3.60 ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 5.80",
     "Q4 2024 کی ارننگز ابھی تک شائع نہیں ہوئیں",

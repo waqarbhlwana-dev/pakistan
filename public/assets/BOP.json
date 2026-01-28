@@ -1,13 +1,11 @@
 {
   "company_name": "Bank of Punjab (BOP)",
-  "company_logo": "https://example.com/bop-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "بینک آف پنجاب پاکستان کا ایک معروف تجارتی بینک ہے جو رٹیل بینکنگ، کارپوریٹ بینکنگ، اور دیگر مالیاتی خدمات فراہم کرتا ہے۔ بینک کا پنجاب اور دیگر صوبوں میں وسیع نیٹ ورک ہے۔",
     "number_of_business_segments": "3",
     "market_position_highlights": "پنجاب کی نمائندہ بینکاری ادارہ، سرکاری اور پرائیویٹ شعبے میں مضبوط موجودگی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 111.10 billion",
     "share_price": "Rs 34.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 6.2 billion",
     "book_value": "30.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "55%",
     "institutional_investors": "30%",
     "retail_investors": "12%",
     "others": "3%"
   },
-
   "business_segments_products": [
     {
       "segment": "Retail Banking",
@@ -41,7 +37,7 @@
       "revenue_contribution": "50%"
     },
     {
-      "segment": "Corporate Banking", 
+      "segment": "Corporate Banking",
       "products_services": "کارپوریٹ فنانس، ٹریڈ فنانس، کارپوریٹ قرضے",
       "revenue_contribution": "35%"
     },
@@ -51,19 +47,16 @@
       "revenue_contribution": "15%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "AVOID - WAIT FOR 20-24",
     "rationale": "بینک کو مینیپولیشن کے الزامات اور ملازمین کی برطرفی کے مسائل کا سامنا ہے۔ موجودہ قیمت اوور ویلیوڈ ہے اور ٹریڈنگ کے لیے موزوں نہیں۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/bop-chart.jpg",
     "support_levels": "Rs 20.00 - Rs 24.00 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 34.00, Rs 36.00, Rs 40.00",
     "trend_analysis": "موجودہ قیمت Rs 34.00 ہے جو بہترین خریداری زون سے کافی اوپر ہے۔ شیئر میں ویریٹی دیکھی جا رہی ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 34.00",
     "Q3 2025 EPS: Rs 1.57",
@@ -75,7 +68,6 @@
     "52 ہفتوں کا ہائی: Rs 40.00, لو: Rs 8.80",
     "کرنٹ ریشو: 0.32 (بہت کم)",
     "کوئیک ریشو: 0.28 (بہت کم)",
-    
     "⚠️ **خطرے کے اشارے:**",
     "   - سٹاک مارکیٹ کی طرف سے نوٹس جاری: 'اپ کے شیئر کے اندر اتنی کیوں مینیپولیشن ہوئی ہے'",
     "   - چند ملازم نکالے گئے ہیں",
@@ -83,26 +75,21 @@
     "   - کوئیک ریشو 0.28 بہت کم ہے",
     "   - بینک تھوڑا سا اوور ویلیو لگ رہا ہے",
     "   - شیئر کی ویری ہو رہی ہے",
-    
     "🎯 **انویسٹمنٹ کے لیے بہترین لیول:**",
     "   - Rs 20-24 (بیسٹ بائنگ زون)",
-    
     "📊 **مالیاتی جائزہ:**",
     "منیپولیشن کے الزامات",
     "ملازمین کی برطرفی کے مسائل",
     "لکویڈیٹی پوزیشن کمزور",
-    
     "🚫 **ٹریڈنگ کے حوالے سے:**",
     "ٹریڈنگ اس میں پریفر نہیں ہے",
     "ٹریڈنگ نہ کی جائے",
     "شیئر میں ویریٹی کا خطرہ",
-    
     "📈 **سرمایہ کاری کی حکمت عملی:**",
     "📌 **فی الحال مکمل Avoid کریں**",
     "📌 **ٹریڈنگ سے پرہیز کریں**",
     "📌 **20-24 کے زون کا انتظار کریں**",
     "📌 **اگر 20-24 کے لیول پر ملے تو اچھا لیول ہے**",
-    
     "💎 **خلاصہ:**",
     "بینک کو مینیپولیشن اور ملازمین کے مسائل ہیں",
     "موجودہ قیمت پر خریدنے سے گریز کریں",

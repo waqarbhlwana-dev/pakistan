@@ -1,13 +1,11 @@
 {
   "company_name": "Oil & Gas Development Company Limited (OGDCL)",
-  "company_logo": "https://example.com/ogdcl-logo.png",
-  
+  "company_logo": "https://www.ogdcl.com/images/logo.png",
   "company_overview": {
     "business_description": "OGDCL پاکستان کی سب سے بڑی ایکسپلوریشن اینڈ پروڈکشن کمپنی ہے جو تیل اور گیس کی دریافت، پیداوار اور فروخت میں مصروف ہے۔ یہ پاکستان کی انرجی سیکٹر کی سب سے بڑی کمپنی ہے۔",
     "number_of_business_segments": "3",
     "market_position_highlights": "پاکستان کی سب سے بڑی ایکسپلوریشن اینڈ پروڈکشن کمپنی، ملک کے تیل اور گیس کے ذخائر میں اہم کردار"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 1.06 trillion",
     "share_price": "Rs 247.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 38.9 billion",
     "book_value": "322.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "65%",
     "institutional_investors": "25%",
     "retail_investors": "8%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Exploration & Production",
@@ -41,7 +37,7 @@
       "revenue_contribution": "85%"
     },
     {
-      "segment": "Oil Refining", 
+      "segment": "Oil Refining",
       "products_services": "تیل کی صفائی اور ریفائننگ",
       "revenue_contribution": "10%"
     },
@@ -51,19 +47,16 @@
       "revenue_contribution": "5%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "BUY",
     "rationale": "PE ریٹیو 6.96 بہت کم ہے، ڈویڈنڈ ییلڈ اچھی ہے، اور فنانشل ہیلتھ بہترین ہے۔ Rs 240 کے ایریے سے بھی خریداری کی جا سکتی ہے لیکن بہترین انٹری Rs 220 کے لیول پر ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/ogdcl-chart.jpg",
     "support_levels": "Rs 220.00 (BEST BUYING ZONE), Rs 230.00",
     "resistance_levels": "Rs 260.00, Rs 290.00",
     "trend_analysis": "موجودہ قیمت Rs 247.00 ہے۔ Rs 240 کے ایریے سے خریداری کی جا سکتی ہے لیکن بہترین خریداری کا لیول Rs 220 ہے۔ 52 ہفتوں کا ہائی Rs 290.00 اور لو Rs 174.00 ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 247.00",
     "بہترین خریداری کا لیول: Rs 220.00",

@@ -1,13 +1,11 @@
 {
   "company_name": "Pakistan Petroleum Limited (PPL)",
-  "company_logo": "https://example.com/ppl-logo.png",
-  
+  "company_logo": "https://www.ppl.com.pk/images/logo.png",
   "company_overview": {
     "business_description": "Pakistan Petroleum Limited پاکستان کی ایک ممتاز ایکسپلوریشن اینڈ پروڈکشن کمپنی ہے جو تیل اور گیس کی دریافت، پیداوار اور فروخت میں مصروف ہے۔ یہ ملک کی انرجی سیکٹر کی اہم کمپنیوں میں سے ایک ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "انرجی سیکٹر کی اہم کمپنی، تیل اور گیس کے بڑے ذخائر پر کام، مستحکم کارکردگی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 527.32 billion",
     "share_price": "Rs 194.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 35.7 billion",
     "book_value": "266.63"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "55%",
     "institutional_investors": "32%",
     "retail_investors": "11%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Exploration & Production",
@@ -41,24 +37,21 @@
       "revenue_contribution": "90%"
     },
     {
-      "segment": "Gas Marketing", 
+      "segment": "Gas Marketing",
       "products_services": "گیس کی مارکیٹنگ اور فروخت",
       "revenue_contribution": "10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "BUY ON DIPS",
     "rationale": "PE ریٹیو 6.57 بہت کم ہے، فنانشل ہیلتھ بہترین ہے۔ بہترین خریداری Rs 176-180 کے زون میں ہے۔ اگر قیمت Rs 211 کے اوپر کلوز کرتی ہے تو Rs 260 تک کا ہدف ممکن ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/ppl-chart.jpg",
     "support_levels": "Rs 176-180 (BEST BUYING ZONE), Rs 187-188",
     "resistance_levels": "Rs 211.00 (KEY BREAKOUT LEVEL), Rs 216.50",
     "trend_analysis": "موجودہ قیمت Rs 194.00 ہے۔ ٹرینڈ لائن سپورٹ Rs 187-188 پر ہے۔ اگر Rs 211 کے اوپر کلوز ہوتی ہے تو Rs 260 تک کی موو ممکن ہے (تقریباً Rs 50 کا فائدہ)। بڑی اپورچونٹی جیک پارٹ پیٹرن میں ہے۔"
   },
-
   "summary_key_notes": [
     "مارکیٹ کیپ: Rs 527.32 ارب روپے",
     "موجودہ مارکیٹ قیمت: Rs 194.00",

@@ -1,13 +1,11 @@
 {
   "company_name": "Hub Power Company (HUBC)",
-  "company_logo": "https://example.com/hubc-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "Hub Power Company پاکستان کی سب سے بڑی انڈیپنڈنٹ پاور پروڈیوسر (IPP) ہے جو تھرمل پاور پلانٹس کے ذریعے بجلی کی پیداوار اور فروخت میں مصروف ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "پاکستان کی سب سے بڑی انڈیپنڈنٹ پاور پروڈیوسر، انرجی سیکٹر کی اہم کمپنی"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 276.81 billion",
     "share_price": "Rs 213.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 18.5 billion",
     "book_value": "198.25"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "52%",
     "institutional_investors": "35%",
     "retail_investors": "11%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Power Generation",
@@ -41,24 +37,21 @@
       "revenue_contribution": "85%"
     },
     {
-      "segment": "Energy Services", 
+      "segment": "Energy Services",
       "products_services": "انرجی سے متعلق دیگر خدمات",
       "revenue_contribution": "15%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING FOR BETTER LEVELS",
     "rationale": "کمپنی اوور ویلیو ہے۔ اوور ویلیو کمپنی میں انویسٹمنٹ نہیں کرنی چاہیے چاہے وہ کمپنی کتنی ہی اچھی کیوں نہ ہو۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/hubc-chart.jpg",
     "support_levels": "Rs 200.00 (NEAR LEVEL), Rs 165-170 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 220.00, Rs 240.00",
     "trend_analysis": "موجودہ قیمت Rs 213.00 ہے جو اوور ویلیو ہے۔ نیر انویسٹمنٹ لیول Rs 200 ہے لیکن بہترین خریداری کا زون Rs 165 سے Rs 170 کے درمیان ہے۔ اگر ویٹ کریں تو یہ Rs 170 کے قریب مل سکتا ہے جس سے اچھا پرافٹ ہو سکتا ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 213.00",
     "کمپنی فی الحال اوور ویلیو ہے",

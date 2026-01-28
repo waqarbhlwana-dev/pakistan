@@ -1,7 +1,6 @@
-
 {
   "company_name": "Javedan Corporation Limited (JVDC)",
-  "company_logo": "https://example.com/javedan-logo.png",
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "جاودن کارپوریشن لمیٹڈ پاکستان کی ایک متنوع کاروباری کمپنی ہے جس کے مفادات کیمیکلز، پراپرٹی اور دیگر شعبوں میں ہیں۔ کمپنی کی مینجمنٹ نسبتاً تجربہ کار ہے اور کاروبار کو کئی دہائیوں سے چلا رہی ہے، لیکن یہ بہت قدیم یا کثیرالنسلی گروپ نہیں ہے۔ کمپنی کی پراپرٹی ہولڈنگز، خاص طور پر کراچی میں، اس کی اہم اثاثہ جات ہیں۔",
     "number_of_business_segments": "2 (کیمیکلز اینڈ پراپرٹی)",

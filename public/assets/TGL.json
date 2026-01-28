@@ -1,13 +1,11 @@
 {
   "company_name": "Tariq Glass Industries Limited (TGL)",
-  "company_logo": "https://example.com/tariq-glass-logo.png",
-
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "طارق گلس انڈسٹریز لمیٹڈ پاکستان کی شیشہ سازی کی صنعت کی ایک معروف اور قدیم کمپنی ہے، جو 1968 میں قائم ہوئی۔ کمپنی کا بنیادی کاروبار فلیٹ گلس، کنٹینر گلس (بوتلیں، جارز)، اور کرسٹل ویئر سمیت مختلف قسم کے شیشے کی مصنوعات کی تیاری، پروسیسنگ اور فروخت ہے۔ یہ صارفین، دواسازی اور فوڈ اینڈ بیریج انڈسٹری کو اعلیٰ معیار کی شیشے کی پیکیجنگ فراہم کرتی ہے۔ کمپنی کی مینجمنٹ کئی دہائیوں پر محیط تجربہ رکھتی ہے اور صنعت میں انتہائی معزز سمجھی جاتی ہے۔",
     "number_of_business_segments": "3",
     "market_position_highlights": "پاکستان کی شیشہ سازی کی صنعت کی ایک قدیم اور پائیدار کمپنی، فلیٹ گلس اور کنٹینر گلس دونوں مارکیٹس میں مضبوط موجودگی، اعلیٰ معیار کی مصنوعات کے لیے مشہور، درآمدی متبادل فراہم کرنے والی اہم مقامی مینوفیکچرر۔"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 34.91 billion",
     "share_price": "Rs 202.00",
@@ -27,14 +25,12 @@
     "fcfe": "دستیاب نہیں",
     "book_value": "Rs 135.00 فی شیئر"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "~40-50% (خاندانی ملکیت/پروموٹرز)",
     "institutional_investors": "~25-35%",
     "retail_investors": "~20-30%",
     "others": "~5%"
   },
-
   "business_segments_products": [
     {
       "segment": "فلیٹ گلس",
@@ -52,19 +48,16 @@
       "revenue_contribution": "~10%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "ACCUMULATE ON WEAKNESS - BUY IN ZONES Rs 180-190",
     "rationale": "کمپنی کی مالیاتی کارکردگی انتہائی مضبوط ہے: بہترین ROA (17.8%)، اچھی EPS (Rs 20.44 سالانہ)، اور زبردست لیکویڈیٹی ریشوز (Current: 2.75, Quick: 2.08)۔ بک ویلیو (Rs 135) کے مقابلے میں پریمیم معقول (50%) ہے۔ P/E 9.86 صنعت کے لحاظ سے مناسب ہے۔ تاہم، تخمینے کے مطابق قرضوں کی سطح زیادہ ہو سکتی ہے۔ موجودہ قیمت (Rs 202) قدرے اوپر لگتی ہے۔ نیڑ ٹرم ٹریڈنگ/خریدی کے لیے Rs 190 کا لیول بہتر ہے، جبکہ بہترین قیمت Rs 180 کے قریب ملے گی، جہاں پرائس/بک ویلیو کا تناسب زیادہ پرکشش ہو جاتا ہے اور خطرہ کم ہوتا ہے۔ یہ ایک بنیادی طور پر مضبوط، قدیم اور قائم شدہ کمپنی ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/tgl-chart.jpg",
     "support_levels": "Rs 190.00 (نزدیک سپورٹ/خریدی زون), Rs 180.00 (بہترین خریداری زون - BEST ACCUMULATION ZONE), Rs 125.00 (52-ہفتہ لو/مضبوط سپورٹ)",
     "resistance_levels": "Rs 210.00, Rs 225.00, Rs 250.00 (52-ہفتہ ہائی)",
     "trend_analysis": "شیئر نے Rs 125 سے Rs 250 تک ایک مضبوط بُلش رن دیکھا ہے۔ موجودہ قیمت Rs 202 اس رن کے درمیان میں ہے۔ قلیل مدتی میں رجحان غیر جانبدار (Neutral) سے ہلکا سا منفی لگ رہا ہے۔ اگر قیمت Rs 190 یا Rs 180 کے سپورٹ لیولز کی طرف واپس آتی ہے تو وہ اچھے انٹری پوائنٹس فراہم کر سکتے ہیں۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 202.00",
     "NEAR TERM BUYING ZONE: Rs 190.00",

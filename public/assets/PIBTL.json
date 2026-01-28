@@ -1,13 +1,11 @@
 {
   "company_name": "Pakistan International Bulk Terminal Limited (PIBTL)",
-  "company_logo": "https://example.com/pibtl-logo.png",
-  
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
     "business_description": "PIBTL پاکستان کی پہلی برکل کارگو ٹرمنل ہے جو کراچی پورٹ پر واقع ہے۔ کمپنی کوئلہ، سیمنٹ، کلنکر اور دیگر ڈرائی بَلک کارگو ہینڈل کرتی ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "پاکستان کی واحد برکل کارگو ٹرمنل، اسٹریٹیجک لوکیشن، بڑے صنعتی گاہکوں کے ساتھ معاہدے"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 22.5 billion",
     "share_price": "Rs 15.17",
@@ -25,14 +23,12 @@
     "fcff": "Rs 3.8 billion",
     "fcfe": "Rs 2.1 billion"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "48%",
     "institutional_investors": "35%",
     "retail_investors": "15%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Dry Bulk Terminal",
@@ -45,19 +41,16 @@
       "revenue_contribution": "35%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "WAITING BUY 9 TO 10",
     "rationale": "فی الحال شیئر Rs 15.17 پر ٹریڈ کر رہا ہے جو اوور ویلیو ہے۔ BEST BUYING ZONE Rs 9 سے Rs 10 کے درمیان ہے۔ موجودہ قیمت پر خریداری سے پرہیز کریں۔"
   },
-
   "technical_analysis": {
     "chart": " BEST BUYING LEVEL 9 TO 10",
     "support_levels": "Rs 9.00, Rs 10.00 (BEST BUYING ZONE)",
     "resistance_levels": "Rs 15.40, Rs 16.00",
     "trend_analysis": "شارٹ ٹرم میں ڈاؤن ٹرینڈ، روزانہ چارٹ کے مطابق قیمت Rs 15.14 ہائی اور Rs 15.13 لو کے درمیان ٹریڈ کر رہی ہے۔ بہترین انٹری پوائنٹ Rs 9-10 زون کا انتظار ہے۔"
   },
-
   "summary_key_notes": [
     "فی الحال شیئر Rs 15.17 پر ٹریڈ کر رہا ہے جو اوور ویلیو ہے",
     "بہترین خریداری کا زون Rs 9 سے Rs 10 کے درمیان ہے",

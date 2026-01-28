@@ -1,13 +1,11 @@
 {
   "company_name": "Kot Addu Power Company Limited (KAPCO)",
-  "company_logo": "https://example.com/kapco-logo.png",
-  
+  "company_logo": "https://www.kapco-karachielectric.com.pk/logo.png",
   "company_overview": {
     "business_description": "Kot Addu Power Company Limited پاکستان کی ایک ممتاز انڈیپنڈنٹ پاور پروڈیوسر (IPP) ہے جو تھرمل پاور پلانٹس کے ذریعے بجلی کی پیداوار اور فروخت میں مصروف ہے۔",
     "number_of_business_segments": "2",
     "market_position_highlights": "پاور سیکٹر کی اہم کمپنی، تھرمل پاور جنریشن، انڈیپنڈنٹ پاور پروڈیوسر"
   },
-
   "key_financial_metrics": {
     "market_capitalization": "Rs 26.19 billion",
     "share_price": "Rs 30.00",
@@ -26,14 +24,12 @@
     "fcfe": "Rs 2.8 billion",
     "book_value": "64.00"
   },
-
   "shareholding_structure": {
     "promoters_major_holders": "55%",
     "institutional_investors": "35%",
     "retail_investors": "8%",
     "others": "2%"
   },
-
   "business_segments_products": [
     {
       "segment": "Power Generation",
@@ -41,24 +37,21 @@
       "revenue_contribution": "95%"
     },
     {
-      "segment": "Energy Services", 
+      "segment": "Energy Services",
       "products_services": "انرجی سے متعلق دیگر خدمات",
       "revenue_contribution": "5%"
     }
   ],
-
   "analyst_recommendation": {
     "recommendation": "HIGH RISK - AVOID",
     "rationale": "ارننگ بہت زیادہ کم ہونے کی وجہ سے PE ریٹیو 743.75 ہے جو انتہائی خطرناک ہے۔ کمپنی کی کارکردگی بہت خراب ہے۔"
   },
-
   "technical_analysis": {
     "chart": "https://example.com/kapco-chart.jpg",
     "support_levels": "Rs 25.00 (FIRST LEVEL), Rs 20.00 (BEST BUYING)",
     "resistance_levels": "Rs 32.00, Rs 35.00",
     "trend_analysis": "موجودہ قیمت Rs 30.00 ہے۔ ارننگ بہت کم ہونے کی وجہ سے گراوٹ نظر آرہی ہے۔ پہلا اچھا لیول Rs 25.00 ہے۔ بیسٹ بائنگ Rs 20.00 کے لیول پر بنتی ہے۔ اگلے کوارٹر کی ارننگ اگر اچھی آئی تو مومنٹم آ سکتی ہے۔"
   },
-
   "summary_key_notes": [
     "موجودہ مارکیٹ قیمت: Rs 30.00",
     "ارننگ بہت زیادہ کم ہے - صرف ایک پیسہ فی شیئر",
