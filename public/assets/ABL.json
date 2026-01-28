@@ -1,7 +1,7 @@
 {
   "company_name": "Allied Bank Limited (ABL)",
   "company_logo": "https://example.com/abl-logo.png",
-  
+
   "company_overview": {
     "business_description": "الائیڈ بینک لمیٹڈ پاکستان کے معروف تجارتی بینکوں میں سے ایک ہے جو رٹیل بینکنگ، کارپوریٹ بینکنگ، اور ٹریژری سروسز پیش کرتا ہے۔ بینک کی ملک بھر میں 1,400 سے زائد شاخوں کا وسیع نیٹ ورک ہے۔",
     "number_of_business_segments": 3,
@@ -10,7 +10,7 @@
 
   "key_financial_metrics": {
     "market_capitalization": "Rs 200.53 billion",
-    "share_price": 200.00,
+    "share_price": 200.0,
     "eps": "Rs 7.35 (Q3 2025)",
     "pe_ratio": 5.84,
     "equity": "Rs 220.00 billion",
@@ -18,13 +18,13 @@
     "dividend": "Rs 4.00",
     "current_ratio": 0.38,
     "quick_ratio": 0.84,
-    "52_week_high": 219.50,
-    "52_week_low": 116.00,
+    "52_week_high": 219.5,
+    "52_week_low": 116.0,
     "total_assets": "Rs 1,850.75 billion",
     "total_liabilities": "Rs 1,630.75 billion",
     "fcff": "Rs 15.2 billion",
     "fcfe": "Rs 12.8 billion",
-    "book_value": 220.00
+    "book_value": 220.0
   },
 
   "shareholding_structure": {
@@ -41,7 +41,7 @@
       "revenue_contribution": "55%"
     },
     {
-      "segment": "Corporate Banking", 
+      "segment": "Corporate Banking",
       "products_services": "کارپوریٹ فنانس، ٹریڈ فنانس، پراجیکٹ فنانس، کارپوریٹ قرضے",
       "revenue_contribution": "35%"
     },
