@@ -1,4 +1,4 @@
-import StockMarketBook from "./stockmarketbook"; // relative import
+import StockMarketBook from "../stockmarketbook";
 
 export default function BookPage() {
   return (
