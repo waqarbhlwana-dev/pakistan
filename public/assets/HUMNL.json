@@ -1,1 +1,85 @@
+{
+  "company_name": "Allied Bank Limited (ABL)",
+  "company_logo": "https://i.postimg.cc/6Q1DDNFN/abl.png",
+  "company_overview": {
+    "business_description": "الائیڈ بینک لمیٹڈ پاکستان کے معروف تجارتی بینکوں میں سے ایک ہے جو رٹیل بینکنگ، کارپوریٹ بینکنگ، اور ٹریژری سروسز پیش کرتا ہے۔ بینک کی ملک بھر میں 1,400 سے زائد شاخوں کا وسیع نیٹ ورک ہے۔",
+    "number_of_business_segments": 3,
+    "market_position_highlights": "پاکستان کے مستحکم اور قدیم تجارتی بینکوں میں سے ایک، وسیع برانچ نیٹ ورک، جدید ڈیجیٹل بینکنگ سہولیات"
+  },
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 200.53 billion",
+    "share_price": 200,
+    "eps": "Rs 7.35 (Q3 2025)",
+    "pe_ratio": 5.84,
+    "equity": "Rs 220.00 billion",
+    "roa": "1.2%",
+    "dividend": "Rs 4.00",
+    "current_ratio": 0.38,
+    "quick_ratio": 0.84,
+    "52_week_high": 219.5,
+    "52_week_low": 116,
+    "total_assets": "Rs 1,850.75 billion",
+    "total_liabilities": "Rs 1,630.75 billion",
+    "fcff": "Rs 15.2 billion",
+    "fcfe": "Rs 12.8 billion",
+    "book_value": 220
+  },
+  "shareholding_structure": {
+    "promoters_major_holders": "45%",
+    "institutional_investors": "35%",
+    "retail_investors": "15%",
+    "others": "5%"
+  },
+  "business_segments_products": [
+    {
+      "segment": "Retail Banking",
+      "products_services": "سیونگ اکاؤنٹس، کرنٹ اکاؤنٹس، گھر کے قرضے، کار لون، پرسنل لون، کرڈٹ کارڈز",
+      "revenue_contribution": "55%"
+    },
+    {
+      "segment": "Corporate Banking",
+      "products_services": "کارپوریٹ فنانس، ٹریڈ فنانس، پراجیکٹ فنانس، کارپوریٹ قرضے",
+      "revenue_contribution": "35%"
+    },
+    {
+      "segment": "Treasury & Investment Banking",
+      "products_services": "ٹریژری آپریشنز، انویسٹمنٹ، فارن ایکسچینج، اسلامک بینکنگ",
+      "revenue_contribution": "10%"
+    }
+  ],
+  "analyst_recommendation": {
+    "recommendation": "BUY AT 170-180",
+    "rationale": "بہترین خریداری Rs 170 سے Rs 180 کے درمیان ہے۔ بنیادی طور پر بینک مضبوط ہے، P/E ریٹیو کم ہے، اور بک ویلیو موجودہ قیمت سے زیادہ ہے۔"
+  },
+  "technical_analysis": {
+    "chart": "https://cdn.builder.io/api/v1/image/assets%2Fa1c7a87eee6b4b6e8fbfd7a732b2af55%2F6d0cb7ec4fc04d7d817243f13b4d1867?format=webp&width=800&height=1200",
+    "support_levels": "Rs 170.00 - Rs 180.00 (BEST BUYING ZONE), Rs 160.00 (مضبوط سپورٹ)",
+    "resistance_levels": "Rs 219.50",
+    "trend_analysis": "موجودہ قیمت Rs 176.00 ہے جو بہترین خریداری زون سے اوپر ہے۔ Rs 150-160 کے زون میں خریدنے پر بہتر منافع کی توقع کی جا سکتی ہے۔"
+  },
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 200.00",
+    "بہترین خریداری کا زون: Rs 170 سے Rs 180 کے درمیان",
+    "Q3 2025 EPS: Rs 7.35",
+    "PE ریٹیو: 5.84 (کم - انڈر ویلیوڈ)",
+    "ڈویڈنڈ: Rs 4.00 (ڈیویڈنڈ ییلڈ: 2.27%)",
+    "بک ویلیو: Rs 220.00 (موجودہ قیمت سے 25% زیادہ)",
+    "مارکیٹ کیپ: Rs 200.53 ارب",
+    "کل اثاثے: Rs 1,850.75 ارب",
+    "کل واجبات: Rs 1,630.75 ارب",
+    "فری کیش فلو (FCFF): Rs 15.2 ارب",
+    "فری کیش فلو برائے حصص دار (FCFE): Rs 12.8 ارب",
+    "ROA: 1.2%",
+    "52 ہفتوں کا ہائی: Rs 219.50, لو: Rs 116.00",
+    "کرنٹ ریشو: 0.38 (کم - بہتری کی گنجائش)",
+    "کوئیک ریشو: 0.84 (قابل قبول)",
+    "بہترین خریداری Rs 170 سے Rs 180 کے درمیان ہے",
+    "اگر Rs 170-180 کے زون میں خریداری کی جائے تو اچھا پرافٹ ممکن",
+    "بنیادی طور پر بینک مضبوط ہے",
+    "ٹریڈنگ کے لیے Rs 170 کا لیول اچھا ہے",
+    "لمبی مدتی سرمایہ کاری کے لیے موزوں",
+    "بینک کے پاس وسیع برانچ نیٹ ورک ہے",
+    "ڈیجیٹل بینکنگ سہولیات میں مسلسل بہتری"
+  ]
+}
 
