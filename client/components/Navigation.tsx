@@ -19,7 +19,7 @@ export default function Navigation() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const kse100Symbols = [
-    "ABL","ABOT","AGP","AICL","AKBL","APL","ATLH","ATRL","BAFL","BNWM","BAHL",
+    "ABL","ABOT","AGP","AICL","AKBL","APL","ATLH","ATRL","BAFL","BNWM","BAHL","BOP",
     "BYCO","BWCL","CHCC","DPHL","COLG","CNERGY","CHPL","CRYL","DCR","DGKC",
     "DAWH","DOHM","DCCI","EFUG","EFERT","EPCL","ENGRO","FATIMA","FAYS","FFC",
     "FFL","FCCL","FFBL","FHAM","FPJM","GATM","GAL","GADT","GHNI","GLAXO",
