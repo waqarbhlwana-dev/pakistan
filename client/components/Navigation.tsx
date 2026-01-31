@@ -27,7 +27,7 @@ export default function Navigation() {
     "IBFL","INDU","IPMV","JDWS","KAPCO","KEL","KTML","LUCK","LOTCHEM","MAPLE",
     "MARI","MEHT","MUREB","MCB","MEBL","MLCF","MTL","NBP","NCL","NESTLE",
     "NML","NATF","NWPL","OGDC","OIL","PAP","PAKT","PAEL","PIBTL","PIA","PLHC",
-    "POL","POIC","POWER","PPL","PREL","PSMC","PSEL","PSO","PSX","PGLC","PUL",
+    "POL","POIC","POWER","PPL","PREL","PSMC","PSEL","PSO","PSX","PGLC","PUL","PKGP",
     "RMPL","SHELL","SSOM","SHEL","SYS","SHFA","SNGP","SSGC","SIEMENS","TASS",
     "TOMCL","TRG","THALL","TPLRFF1","TVMH","UBL","UPFL","UNITY","WADT",
     "WAVESEED","ZADCO","ZONG","ZTBL"
