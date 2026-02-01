@@ -7,14 +7,14 @@
     "market_position_highlights": "کراچی کے 2.5 کروڑ سے زائد آبادی کی بجلی کی ضروریات پوری کرنے والی واحد کمپنی، اسٹریٹیجک اہمیت کی حامل"
   },
   "key_financial_metrics": {
-    "market_capitalization": "Rs 150.78 billion",
-    "share_price": "Rs 5.80",
-    "eps": "Q4 2024 (ابھی تک شائع نہیں ہوا)",
-    "pe_ratio": "36.4",
+    "market_capitalization": "Rs 146.78 billion",
+    "share_price": "Rs 7.10",
+    "eps": "Rs 0.05",
+    "pe_ratio": "47.33",
     "equity": "Rs 82.5 billion",
-    "roa": "0.59%",
+    "roa": "0.79%",
     "dividend": "0 (زیرو)",
-    "current_ratio": "0.59",
+    "current_ratio": "0.49",
     "quick_ratio": "0.52",
     "52_week_high": "Rs 8.52",
     "52_week_low": "Rs 3.60",
@@ -22,7 +22,7 @@
     "total_liabilities": "Rs 185.8 billion",
     "fcff": "Rs 14.2 billion",
     "fcfe": "Rs 9.8 billion",
-    "book_value": "4.2"
+    "book_value": "4.02"
   },
   "shareholding_structure": {
     "promoters_major_holders": "60%",
@@ -48,27 +48,30 @@
     }
   ],
   "analyst_recommendation": {
-    "recommendation": "WAITING BUY AT 5.00",
-    "rationale": "موجودہ قیمت Rs 5.80 ہے جو مطلوبہ خریداری کے لیے زیادہ ہے۔ PE ریٹیو 36.4 بہت زیادہ ہے۔ بہترین خریداری کا لیول Rs 5.00 ہے۔"
+    "recommendation": "WAITING FOR BETTER ENTRY",
+    "rationale": "موجودہ قیمت Rs 7.10 پر PE ریٹیو 47.33 بہت زیادہ ہے۔ تمام مالیاتی ریٹیوز تشویشناک ہیں۔ بہترین خریداری کے لیے Rs 5.00-6.00 کا انتظار کریں۔"
   },
   "technical_analysis": {
-    "chart": "https://example.com/k-electric-chart.jpg",
-    "support_levels": "Rs 5.00 (BEST BUYING ZONE), Rs 5.50",
-    "resistance_levels": "Rs 5.95 (IMMEDIATE RESISTANCE), Rs 6.25",
-    "trend_analysis": "موجودہ قیمت Rs 5.80 ہے۔ 52 ہفتوں کا ہائی Rs 8.52 اور لو Rs 3.60 ہے۔"
+    "chart": "https://i.postimg.cc/4yQL9jTW/KEL-2026-02-01-08-43-31-6415a.png",
+    "support_levels": "Rs 6.00, Rs 5.50",
+    "resistance_levels": "Rs 7.50, Rs 8.52",
+    "trend_analysis": "فنڈامینٹلی کمپنی کی صورتحال خراب ہے۔ ٹیکنیکلی، یہ ایلیٹ ویو کی تیسری ویو میں ہے۔ اگر موجودہ ٹرینڈ جاری رہا تو ٹارگٹ Rs 9.20 ہو سکتا ہے۔"
   },
   "summary_key_notes": [
-    "موجودہ مارکیٹ قیمت: Rs 5.80",
-    "Q4 2024 کی ارننگز ابھی تک شائع نہیں ہوئیں",
-    "PE ریٹیو 36.4 بہت زیادہ ہے",
-    "ROA صرف 0.59% ہے جو ناکافی ہے",
+    "موجودہ مارکیٹ قیمت: Rs 7.10",
+    "EPS: Rs 0.05 (پانچ پیسے)",
+    "PE ریٹیو 47.33 بہت زیادہ ہے",
+    "ROA صرف 0.79% ہے جو ناکافی ہے",
     "ڈویڈنڈ زیرو ہے (کوئی ڈویڈنڈ نہیں)",
-    "بک ویلیو 4.2 ہے",
-    "مارکیٹ کیپ Rs 150.78 بلین ہے",
-    "کرنٹ ریشو 0.59 ہے جو مطلوبہ 1 سے کم ہے",
+    "بک ویلیو Rs 4.02 ہے",
+    "مارکیٹ کیپ Rs 146.78 بلین ہے",
+    "کرنٹ ریشو 0.49 ہے جو مطلوبہ 1 سے کم ہے",
     "کوئیک ریشو 0.52 ہے جو مطلوبہ 1 سے کم ہے",
     "52 ہفتوں کا ہائی: Rs 8.52, لو: Rs 3.60",
-    "بہترین خریداری کا لیول Rs 5.00 ہے",
+    "کمپنی پر قرضہ بہت زیادہ ہے",
+    "بہترین خریداری کا لیول Rs 5.00-6.00 ہے",
+    "ٹیکنیکلی ایلیٹ ویو کی تیسری ویو میں ہے",
+    "اگر ٹرینڈ جاری رہا تو ٹارگٹ Rs 9.20 ہو سکتا ہے",
     "اس شیئر کو انتہائی احتیاط کے ساتھ خریدنا چاہیے",
     "تمام فنانشل ریٹیوز تشویشناک ہیں"
   ]
