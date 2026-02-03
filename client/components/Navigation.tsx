@@ -26,7 +26,7 @@ export default function Navigation() {
     "GRLE","HBL","HABIB","HUMNL","HGFA","HALEON","HMB","HCAR","HUBC","ICI",
     "IBFL","INDU","IPMV","JDWS","KAPCO","KEL","KTML","LUCK","LOTCHEM","MAPLE",
     "MARI","MEHT","MUREB","MCB","MEBL","MLCF","MTL","NBP","NCL","NESTLE",
-    "NML","NATF","NWPL","OGDC","OIL","PAP","PAKT","PAEL","PIBTL","PIA","PLHC",
+    "NML","NATF","NWPL","OGDC","OIL","PAP","PAKT","PAEL","PIBTL","PIA","PLHC","PTC",
     "POL","POIC","POWER","PPL","PREL","PSMC","PSEL","PSO","PSX","PGLC","PUL","PKGP",
     "RMPL","SHELL","SSOM","SHEL","SYS","SHFA","SNGP","SSGC","SIEMENS","TASS",
     "TOMCL","TRG","THALL","TPLRFF1","TVMH","UBL","UPFL","UNITY","WADT",
