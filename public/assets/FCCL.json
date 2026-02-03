@@ -1,1 +1,82 @@
 
+{
+  "company_name": "Fauji Cement Company Limited (FCCL)",
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
+  "company_overview": {
+    "business_description": "Fauji Cement Company Limited پاکستان کی ممتاز سیمنٹ مینوفیکچرنگ کمپنی ہے جو مختلف اقسام کے سیمنٹ کی تیاری اور فروخت میں مصروف ہے۔ یہ Fauji Foundation گروپ کی ذیلی کمپنی ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "سیمنٹ انڈسٹری کی اہم کمپنی، مضبوط برانڈ ایکویٹی، وسیع تقسیمی نیٹ ورک"
+  },
+  "key_financial_metrics": {
+    "market_capitalization": "Rs 140.28 billion",
+    "share_price": "Rs 57.16",
+    "eps": "Rs 5.40",
+    "pe_ratio": "10.60",
+    "equity": "Rs 45.20 billion",
+    "roa": "8.3%",
+    "roe": "11.9%",
+    "dividend": "Rs 1.345 (Q1 2026), Rs 1.25 (Q4 2025)",
+    "current_ratio": "1.30",
+    "quick_ratio": "1.02",
+    "52_week_high": "Rs 62.84",
+    "52_week_low": "Rs 36.00",
+    "total_assets": "Rs 98.50 billion",
+    "total_liabilities": "Rs 53.30 billion",
+    "fcff": "Rs 8.9 billion",
+    "fcfe": "Rs 6.5 billion",
+    "book_value": "34.45",
+    "total_debt": "Rs 28.70 billion",
+    "debt_to_equity": "0.63"
+  },
+  "shareholding_structure": {
+    "promoters_major_holders": "55%",
+    "institutional_investors": "35%",
+    "retail_investors": "8%",
+    "others": "2%"
+  },
+  "business_segments_products": [
+    {
+      "segment": "Cement Manufacturing",
+      "products_services": "سیمنٹ کی تیاری اور فروخت",
+      "revenue_contribution": "90%"
+    },
+    {
+      "segment": "Allied Products",
+      "products_services": "سیمنٹ سے متعلق دیگر مصنوعات",
+      "revenue_contribution": "10%"
+    }
+  ],
+  "analyst_recommendation": {
+    "recommendation": "BUY ON DIPS",
+    "rationale": "کمپنی کا P/E ریٹیو 10.60 معقول ہے، ڈویڈنڈ ییلڈ اچھی ہے، اور مالیاتی صحت ٹھیک ہے۔ بہترین خریداری کے لیے ڈِپس کا انتظار کریں۔"
+  },
+  "technical_analysis": {
+    "chart": "https://i.postimg.cc/x8PqXW9q/FCCL-2026-02-02-12-31-50-61912.png",
+    "support_levels": "Rs 57.16, Rs 50.00 (اچھا بائنگ لیول)",
+    "resistance_levels": "Rs 62.84",
+    "trend_analysis": "ٹیکنیکلی Rs 50.00 کا لیول اچھا بائنگ لیول ہے۔ تیسری ویو چل رہی ہے جس کا ٹارگٹ تقریباً Rs 70.00 ہے۔ اگر ایٹ ویو اپنا ٹارگٹ مکمل کرتی ہے تو یہ Rs 80.00 تک جا سکتا ہے۔"
+  },
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 57.16",
+    "EPS (تخمینہ): Rs 5.40",
+    "P/E ریٹیو: 10.60 (معقول)",
+    "ROA: 8.3% (اچھا)",
+    "ROE: 11.9% (اچھا)",
+    "ڈویڈنڈ: Rs 1.345 فی شیئر (Q1 2026)",
+    "پچھلا ڈویڈنڈ: Rs 1.25 فی شیئر (Q4 2025)",
+    "بک ویلیو: Rs 34.45",
+    "مارکیٹ کیپ: Rs 140.28 بلین",
+    "52 ہفتوں کا ہائی: Rs 62.84, لو: Rs 36.00",
+    "کرنٹ ریشو: 1.30 (اچھی)",
+    "کوئیک ریشو: 1.02 (اچھی)",
+    "کل قرضہ: Rs 28.70 بلین",
+    "قرض سے حصص کا تناسب: 0.63 (قابل قبول)",
+    "فنانشل ہیلتھ: ٹھیک",
+    "بہترین خریداری لیول: Rs 50.00",
+    "ٹیکنیکلی تیسری ویو میں ہے",
+    "ٹارگٹ (تیسری ویو): Rs 70.00",
+    "ممکنہ ٹارگٹ (ایٹ ویو): Rs 80.00",
+    "سیمنٹ سیکٹر کی اہم کمپنی",
+    "Fauji Foundation گروپ کی سپورٹ"
+  ]
+}
