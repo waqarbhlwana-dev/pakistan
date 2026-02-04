@@ -1,72 +1,85 @@
 {
-  "company_name": "Pak Electron Ltd",
-  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
+  "company_name": "Pak Elektron Limited (PAEL)",
+  "company_logo": "https://example.com/pael-logo.png",
   "company_overview": {
-    "business_description": "Pak Electron Ltd پاکستان کی الیکٹرانکس اور انجینئرنگ سیکٹر کی ایک ممتاز کمپنی ہے جو پاور ٹرانسفارمرز، میٹرنگ ایپلی کیشنز اور الیکٹرانک مصنوعات کی تیاری اور فروخت میں مصروف ہے۔",
+    "business_description": "پاک الیکٹران لمیٹڈ پاکستان کی معروف الیکٹریکل انجینئرنگ کمپنی ہے جو ٹرانسفارمرز، میٹرز، پاور ڈسٹری بیوشن آلات، اور گھریلو آلات (ڈیف کوئیک ونڈر، ایئر کنڈیشنرز وغیرہ) تیار کرتی ہے۔",
     "number_of_business_segments": "2",
-    "market_position_highlights": "پاور ٹرانسفارمرز اور الیکٹرانک میٹرنگ ایپلی کیشنز میں مارکیٹ لیڈر، معیاری مصنوعات کی تیاری"
+    "market_position_highlights": "پاکستان کی الیکٹریکل انجینئرنگ سیکٹر میں ایک اہم کھلاڑی، حکومتی اور نجی شعبے میں مضبوط موجودگی"
   },
   "key_financial_metrics": {
-    "market_capitalization": "Rs 48.08 billion",
-    "share_price": "Rs 51.80",
+    "market_capitalization": "Rs 53.48 billion",
+    "share_price": 57.93,
     "eps": "Rs 0.73 (Q3 2025)",
-    "pe_ratio": "70.96",
-    "equity": "Rs 52.6 billion",
+    "pe_ratio": 13.16,
+    "equity": "Rs 52.66 billion",
     "roa": "3.27%",
-    "dividend": "0 (2017 کے بعد کوئی ڈویڈنڈ نہیں)",
-    "current_ratio": "2.14",
-    "quick_ratio": "1.56",
-    "52_week_high": "Rs 61.79",
-    "52_week_low": "Rs 24.80",
-    "total_assets": "Rs 85.2 billion",
-    "total_liabilities": "Rs 32.6 billion",
-    "fcff": "Rs 3.8 billion",
-    "fcfe": "Rs 2.9 billion",
-    "book_value": "52.6"
+    "dividend": "Rs 1.20 (2017 - اس کے بعد نہیں دیا)",
+    "current_ratio": 2.14,
+    "quick_ratio": 1.56,
+    "52_week_high": 64.60,
+    "52_week_low": 34.98,
+    "total_assets": "Rs 85 billion",
+    "total_liabilities": "Rs 32.34 billion",
+    "fcff": "Rs 2.8 billion",
+    "fcfe": "Rs 2.3 billion",
+    "book_value": 52.66
   },
   "shareholding_structure": {
-    "promoters_major_holders": "45%",
-    "institutional_investors": "38%",
-    "retail_investors": "15%",
+    "promoters_major_holders": "50%",
+    "institutional_investors": "35%",
+    "retail_investors": "13%",
     "others": "2%"
   },
   "business_segments_products": [
     {
-      "segment": "Power Transformers",
-      "products_services": "پاور ٹرانسفارمرز، ڈسٹری بیوشن ٹرانسفارمرز",
+      "segment": "پاور اینڈ انڈسٹریل پروڈکٹس",
+      "products_services": "ٹرانسفارمرز، پاور ڈسٹری بیوشن آلات، میٹرز، صنعتی آلات",
       "revenue_contribution": "65%"
     },
     {
-      "segment": "Electronic Metering & Products",
-      "products_services": "الیکٹرانک میٹر، انرجی میٹرنگ سسٹمز",
+      "segment": "گھریلو آلات (ہوم اپلائینسز)",
+      "products_services": "ڈیف ریفریجریٹرز، ایئر کنڈیشنرز، کوئک ونڈر مائیکرو ویوز، دیگر گھریلو آلات",
       "revenue_contribution": "35%"
     }
   ],
   "analyst_recommendation": {
-    "recommendation": "WAITING BUY 40 TO 45",
-    "rationale": "موجودہ قیمت Rs 51.80 ہے اور PE ریٹیو 70.96 بہت زیادہ ہے جو شیئر کو اوور ویلیوڈ کرتا ہے۔ 52 ہفتوں کا ہائی Rs 61.79 اور لو Rs 24.80 ہے۔ بہترین خریداری کا زون Rs 40 سے Rs 45 کے درمیان ہے۔"
+    "recommendation": "BUY AT 47 - 50",
+    "rationale": "ABC فارمیشن بن رہی ہے۔ بہترین خریداری Rs 47 کے لیول پر ہے جو کریکشن کے بعد نئی اپ ٹرینڈ کا آغاز ہو سکتا ہے۔ فنڈامنٹلی کمپنی اچھی ہے (P/E مناسب، کرنٹ/کوئیک ریشو بہترین)۔ ٹارگٹ Rs 65 ہے۔"
   },
   "technical_analysis": {
-    "chart": "https://example.com/pak-electron-chart.jpg",
-    "support_levels": "Rs 40.00, Rs 45.00 (BEST BUYING ZONE)",
-    "resistance_levels": "Rs 52.00, Rs 55.00, Rs 61.79",
-    "trend_analysis": "موجودہ قیمت Rs 51.80 ہے جو 52 ہفتوں کے ہائی Rs 61.79 کے قریب ہے۔ PE ریٹیو بہت زیادہ ہونے کی وجہ سے شیئر اوور ویلیوڈ ہے۔ بہترین انٹری Rs 40-45 کے زون میں ہے۔"
+    "chart": "https://i.postimg.cc/L4jscdTW/PAEL-2026-02-03-22-46-23-74abf.png",
+    "support_levels": "Rs 47.00 (بہترین بائنگ لیول), Rs 50.00, Rs 34.98 (52-ہفتے لو)",
+    "resistance_levels": "Rs 64.60 (52-ہفتے ہائی), Rs 65.00 (ٹارگٹ), Rs 70.00",
+    "trend_analysis": "ABC فارمیشن بن رہی ہے۔ بہترین خریداری Rs 47 کے لیول پر ہے۔ اگر قیمت Rs 47 تک کریکشن کرتی ہے تو وہاں سے نئی اپ ٹرینڈ شروع ہو سکتی ہے جس کا ٹارگٹ Rs 65 ہے۔"
   },
   "summary_key_notes": [
-    "موجودہ مارکیٹ قیمت: Rs 51.80",
-    "Q3 2025 EPS: Rs 0.73 (صرف 73 پیسے)",
-    "PE ریٹیو: 70.96 (بہت زیادہ - اوور ویلیوڈ)",
-    "ROA: 3.27% (معقول)",
-    "2017 کے بعد کوئی ڈویڈنڈ نہیں دیا",
-    "بک ویلیو: 52.6",
-    "مارکیٹ کیپ: Rs 48.08 بلین",
-    "52 ہفتوں کا ہائی: Rs 61.79, لو: Rs 24.80",
+    "موجودہ مارکیٹ قیمت: Rs 57.93",
+    "52-ہفتے ہائی: Rs 64.60",
+    "52-ہفتے لو: Rs 34.98",
+    "بہترین خریداری لیول: Rs 47.00",
+    "EPS (Q3 2025): Rs 0.73",
+    "P/E ریٹیو: 13.16 (مناسب)",
+    "مارکیٹ کیپ: Rs 53.48 بلین",
+    "بک ویلیو: Rs 52.66 (موجودہ قیمت سے 9% کم)",
+    "ROA: 3.27% (قابل قبول)",
+    "آخری ڈیویڈنڈ: Rs 1.20 (2017 - 9 سال پہلے)",
     "کرنٹ ریشو: 2.14 (بہترین)",
     "کوئیک ریشو: 1.56 (بہترین)",
-    "قرضے: Rs 32.6 بلین (قابل انتظام)",
-    "بہترین خریداری کا زون: Rs 40 سے Rs 45 کے درمیان",
-    "موجودہ قیمت اوور ویلیوڈ ہے",
-    "Rs 40-45 کے زون میں خریداری اچھا پرافٹ دے سکتی ہے",
-    "لیکویڈیٹی پوزیشن بہترین ہے لیکن PE ریٹیو تشویشناک ہے"
+    "کل اثاثے: Rs 85 بلین",
+    "کل واجبات: Rs 32.34 بلین",
+    "فری کیش فلو فار فرم (FCFF): Rs 2.8 بلین",
+    "فری کیش فلو فار ایکویٹی (FCFE): Rs 2.3 بلین",
+    "ٹیکنیکل تجزیہ: ABC فارمیشن بن رہی ہے",
+    "بہترین بائنگ لیول: Rs 47.00",
+    "ٹارگٹ: Rs 65.00",
+    "ٹیکنیکل سپورٹ: Rs 47, Rs 50, Rs 34.98",
+    "ٹیکنیکل ریزسٹنس: Rs 64.60, Rs 65, Rs 70",
+    "فنڈامنٹل تجزیہ: اچھی (P/E مناسب، لیکویڈٹی بہترین)",
+    "ڈیویڈنڈ کا مسئلہ: آخری ڈیویڈنڈ 2017 میں دیا تھا",
+    "خریداری کی تجویز: Rs 47 پر خریداری کے لیے انتظار کریں",
+    "موجودہ حکمت عملی: اگر Rs 47 تک کریکشن ہو تو خریداری کریں",
+    "ٹریڈنگ پلان: Rs 47 پر بائی، Rs 65 پر ٹارگٹ",
+    "فی الحال حکمت عملی: انتظار کریں (Rs 57.93 موجودہ قیمت بہت زیادہ ہے خریداری کے لیے)",
+    "منافع کی صلاحیت: Rs 47 سے Rs 65 تک 38% کا ممکنہ منافع"
   ]
 }
