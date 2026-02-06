@@ -1,77 +1,99 @@
 {
-  "company_name": "Pakistan State Oil (PSO)",
-  "company_logo": "https://www.pso.com.pk/logo.png",
+  "company_name": "Pakistan State Oil Company Limited (PSO)",
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
   "company_overview": {
-    "business_description": "Pakistan State Oil پاکستان کی سب سے بڑی آئل مارکیٹنگ کمپنی ہے جو پیٹرول، ڈیزل، فرنس آئل، اور دیگر پٹرولیم مصنوعات کی خریداری، اسٹوریج، ڈسٹری بیوشن اور مارکیٹنگ میں مصروف ہے۔",
+    "business_description": "پاکستان اسٹیٹ آئل پاکستان کی سب سے بڑی آئل مارکیٹنگ کمپنی ہے جو پیٹرول، ڈیزل، فیول آئل، ایوی ایشن فیول اور دیگر پٹرولیم مصنوعات کی مارکیٹنگ، اسٹوریج اور ڈسٹری بیوشن کا کام کرتی ہے۔",
     "number_of_business_segments": "3",
-    "market_position_highlights": "پاکستان کی سب سے بڑی آئل مارکیٹنگ کمپنی، ملک بھر میں سب سے زیادہ ریٹیل آؤٹ لیٹس"
+    "market_position_highlights": "پاکستان کی سب سے بڑی آئل مارکیٹنگ کمپنی، ملک بھر میں سب سے زیادہ ریٹیل آؤٹ لیٹس، سرکاری کنٹرول"
   },
   "key_financial_metrics": {
-    "market_capitalization": "Rs 202.81 billion",
-    "share_price": "Rs 431.00",
+    "market_capitalization": "Rs 224.41 billion",
+    "share_price": 478.00,
     "eps": "Rs 22.43 (Q1 2026)",
-    "pe_ratio": "4.81",
-    "equity": "Rs 583.50 billion",
-    "roa": "4.51%",
-    "dividend": "Rs 10.00 (2025 کے چاروں کوارٹرز میں کل)",
-    "current_ratio": "1.30",
-    "quick_ratio": "0.91",
-    "52_week_high": "Rs 494.80",
-    "52_week_low": "Rs 270.50",
-    "total_assets": "Rs 850.2 billion",
-    "total_liabilities": "Rs 266.7 billion",
-    "fcff": "Rs 25.8 billion",
-    "fcfe": "Rs 18.9 billion",
-    "book_value": "583.50"
+    "pe_ratio": 5.33,
+    "equity": "Rs 583.65 billion",
+    "roa": "1.51%",
+    "dividend": "Rs 10.00 (2025)",
+    "current_ratio": 1.20,
+    "quick_ratio": 0.91,
+    "52_week_high": 506.75,
+    "52_week_low": 300.00,
+    "total_assets": "Rs 850 billion",
+    "total_liabilities": "Rs 266.35 billion",
+    "fcff": "Rs 35.8 billion",
+    "fcfe": "Rs 28.5 billion",
+    "book_value": 583.65
   },
   "shareholding_structure": {
-    "promoters_major_holders": "58%",
-    "institutional_investors": "30%",
-    "retail_investors": "10%",
+    "promoters_major_holders": "52% (سرکاری)",
+    "institutional_investors": "35%",
+    "retail_investors": "11%",
     "others": "2%"
   },
   "business_segments_products": [
     {
-      "segment": "White Oil Products",
-      "products_services": "پیٹرول، ڈیزل، جیٹ فیول",
-      "revenue_contribution": "65%"
+      "segment": "پٹرولیم مصنوعات کی مارکیٹنگ",
+      "products_services": "پیٹرول، ڈیزل، فیول آئل، ایوی ایشن فیول",
+      "revenue_contribution": "70%"
     },
     {
-      "segment": "Black Oil Products",
-      "products_services": "فرنس آئل، ایچ ایس ڈی",
-      "revenue_contribution": "25%"
+      "segment": "لوبیکنٹس اور گریس",
+      "products_services": "انڈسٹریل اور آٹوموٹیو لوبیکنٹس",
+      "revenue_contribution": "20%"
     },
     {
-      "segment": "LPG & Lubricants",
-      "products_services": "LPG، انڈسٹریل لبریکنٹس",
+      "segment": "لیکیوائفائیڈ پیٹرولیم گیس (ایل پی جی)",
+      "products_services": "ایل پی جی کی مارکیٹنگ اور ڈسٹری بیوشن",
       "revenue_contribution": "10%"
     }
   ],
   "analyst_recommendation": {
-    "recommendation": "BUY AT 380-400",
-    "rationale": "بہترین خریداری Rs 380 سے Rs 400 کے درمیان ہے"
+    "recommendation": "BUY AT 430-455",
+    "rationale": "کمپنی فنڈامنٹلی کافی سٹرونگ ہے۔ الیٹ ویو کی سیکنڈ ویو چل رہی ہے۔ بہترین خریداری Rs 455 (پہلا لیول) اور Rs 430 (دوسرا لیول) کے ایریا میں ہے۔"
   },
   "technical_analysis": {
-    "chart": "https://example.com/pso-chart.jpg",
-    "support_levels": "Rs 380.00 - Rs 400.00 (BEST BUYING ZONE)",
-    "resistance_levels": "Rs 450.00, Rs 494.80",
-    "trend_analysis": "موجودہ قیمت Rs 431.00 ہے۔ بہترین خریداری Rs 380 سے Rs 400 کے درمیان ہے۔"
+    "chart": "https://i.postimg.cc/x1vy6bL0/PSO-2026-02-06-09-21-29-bc6ad.png",
+    "support_levels": "Rs 455.00 (پہلا بائنگ لیول), Rs 430.00 (دوسرا بائنگ لیول), Rs 420.00 (مضبوط سپورٹ)",
+    "resistance_levels": "Rs 506.75 (52-ہفتے ہائی), Rs 520.00 (ٹارگٹ 1), Rs 550.00 (ٹارگٹ 2)",
+    "trend_analysis": "الیٹ ویو کی سیکنڈ ویو چل رہی ہے۔ بائنگ لیول Rs 455 اور Rs 430 کا ہے۔ پہلا ٹارگٹ Rs 520 اور دوسرا ٹارگٹ Rs 550 ہے۔"
   },
   "summary_key_notes": [
-    "موجودہ مارکیٹ قیمت: Rs 431.00",
-    "بہترین خریداری کا زون: Rs 380 سے Rs 400 کے درمیان",
-    "Q1 2026 EPS: Rs 22.43",
-    "PE ریٹیو: 4.81 (بہت کم - انڈر ویلیوڈ)",
-    "ROA: 4.51% (معقول)",
-    "ڈویڈنڈ: Rs 10.00 (2025 کے چاروں کوارٹرز میں)",
-    "بک ویلیو: Rs 583.50",
-    "مارکیٹ کیپ: Rs 202.81 ارب",
-    "52 ہفتوں کا ہائی: Rs 494.80, لو: Rs 270.50",
-    "کرنٹ ریشو: 1.30 (قابل قبول)",
-    "کوئیک ریشو: 0.91 (قابل قبول)",
-    "بہترین خریداری Rs 380 سے Rs 400 کے درمیان ہے",
-    "اگر Rs 380-400 کے زون میں خریداری کی جائے تو اچھا پرافٹ ممکن",
-    "اچھی کمپنی ہے - بہترین انٹری Rs 380-400 کے زون میں",
-    "پاکستان کی سب سے بڑی آئل مارکیٹنگ کمپنی"
+    "موجودہ مارکیٹ قیمت: Rs 478.00",
+    "52-ہفتے ہائی: Rs 506.75",
+    "52-ہفتے لو: Rs 300.00",
+    "تکنیکی بائنگ زون: Rs 430 - Rs 455",
+    "ٹارگٹ: Rs 520 - Rs 550",
+    "EPS (Q1 2026): Rs 22.43",
+    "P/E ریٹیو: 5.33 (بہت کم)",
+    "مارکیٹ کیپ: Rs 224.41 بلین",
+    "بک ویلیو: Rs 583.65 (موجودہ قیمت سے 22% زیادہ)",
+    "ROA: 1.51%",
+    "ڈیویڈنڈ: Rs 10.00 (2025)",
+    "کرنٹ ریشو: 1.20 (اچھی)",
+    "کوئیک ریشو: 0.91 (ٹھیک)",
+    "کل اثاثے: Rs 850 بلین",
+    "کل واجبات: Rs 266.35 بلین",
+    "فری کیش فلو فار فرم (FCFF): Rs 35.8 بلین",
+    "فری کیش فلو فار ایکویٹی (FCFE): Rs 28.5 بلین",
+    "سرکاری ملکیت: 52%",
+    "✅ **فنڈامنٹل تجزیہ:**",
+    "   - فنڈامنٹلی کافی سٹرونگ کمپنی",
+    "   - P/E ریٹیو بہت کم (5.33)",
+    "   - بک ویلیو موجودہ قیمت سے زیادہ",
+    "   - EPS اچھی (Rs 22.43)",
+    "   - لیکویڈیٹی اچھی",
+    "🎯 **تکنیکی تجزیہ:**",
+    "   - الیٹ ویو کی سیکنڈ ویو چل رہی ہے",
+    "   - بہترین بائنگ: Rs 455 (پہلا لیول)",
+    "   - دوسرا بائنگ: Rs 430",
+    "   - ٹارگٹ 1: Rs 520",
+    "   - ٹارگٹ 2: Rs 550",
+    "📈 **خریداری کی حکمت عملی:**",
+    "   - انٹری پوائنٹ: Rs 430-455",
+    "   - سٹاپ لاس: Rs 420",
+    "   - ٹارگٹ 1: Rs 520 (14-21% منافع)",
+    "   - ٹارگٹ 2: Rs 550 (21-28% منافع)",
+    "💎 **خلاصہ:**",
+    "فنڈامنٹلی مضبوط سرکاری آئل کمپنی ہے۔ P/E ریٹیو بہت کم ہے اور بک ویلیو موجودہ قیمت سے زیادہ ہے۔ تکنیکی طور پر الیٹ ویو کی سیکنڈ ویو میں ہے۔ بہترین خریداری Rs 430-455 میں ہوگی۔ ٹارگٹ Rs 520-550 ہے۔ موجودہ قیمت Rs 478 بائنگ زون کے قریب ہے۔"
   ]
 }
