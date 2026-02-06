@@ -23,7 +23,7 @@ export default function Navigation() {
     "BYCO","BWCL","CHCC","DPHL","COLG","CNERGY","CHPL","CRYL","DCR","DGKC",
     "DAWH","DOHM","DCCI","EFUG","EFERT","EPCL","ENGRO","FATIMA","FAYS","FFC",
     "FFL","FCCL","FFBL","FHAM","FPJM","GATM","GAL","GADT","GHNI","GLAXO",
-    "GRLE","HBL","HABIB","HUMNL","HGFA","HALEON","HMB","HCAR","HUBC","ICI",
+    "GRLE","GHGL","HBL","HABIB","HUMNL","HGFA","HALEON","HMB","HCAR","HUBC","ICI",
     "IBFL","INDU","IPMV","JDWS","KAPCO","KEL","KTML","LUCK","LOTCHEM","MAPLE",
     "MARI","MEHT","MUREB","MCB","MEBL","MLCF","MTL","NBP","NCL","NESTLE",
     "NML","NATF","NWPL","OGDC","OIL","PAP","PAKT","PAEL","PIBTL","PIA","PLHC","PTC",
