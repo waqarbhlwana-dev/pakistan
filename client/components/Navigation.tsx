@@ -30,7 +30,7 @@ export default function Navigation() {
     "POL","POIC","POWER","PPL","PREL","PSMC","PSEL","PSO","PSX","PGLC","PUL","PKGP",
     "RMPL","SHELL","SSOM","SHEL","SEARL","SYS","SHFA","SNGP","SSGC","SIEMENS","TASS",
     "TOMCL","TRG","THALL","TPLRFF1","TVMH","UBL","UPFL","UNITY","WADT",
-    "WAVESEED","ZADCO","ZONG","ZTBL"
+    "WAVESEED","YOUW","ZONG","ZTBL"
   ];
 
   const otherPsxSymbols = ["AVN","PIBT","CENERGY"];
