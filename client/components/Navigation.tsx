@@ -19,12 +19,12 @@ export default function Navigation() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const kse100Symbols = [
-    "ABL","ABOT","AGP","AICL","AKBL","APL","ATLH","ATRL","BAFL","BNWM","BAHL","BOP",
+    "ABL","ABOT","AGP","AICL","AKBL","APL","ATLH","ATRL","AIRLINK","BAFL","BNWM","BAHL","BOP",
     "BYCO","BWCL","CHCC","DPHL","COLG","CNERGY","CHPL","CRYL","DCR","DGKC",
     "DAWH","DOHM","DCCI","EFUG","EFERT","EPCL","ENGRO","FATIMA","FAYS","FFC",
     "FFL","FCCL","FFBL","FHAM","FPJM","GATM","GAL","GADT","GHNI","GLAXO",
     "GRLE","GHGL","HBL","HABIB","HUMNL","HGFA","HALEON","HMB","HCAR","HUBC","ICI",
-    "IBFL","INDU","IPMV","JDWS","KAPCO","KEL","KTML","LUCK","LOTCHEM","MAPLE",
+    "IBFL","INDU","ISL","IPMV","JDWS","KAPCO","KEL","KTML","LUCK","LOTCHEM","MAPLE",
     "MARI","MEHT","MUREB","MCB","MEBL","MLCF","MTL","NBP","NCL","NESTLE",
     "NML","NATF","NWPL","OGDC","OIL","PAP","PAKT","PAEL","PIBTL","PIA","PLHC","PTC",
     "POL","POIC","POWER","PPL","PREL","PSMC","PSEL","PSO","PSX","PGLC","PUL","PKGP",
