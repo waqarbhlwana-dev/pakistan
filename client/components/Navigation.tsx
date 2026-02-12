@@ -20,7 +20,7 @@ export default function Navigation() {
 
   const kse100Symbols = [
     "ABL","ABOT","AGP","AICL","AKBL","APL","ATLH","ATRL","AIRLINK","BAFL","BNWM","BAHL","BOP",
-    "BYCO","BWCL","CHCC","DPHL","COLG","CNERGY","CHPL","CRYL","DCR","DGKC",
+    "BYCO","BWCL","CHCC","CHPL","COLG","CNERGY","CHPL","CRYL","DCR","DGKC","DHPL",
     "DAWH","DOHM","DCCI","EFUG","EFERT","EPCL","ENGRO","FATIMA","FAYS","FFC",
     "FFL","FCCL","FFBL","FHAM","FPJM","GATM","GAL","GADT","GHNI","GLAXO",
     "GRLE","GHGL","HBL","HABIB","HUMNL","HGFA","HALEON","HMB","HCAR","HUBC","ICI",
