@@ -29,7 +29,7 @@ export default function Navigation() {
     "NML","NATF","NWPL","OGDC","OIL","PAP","PAKT","PAEL","PIBTL","PIA","PLHC","PTC",
     "POL","PIOC","POWER","PPL","PREL","PSMC","PSEL","PSO","PSX","PGLC","PUL","PKGP",
     "RMPL","SHELL","SSOM","SAZEW","SHEL","SEARL","SYS","SHFA","SNGP","SSGC","SIEMENS","TASS",
-    "TOMCL","TRG","THALL","TPLRFF1","TVMH","UBL","UPFL","UNITY","WADT",
+    "TOMCL","TRG","TGL","THALL","TPLRFF1","TVMH","UBL","UPFL","UNITY","WADT",
     "WAVESEED","YOUW","ZONG","ZTBL"
   ];
 
