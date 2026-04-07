@@ -24,7 +24,7 @@ export default function Navigation() {
     "DAWH","DOHM","DCCI","EFUG","EFERT","EPCL","ENGRO","FATIMA","FABL","FFC",
     "FFL","FCCL","FFBL","FHAM","FPJM","GATM","GAL","GADT","GHNI","GLAXO",
     "GRLE","GHGL","HBL","HABIB","HUMNL","HGFA","HALEON","HMB","HCAR","HUBC","ICI",
-    "IBFL","INDU","ILP","ISL","IPMV","JVDC","KAPCO","KEL","KTML","LUCK","LOTCHEM","MAPLE",
+    "IBFL","INDU","ILP","ISL","IPMV","JVDC","KAPCO","KEL","KOHC","KTML","LUCK","LOTCHEM","MAPLE",
     "MARI","MEHT","MUREB","MCB","MEBL","MLCF","MTL","NBP","NCL","NESTLE",
     "NML","NATF","NWPL","OGDC","OIL","PAP","PAKT","PAEL","PIBTL","PIA","PLHC","PTC",
     "POL","PIOC","POWER","PPL","PREL","PSMC","PSEL","PSO","PSX","PGLC","PUL","PKGP",
