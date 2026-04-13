@@ -14,7 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
-const ASSET_ACCESS_CODE = "98sb";
+const ASSET_ACCESS_CODE = "98Sb";
 
 export default function AssetPage() {
   const { symbol } = useParams<{ symbol: string }>();
