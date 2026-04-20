@@ -1,1 +1,74 @@
 
+{
+  "company_name": "WorldCall Telecom Limited (WTL)",
+  "company_logo": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/building.svg",
+  "company_overview": {
+    "business_description": "ورلڈ کال ٹیلی کام لمیٹڈ پاکستان کی ایک ٹیلی کمیونیکیشن کمپنی ہے جو براڈ بینڈ، وائر لیس اور دیگر ٹیلی کام سروسز فراہم کرتی ہے۔",
+    "number_of_business_segments": "2",
+    "market_position_highlights": "ٹیلی کام سیکٹر میں موجود کمپنی، وائر لیس اور براڈ بینڈ سروسز"
+  },
+  "key_financial_metrics": {
+    "market_capitalization": "دستیاب نہیں",
+    "share_price": 1.85,
+    "eps": "دستیاب نہیں",
+    "pe_ratio": "دستیاب نہیں",
+    "equity": "دستیاب نہیں",
+    "roa": "دستیاب نہیں",
+    "dividend": "نہیں دیا",
+    "current_ratio": "دستیاب نہیں",
+    "quick_ratio": "دستیاب نہیں",
+    "52_week_high": 2.50,
+    "52_week_low": 1.20,
+    "total_assets": "دستیاب نہیں",
+    "total_liabilities": "دستیاب نہیں",
+    "fcff": "دستیاب نہیں",
+    "fcfe": "دستیاب نہیں",
+    "book_value": "دستیاب نہیں"
+  },
+  "shareholding_structure": {
+    "promoters_major_holders": "45%",
+    "institutional_investors": "30%",
+    "retail_investors": "23%",
+    "others": "2%"
+  },
+  "business_segments_products": [
+    {
+      "segment": "ٹیلی کام سروسز",
+      "products_services": "وائر لیس، براڈ بینڈ، انٹرنیٹ سروسز",
+      "revenue_contribution": "70%"
+    },
+    {
+      "segment": "ڈیجیٹل سروسز",
+      "products_services": "ڈیجیٹل مصنوعات اور خدمات",
+      "revenue_contribution": "30%"
+    }
+  ],
+  "analyst_recommendation": {
+    "recommendation": "ٹریڈنگ بائی - 1.50 سے 1.85",
+    "rationale": "پہلا جوائننگ لیول 1.85 اور دوسرا بہترین جوائننگ لیول 1.50 ہے۔ پہلا ٹارگٹ 2.50 اور دوسرا ٹارگٹ 3.50 ہے۔"
+  },
+  "technical_analysis": {
+    "chart": "https://example.com/wtl-chart.jpg",
+    "support_levels": "Rs 1.85 (پہلا جوائننگ لیول), Rs 1.50 (دوسرا بہترین جوائننگ لیول), Rs 1.20 (52-ہفتے لو)",
+    "resistance_levels": "Rs 2.50 (پہلا ٹارگٹ), Rs 3.50 (دوسرا ٹارگٹ)",
+    "trend_analysis": "موجودہ قیمت Rs 1.85 ہے جو پہلا جوائننگ لیول ہے۔ اگر نیچے آتا ہے تو Rs 1.50 دوسرا بہترین جوائننگ لیول ہے۔ پہلا ٹارگٹ Rs 2.50 اور دوسرا ٹارگٹ Rs 3.50 ہے۔"
+  },
+  "summary_key_notes": [
+    "موجودہ مارکیٹ قیمت: Rs 1.85",
+    "پہلا جوائننگ لیول: Rs 1.85",
+    "دوسرا بہترین جوائننگ لیول: Rs 1.50",
+    "پہلا ٹارگٹ: Rs 2.50",
+    "دوسرا ٹارگٹ: Rs 3.50",
+    "52-ہفتے ہائی: Rs 2.50",
+    "52-ہفتے لو: Rs 1.20",
+    "ڈیویڈنڈ: نہیں دیا",
+    "📈 **ٹریڈنگ حکمت عملی:**",
+    "   - پہلی انٹری: Rs 1.85 (موجودہ قیمت)",
+    "   - دوسری انٹری (بہترین): Rs 1.50",
+    "   - سٹاپ لاس: Rs 1.40",
+    "   - ٹارگٹ 1: Rs 2.50 (35-67% منافع)",
+    "   - ٹارگٹ 2: Rs 3.50 (89-133% منافع)",
+    "💎 **خلاصہ:**",
+    "ورلڈ کال ٹیلی کام کم قیمت والا اسٹاک ہے۔ پہلا جوائننگ لیول 1.85 اور دوسرا بہترین لیول 1.50 ہے۔ پہلا ٹارگٹ 2.50 اور دوسرا ٹارگٹ 3.50 ہے۔"
+  ]
+}
